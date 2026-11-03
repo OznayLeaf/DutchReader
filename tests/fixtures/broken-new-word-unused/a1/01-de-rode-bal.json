@@ -1,0 +1,338 @@
+{
+  "id": "a1-01",
+  "level": "A1",
+  "order": 1,
+  "title": "De rode bal",
+  "blurb_nl": "Sam, Noor en de hond Bo spelen met een rode bal in de tuin.",
+  "blurb_en": "Sam, Noor and the dog Bo play with a red ball in the garden. A first story for absolute beginners.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor.",
+    "Hier is Bo. Bo is een hond. Bo is groot.",
+    "Bo is niet klein.",
+    "Bo heeft een bal. De bal is rood. De bal is niet groot.",
+    "De bal is klein. Bo is blij met de bal.",
+    "Bo wil de bal. Bo pakt de bal. Bo loopt met de bal in de tuin.",
+    "De tuin is groot. De tuin is niet klein.",
+    "Sam is in het huis. Noor is in het huis. Sam ziet Bo in de tuin.",
+    "Noor ziet Bo in de tuin. Bo ziet Sam en Noor.",
+    "Sam gaat naar de tuin. Noor gaat naar de tuin. Sam wil de bal.",
+    "Noor wil de bal. Bo wil de bal. Bo is niet blij.",
+    "Sam pakt de bal. Bo is niet blij. Noor pakt de bal.",
+    "Bo is niet blij. Bo wil de bal altijd. Bo is niet blij.",
+    "Bo loopt naar het huis. Bo heeft de bal. Sam en Noor gaan naar het huis.",
+    "We kijken in het huis. De bal is niet in het huis.",
+    "We kijken in de tuin. De bal is niet in de tuin. We kijken hier.",
+    "We kijken daar. We zien de bal niet.",
+    "Bo is in de tuin. Bo heeft de bal. Bo geeft de bal niet.",
+    "Bo is altijd in de tuin met de bal. Bo is niet in het huis.",
+    "Sam kijkt. Noor kijkt. We kijken samen.",
+    "We zien de bal niet. De bal is niet hier. De bal is niet daar.",
+    "De bal is hier! Bo heeft de bal!",
+    "Bo komt naar Sam. Bo komt naar Noor. Bo geeft de bal aan Sam.",
+    "Sam is blij. Bo is blij. Noor is blij.",
+    "Sam geeft de bal aan Noor. Noor geeft de bal aan Bo. Bo pakt de bal.",
+    "We spelen samen in de tuin. De tuin is groot.",
+    "We spelen met de bal. De bal is rood. De hond is groot.",
+    "De tuin is groot. Het huis is klein. We zijn blij.",
+    "Bo loopt met de bal naar het huis. Bo wil de bal in het huis. Maar de bal is niet in het huis.",
+    "De bal is in de tuin. Bo gaat naar de tuin.",
+    "Sam ziet Bo. Sam pakt de bal. Sam geeft de bal aan Bo.",
+    "Bo is blij. Noor is blij. We zijn blij.",
+    "We zijn samen.",
+    "Hallo! We gaan naar de tuin. We spelen samen.",
+    "Bo heeft de bal. De bal is rood. De hond is blij.",
+    "We zijn altijd samen in de tuin.",
+    "Bo is niet in het huis. Bo is altijd in de tuin. De tuin is groot.",
+    "De hond is groot. De bal is klein. De bal is rood.",
+    "Bo is blij.",
+    "Sam en Noor gaan naar het huis. Bo gaat naar de tuin. Bo heeft de bal.",
+    "De bal is rood. Bo is blij. We zijn blij.",
+    "We kijken niet. We zien de bal. De bal is hier.",
+    "De bal is in de tuin. Bo geeft de bal aan Sam. Sam geeft de bal aan Noor.",
+    "Noor geeft de bal aan Bo.",
+    "We spelen samen. We zijn samen. De hond is blij.",
+    "De bal is rood. De tuin is groot. Het huis is klein.",
+    "Hallo, hond! Hallo, bal! Hallo, Sam!",
+    "Hallo, Noor!",
+    "Bo wil de bal altijd. Bo is altijd blij met de bal. Sam wil de bal niet altijd.",
+    "Noor wil de bal niet altijd. We willen samen spelen. We willen samen blij zijn.",
+    "Bo pakt de bal. Bo loopt naar het huis. Bo geeft de bal aan Sam.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "We zijn samen in het huis.",
+    "De bal is in het huis. De hond is in het huis. De tuin is niet in het huis.",
+    "De tuin is daar. Het huis is hier. We zijn hier samen.",
+    "Bo loopt naar de tuin. Bo heeft de bal. De bal is rood.",
+    "De tuin is groot. Bo is blij. We gaan naar de tuin.",
+    "We spelen samen met de bal.",
+    "Hallo, Bo! Hallo, Sam! Hallo, Noor!",
+    "We zijn blij. De hond is groot. De bal is klein.",
+    "De bal is rood. De tuin is groot. Het huis is klein.",
+    "We zijn altijd samen."
+  ],
+  "new_words": [
+    "hond",
+    "bal",
+    "huis",
+    "tuin",
+    "groot",
+    "klein",
+    "rood",
+    "blij",
+    "gaan",
+    "lopen",
+    "kijken",
+    "komen",
+    "pakken",
+    "geven",
+    "willen",
+    "zien",
+    "spelen",
+    "samen",
+    "altijd",
+    "fiets"
+  ],
+  "glossary": [
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": true
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": true
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": true
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": true
+    },
+    {
+      "form": "ga",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go / goes",
+      "new": true
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go / goes",
+      "new": true
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go / goes",
+      "new": true
+    },
+    {
+      "form": "loop",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk / walks",
+      "new": true
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk / walks",
+      "new": true
+    },
+    {
+      "form": "kijk",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look / looks",
+      "new": true
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look / looks",
+      "new": true
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look / looks",
+      "new": true
+    },
+    {
+      "form": "kom",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come / comes",
+      "new": true
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come / comes",
+      "new": true
+    },
+    {
+      "form": "pak",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab / grabs",
+      "new": true
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab / grabs",
+      "new": true
+    },
+    {
+      "form": "geef",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give / gives",
+      "new": true
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give / gives",
+      "new": true
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want / wants",
+      "new": true
+    },
+    {
+      "form": "willen",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want / wants",
+      "new": true
+    },
+    {
+      "form": "zie",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see / sees",
+      "new": true
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see / sees",
+      "new": true
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see / sees",
+      "new": true
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play / plays",
+      "new": true
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": true
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": true
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    }
+  ]
+}

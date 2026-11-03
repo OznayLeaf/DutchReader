@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "note": "Fixed beginner words that every story may use without counting them as new. Keep this list small (25 lemmas maximum). Add a form only when it is a real surface form of the lemma. The loader adds these entries to every story glossary; the validator forbids listing them in new_words.",
+  "words": [
+    {
+      "lemma": "de",
+      "pos": "article",
+      "meaning": "the",
+      "forms": ["de"]
+    },
+    {
+      "lemma": "het",
+      "pos": "article",
+      "meaning": "the",
+      "forms": ["het"]
+    },
+    {
+      "lemma": "een",
+      "pos": "article",
+      "meaning": "a / an",
+      "forms": ["een"]
+    },
+    {
+      "lemma": "ik",
+      "pos": "pronoun",
+      "meaning": "I",
+      "forms": ["ik"]
+    },
+    {
+      "lemma": "je",
+      "pos": "pronoun",
+      "meaning": "you",
+      "forms": ["je"]
+    },
+    {
+      "lemma": "hij",
+      "pos": "pronoun",
+      "meaning": "he",
+      "forms": ["hij"]
+    },
+    {
+      "lemma": "zij",
+      "pos": "pronoun",
+      "meaning": "she / they",
+      "forms": ["zij"]
+    },
+    {
+      "lemma": "we",
+      "pos": "pronoun",
+      "meaning": "we",
+      "forms": ["we"]
+    },
+    {
+      "lemma": "jullie",
+      "pos": "pronoun",
+      "meaning": "you (plural)",
+      "forms": ["jullie"]
+    },
+    {
+      "lemma": "en",
+      "pos": "conjunction",
+      "meaning": "and",
+      "forms": ["en"]
+    },
+    {
+      "lemma": "of",
+      "pos": "conjunction",
+      "meaning": "or",
+      "forms": ["of"]
+    },
+    {
+      "lemma": "maar",
+      "pos": "conjunction",
+      "meaning": "but",
+      "forms": ["maar"]
+    },
+    {
+      "lemma": "ja",
+      "pos": "interjection",
+      "meaning": "yes",
+      "forms": ["ja"]
+    },
+    {
+      "lemma": "nee",
+      "pos": "interjection",
+      "meaning": "no",
+      "forms": ["nee"]
+    },
+    {
+      "lemma": "zijn",
+      "pos": "verb",
+      "meaning": "to be",
+      "forms": ["ben", "bent", "is", "zijn"],
+      "form_meanings": {
+        "ben": "am",
+        "bent": "are",
+        "is": "is"
+      }
+    },
+    {
+      "lemma": "hebben",
+      "pos": "verb",
+      "meaning": "to have",
+      "forms": ["heb", "hebt", "heeft", "hebben"],
+      "form_meanings": {
+        "heb": "have",
+        "hebt": "have",
+        "heeft": "has"
+      }
+    },
+    {
+      "lemma": "hier",
+      "pos": "adverb",
+      "meaning": "here",
+      "forms": ["hier"]
+    },
+    {
+      "lemma": "daar",
+      "pos": "adverb",
+      "meaning": "there",
+      "forms": ["daar"]
+    },
+    {
+      "lemma": "niet",
+      "pos": "adverb",
+      "meaning": "not",
+      "forms": ["niet"]
+    },
+    {
+      "lemma": "geen",
+      "pos": "determiner",
+      "meaning": "no / not a",
+      "forms": ["geen"]
+    },
+    {
+      "lemma": "in",
+      "pos": "preposition",
+      "meaning": "in",
+      "forms": ["in"]
+    },
+    {
+      "lemma": "op",
+      "pos": "preposition",
+      "meaning": "on",
+      "forms": ["op"]
+    },
+    {
+      "lemma": "aan",
+      "pos": "preposition",
+      "meaning": "on / at",
+      "forms": ["aan"]
+    },
+    {
+      "lemma": "naar",
+      "pos": "preposition",
+      "meaning": "to",
+      "forms": ["naar"]
+    },
+    {
+      "lemma": "met",
+      "pos": "preposition",
+      "meaning": "with",
+      "forms": ["met"]
+    }
+  ]
+}

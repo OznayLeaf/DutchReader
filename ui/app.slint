@@ -1,0 +1,382 @@
+import { Theme } from "theme.slint";
+import { Palette } from "std-widgets.slint";
+import { HomeScreen, LevelCardData } from "screens/home.slint";
+import { LevelScreen, StoryRow } from "screens/level.slint";
+import { ReaderScreen, ReaderWord, ReaderMark } from "screens/reader.slint";
+import { DictionaryScreen, DictionaryRow } from "screens/dictionary.slint";
+import { SettingsScreen } from "screens/settings.slint";
+import { EditorScreen } from "screens/editor.slint";
+import { WritingScreen, WritingRow, MonthRow } from "screens/writing.slint";
+
+export component AppWindow inherits Window {
+    title: "DutchReader";
+    preferred-width: 420px;
+    preferred-height: 880px;
+    background: Theme.bg;
+    default-font-family: Theme.font-ui;
+    default-font-size: Theme.body;
+    forward-focus: back-handler;
+
+    // "system", "light" or "dark". Rust persists it in settings.json.
+    in-out property <string> theme-setting: "system";
+    out property <bool> dark-mode:
+        root.theme-setting == "dark"
+        || (root.theme-setting == "system" && Palette.color-scheme == ColorScheme.dark);
+
+    // ---- navigation -------------------------------------------------------
+    // Screens switch instantly; there are deliberately no transitions.
+    in-out property <string> screen: "home";
+
+    // ---- home / level -----------------------------------------------------
+    in-out property <[LevelCardData]> levels;
+    in-out property <[StoryRow]> stories;
+    in-out property <string> current-level: "A1";
+    in-out property <string> current-level-label: "Beginner";
+    in-out property <bool> resume-visible: false;
+    in-out property <string> resume-title: "";
+    in-out property <string> resume-detail: "";
+
+    // ---- reader -----------------------------------------------------------
+    in-out property <string> reader-title: "";
+    in-out property <string> reader-level: "A1";
+    in-out property <int> reader-page-index: 0;
+    in-out property <int> reader-page-count: 1;
+    in-out property <string> reader-page-label: "Page 1 of 1";
+    in-out property <[ReaderWord]> reader-words;
+    in-out property <[ReaderMark]> reader-underlines;
+    in-out property <[ReaderMark]> reader-sentence-marks;
+    in-out property <length> reader-font-size: 18px;
+    in-out property <length> reader-line-height: 27px;
+    in-out property <bool> reader-overlay-visible: true;
+    in-out property <bool> reader-tts-active: false;
+    in-out property <int> reader-tts-sentence: -1;
+    in-out property <bool> reader-completed: false;
+    in-out property <bool> reader-popup-visible: false;
+    in-out property <bool> reader-popup-loading: false;
+    in-out property <string> reader-popup-word: "";
+    in-out property <string> reader-popup-article: "";
+    in-out property <string> reader-popup-meaning: "";
+    in-out property <string> reader-popup-base: "";
+    in-out property <string> reader-popup-source: "";
+    in-out property <string> reader-popup-note: "";
+    in-out property <bool> reader-toast-visible: false;
+    in-out property <string> reader-toast-text: "";
+
+    // Kept in sync with ReaderScreen's margin constants (26px sides, 64px top,
+    // 52px bottom). Rust uses these to measure and paginate.
+    out property <length> reader-text-width: max(0px, root.width - 52px);
+    out property <length> reader-text-height: max(
+        0px,
+        root.height - root.safe-area-insets.top - root.safe-area-insets.bottom - 116px
+    );
+
+    // ---- dictionary -------------------------------------------------------
+    in-out property <[DictionaryRow]> dictionary-entries;
+    in-out property <int> dictionary-total: 0;
+    in-out property <string> dictionary-count-text: "0 words";
+    in-out property <string> dictionary-sort: "alpha";
+
+    // ---- settings ---------------------------------------------------------
+    in-out property <float> settings-tts-speed: 0.88;
+    in-out property <string> settings-tts-speed-label: "0.9×";
+    in-out property <string> settings-meanings-source: "offline";
+
+    // ---- writing editor ---------------------------------------------------
+    in-out property <string> editor-title: "";
+    in-out property <string> editor-text: "";
+    in-out property <string> editor-title-placeholder: "";
+    in-out property <string> editor-word-count-text: "0 words";
+    in-out property <bool> editor-prompt-visible: false;
+    in-out property <string> editor-prompt-title: "Continue your draft?";
+    in-out property <string> editor-prompt-body: "";
+    in-out property <bool> editor-can-share: false;
+    in-out property <bool> editor-toast-visible: false;
+    in-out property <string> editor-toast-text: "";
+
+    // ---- my writing -------------------------------------------------------
+    in-out property <[WritingRow]> writing-stories;
+    in-out property <[MonthRow]> writing-months;
+    in-out property <string> writing-total-stories-text: "0";
+    in-out property <string> writing-total-words-text: "0 words";
+    in-out property <string> writing-streak-text: "0 days";
+    in-out property <bool> writing-detail-visible: false;
+    in-out property <string> writing-detail-title: "";
+    in-out property <string> writing-detail-date: "";
+    in-out property <string> writing-detail-meta: "";
+    in-out property <string> writing-detail-text: "";
+    in-out property <bool> writing-delete-visible: false;
+    in-out property <bool> writing-toast-visible: false;
+    in-out property <string> writing-toast-text: "";
+
+    // Data/behaviour requests handled in Rust.
+    callback go-back();
+    callback open-level(string);
+    callback open-story(string, string);
+    callback resume-story();
+    callback open-write();
+    callback open-dictionary();
+    callback open-writing();
+    callback open-settings();
+    callback toggle-theme();
+
+    callback reader-tap(float, float);
+    callback reader-next();
+    callback reader-previous();
+    callback reader-toggle-tts();
+    callback reader-close-popup();
+
+    callback dictionary-search(string);
+    callback dictionary-sort-changed(string);
+
+    callback settings-theme(string);
+    callback settings-speed(float);
+    callback settings-speed-released(float);
+    callback settings-meanings(string);
+
+    callback editor-edited(string);
+    callback editor-title-edited(string);
+    callback editor-share();
+    callback editor-continue();
+    callback editor-start-new();
+
+    callback writing-open-story(string);
+    callback writing-close-detail();
+    callback writing-share-detail();
+    callback writing-copy-detail();
+    callback writing-edit-detail();
+    callback writing-delete-request();
+    callback writing-delete-confirm();
+    callback writing-delete-cancel();
+    callback writing-open-write();
+
+    init => {
+        Theme.dark = root.dark-mode;
+        back-handler.focus();
+    }
+    changed dark-mode => { Theme.dark = root.dark-mode; }
+    changed screen => {
+        if (root.screen != "dictionary") {
+            dictionary-view.clear-search-focus();
+        }
+        if (root.screen == "editor" && !root.editor-prompt-visible) {
+            editor-view.focus-text();
+        } else {
+            editor-view.unfocus-text();
+            back-handler.focus();
+        }
+    }
+    changed editor-prompt-visible => {
+        if (root.screen == "editor" && !root.editor-prompt-visible) {
+            editor-view.focus-text();
+        } else if (root.screen == "editor") {
+            editor-view.unfocus-text();
+            back-handler.focus();
+        }
+    }
+
+    // Every screen stays mounted and is positioned instantly. The active
+    // screen is at 0; inactive screens wait off-screen behind the opaque active
+    // screen. There is no slide, fade, or other transition.
+    back-handler := FocusScope {
+        width: root.width;
+        height: root.height;
+
+        HomeScreen {
+            width: root.width;
+            height: root.height;
+            x: root.screen == "home" ? 0px : root.width;
+
+            levels: root.levels;
+            dark-mode: root.dark-mode;
+            resume-visible: root.resume-visible;
+            resume-title: root.resume-title;
+            resume-detail: root.resume-detail;
+            top-inset: root.safe-area-insets.top;
+            bottom-inset: root.safe-area-insets.bottom;
+
+            open-level(code) => { root.open-level(code); }
+            resume() => { root.resume-story(); }
+            open-write() => { root.open-write(); }
+            open-dictionary() => { root.open-dictionary(); }
+            open-writing() => { root.open-writing(); }
+            open-settings() => { root.open-settings(); }
+            toggle-theme() => { root.toggle-theme(); }
+        }
+
+        LevelScreen {
+            width: root.width;
+            height: root.height;
+            x: root.screen == "level" ? 0px : root.width;
+
+            level: root.current-level;
+            level-label: root.current-level-label;
+            stories: root.stories;
+            top-inset: root.safe-area-insets.top;
+            bottom-inset: root.safe-area-insets.bottom;
+
+            back() => { root.go-back(); }
+            open-story(id, title) => { root.open-story(id, title); }
+        }
+
+        reader-view := ReaderScreen {
+            width: root.width;
+            height: root.height;
+            x: root.screen == "reader" ? 0px : root.width;
+
+            title: root.reader-title;
+            level: root.reader-level;
+            page-index: root.reader-page-index;
+            page-count: root.reader-page-count;
+            page-label: root.reader-page-label;
+            words: root.reader-words;
+            underlines: root.reader-underlines;
+            sentence-marks: root.reader-sentence-marks;
+            font-size: root.reader-font-size;
+            line-height: root.reader-line-height;
+            overlay-visible: root.reader-overlay-visible;
+            tts-active: root.reader-tts-active;
+            tts-sentence: root.reader-tts-sentence;
+            completed: root.reader-completed;
+            popup-visible: root.reader-popup-visible;
+            popup-loading: root.reader-popup-loading;
+            popup-word: root.reader-popup-word;
+            popup-article: root.reader-popup-article;
+            popup-meaning: root.reader-popup-meaning;
+            popup-base: root.reader-popup-base;
+            popup-source: root.reader-popup-source;
+            popup-note: root.reader-popup-note;
+            toast-visible: root.reader-toast-visible;
+            toast-text: root.reader-toast-text;
+            top-inset: root.safe-area-insets.top;
+            bottom-inset: root.safe-area-insets.bottom;
+
+            back() => { root.go-back(); }
+            tap-reader(x, y) => { root.reader-tap(x, y); }
+            next-page() => { root.reader-next(); }
+            previous-page() => { root.reader-previous(); }
+            toggle-tts() => { root.reader-toggle-tts(); }
+            close-popup() => { root.reader-close-popup(); }
+        }
+
+        dictionary-view := DictionaryScreen {
+            width: root.width;
+            height: root.height;
+            x: root.screen == "dictionary" ? 0px : root.width;
+
+            entries: root.dictionary-entries;
+            total: root.dictionary-total;
+            count-text: root.dictionary-count-text;
+            sort <=> root.dictionary-sort;
+            top-inset: root.safe-area-insets.top;
+            bottom-inset: root.safe-area-insets.bottom;
+
+            back() => { root.go-back(); }
+            search-changed(text) => { root.dictionary-search(text); }
+            set-sort(sort) => { root.dictionary-sort-changed(sort); }
+        }
+
+        SettingsScreen {
+            width: root.width;
+            height: root.height;
+            x: root.screen == "settings" ? 0px : root.width;
+
+            theme: root.theme-setting;
+            tts-speed <=> root.settings-tts-speed;
+            tts-speed-label: root.settings-tts-speed-label;
+            meanings-source: root.settings-meanings-source;
+            top-inset: root.safe-area-insets.top;
+            bottom-inset: root.safe-area-insets.bottom;
+
+            back() => { root.go-back(); }
+            theme-selected(code) => { root.settings-theme(code); }
+            speed-changed(value) => { root.settings-speed(value); }
+            speed-released(value) => { root.settings-speed-released(value); }
+            meanings-selected(code) => { root.settings-meanings(code); }
+        }
+
+        editor-view := EditorScreen {
+            width: root.width;
+            height: root.height;
+            x: root.screen == "editor" ? 0px : root.width;
+
+            title <=> root.editor-title;
+            text <=> root.editor-text;
+            title-placeholder: root.editor-title-placeholder;
+            word-count-text: root.editor-word-count-text;
+            prompt-visible: root.editor-prompt-visible;
+            prompt-title: root.editor-prompt-title;
+            prompt-body: root.editor-prompt-body;
+            can-share: root.editor-can-share;
+            toast-visible: root.editor-toast-visible;
+            toast-text: root.editor-toast-text;
+            top-inset: root.safe-area-insets.top;
+            bottom-inset: root.safe-area-insets.bottom;
+            keyboard-height: root.virtual-keyboard-size.height;
+
+            back() => { root.go-back(); }
+            edited(text) => { root.editor-edited(text); }
+            title-edited(text) => { root.editor-title-edited(text); }
+            share() => { root.editor-share(); }
+            continue-draft() => { root.editor-continue(); }
+            start-new-draft() => { root.editor-start-new(); }
+        }
+
+        WritingScreen {
+            width: root.width;
+            height: root.height;
+            x: root.screen == "writing" ? 0px : root.width;
+
+            stories: root.writing-stories;
+            months: root.writing-months;
+            total-stories-text: root.writing-total-stories-text;
+            total-words-text: root.writing-total-words-text;
+            streak-text: root.writing-streak-text;
+            detail-visible: root.writing-detail-visible;
+            detail-title: root.writing-detail-title;
+            detail-date: root.writing-detail-date;
+            detail-meta: root.writing-detail-meta;
+            detail-text: root.writing-detail-text;
+            delete-visible: root.writing-delete-visible;
+            toast-visible: root.writing-toast-visible;
+            toast-text: root.writing-toast-text;
+            top-inset: root.safe-area-insets.top;
+            bottom-inset: root.safe-area-insets.bottom;
+
+            back() => { root.go-back(); }
+            open-story(id) => { root.writing-open-story(id); }
+            close-detail() => { root.writing-close-detail(); }
+            share-detail() => { root.writing-share-detail(); }
+            copy-detail() => { root.writing-copy-detail(); }
+            edit-detail() => { root.writing-edit-detail(); }
+            delete-request() => { root.writing-delete-request(); }
+            delete-confirm() => { root.writing-delete-confirm(); }
+            delete-cancel() => { root.writing-delete-cancel(); }
+            open-write() => { root.writing-open-write(); }
+        }
+
+        // Android's Back gesture arrives as Key.Back. Walk back through the
+        // shell instead of letting the activity finish. On Home the event is
+        // rejected so Android can close the app normally.
+        key-pressed(event) => {
+            if (event.text == Key.Back) {
+                if (root.screen == "home") {
+                    return reject;
+                }
+                root.go-back();
+                return accept;
+            }
+            return reject;
+        }
+    }
+
+    // Android keeps the status-bar icons white. Slint exposes no API to flip
+    // them from the native thread, so on the light theme they would be
+    // white-on-cream. Paint an accent strip behind them instead; the dark
+    // theme is already dark enough for white icons.
+    if !root.dark-mode : Rectangle {
+        y: 0;
+        width: parent.width;
+        height: root.safe-area-insets.top;
+        background: Theme.accent;
+    }
+}

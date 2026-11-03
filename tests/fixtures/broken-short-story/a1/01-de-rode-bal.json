@@ -1,0 +1,278 @@
+{
+  "id": "a1-01",
+  "level": "A1",
+  "order": 1,
+  "title": "De rode bal",
+  "blurb_nl": "Sam, Noor en de hond Bo spelen met een rode bal in de tuin.",
+  "blurb_en": "Sam, Noor and the dog Bo play with a red ball in the garden. A first story for absolute beginners.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor.",
+    "Hier is Bo. Bo is een hond. Bo is groot."
+  ],
+  "new_words": [
+    "hond",
+    "bal",
+    "huis",
+    "tuin",
+    "groot",
+    "klein",
+    "rood",
+    "blij",
+    "gaan",
+    "lopen",
+    "kijken",
+    "komen",
+    "pakken",
+    "geven",
+    "willen",
+    "zien",
+    "spelen",
+    "samen",
+    "altijd",
+    "hallo"
+  ],
+  "glossary": [
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": true
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": true
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": true
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": true
+    },
+    {
+      "form": "ga",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go / goes",
+      "new": true
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go / goes",
+      "new": true
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go / goes",
+      "new": true
+    },
+    {
+      "form": "loop",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk / walks",
+      "new": true
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk / walks",
+      "new": true
+    },
+    {
+      "form": "kijk",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look / looks",
+      "new": true
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look / looks",
+      "new": true
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look / looks",
+      "new": true
+    },
+    {
+      "form": "kom",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come / comes",
+      "new": true
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come / comes",
+      "new": true
+    },
+    {
+      "form": "pak",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab / grabs",
+      "new": true
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab / grabs",
+      "new": true
+    },
+    {
+      "form": "geef",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give / gives",
+      "new": true
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give / gives",
+      "new": true
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want / wants",
+      "new": true
+    },
+    {
+      "form": "willen",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want / wants",
+      "new": true
+    },
+    {
+      "form": "zie",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see / sees",
+      "new": true
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see / sees",
+      "new": true
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see / sees",
+      "new": true
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play / plays",
+      "new": true
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": true
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": true
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    }
+  ]
+}

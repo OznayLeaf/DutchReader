@@ -1,0 +1,60 @@
+// Design tokens for DutchReader.
+//
+// Fonts are embedded at compile time by importing the TTF files. The Slint
+// compiler makes the families globally available, so every screen can use
+// Theme.font-serif / Theme.font-ui.
+
+import "../assets/fonts/CrimsonText-Regular.ttf";
+import "../assets/fonts/CrimsonText-SemiBold.ttf";
+import "../assets/fonts/CrimsonText-Bold.ttf";
+import "../assets/fonts/Lato-Regular.ttf";
+import "../assets/fonts/Lato-Medium.ttf";
+import "../assets/fonts/Lato-Bold.ttf";
+
+export global Theme {
+    // Set by AppWindow from the saved settings / theme toggle.
+    in-out property <bool> dark: false;
+
+    // ---- surfaces and text -------------------------------------------------
+    out property <color> bg: dark ? #14120f : #faf7f2;
+    out property <color> surface: dark ? #1e1b17 : #ffffff;
+    out property <color> surface-alt: dark ? #29251f : #f2ece3;
+    out property <color> text: dark ? #f4eee4 : #241f1a;
+    out property <color> muted: dark ? #b7ab9a : #6f655a;
+    out property <color> border: dark ? #3b352c : #e6ddd0;
+
+    // Warm amber/terracotta accent, readable on both themes.
+    out property <color> accent: dark ? #f0a45c : #b8562a;
+    out property <color> accent-pressed: dark ? #d98c45 : #96441f;
+    out property <color> accent-soft: dark ? #3a2b19 : #f7e6da;
+    out property <color> on-accent: dark ? #20160c : #ffffff;
+    out property <color> success: dark ? #7fcf9a : #2f7d4f;
+    out property <color> success-soft: dark ? #1d3527 : #e3f2e7;
+
+    // Destructive actions (delete). Kept separate from the warm accent.
+    out property <color> danger: dark ? #f2b8b5 : #b3261e;
+    out property <color> danger-pressed: dark ? #d99b98 : #8c1d18;
+    out property <color> on-danger: dark ? #3b0906 : #ffffff;
+
+    // ---- shape -------------------------------------------------------------
+    out property <length> radius-sm: 10px;
+    out property <length> radius-md: 16px;
+    out property <length> radius-lg: 22px;
+
+    // ---- spacing -----------------------------------------------------------
+    out property <length> space-xs: 6px;
+    out property <length> space-sm: 10px;
+    out property <length> space-md: 16px;
+    out property <length> space-lg: 24px;
+    out property <length> space-xl: 32px;
+
+    // ---- type --------------------------------------------------------------
+    out property <length> caption: 12px;
+    out property <length> body: 16px;
+    out property <length> body-large: 18px;
+    out property <length> title: 24px;
+    out property <length> display: 34px;
+
+    out property <string> font-serif: "Crimson Text";
+    out property <string> font-ui: "Lato";
+}

@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "note": "Words used by sample stories before any story introduced them. When the missing earlier stories are written, make them introduce these words. Regenerate with `validate_stories --write-wordlist --allow-gaps`.",
+  "words": {}
+}

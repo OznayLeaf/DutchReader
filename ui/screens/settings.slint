@@ -1,0 +1,352 @@
+import { ScrollView } from "std-widgets.slint";
+import { Theme } from "../theme.slint";
+import { SecondaryButton } from "../components/button.slint";
+
+export component SettingsScreen inherits Rectangle {
+    in property <string> theme: "system";
+    in-out property <float> tts-speed: 0.88;
+    in property <string> tts-speed-label: "0.9×";
+    in property <string> meanings-source: "offline";
+    in property <length> top-inset: 0px;
+    in property <length> bottom-inset: 0px;
+
+    callback back();
+    callback theme-selected(string);
+    callback speed-changed(float);
+    callback speed-released(float);
+    callback meanings-selected(string);
+
+    // Convert a touch x inside the track to a 0.5 - 2.0 speed in 0.1 steps.
+    function set-speed-from-x(x: length, track-width: length) {
+        root.tts-speed = max(
+            0.5,
+            min(
+                2.0,
+                round((0.5 + (x / max(1px, track-width)) * 1.5) * 10) / 10
+            )
+        );
+        root.speed-changed(root.tts-speed);
+    }
+
+    background: Theme.bg;
+
+    ScrollView {
+        width: parent.width;
+        height: parent.height;
+        content-width: self.width;
+        mouse-drag-pan-enabled: true;
+
+        VerticalLayout {
+            padding-left: Theme.space-lg;
+            padding-right: Theme.space-lg;
+            padding-top: root.top-inset + Theme.space-md;
+            padding-bottom: root.bottom-inset + Theme.space-xl;
+            spacing: Theme.space-md;
+
+            HorizontalLayout {
+                spacing: Theme.space-sm;
+                SecondaryButton {
+                    text: "← Back";
+                    width: 96px;
+                    clicked => { root.back(); }
+                }
+                Rectangle { horizontal-stretch: 1; }
+                Text {
+                    vertical-stretch: 1;
+                    text: "Settings";
+                    color: Theme.text;
+                    font-family: Theme.font-serif;
+                    font-size: Theme.title;
+                    font-weight: 700;
+                    vertical-alignment: center;
+                }
+            }
+
+            // ---- appearance --------------------------------------------------
+            Text {
+                text: "APPEARANCE";
+                color: Theme.accent;
+                font-family: Theme.font-ui;
+                font-size: 10px;
+                font-weight: 700;
+                letter-spacing: 1.4px;
+            }
+
+            Rectangle {
+                height: appearance-layout.preferred-height;
+                border-radius: Theme.radius-lg;
+                background: Theme.surface;
+                border-width: 1px;
+                border-color: Theme.border;
+
+                appearance-layout := VerticalLayout {
+                    padding: Theme.space-md;
+                    spacing: Theme.space-sm;
+
+                    Text {
+                        text: "Theme";
+                        color: Theme.text;
+                        font-family: Theme.font-ui;
+                        font-size: Theme.body;
+                        font-weight: 700;
+                    }
+                    Text {
+                        text: "System follows the Android light/dark setting. Changes apply immediately.";
+                        color: Theme.muted;
+                        font-family: Theme.font-ui;
+                        font-size: 13px;
+                        wrap: word-wrap;
+                    }
+                    HorizontalLayout {
+                        spacing: Theme.space-xs;
+                        SecondaryButton {
+                            text: "System";
+                            horizontal-stretch: 1;
+                            selected: root.theme == "system";
+                            clicked => { root.theme-selected("system"); }
+                        }
+                        SecondaryButton {
+                            text: "Light";
+                            horizontal-stretch: 1;
+                            selected: root.theme == "light";
+                            clicked => { root.theme-selected("light"); }
+                        }
+                        SecondaryButton {
+                            text: "Dark";
+                            horizontal-stretch: 1;
+                            selected: root.theme == "dark";
+                            clicked => { root.theme-selected("dark"); }
+                        }
+                    }
+                }
+            }
+
+            // ---- narration ---------------------------------------------------
+            Text {
+                text: "NARRATION";
+                color: Theme.accent;
+                font-family: Theme.font-ui;
+                font-size: 10px;
+                font-weight: 700;
+                letter-spacing: 1.4px;
+            }
+
+            Rectangle {
+                height: narration-layout.preferred-height;
+                border-radius: Theme.radius-lg;
+                background: Theme.surface;
+                border-width: 1px;
+                border-color: Theme.border;
+
+                narration-layout := VerticalLayout {
+                    padding: Theme.space-md;
+                    spacing: Theme.space-xs;
+
+                    HorizontalLayout {
+                        Text {
+                            vertical-stretch: 1;
+                            text: "Text-to-speech speed";
+                            color: Theme.text;
+                            font-family: Theme.font-ui;
+                            font-size: Theme.body;
+                            font-weight: 700;
+                            vertical-alignment: center;
+                        }
+                        Rectangle { horizontal-stretch: 1; }
+                        Text {
+                            vertical-stretch: 1;
+                            text: root.tts-speed-label;
+                            color: Theme.accent;
+                            font-family: Theme.font-ui;
+                            font-size: Theme.body;
+                            font-weight: 700;
+                            vertical-alignment: center;
+                        }
+                    }
+
+                    Text {
+                        text: "Used by the Listen button in the reader.";
+                        color: Theme.muted;
+                        font-family: Theme.font-ui;
+                        font-size: 13px;
+                    }
+
+                    // Custom slider so its colours follow the app theme rather
+                    // than the platform widget palette.
+                    Rectangle {
+                        height: 44px;
+
+                        Rectangle {
+                            x: 0;
+                            y: 19px;
+                            width: parent.width;
+                            height: 6px;
+                            border-radius: 3px;
+                            background: Theme.border;
+                        }
+
+                        Rectangle {
+                            x: 0;
+                            y: 19px;
+                            width: max(0px, min(parent.width, (root.tts-speed - 0.5) / 1.5 * parent.width));
+                            height: 6px;
+                            border-radius: 3px;
+                            background: Theme.accent;
+                        }
+
+                        Rectangle {
+                            x: max(0px, min(parent.width - 24px, (root.tts-speed - 0.5) / 1.5 * (parent.width - 24px)));
+                            y: 10px;
+                            width: 24px;
+                            height: 24px;
+                            border-radius: 12px;
+                            background: Theme.surface;
+                            border-width: 2px;
+                            border-color: Theme.accent;
+                            drop-shadow-blur: 6px;
+                            drop-shadow-color: #00000030;
+                        }
+
+                        TouchArea {
+                            width: parent.width;
+                            height: parent.height;
+                            moved => {
+                                if (self.pressed) {
+                                    root.set-speed-from-x(self.mouse-x, self.width);
+                                }
+                            }
+                            clicked => {
+                                root.set-speed-from-x(self.mouse-x, self.width);
+                            }
+                            pointer-event(event) => {
+                                if (event.kind == PointerEventKind.up) {
+                                    root.set-speed-from-x(self.mouse-x, self.width);
+                                    root.speed-released(root.tts-speed);
+                                }
+                            }
+                        }
+                    }
+
+                    HorizontalLayout {
+                        Text {
+                            text: "0.5×";
+                            color: Theme.muted;
+                            font-family: Theme.font-ui;
+                            font-size: 11px;
+                        }
+                        Rectangle { horizontal-stretch: 1; }
+                        Text {
+                            text: "2.0×";
+                            color: Theme.muted;
+                            font-family: Theme.font-ui;
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+
+            // ---- word meanings ----------------------------------------------
+            Text {
+                text: "WORD MEANINGS";
+                color: Theme.accent;
+                font-family: Theme.font-ui;
+                font-size: 10px;
+                font-weight: 700;
+                letter-spacing: 1.4px;
+            }
+
+            Rectangle {
+                height: meanings-layout.preferred-height;
+                border-radius: Theme.radius-lg;
+                background: Theme.surface;
+                border-width: 1px;
+                border-color: Theme.border;
+
+                meanings-layout := VerticalLayout {
+                    padding: Theme.space-md;
+                    spacing: Theme.space-sm;
+
+                    Text {
+                        text: "Where definitions come from";
+                        color: Theme.text;
+                        font-family: Theme.font-ui;
+                        font-size: Theme.body;
+                        font-weight: 700;
+                    }
+
+                    HorizontalLayout {
+                        spacing: Theme.space-xs;
+                        SecondaryButton {
+                            text: "Story glossary";
+                            horizontal-stretch: 1;
+                            selected: root.meanings-source == "offline";
+                            clicked => { root.meanings-selected("offline"); }
+                        }
+                        SecondaryButton {
+                            text: "Online";
+                            horizontal-stretch: 1;
+                            selected: root.meanings-source == "online";
+                            clicked => { root.meanings-selected("online"); }
+                        }
+                    }
+
+                    Text {
+                        text: root.meanings-source == "offline"
+                            ? "Uses only the glossary bundled with each story. Works fully offline."
+                            : "Uses MyMemory machine translation and caches every result on this device. Falls back to the story glossary when offline.";
+                        color: Theme.muted;
+                        font-family: Theme.font-ui;
+                        font-size: 13px;
+                        wrap: word-wrap;
+                    }
+                }
+            }
+
+            // ---- reading rule ------------------------------------------------
+            Text {
+                text: "READING";
+                color: Theme.accent;
+                font-family: Theme.font-ui;
+                font-size: 10px;
+                font-weight: 700;
+                letter-spacing: 1.4px;
+            }
+
+            Rectangle {
+                height: reading-layout.preferred-height;
+                border-radius: Theme.radius-lg;
+                background: Theme.surface;
+                border-width: 1px;
+                border-color: Theme.border;
+
+                reading-layout := VerticalLayout {
+                    padding: Theme.space-md;
+                    spacing: Theme.space-xs;
+                    Text {
+                        text: "30-second pages";
+                        color: Theme.text;
+                        font-family: Theme.font-ui;
+                        font-size: Theme.body;
+                        font-weight: 700;
+                    }
+                    Text {
+                        text: "A page counts as read after 30 seconds. Its glossary words are then added to your dictionary once. Changing page, leaving the reader, or backgrounding the app restarts the count.";
+                        color: Theme.muted;
+                        font-family: Theme.font-ui;
+                        font-size: 13px;
+                        wrap: word-wrap;
+                    }
+                }
+            }
+
+            Text {
+                text: "DutchReader 0.1 · everything stays on this device.";
+                color: Theme.muted;
+                font-family: Theme.font-ui;
+                font-size: Theme.caption;
+                horizontal-alignment: center;
+                wrap: word-wrap;
+            }
+        }
+    }
+}

@@ -1,0 +1,292 @@
+import { ScrollView } from "std-widgets.slint";
+import { Theme } from "../theme.slint";
+import { SecondaryButton } from "../components/button.slint";
+
+export struct DictionaryRow {
+    word: string,
+    meaning: string,
+    meta: string,
+    pos: string,
+}
+
+export component DictionaryScreen inherits Rectangle {
+    in property <[DictionaryRow]> entries;
+    in property <int> total: 0;
+    in property <string> count-text: "0 words";
+    in-out property <string> query: "";
+    in-out property <string> sort: "alpha";
+    in property <length> top-inset: 0px;
+    in property <length> bottom-inset: 0px;
+
+    callback back();
+    callback search-changed(string);
+    callback set-sort(string);
+
+    public function clear-search-focus() {
+        search.clear-focus();
+    }
+
+    background: Theme.bg;
+
+    VerticalLayout {
+        padding-left: Theme.space-lg;
+        padding-right: Theme.space-lg;
+        padding-top: root.top-inset + Theme.space-md;
+        padding-bottom: root.bottom-inset + Theme.space-md;
+        spacing: Theme.space-sm;
+
+        HorizontalLayout {
+            spacing: Theme.space-sm;
+            SecondaryButton {
+                text: "← Back";
+                width: 96px;
+                clicked => { root.back(); }
+            }
+            Rectangle { horizontal-stretch: 1; }
+            Text {
+                vertical-stretch: 1;
+                text: "Dictionary";
+                color: Theme.text;
+                font-family: Theme.font-serif;
+                font-size: Theme.title;
+                font-weight: 700;
+                vertical-alignment: center;
+            }
+        }
+
+        Text {
+            text: "Words from pages you read for at least 30 seconds.";
+            color: Theme.muted;
+            font-family: Theme.font-ui;
+            font-size: Theme.caption;
+            wrap: word-wrap;
+        }
+
+        // ---- search ----------------------------------------------------------
+        Rectangle {
+            height: 48px;
+            border-radius: Theme.radius-md;
+            background: Theme.surface;
+            border-width: 1px;
+            border-color: search.has-focus ? Theme.accent : Theme.border;
+
+            if root.query == "" : Text {
+                x: 16px;
+                y: 0;
+                width: parent.width - 58px;
+                height: parent.height;
+                text: "Search words or meanings";
+                color: Theme.muted;
+                font-family: Theme.font-ui;
+                font-size: 15px;
+                vertical-alignment: center;
+            }
+
+            search := TextInput {
+                x: 16px;
+                y: 0;
+                width: parent.width - 58px;
+                height: parent.height;
+                text <=> root.query;
+                color: Theme.text;
+                font-family: Theme.font-ui;
+                font-size: 15px;
+                vertical-alignment: center;
+                edited => {
+                    root.search-changed(root.query);
+                }
+            }
+
+            if root.query != "" : Rectangle {
+                x: parent.width - 42px;
+                y: 8px;
+                width: 32px;
+                height: 32px;
+                border-radius: 16px;
+                background: Theme.surface-alt;
+                Text {
+                    width: parent.width;
+                    height: parent.height;
+                    text: "×";
+                    color: Theme.muted;
+                    font-family: Theme.font-ui;
+                    font-size: 20px;
+                    horizontal-alignment: center;
+                    vertical-alignment: center;
+                }
+                TouchArea {
+                    clicked => {
+                        root.query = "";
+                        root.search-changed("");
+                    }
+                }
+            }
+        }
+
+        // ---- sort + count ----------------------------------------------------
+        HorizontalLayout {
+            spacing: Theme.space-xs;
+            SecondaryButton {
+                text: "A–Z";
+                width: 88px;
+                selected: root.sort == "alpha";
+                clicked => {
+                    root.sort = "alpha";
+                    root.set-sort("alpha");
+                }
+            }
+            SecondaryButton {
+                text: "Newest";
+                width: 96px;
+                selected: root.sort == "newest";
+                clicked => {
+                    root.sort = "newest";
+                    root.set-sort("newest");
+                }
+            }
+            Rectangle { horizontal-stretch: 1; }
+            Text {
+                vertical-stretch: 1;
+                text: root.count-text;
+                color: Theme.muted;
+                font-family: Theme.font-ui;
+                font-size: Theme.caption;
+                vertical-alignment: center;
+            }
+        }
+
+        // ---- empty states ----------------------------------------------------
+        if root.total == 0 : Rectangle {
+            vertical-stretch: 1;
+            border-radius: Theme.radius-lg;
+            background: Theme.surface;
+            border-width: 1px;
+            border-color: Theme.border;
+
+            VerticalLayout {
+                alignment: center;
+                padding: Theme.space-lg;
+                spacing: Theme.space-xs;
+                Text {
+                    text: "Your dictionary is empty";
+                    color: Theme.text;
+                    font-family: Theme.font-serif;
+                    font-size: 22px;
+                    font-weight: 600;
+                    horizontal-alignment: center;
+                }
+                Text {
+                    text: "Read a page for 30 seconds and its glossary words will appear here.";
+                    color: Theme.muted;
+                    font-family: Theme.font-ui;
+                    font-size: 14px;
+                    horizontal-alignment: center;
+                    wrap: word-wrap;
+                }
+            }
+        }
+
+        if root.total > 0 && root.entries.length == 0 : Rectangle {
+            vertical-stretch: 1;
+            border-radius: Theme.radius-lg;
+            background: Theme.surface;
+            border-width: 1px;
+            border-color: Theme.border;
+
+            VerticalLayout {
+                alignment: center;
+                padding: Theme.space-lg;
+                spacing: Theme.space-xs;
+                Text {
+                    text: "No words match “" + root.query + "”";
+                    color: Theme.text;
+                    font-family: Theme.font-serif;
+                    font-size: 22px;
+                    font-weight: 600;
+                    horizontal-alignment: center;
+                    wrap: word-wrap;
+                }
+                Text {
+                    text: "Try another word, or clear the search.";
+                    color: Theme.muted;
+                    font-family: Theme.font-ui;
+                    font-size: 14px;
+                    horizontal-alignment: center;
+                }
+            }
+        }
+
+        // ---- list ------------------------------------------------------------
+        if root.entries.length > 0 : ScrollView {
+            vertical-stretch: 1;
+            content-width: self.width;
+            mouse-drag-pan-enabled: true;
+
+            VerticalLayout {
+                padding-bottom: Theme.space-md;
+                spacing: Theme.space-sm;
+
+                for entry in root.entries : Rectangle {
+                    height: row-layout.preferred-height;
+                    border-radius: Theme.radius-md;
+                    background: Theme.surface;
+                    border-width: 1px;
+                    border-color: Theme.border;
+
+                    row-layout := VerticalLayout {
+                        padding: 14px;
+                        spacing: 5px;
+
+                        HorizontalLayout {
+                            spacing: Theme.space-xs;
+                            Text {
+                                text: entry.word;
+                                color: Theme.text;
+                                font-family: Theme.font-serif;
+                                font-size: 21px;
+                                font-weight: 600;
+                                vertical-alignment: center;
+                            }
+                            Rectangle { horizontal-stretch: 1; }
+                            if entry.pos != "" : Rectangle {
+                                width: pos-label.preferred-width + 16px;
+                                height: 22px;
+                                border-radius: 11px;
+                                background: Theme.accent-soft;
+                                pos-label := Text {
+                                    x: 8px;
+                                    y: 0;
+                                    width: parent.width - 16px;
+                                    height: parent.height;
+                                    text: entry.pos;
+                                    color: Theme.accent;
+                                    font-family: Theme.font-ui;
+                                    font-size: 10px;
+                                    font-weight: 700;
+                                    horizontal-alignment: center;
+                                    vertical-alignment: center;
+                                }
+                            }
+                        }
+
+                        Text {
+                            text: entry.meaning;
+                            color: Theme.text;
+                            font-family: Theme.font-ui;
+                            font-size: 14px;
+                            wrap: word-wrap;
+                        }
+
+                        Text {
+                            text: entry.meta;
+                            color: Theme.muted;
+                            font-family: Theme.font-ui;
+                            font-size: 12px;
+                            overflow: elide;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

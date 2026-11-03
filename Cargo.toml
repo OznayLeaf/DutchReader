@@ -1,0 +1,98 @@
+[package]
+name = "dutchreader"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.92"
+description = "DutchReader: graded Dutch reading and writing for Android"
+license = "MIT"
+build = "build.rs"
+
+[workspace]
+members = ["desktop", "validator"]
+# Make a bare `cargo test` run the fixture tests too, not just the root package.
+default-members = [".", "desktop", "validator"]
+
+[lib]
+name = "dutchreader"
+path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2.0"
+# Font metrics for the reader's word rectangles. Pure Rust, no system fonts.
+ab_glyph = "0.2"
+# Small blocking HTTP client for the optional MyMemory lookup. rustls avoids
+# OpenSSL on Android. The call always runs on a worker thread.
+ureq = { version = "3.5", default-features = false, features = ["rustls"] }
+
+[target.'cfg(target_os = "android")'.dependencies]
+slint = { version = "1.18.1", default-features = false, features = [
+    "std",
+    "compat-1-18",
+    "backend-android-activity-06",
+    "renderer-software",
+] }
+# Android TextToSpeech bridge. `ndk-context` is initialized by android-activity.
+jni = "0.21.1"
+ndk-context = "0.1.1"
+
+[target.'cfg(not(target_os = "android"))'.dependencies]
+slint = { version = "1.18.1", default-features = false, features = [
+    "std",
+    "compat-1-18",
+    "backend-winit",
+    "renderer-femtovg",
+] }
+# Desktop preview only: resolve the host timezone (including DST) for dates and
+# statistics. Android uses java.util.TimeZone through JNI instead.
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
+
+[build-dependencies]
+slint-build = "1.18.1"
+serde_json = "1.0"
+
+[profile.dev]
+# Keep development APKs small; debug symbols are not needed on-device.
+strip = "debuginfo"
+
+[profile.release]
+codegen-units = 1
+lto = true
+strip = true
+
+# ---------------------------------------------------------------------------
+# Android packaging (cargo-apk). See README.md for build instructions.
+# ---------------------------------------------------------------------------
+[package.metadata.android]
+package = "com.dutchreader.app"
+apk_name = "DutchReader"
+# Build for a phone and for the x86_64 emulator.
+build_targets = ["aarch64-linux-android", "x86_64-linux-android"]
+assets = "assets"
+resources = "android/res"
+
+[package.metadata.android.sdk]
+min_sdk_version = 26
+target_sdk_version = 34
+
+# The only permission the app needs. Online dictionary lookups are optional.
+[[package.metadata.android.uses_permission]]
+name = "android.permission.INTERNET"
+
+[package.metadata.android.application]
+label = "DutchReader"
+icon = "@mipmap/ic_launcher"
+theme = "@android:style/Theme.DeviceDefault.NoActionBar"
+
+[package.metadata.android.application.activity]
+orientation = "portrait"
+# `density`/`fontScale` are deliberately absent: Slint's software renderer
+# caches the display scale factor, and an activity that survives a density
+# change keeps drawing at the old scale (clipped content after resuming).
+# Let Android recreate the activity when the display density or font scale
+# changes; a recreate re-reads the scale factor. `screenSize` stays here so
+# rotation, keyboard insets, and multi-window resizes do not recreate.
+config_changes = "orientation|keyboardHidden|screenSize|uiMode"
+exported = true

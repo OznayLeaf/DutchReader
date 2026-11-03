@@ -1,0 +1,276 @@
+import { ScrollView } from "std-widgets.slint";
+import { Theme } from "../theme.slint";
+import { PrimaryButton, SecondaryButton } from "../components/button.slint";
+
+// Distraction-free writing editor. There are deliberately no transitions or
+// animations: the screen appears at once, and the toolbar stays above the
+// on-screen keyboard because the layout reserves keyboard-height at the bottom.
+export component EditorScreen inherits Rectangle {
+    in-out property <string> title: "";
+    in-out property <string> text: "";
+    in property <string> title-placeholder: "";
+    in property <string> word-count-text: "0 words";
+    in property <bool> prompt-visible: false;
+    in property <string> prompt-title: "Continue your draft?";
+    in property <string> prompt-body: "";
+    in property <bool> toast-visible: false;
+    in property <string> toast-text: "";
+    in property <bool> can-share: false;
+    in property <length> top-inset: 0px;
+    in property <length> bottom-inset: 0px;
+    in property <length> keyboard-height: 0px;
+
+    callback back();
+    callback edited(string);
+    callback title-edited(string);
+    callback share();
+    callback continue-draft();
+    callback start-new-draft();
+
+    public function focus-text() {
+        text-input.focus();
+    }
+
+    public function unfocus-text() {
+        text-input.clear-focus();
+    }
+
+    background: Theme.bg;
+
+    VerticalLayout {
+        width: parent.width;
+        height: parent.height;
+        padding-left: Theme.space-lg;
+        padding-right: Theme.space-lg;
+        padding-top: root.top-inset + Theme.space-md;
+        // Keep the toolbar above the on-screen keyboard by reserving its
+        // height at the bottom instead of shrinking the whole layout, which
+        // would make Slint centre it vertically.
+        padding-bottom: root.bottom-inset + root.keyboard-height + Theme.space-sm;
+        spacing: Theme.space-sm;
+
+        // ---- header --------------------------------------------------------
+        HorizontalLayout {
+            spacing: Theme.space-sm;
+
+            SecondaryButton {
+                text: "← Back";
+                width: 92px;
+                clicked => { root.back(); }
+            }
+
+            Rectangle { horizontal-stretch: 1; }
+
+            Text {
+                text: root.word-count-text;
+                color: Theme.muted;
+                font-family: Theme.font-ui;
+                font-size: Theme.caption;
+                vertical-alignment: center;
+            }
+        }
+
+        // ---- optional title ------------------------------------------------
+        Rectangle {
+            height: 52px;
+            border-radius: Theme.radius-sm;
+            background: Theme.surface;
+            border-width: 1px;
+            border-color: Theme.border;
+
+            title-input := TextInput {
+                x: Theme.space-md;
+                width: parent.width - 2 * Theme.space-md;
+                height: parent.height;
+                single-line: true;
+                text <=> root.title;
+                color: Theme.text;
+                font-family: Theme.font-serif;
+                font-size: 20px;
+                vertical-alignment: center;
+                input-method-hints: {
+                    auto-correct: false,
+                    auto-complete: false,
+                    capitalization: none,
+                };
+                edited => { root.title-edited(self.text); }
+            }
+
+            if root.title == "" : Text {
+                x: Theme.space-md;
+                width: parent.width - 2 * Theme.space-md;
+                height: parent.height;
+                text: root.title-placeholder;
+                color: Theme.muted;
+                font-family: Theme.font-serif;
+                font-size: 20px;
+                vertical-alignment: center;
+                overflow: elide;
+            }
+        }
+
+        // ---- writing area --------------------------------------------------
+        Rectangle {
+            vertical-stretch: 1;
+            border-radius: Theme.radius-md;
+            background: Theme.surface;
+            border-width: 1px;
+            border-color: Theme.border;
+            clip: true;
+
+            text-scroll := ScrollView {
+                x: Theme.space-md;
+                y: Theme.space-md;
+                width: parent.width - 2 * Theme.space-md;
+                height: parent.height - 2 * Theme.space-md;
+                content-width: self.visible-width;
+                content-height: max(self.visible-height, text-input.preferred-height);
+                mouse-drag-pan-enabled: true;
+
+                text-input := TextInput {
+                    enabled: !root.prompt-visible;
+                    single-line: false;
+                    wrap: word-wrap;
+                    text <=> root.text;
+                    color: Theme.text;
+                    font-family: Theme.font-serif;
+                    font-size: 20px;
+                    line-height-factor: 1.38;
+                    selection-background-color: Theme.accent-soft;
+                    selection-foreground-color: Theme.text;
+                    page-height: text-scroll.visible-height;
+                    input-method-hints: {
+                        auto-correct: false,
+                        auto-complete: false,
+                        capitalization: none,
+                    };
+
+                    edited => { root.edited(self.text); }
+
+                    // Keep the cursor inside the visible area, including when
+                    // the keyboard shrinks the editor.
+                    cursor-position-changed(cpos) => {
+                        if (cpos.y + text-scroll.content-y < 0px) {
+                            text-scroll.content-y = min(
+                                0px,
+                                max(text-scroll.visible-height - self.height, -cpos.y)
+                            );
+                        } else if (cpos.y + text-scroll.content-y > text-scroll.visible-height - 24px) {
+                            text-scroll.content-y = min(
+                                0px,
+                                max(
+                                    text-scroll.visible-height - self.height,
+                                    text-scroll.visible-height - cpos.y - 24px
+                                )
+                            );
+                        }
+                    }
+                }
+            }
+        }
+
+        // ---- share ---------------------------------------------------------
+        HorizontalLayout {
+            spacing: Theme.space-sm;
+
+            Text {
+                horizontal-stretch: 1;
+                text: root.can-share
+                    ? "Share sends your story to another app for feedback."
+                    : "Write something before sharing.";
+                color: Theme.muted;
+                font-family: Theme.font-ui;
+                font-size: Theme.caption;
+                vertical-alignment: center;
+                wrap: word-wrap;
+            }
+
+            PrimaryButton {
+                text: "Share";
+                width: 120px;
+                height: 52px;
+                enabled: root.can-share && !root.prompt-visible;
+                clicked => { root.share(); }
+            }
+        }
+    }
+
+    // ---- draft prompt ------------------------------------------------------
+    if root.prompt-visible : Rectangle {
+        width: parent.width;
+        height: parent.height;
+        background: Theme.dark ? #000000a8 : #241f1a55;
+
+        // Swallow taps so the editor behind the prompt cannot be edited.
+        TouchArea { }
+
+        Rectangle {
+            width: min(parent.width - 2 * Theme.space-lg, 360px);
+            height: 330px;
+            x: (parent.width - self.width) / 2;
+            y: (parent.height - self.height) / 2;
+            border-radius: Theme.radius-lg;
+            background: Theme.surface;
+            border-width: 1px;
+            border-color: Theme.border;
+
+            VerticalLayout {
+                padding: Theme.space-lg;
+                spacing: Theme.space-md;
+
+                Text {
+                    text: root.prompt-title;
+                    color: Theme.text;
+                    font-family: Theme.font-serif;
+                    font-size: Theme.title;
+                    font-weight: 700;
+                    wrap: word-wrap;
+                }
+
+                Text {
+                    text: root.prompt-body;
+                    color: Theme.muted;
+                    font-family: Theme.font-ui;
+                    font-size: Theme.body;
+                    wrap: word-wrap;
+                    vertical-stretch: 1;
+                }
+
+                PrimaryButton {
+                    text: "Continue";
+                    clicked => { root.continue-draft(); }
+                }
+
+                SecondaryButton {
+                    text: "Start new";
+                    clicked => { root.start-new-draft(); }
+                }
+            }
+        }
+    }
+
+    // ---- toast -------------------------------------------------------------
+    if root.toast-visible : Rectangle {
+        x: Theme.space-lg;
+        y: max(
+            root.top-inset + Theme.space-sm,
+            parent.height - root.keyboard-height - 140px
+        );
+        width: parent.width - 2 * Theme.space-lg;
+        height: 52px;
+        border-radius: Theme.radius-md;
+        background: Theme.dark ? #2f2a23 : #241f1a;
+
+        Text {
+            width: parent.width - 2 * Theme.space-md;
+            height: parent.height;
+            x: Theme.space-md;
+            text: root.toast-text;
+            color: Theme.dark ? Theme.text : #ffffff;
+            font-family: Theme.font-ui;
+            font-size: 13px;
+            vertical-alignment: center;
+            wrap: word-wrap;
+        }
+    }
+}

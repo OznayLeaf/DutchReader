@@ -1,0 +1,178 @@
+import { ScrollView } from "std-widgets.slint";
+import { Theme } from "../theme.slint";
+import { SecondaryButton } from "../components/button.slint";
+
+export struct StoryRow {
+    id: string,
+    number: string,
+    title: string,
+    blurb: string,
+    progress: string,
+    completed: bool,
+    started: bool,
+}
+
+export component LevelScreen inherits Rectangle {
+    in property <string> level: "A1";
+    in property <string> level-label: "Beginner";
+    in property <[StoryRow]> stories;
+    in property <length> top-inset: 0px;
+    in property <length> bottom-inset: 0px;
+
+    callback back();
+    callback open-story(string, string);
+
+    background: Theme.bg;
+
+    ScrollView {
+        width: parent.width;
+        height: parent.height;
+        content-width: self.width;
+        mouse-drag-pan-enabled: true;
+
+        VerticalLayout {
+            alignment: start;
+            padding-left: Theme.space-lg;
+            padding-right: Theme.space-lg;
+            padding-top: root.top-inset + Theme.space-md;
+            padding-bottom: root.bottom-inset + Theme.space-xl;
+            spacing: Theme.space-md;
+
+            HorizontalLayout {
+                spacing: Theme.space-sm;
+                SecondaryButton {
+                    text: "← Back";
+                    width: 96px;
+                    clicked => { root.back(); }
+                }
+                Rectangle { horizontal-stretch: 1; }
+                Text {
+                    vertical-stretch: 1;
+                    text: root.level;
+                    color: Theme.accent;
+                    font-family: Theme.font-ui;
+                    font-size: Theme.title;
+                    font-weight: 700;
+                    vertical-alignment: center;
+                }
+            }
+
+            Text {
+                text: root.level-label;
+                color: Theme.muted;
+                font-family: Theme.font-ui;
+                font-size: Theme.caption;
+                letter-spacing: 1.2px;
+            }
+
+            if root.stories.length == 0 : Rectangle {
+                height: 160px;
+                border-radius: Theme.radius-lg;
+                background: Theme.surface;
+                border-width: 1px;
+                border-color: Theme.border;
+                Text {
+                    text: "No stories in this level yet.";
+                    color: Theme.muted;
+                    font-family: Theme.font-ui;
+                    font-size: Theme.body;
+                    horizontal-alignment: center;
+                    vertical-alignment: center;
+                }
+            }
+
+            for story in root.stories : Rectangle {
+                height: card-layout.preferred-height;
+                border-radius: Theme.radius-lg;
+                background: story-card.pressed ? Theme.surface-alt : Theme.surface;
+                border-width: 1px;
+                border-color: story-card.pressed ? Theme.accent : Theme.border;
+                drop-shadow-blur: 7px;
+                drop-shadow-color: Theme.dark ? #00000040 : #4a382010;
+                drop-shadow-offset-y: 2px;
+
+                card-layout := VerticalLayout {
+                    padding: Theme.space-md;
+                    spacing: Theme.space-xs;
+
+                    Text {
+                        text: story.number;
+                        color: Theme.accent;
+                        font-family: Theme.font-ui;
+                        font-size: 10px;
+                        font-weight: 700;
+                        letter-spacing: 1.4px;
+                    }
+
+                    HorizontalLayout {
+                        spacing: Theme.space-sm;
+                        Text {
+                            vertical-stretch: 1;
+                            text: story.title;
+                            color: Theme.text;
+                            font-family: Theme.font-serif;
+                            font-size: 22px;
+                            font-weight: 600;
+                            vertical-alignment: center;
+                        }
+                        Rectangle { horizontal-stretch: 1; }
+                        if story.completed : Rectangle {
+                            width: 92px;
+                            height: 26px;
+                            border-radius: 13px;
+                            background: Theme.success-soft;
+                            Text {
+                                width: parent.width;
+                                height: parent.height;
+                                text: "Completed";
+                                color: Theme.success;
+                                font-family: Theme.font-ui;
+                                font-size: 11px;
+                                font-weight: 700;
+                                horizontal-alignment: center;
+                                vertical-alignment: center;
+                            }
+                        }
+                        if story.started && !story.completed : Rectangle {
+                            width: 92px;
+                            height: 26px;
+                            border-radius: 13px;
+                            background: Theme.accent-soft;
+                            Text {
+                                width: parent.width;
+                                height: parent.height;
+                                text: "In progress";
+                                color: Theme.accent;
+                                font-family: Theme.font-ui;
+                                font-size: 11px;
+                                font-weight: 700;
+                                horizontal-alignment: center;
+                                vertical-alignment: center;
+                            }
+                        }
+                    }
+
+                    Text {
+                        text: story.blurb;
+                        color: Theme.muted;
+                        font-family: Theme.font-ui;
+                        font-size: 14px;
+                        wrap: word-wrap;
+                    }
+
+                    Text {
+                        text: story.progress;
+                        color: Theme.accent;
+                        font-family: Theme.font-ui;
+                        font-size: Theme.caption;
+                        font-weight: 600;
+                    }
+                }
+
+                story-card := TouchArea {
+                    clicked => { root.open-story(story.id, story.title); }
+                }
+            }
+        }
+    }
+}

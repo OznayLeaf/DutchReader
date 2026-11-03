@@ -1,0 +1,306 @@
+import { ScrollView } from "std-widgets.slint";
+import { Theme } from "../theme.slint";
+import { ProgressBar } from "../components/progress-bar.slint";
+import { SecondaryButton } from "../components/button.slint";
+
+export struct LevelCardData {
+    code: string,
+    label: string,
+    count-text: string,
+    progress: float,
+}
+
+export component HomeScreen inherits Rectangle {
+    in property <[LevelCardData]> levels;
+    in property <bool> dark-mode: false;
+    in property <bool> resume-visible: false;
+    in property <string> resume-title: "";
+    in property <string> resume-detail: "";
+    in property <length> top-inset: 0px;
+    in property <length> bottom-inset: 0px;
+
+    callback open-level(string);
+    callback resume();
+    callback open-write();
+    callback open-dictionary();
+    callback open-writing();
+    callback open-settings();
+    callback toggle-theme();
+
+    background: Theme.bg;
+
+    ScrollView {
+        width: parent.width;
+        height: parent.height;
+        content-width: self.width;
+        mouse-drag-pan-enabled: true;
+
+        VerticalLayout {
+            padding-left: Theme.space-lg;
+            padding-right: Theme.space-lg;
+            padding-top: root.top-inset + Theme.space-lg;
+            padding-bottom: root.bottom-inset + Theme.space-xl;
+            spacing: Theme.space-lg;
+
+            // ---- header ----------------------------------------------------
+            HorizontalLayout {
+                alignment: start;
+                spacing: Theme.space-sm;
+
+                VerticalLayout {
+                    spacing: 0px;
+                    Text {
+                        text: "DutchReader";
+                        color: Theme.text;
+                        font-family: Theme.font-serif;
+                        font-size: Theme.display;
+                        font-weight: 700;
+                    }
+                    Text {
+                        text: "Lees. Schrijf. Leer.";
+                        color: Theme.muted;
+                        font-family: Theme.font-ui;
+                        font-size: Theme.caption;
+                        letter-spacing: 1.2px;
+                    }
+                }
+
+                Rectangle { horizontal-stretch: 1; }
+
+                Rectangle {
+                    width: 76px;
+                    height: 34px;
+                    border-radius: 17px;
+                    background: theme-toggle.pressed ? Theme.surface-alt : Theme.surface;
+                    border-width: 1px;
+                    border-color: Theme.border;
+
+                    Text {
+                        width: parent.width;
+                        height: parent.height;
+                        text: root.dark-mode ? "Light" : "Dark";
+                        color: Theme.text;
+                        font-family: Theme.font-ui;
+                        font-size: 13px;
+                        font-weight: 600;
+                        horizontal-alignment: center;
+                        vertical-alignment: center;
+                    }
+                    theme-toggle := TouchArea {
+                        clicked => { root.toggle-theme(); }
+                    }
+                }
+            }
+
+            // ---- continue reading ------------------------------------------
+            if root.resume-visible : Rectangle {
+                height: 92px;
+                border-radius: Theme.radius-lg;
+                background: resume-touch.pressed ? Theme.accent-pressed : Theme.accent;
+                drop-shadow-blur: 10px;
+                drop-shadow-color: Theme.dark ? #00000050 : #4a382018;
+                drop-shadow-offset-y: 3px;
+
+                HorizontalLayout {
+                    padding-left: Theme.space-lg;
+                    padding-right: Theme.space-lg;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    spacing: Theme.space-md;
+
+                    VerticalLayout {
+                        alignment: center;
+                        spacing: 2px;
+                        Text {
+                            text: "CONTINUE READING";
+                            color: Theme.on-accent;
+                            opacity: 0.72;
+                            font-family: Theme.font-ui;
+                            font-size: 10px;
+                            font-weight: 700;
+                            letter-spacing: 1.4px;
+                        }
+                        Text {
+                            text: root.resume-title;
+                            color: Theme.on-accent;
+                            font-family: Theme.font-serif;
+                            font-size: 21px;
+                            font-weight: 600;
+                        }
+                        Text {
+                            text: root.resume-detail;
+                            color: Theme.on-accent;
+                            opacity: 0.85;
+                            font-family: Theme.font-ui;
+                            font-size: 13px;
+                        }
+                    }
+
+                    Rectangle { horizontal-stretch: 1; }
+
+                    Text {
+                        vertical-stretch: 1;
+                        text: "→";
+                        color: Theme.on-accent;
+                        font-family: Theme.font-ui;
+                        font-size: 26px;
+                        vertical-alignment: center;
+                    }
+                }
+
+                resume-touch := TouchArea {
+                    clicked => { root.resume(); }
+                }
+            }
+
+            // ---- level cards -----------------------------------------------
+            VerticalLayout {
+                spacing: Theme.space-sm;
+
+                for level in root.levels : Rectangle {
+                    height: 104px;
+                    border-radius: Theme.radius-lg;
+                    background: level-touch.pressed ? Theme.surface-alt : Theme.surface;
+                    border-width: 1px;
+                    border-color: Theme.border;
+                    drop-shadow-blur: 8px;
+                    drop-shadow-color: Theme.dark ? #00000040 : #4a382010;
+                    drop-shadow-offset-y: 2px;
+
+                    HorizontalLayout {
+                        padding: Theme.space-md;
+                        spacing: Theme.space-md;
+
+                        Rectangle {
+                            width: 54px;
+                            height: 54px;
+                            border-radius: Theme.radius-md;
+                            background: Theme.accent-soft;
+                            Text {
+                                width: parent.width;
+                                height: parent.height;
+                                text: level.code;
+                                color: Theme.accent;
+                                font-family: Theme.font-ui;
+                                font-size: 20px;
+                                font-weight: 700;
+                                horizontal-alignment: center;
+                                vertical-alignment: center;
+                            }
+                        }
+
+                        VerticalLayout {
+                            spacing: 5px;
+
+                            HorizontalLayout {
+                                Text {
+                                    text: level.label;
+                                    color: Theme.text;
+                                    font-family: Theme.font-ui;
+                                    font-size: Theme.body;
+                                    font-weight: 700;
+                                }
+                                Rectangle { horizontal-stretch: 1; }
+                                Text {
+                                    text: level.count-text;
+                                    color: Theme.muted;
+                                    font-family: Theme.font-ui;
+                                    font-size: Theme.caption;
+                                }
+                            }
+
+                            ProgressBar { progress: level.progress; }
+                        }
+                    }
+
+                    level-touch := TouchArea {
+                        clicked => { root.open-level(level.code); }
+                    }
+                }
+            }
+
+            // ---- write -----------------------------------------------------
+            Rectangle {
+                height: 84px;
+                border-radius: Theme.radius-lg;
+                background: write-touch.pressed ? Theme.accent-pressed : Theme.accent;
+
+                HorizontalLayout {
+                    padding-left: Theme.space-lg;
+                    padding-right: Theme.space-lg;
+                    spacing: Theme.space-md;
+
+                    // Balances the arrow so the label block is centred in the
+                    // whole button rather than only in the space beside it.
+                    Rectangle { width: 26px; }
+
+                    VerticalLayout {
+                        alignment: center;
+                        horizontal-stretch: 1;
+                        spacing: 2px;
+                        Text {
+                            horizontal-stretch: 1;
+                            text: "Write";
+                            color: Theme.on-accent;
+                            font-family: Theme.font-ui;
+                            font-size: 22px;
+                            font-weight: 700;
+                            horizontal-alignment: center;
+                        }
+                        Text {
+                            horizontal-stretch: 1;
+                            text: "Write your own Dutch story";
+                            color: Theme.on-accent;
+                            font-family: Theme.font-ui;
+                            font-size: 13px;
+                            opacity: 0.82;
+                            horizontal-alignment: center;
+                        }
+                    }
+
+                    Text {
+                        vertical-stretch: 1;
+                        text: "→";
+                        color: Theme.on-accent;
+                        font-family: Theme.font-ui;
+                        font-size: 26px;
+                        vertical-alignment: center;
+                    }
+                }
+
+                write-touch := TouchArea {
+                    clicked => { root.open-write(); }
+                }
+            }
+
+            // ---- secondary entry points ------------------------------------
+            HorizontalLayout {
+                spacing: Theme.space-sm;
+                SecondaryButton {
+                    text: "Dictionary";
+                    horizontal-stretch: 1;
+                    clicked => { root.open-dictionary(); }
+                }
+                SecondaryButton {
+                    text: "My Writing";
+                    horizontal-stretch: 1;
+                    clicked => { root.open-writing(); }
+                }
+                SecondaryButton {
+                    text: "Settings";
+                    horizontal-stretch: 1;
+                    clicked => { root.open-settings(); }
+                }
+            }
+
+            Text {
+                text: "All your reading and writing stays on this device.";
+                color: Theme.muted;
+                font-family: Theme.font-ui;
+                font-size: Theme.caption;
+                horizontal-alignment: center;
+                wrap: word-wrap;
+            }
+        }
+    }
+}

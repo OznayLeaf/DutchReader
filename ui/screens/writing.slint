@@ -1,0 +1,508 @@
+import { ScrollView } from "std-widgets.slint";
+import { Theme } from "../theme.slint";
+import { PrimaryButton, SecondaryButton } from "../components/button.slint";
+
+export struct WritingRow {
+    id: string,
+    title: string,
+    date: string,
+    preview: string,
+    meta: string,
+}
+
+export struct MonthRow {
+    label: string,
+    stories-text: string,
+    words-text: string,
+    ratio: float,
+}
+
+export component WritingScreen inherits Rectangle {
+    in property <[WritingRow]> stories;
+    in property <[MonthRow]> months;
+    in property <string> total-stories-text: "0";
+    in property <string> total-words-text: "0 words";
+    in property <int> streak-days: 0;
+    in property <string> streak-text: "0 days";
+
+    in property <bool> detail-visible: false;
+    in property <string> detail-title: "";
+    in property <string> detail-date: "";
+    in property <string> detail-meta: "";
+    in property <string> detail-text: "";
+
+    in property <bool> delete-visible: false;
+    in property <bool> toast-visible: false;
+    in property <string> toast-text: "";
+    in property <length> top-inset: 0px;
+    in property <length> bottom-inset: 0px;
+
+    callback back();
+    callback open-story(string);
+    callback close-detail();
+    callback share-detail();
+    callback copy-detail();
+    callback edit-detail();
+    callback delete-request();
+    callback delete-confirm();
+    callback delete-cancel();
+    callback open-write();
+
+    background: Theme.bg;
+
+    // ---- list + statistics -------------------------------------------------
+    if !root.detail-visible : ScrollView {
+        width: parent.width;
+        height: parent.height;
+        content-width: self.width;
+        mouse-drag-pan-enabled: true;
+
+        VerticalLayout {
+            padding-left: Theme.space-lg;
+            padding-right: Theme.space-lg;
+            padding-top: root.top-inset + Theme.space-md;
+            padding-bottom: root.bottom-inset + Theme.space-xl;
+            spacing: Theme.space-lg;
+
+            HorizontalLayout {
+                spacing: Theme.space-sm;
+
+                SecondaryButton {
+                    text: "← Back";
+                    width: 92px;
+                    clicked => { root.back(); }
+                }
+
+                Rectangle { horizontal-stretch: 1; }
+
+                SecondaryButton {
+                    text: "Write";
+                    width: 92px;
+                    clicked => { root.open-write(); }
+                }
+            }
+
+            Text {
+                text: "My writing";
+                color: Theme.text;
+                font-family: Theme.font-serif;
+                font-size: Theme.display;
+                font-weight: 700;
+            }
+
+            // ---- statistics card -------------------------------------------
+            Rectangle {
+                // Size to the content: the enclosing ScrollView gives its
+                // content the viewport height, and a card without a height
+                // would otherwise absorb all the leftover space.
+                height: stats-layout.preferred-height;
+                border-radius: Theme.radius-lg;
+                background: Theme.surface;
+                border-width: 1px;
+                border-color: Theme.border;
+
+                stats-layout := VerticalLayout {
+                    padding: Theme.space-lg;
+                    spacing: Theme.space-md;
+
+                    Text {
+                        text: "Your progress";
+                        color: Theme.muted;
+                        font-family: Theme.font-ui;
+                        font-size: Theme.caption;
+                        font-weight: 700;
+                        letter-spacing: 1.2px;
+                    }
+
+                    HorizontalLayout {
+                        spacing: Theme.space-md;
+
+                        VerticalLayout {
+                            horizontal-stretch: 1;
+                            spacing: 2px;
+                            Text {
+                                text: root.total-stories-text;
+                                color: Theme.text;
+                                font-family: Theme.font-serif;
+                                font-size: 30px;
+                                font-weight: 700;
+                            }
+                            Text {
+                                text: root.total-stories-text == "1" ? "story" : "stories";
+                                color: Theme.muted;
+                                font-family: Theme.font-ui;
+                                font-size: Theme.caption;
+                            }
+                        }
+
+                        VerticalLayout {
+                            horizontal-stretch: 1;
+                            spacing: 2px;
+                            Text {
+                                text: root.total-words-text;
+                                color: Theme.text;
+                                font-family: Theme.font-serif;
+                                font-size: 24px;
+                                font-weight: 700;
+                                overflow: elide;
+                            }
+                            Text {
+                                text: "written";
+                                color: Theme.muted;
+                                font-family: Theme.font-ui;
+                                font-size: Theme.caption;
+                            }
+                        }
+
+                        VerticalLayout {
+                            horizontal-stretch: 1;
+                            spacing: 2px;
+                            Text {
+                                text: root.streak-text;
+                                color: Theme.accent;
+                                font-family: Theme.font-serif;
+                                font-size: 24px;
+                                font-weight: 700;
+                                overflow: elide;
+                            }
+                            Text {
+                                text: "current streak";
+                                color: Theme.muted;
+                                font-family: Theme.font-ui;
+                                font-size: Theme.caption;
+                            }
+                        }
+                    }
+
+                    Rectangle {
+                        height: 1px;
+                        background: Theme.border;
+                    }
+
+                    Text {
+                        text: "By month";
+                        color: Theme.text;
+                        font-family: Theme.font-ui;
+                        font-size: Theme.body;
+                        font-weight: 700;
+                    }
+
+                    if root.months.length == 0 : Text {
+                        text: "Your monthly progress will appear here.";
+                        color: Theme.muted;
+                        font-family: Theme.font-ui;
+                        font-size: Theme.caption;
+                        wrap: word-wrap;
+                    }
+
+                    for month in root.months : VerticalLayout {
+                        spacing: 5px;
+
+                        HorizontalLayout {
+                            Text {
+                                text: month.label;
+                                color: Theme.text;
+                                font-family: Theme.font-ui;
+                                font-size: 13px;
+                                font-weight: 600;
+                            }
+                            Rectangle { horizontal-stretch: 1; }
+                            Text {
+                                text: month.stories-text + " · " + month.words-text;
+                                color: Theme.muted;
+                                font-family: Theme.font-ui;
+                                font-size: Theme.caption;
+                            }
+                        }
+
+                        Rectangle {
+                            height: 8px;
+                            border-radius: 4px;
+                            background: Theme.surface-alt;
+                            clip: true;
+
+                            if month.ratio > 0 : Rectangle {
+                                width: parent.width * month.ratio;
+                                height: parent.height;
+                                border-radius: 4px;
+                                background: Theme.accent;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // ---- story list -------------------------------------------------
+            if root.stories.length == 0 : Rectangle {
+                height: empty-layout.preferred-height;
+                border-radius: Theme.radius-lg;
+                background: Theme.surface;
+                border-width: 1px;
+                border-color: Theme.border;
+
+                empty-layout := VerticalLayout {
+                    padding: Theme.space-lg;
+                    spacing: Theme.space-md;
+
+                    Text {
+                        text: "Nothing written yet";
+                        color: Theme.text;
+                        font-family: Theme.font-serif;
+                        font-size: Theme.title;
+                        font-weight: 700;
+                    }
+                    Text {
+                        text: "Share your first story and it will appear here, with its word count and time spent.";
+                        color: Theme.muted;
+                        font-family: Theme.font-ui;
+                        font-size: Theme.body;
+                        wrap: word-wrap;
+                    }
+                    PrimaryButton {
+                        text: "Write your first story";
+                        clicked => { root.open-write(); }
+                    }
+                }
+            }
+
+            for story in root.stories : Rectangle {
+                height: 116px;
+                border-radius: Theme.radius-lg;
+                background: story-touch.pressed ? Theme.surface-alt : Theme.surface;
+                border-width: 1px;
+                border-color: Theme.border;
+
+                VerticalLayout {
+                    padding: Theme.space-md;
+                    spacing: 4px;
+
+                    HorizontalLayout {
+                        Text {
+                            text: story.title;
+                            color: Theme.text;
+                            font-family: Theme.font-serif;
+                            font-size: 20px;
+                            font-weight: 600;
+                            overflow: elide;
+                            horizontal-stretch: 1;
+                        }
+                        Text {
+                            text: story.date;
+                            color: Theme.muted;
+                            font-family: Theme.font-ui;
+                            font-size: Theme.caption;
+                        }
+                    }
+
+                    Text {
+                        text: story.preview;
+                        color: Theme.muted;
+                        font-family: Theme.font-ui;
+                        font-size: 13px;
+                        overflow: elide;
+                        wrap: no-wrap;
+                    }
+
+                    Text {
+                        text: story.meta;
+                        color: Theme.accent;
+                        font-family: Theme.font-ui;
+                        font-size: Theme.caption;
+                        font-weight: 600;
+                    }
+                }
+
+                story-touch := TouchArea {
+                    clicked => { root.open-story(story.id); }
+                }
+            }
+
+            // Absorb leftover viewport height. Without this the title text (the
+            // only child that can grow) takes all the extra space and pushes
+            // the cards to the bottom when there are no stories.
+            Rectangle { vertical-stretch: 1; }
+        }
+    }
+
+    // ---- detail ------------------------------------------------------------
+    if root.detail-visible : VerticalLayout {
+        width: parent.width;
+        height: parent.height;
+        padding-left: Theme.space-lg;
+        padding-right: Theme.space-lg;
+        padding-top: root.top-inset + Theme.space-md;
+        padding-bottom: root.bottom-inset + Theme.space-md;
+        spacing: Theme.space-sm;
+
+        HorizontalLayout {
+            spacing: Theme.space-sm;
+
+            SecondaryButton {
+                text: "← Back";
+                width: 92px;
+                clicked => { root.close-detail(); }
+            }
+
+            Rectangle { horizontal-stretch: 1; }
+
+            SecondaryButton {
+                text: "Edit";
+                width: 92px;
+                clicked => { root.edit-detail(); }
+            }
+        }
+
+        Text {
+            text: root.detail-title;
+            color: Theme.text;
+            font-family: Theme.font-serif;
+            font-size: Theme.title;
+            font-weight: 700;
+            wrap: word-wrap;
+        }
+
+        Text {
+            text: root.detail-date + " · " + root.detail-meta;
+            color: Theme.muted;
+            font-family: Theme.font-ui;
+            font-size: Theme.caption;
+            wrap: word-wrap;
+        }
+
+        Rectangle {
+            vertical-stretch: 1;
+            border-radius: Theme.radius-md;
+            background: Theme.surface;
+            border-width: 1px;
+            border-color: Theme.border;
+            clip: true;
+
+            detail-scroll := ScrollView {
+                x: Theme.space-md;
+                y: Theme.space-md;
+                width: parent.width - 2 * Theme.space-md;
+                height: parent.height - 2 * Theme.space-md;
+                content-width: self.visible-width;
+                content-height: max(self.visible-height, detail-text-input.preferred-height);
+                mouse-drag-pan-enabled: true;
+
+                detail-text-input := TextInput {
+                    text: root.detail-text;
+                    read-only: true;
+                    single-line: false;
+                    wrap: word-wrap;
+                    color: Theme.text;
+                    font-family: Theme.font-serif;
+                    font-size: 18px;
+                    line-height-factor: 1.38;
+                    selection-background-color: Theme.accent-soft;
+                    selection-foreground-color: Theme.text;
+                    page-height: detail-scroll.visible-height;
+                }
+            }
+        }
+
+        HorizontalLayout {
+            spacing: Theme.space-sm;
+
+            PrimaryButton {
+                text: "Share";
+                horizontal-stretch: 1;
+                clicked => { root.share-detail(); }
+            }
+
+            SecondaryButton {
+                text: "Copy";
+                width: 92px;
+                clicked => {
+                    detail-text-input.select-all();
+                    detail-text-input.copy();
+                    detail-text-input.clear-selection();
+                    root.copy-detail();
+                }
+            }
+        }
+
+        HorizontalLayout {
+            spacing: Theme.space-sm;
+
+            SecondaryButton {
+                text: "Delete";
+                horizontal-stretch: 1;
+                clicked => { root.delete-request(); }
+            }
+        }
+    }
+
+    // ---- delete confirmation ----------------------------------------------
+    if root.delete-visible : Rectangle {
+        width: parent.width;
+        height: parent.height;
+        background: Theme.dark ? #000000a8 : #241f1a55;
+
+        TouchArea { }
+
+        Rectangle {
+            width: min(parent.width - 2 * Theme.space-lg, 360px);
+            height: 250px;
+            x: (parent.width - self.width) / 2;
+            y: (parent.height - self.height) / 2;
+            border-radius: Theme.radius-lg;
+            background: Theme.surface;
+            border-width: 1px;
+            border-color: Theme.border;
+
+            VerticalLayout {
+                padding: Theme.space-lg;
+                spacing: Theme.space-md;
+
+                Text {
+                    text: "Delete this story?";
+                    color: Theme.text;
+                    font-family: Theme.font-serif;
+                    font-size: Theme.title;
+                    font-weight: 700;
+                }
+                Text {
+                    text: "This cannot be undone. The text will be removed from this device.";
+                    color: Theme.muted;
+                    font-family: Theme.font-ui;
+                    font-size: Theme.body;
+                    wrap: word-wrap;
+                    vertical-stretch: 1;
+                }
+                PrimaryButton {
+                    text: "Delete";
+                    danger: true;
+                    clicked => { root.delete-confirm(); }
+                }
+                SecondaryButton {
+                    text: "Cancel";
+                    clicked => { root.delete-cancel(); }
+                }
+            }
+        }
+    }
+
+    // ---- toast -------------------------------------------------------------
+    if root.toast-visible : Rectangle {
+        x: Theme.space-lg;
+        y: parent.height - root.bottom-inset - 76px;
+        width: parent.width - 2 * Theme.space-lg;
+        height: 52px;
+        border-radius: Theme.radius-md;
+        background: Theme.dark ? #2f2a23 : #241f1a;
+
+        Text {
+            width: parent.width - 2 * Theme.space-md;
+            height: parent.height;
+            x: Theme.space-md;
+            text: root.toast-text;
+            color: Theme.dark ? Theme.text : #ffffff;
+            font-family: Theme.font-ui;
+            font-size: 13px;
+            vertical-alignment: center;
+            wrap: word-wrap;
+        }
+    }
+}

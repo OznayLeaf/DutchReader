@@ -1,0 +1,1261 @@
+{
+  "id": "a2-01",
+  "level": "A2",
+  "order": 1,
+  "title": "De sleutel is weg",
+  "blurb_nl": "De man is zijn sleutel kwijt. Hij zoekt overal, maar de hond weet meer.",
+  "blurb_en": "The man has lost his key. He searches everywhere, but the dog knows more.",
+  "sections": [
+    "Het is maandagochtend. De man wil naar de winkel, maar hij is zijn sleutel kwijt.",
+    "Hij zoekt in zijn tas.",
+    "Hij zoekt in zijn broek. De sleutel is nergens.",
+    "“Waar is mijn sleutel?” vraagt hij aan de hond. De hond zit op de bank en kijkt naar de man.",
+    "De hond lacht.",
+    "De man lacht niet. Hij zoekt en zoekt, maar hij vindt de sleutel niet.",
+    "De man gaat naar de keuken. Hij doet de kast open.",
+    "De kast is leeg.",
+    "Hij zoekt op de vloer. De vloer is koud.",
+    "“Ik heb de sleutel hier gelegd,” zegt de man. Maar de sleutel is niet op de vloer.",
+    "De man is vergeten waar hij de sleutel heeft gelegd.",
+    "De hond komt ook naar de keuken. Hij kijkt in de kast.",
+    "De man zucht.",
+    "“De hond helpt niet,” zegt hij.",
+    "De man gaat naar de woonkamer. Hij zoekt onder de bank.",
+    "De bank is zacht.",
+    "De man tilt de bank op.",
+    "“Aha!” zegt hij. Maar er ligt geen sleutel.",
+    "Er ligt een bot.",
+    "De hond pakt het bot en loopt weg. De man legt de bank terug.",
+    "Hij zucht weer.",
+    "De hond kijkt naar de bank en kwispelt met zijn staart.",
+    "Plotseling hoort de man een geluid. Het geluid komt uit de keuken.",
+    "De hond staat bij de kast.",
+    "Hij maakt een zacht geluid.",
+    "“Wat heb je?” vraagt de man. De hond geeft geen antwoord.",
+    "De hond kijkt naar de kast.",
+    "De man doet de kast open. De kast is nog steeds leeg.",
+    "De man zucht weer.",
+    "“Ik word gek,” zegt hij.",
+    "De man gaat terug naar de bank. Hij zoekt nog een keer in zijn tas.",
+    "Hij zoekt in zijn broek. Hij zoekt onder de bank.",
+    "De bank is zacht. De man tilt de bank op.",
+    "Onder de bank ligt een rode bal. De hond heeft de bal.",
+    "De hond pakt de bal en loopt naar de tuin. De man zucht.",
+    "Hij zoekt in de keuken. Hij zoekt in de kast.",
+    "Hij zoekt op de vloer. De sleutel is niet in de keuken.",
+    "De sleutel is niet in de kast. De sleutel is niet op de vloer.",
+    "De hond komt terug. Hij heeft de bal niet.",
+    "Hij kijkt naar de man. De man kijkt naar de hond.",
+    "“Waar is de sleutel?” vraagt de man. De hond geeft geen antwoord.",
+    "De hond loopt naar de bank. De man loopt achter de hond aan.",
+    "De hond staat bij de bank. Hij kwispelt met zijn staart.",
+    "De man tilt de bank weer op. Dit keer ziet hij iets.",
+    "Eindelijk! De sleutel ligt op de vloer.",
+    "Maar de hond is sneller. De hond pakt de sleutel en loopt naar de deur.",
+    "“Nee, nee!” roept de man.",
+    "Hij loopt achter de hond aan. De hond wacht bij de deur en lacht.",
+    "De hond heeft de sleutel in zijn bek. “Geef hier,” zegt de man.",
+    "De hond laat de sleutel niet los.",
+    "Plotseling lacht de man.",
+    "“Oké, jij hebt gewonnen.” De hond geeft geen antwoord. De man vindt het grappig.",
+    "Hij is niet meer boos.",
+    "“Waarom heb je de sleutel?” vraagt hij. De hond kwispelt met zijn staart.",
+    "De man is vergeten dat hij boos was.",
+    "Eindelijk geeft de hond de sleutel. De man pakt hem en lacht.",
+    "“Dank je,” zegt hij.",
+    "De hond blaft.",
+    "De man doet de deur open. Samen gaan ze naar de winkel.",
+    "De sleutel is weer thuis.",
+    "De man is zijn sleutel niet meer kwijt. En de hond?",
+    "De hond is heel blij.",
+    "De man geeft de hond een aai over zijn kop. De hond loopt trots naast hem.",
+    "Bij de winkel geeft de man de hond een bot. De hond is blij.",
+    "De man is ook blij. Samen gaan ze naar huis."
+  ],
+  "new_words": [
+    "sleutel",
+    "zoeken",
+    "vinden",
+    "tas",
+    "broek",
+    "keuken",
+    "bank",
+    "plotseling",
+    "eindelijk",
+    "lachen",
+    "vragen",
+    "antwoord",
+    "vergeten",
+    "leggen",
+    "opendoen",
+    "vloer",
+    "kast",
+    "zacht",
+    "geluid",
+    "kwijt"
+  ],
+  "glossary": [
+    {
+      "form": "Het",
+      "lemma": "het",
+      "pos": "article",
+      "meaning": "the",
+      "new": false
+    },
+    {
+      "form": "is",
+      "lemma": "zijn",
+      "pos": "verb",
+      "meaning": "is",
+      "new": false
+    },
+    {
+      "form": "maandagochtend",
+      "lemma": "maandagochtend",
+      "pos": "noun",
+      "meaning": "Monday morning",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "De",
+      "lemma": "de",
+      "pos": "article",
+      "meaning": "the",
+      "new": false
+    },
+    {
+      "form": "man",
+      "lemma": "man",
+      "pos": "noun",
+      "meaning": "man",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "naar",
+      "lemma": "naar",
+      "pos": "preposition",
+      "meaning": "to",
+      "new": false
+    },
+    {
+      "form": "winkel",
+      "lemma": "winkel",
+      "pos": "noun",
+      "meaning": "shop",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "maar",
+      "lemma": "maar",
+      "pos": "conjunction",
+      "meaning": "but",
+      "new": false
+    },
+    {
+      "form": "hij",
+      "lemma": "hij",
+      "pos": "pronoun",
+      "meaning": "he",
+      "new": false
+    },
+    {
+      "form": "zijn",
+      "lemma": "zijn",
+      "pos": "determiner",
+      "meaning": "his",
+      "new": false
+    },
+    {
+      "form": "sleutel",
+      "lemma": "sleutel",
+      "pos": "noun",
+      "meaning": "key",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "kwijt",
+      "lemma": "kwijt",
+      "pos": "adjective",
+      "meaning": "lost / missing",
+      "new": true
+    },
+    {
+      "form": "zoekt",
+      "lemma": "zoeken",
+      "pos": "verb",
+      "meaning": "looks for",
+      "new": true
+    },
+    {
+      "form": "in",
+      "lemma": "in",
+      "pos": "preposition",
+      "meaning": "in",
+      "new": false
+    },
+    {
+      "form": "tas",
+      "lemma": "tas",
+      "pos": "noun",
+      "meaning": "bag",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "broek",
+      "lemma": "broek",
+      "pos": "noun",
+      "meaning": "trousers",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "nergens",
+      "lemma": "nergens",
+      "pos": "adverb",
+      "meaning": "nowhere",
+      "new": false
+    },
+    {
+      "form": "Waar",
+      "lemma": "waar",
+      "pos": "adverb",
+      "meaning": "where",
+      "new": false
+    },
+    {
+      "form": "mijn",
+      "lemma": "mijn",
+      "pos": "pronoun",
+      "meaning": "my",
+      "new": false
+    },
+    {
+      "form": "vraagt",
+      "lemma": "vragen",
+      "pos": "verb",
+      "meaning": "asks",
+      "new": true
+    },
+    {
+      "form": "aan",
+      "lemma": "aan",
+      "pos": "preposition",
+      "meaning": "to",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "zit",
+      "lemma": "zitten",
+      "pos": "verb",
+      "meaning": "sits",
+      "new": false
+    },
+    {
+      "form": "op",
+      "lemma": "op",
+      "pos": "preposition",
+      "meaning": "on",
+      "new": false
+    },
+    {
+      "form": "bank",
+      "lemma": "bank",
+      "pos": "noun",
+      "meaning": "sofa / bench",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "en",
+      "lemma": "en",
+      "pos": "conjunction",
+      "meaning": "and",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "lacht",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "laughs",
+      "new": true
+    },
+    {
+      "form": "niet",
+      "lemma": "niet",
+      "pos": "adverb",
+      "meaning": "not",
+      "new": false
+    },
+    {
+      "form": "vindt",
+      "lemma": "vinden",
+      "pos": "verb",
+      "meaning": "finds",
+      "new": true
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "keuken",
+      "lemma": "keuken",
+      "pos": "noun",
+      "meaning": "kitchen",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "doet",
+      "parts": [
+        "doet",
+        "open"
+      ],
+      "lemma": "opendoen",
+      "pos": "verb",
+      "meaning": "opens",
+      "new": true
+    },
+    {
+      "form": "kast",
+      "lemma": "kast",
+      "pos": "noun",
+      "meaning": "cupboard",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "open",
+      "parts": [
+        "doet",
+        "open"
+      ],
+      "lemma": "opendoen",
+      "pos": "verb",
+      "meaning": "open",
+      "new": true
+    },
+    {
+      "form": "leeg",
+      "lemma": "leeg",
+      "pos": "adjective",
+      "meaning": "empty",
+      "new": false
+    },
+    {
+      "form": "vloer",
+      "lemma": "vloer",
+      "pos": "noun",
+      "meaning": "floor",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "koud",
+      "lemma": "koud",
+      "pos": "adjective",
+      "meaning": "cold",
+      "new": false
+    },
+    {
+      "form": "Ik",
+      "lemma": "ik",
+      "pos": "pronoun",
+      "meaning": "I",
+      "new": false
+    },
+    {
+      "form": "heb",
+      "lemma": "hebben",
+      "pos": "verb",
+      "meaning": "have",
+      "new": false
+    },
+    {
+      "form": "hier",
+      "lemma": "hier",
+      "pos": "adverb",
+      "meaning": "here",
+      "new": false
+    },
+    {
+      "form": "gelegd",
+      "lemma": "leggen",
+      "pos": "verb",
+      "meaning": "put / laid",
+      "new": true
+    },
+    {
+      "form": "zegt",
+      "lemma": "zeggen",
+      "pos": "verb",
+      "meaning": "says",
+      "new": false
+    },
+    {
+      "form": "vergeten",
+      "lemma": "vergeten",
+      "pos": "verb",
+      "meaning": "forgotten",
+      "new": true
+    },
+    {
+      "form": "heeft",
+      "lemma": "hebben",
+      "pos": "verb",
+      "meaning": "has",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "ook",
+      "lemma": "ook",
+      "pos": "adverb",
+      "meaning": "also",
+      "new": false
+    },
+    {
+      "form": "zucht",
+      "lemma": "zuchten",
+      "pos": "verb",
+      "meaning": "sighs",
+      "new": false
+    },
+    {
+      "form": "helpt",
+      "lemma": "helpen",
+      "pos": "verb",
+      "meaning": "helps",
+      "new": false
+    },
+    {
+      "form": "woonkamer",
+      "lemma": "woonkamer",
+      "pos": "noun",
+      "meaning": "living room",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "onder",
+      "lemma": "onder",
+      "pos": "preposition",
+      "meaning": "under",
+      "new": false
+    },
+    {
+      "form": "zacht",
+      "lemma": "zacht",
+      "pos": "adjective",
+      "meaning": "soft / quiet",
+      "new": true
+    },
+    {
+      "form": "tilt",
+      "lemma": "tillen",
+      "pos": "verb",
+      "meaning": "lifts",
+      "new": false
+    },
+    {
+      "form": "Aha",
+      "lemma": "aha",
+      "pos": "interjection",
+      "meaning": "aha",
+      "new": false
+    },
+    {
+      "form": "er",
+      "lemma": "er",
+      "pos": "adverb",
+      "meaning": "there",
+      "new": false
+    },
+    {
+      "form": "ligt",
+      "lemma": "liggen",
+      "pos": "verb",
+      "meaning": "lies",
+      "new": false
+    },
+    {
+      "form": "geen",
+      "lemma": "geen",
+      "pos": "determiner",
+      "meaning": "no / not a",
+      "new": false
+    },
+    {
+      "form": "een",
+      "lemma": "een",
+      "pos": "article",
+      "meaning": "a / an",
+      "new": false
+    },
+    {
+      "form": "bot",
+      "lemma": "bot",
+      "pos": "noun",
+      "meaning": "bone",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "weg",
+      "lemma": "weg",
+      "pos": "adverb",
+      "meaning": "away",
+      "new": false
+    },
+    {
+      "form": "legt",
+      "lemma": "leggen",
+      "pos": "verb",
+      "meaning": "puts / lays",
+      "new": true
+    },
+    {
+      "form": "terug",
+      "lemma": "terug",
+      "pos": "adverb",
+      "meaning": "back",
+      "new": false
+    },
+    {
+      "form": "weer",
+      "lemma": "weer",
+      "pos": "adverb",
+      "meaning": "again",
+      "new": false
+    },
+    {
+      "form": "kwispelt",
+      "lemma": "kwispelen",
+      "pos": "verb",
+      "meaning": "wags",
+      "new": false
+    },
+    {
+      "form": "met",
+      "lemma": "met",
+      "pos": "preposition",
+      "meaning": "with",
+      "new": false
+    },
+    {
+      "form": "staart",
+      "lemma": "staart",
+      "pos": "noun",
+      "meaning": "tail",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "Plotseling",
+      "lemma": "plotseling",
+      "pos": "adverb",
+      "meaning": "suddenly",
+      "new": true
+    },
+    {
+      "form": "hoort",
+      "lemma": "horen",
+      "pos": "verb",
+      "meaning": "hears",
+      "new": false
+    },
+    {
+      "form": "geluid",
+      "lemma": "geluid",
+      "pos": "noun",
+      "meaning": "sound",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "uit",
+      "lemma": "uit",
+      "pos": "adverb",
+      "meaning": "out of",
+      "new": false
+    },
+    {
+      "form": "staat",
+      "lemma": "staan",
+      "pos": "verb",
+      "meaning": "stands",
+      "new": false
+    },
+    {
+      "form": "bij",
+      "lemma": "bij",
+      "pos": "preposition",
+      "meaning": "at",
+      "new": false
+    },
+    {
+      "form": "maakt",
+      "lemma": "maken",
+      "pos": "verb",
+      "meaning": "makes",
+      "new": false
+    },
+    {
+      "form": "Wat",
+      "lemma": "wat",
+      "pos": "pronoun",
+      "meaning": "what",
+      "new": false
+    },
+    {
+      "form": "je",
+      "lemma": "je",
+      "pos": "pronoun",
+      "meaning": "you / your",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "antwoord",
+      "lemma": "antwoord",
+      "pos": "noun",
+      "meaning": "answer",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "nog",
+      "lemma": "nog",
+      "pos": "adverb",
+      "meaning": "still / yet",
+      "new": false
+    },
+    {
+      "form": "steeds",
+      "lemma": "steeds",
+      "pos": "adverb",
+      "meaning": "continuously",
+      "new": false
+    },
+    {
+      "form": "word",
+      "lemma": "worden",
+      "pos": "verb",
+      "meaning": "become",
+      "new": false
+    },
+    {
+      "form": "gek",
+      "lemma": "gek",
+      "pos": "adjective",
+      "meaning": "crazy",
+      "new": false
+    },
+    {
+      "form": "keer",
+      "lemma": "keer",
+      "pos": "noun",
+      "meaning": "time / turn",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "Dit",
+      "lemma": "dit",
+      "pos": "pronoun",
+      "meaning": "this",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "iets",
+      "lemma": "iets",
+      "pos": "pronoun",
+      "meaning": "something",
+      "new": false
+    },
+    {
+      "form": "Eindelijk",
+      "lemma": "eindelijk",
+      "pos": "adverb",
+      "meaning": "finally",
+      "new": true
+    },
+    {
+      "form": "sneller",
+      "lemma": "snel",
+      "pos": "adjective",
+      "meaning": "faster",
+      "new": false
+    },
+    {
+      "form": "deur",
+      "lemma": "deur",
+      "pos": "noun",
+      "meaning": "door",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "Nee",
+      "lemma": "nee",
+      "pos": "interjection",
+      "meaning": "no",
+      "new": false
+    },
+    {
+      "form": "roept",
+      "lemma": "roepen",
+      "pos": "verb",
+      "meaning": "calls / shouts",
+      "new": false
+    },
+    {
+      "form": "achter",
+      "lemma": "achter",
+      "pos": "preposition",
+      "meaning": "behind",
+      "new": false
+    },
+    {
+      "form": "wacht",
+      "lemma": "wachten",
+      "pos": "verb",
+      "meaning": "waits",
+      "new": false
+    },
+    {
+      "form": "bek",
+      "lemma": "bek",
+      "pos": "noun",
+      "meaning": "mouth / muzzle",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "Geef",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "give",
+      "new": false
+    },
+    {
+      "form": "laat",
+      "lemma": "laten",
+      "pos": "verb",
+      "meaning": "lets",
+      "new": false
+    },
+    {
+      "form": "los",
+      "lemma": "los",
+      "pos": "adjective",
+      "meaning": "loose",
+      "new": false
+    },
+    {
+      "form": "Oké",
+      "lemma": "oké",
+      "pos": "interjection",
+      "meaning": "okay",
+      "new": false
+    },
+    {
+      "form": "jij",
+      "lemma": "jij",
+      "pos": "pronoun",
+      "meaning": "you",
+      "new": false
+    },
+    {
+      "form": "hebt",
+      "lemma": "hebben",
+      "pos": "verb",
+      "meaning": "have",
+      "new": false
+    },
+    {
+      "form": "gewonnen",
+      "lemma": "winnen",
+      "pos": "verb",
+      "meaning": "won",
+      "new": false
+    },
+    {
+      "form": "grappig",
+      "lemma": "grappig",
+      "pos": "adjective",
+      "meaning": "funny",
+      "new": false
+    },
+    {
+      "form": "meer",
+      "lemma": "meer",
+      "pos": "adverb",
+      "meaning": "more",
+      "new": false
+    },
+    {
+      "form": "boos",
+      "lemma": "boos",
+      "pos": "adjective",
+      "meaning": "angry",
+      "new": false
+    },
+    {
+      "form": "Waarom",
+      "lemma": "waarom",
+      "pos": "adverb",
+      "meaning": "why",
+      "new": false
+    },
+    {
+      "form": "dat",
+      "lemma": "dat",
+      "pos": "pronoun",
+      "meaning": "that",
+      "new": false
+    },
+    {
+      "form": "was",
+      "lemma": "zijn",
+      "pos": "verb",
+      "meaning": "was",
+      "new": false
+    },
+    {
+      "form": "hem",
+      "lemma": "hem",
+      "pos": "pronoun",
+      "meaning": "him",
+      "new": false
+    },
+    {
+      "form": "Dank",
+      "lemma": "dank",
+      "pos": "interjection",
+      "meaning": "thanks",
+      "new": false
+    },
+    {
+      "form": "blaft",
+      "lemma": "blaffen",
+      "pos": "verb",
+      "meaning": "barks",
+      "new": false
+    },
+    {
+      "form": "Samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "go",
+      "new": false
+    },
+    {
+      "form": "ze",
+      "lemma": "ze",
+      "pos": "pronoun",
+      "meaning": "they",
+      "new": false
+    },
+    {
+      "form": "thuis",
+      "lemma": "thuis",
+      "pos": "adverb",
+      "meaning": "at home",
+      "new": false
+    },
+    {
+      "form": "heel",
+      "lemma": "heel",
+      "pos": "adjective",
+      "meaning": "whole / very",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy",
+      "new": false
+    },
+    {
+      "form": "aai",
+      "lemma": "aai",
+      "pos": "noun",
+      "meaning": "pat / stroke",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "over",
+      "lemma": "over",
+      "pos": "preposition",
+      "meaning": "over",
+      "new": false
+    },
+    {
+      "form": "kop",
+      "lemma": "kop",
+      "pos": "noun",
+      "meaning": "head",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "trots",
+      "lemma": "trots",
+      "pos": "adjective",
+      "meaning": "proud",
+      "new": false
+    },
+    {
+      "form": "naast",
+      "lemma": "naast",
+      "pos": "preposition",
+      "meaning": "next to",
+      "new": false
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "rode",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red (inflected)",
+      "new": false
+    },
+    {
+      "form": "Het",
+      "lemma": "het",
+      "pos": "article",
+      "meaning": "it",
+      "new": false,
+      "occurrence": 1
+    },
+    {
+      "form": "aan",
+      "lemma": "aan",
+      "pos": "preposition",
+      "meaning": "after",
+      "new": false,
+      "occurrence": 2
+    },
+    {
+      "form": "aan",
+      "lemma": "aan",
+      "pos": "preposition",
+      "meaning": "after",
+      "new": false,
+      "occurrence": 3
+    },
+    {
+      "form": "willen",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want",
+      "new": false
+    },
+    {
+      "form": "zoeken",
+      "lemma": "zoeken",
+      "pos": "verb",
+      "meaning": "to look for",
+      "new": true
+    },
+    {
+      "form": "vragen",
+      "lemma": "vragen",
+      "pos": "verb",
+      "meaning": "to ask",
+      "new": true
+    },
+    {
+      "form": "zitten",
+      "lemma": "zitten",
+      "pos": "verb",
+      "meaning": "to sit",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "lachen",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "to laugh",
+      "new": true
+    },
+    {
+      "form": "vinden",
+      "lemma": "vinden",
+      "pos": "verb",
+      "meaning": "to find",
+      "new": true
+    },
+    {
+      "form": "opendoen",
+      "lemma": "opendoen",
+      "pos": "verb",
+      "meaning": "to open",
+      "new": true
+    },
+    {
+      "form": "leggen",
+      "lemma": "leggen",
+      "pos": "verb",
+      "meaning": "to put / lay",
+      "new": true
+    },
+    {
+      "form": "zeggen",
+      "lemma": "zeggen",
+      "pos": "verb",
+      "meaning": "to say",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "zuchten",
+      "lemma": "zuchten",
+      "pos": "verb",
+      "meaning": "to sigh",
+      "new": false
+    },
+    {
+      "form": "helpen",
+      "lemma": "helpen",
+      "pos": "verb",
+      "meaning": "to help",
+      "new": false
+    },
+    {
+      "form": "tillen",
+      "lemma": "tillen",
+      "pos": "verb",
+      "meaning": "to lift",
+      "new": false
+    },
+    {
+      "form": "liggen",
+      "lemma": "liggen",
+      "pos": "verb",
+      "meaning": "to lie",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "kwispelen",
+      "lemma": "kwispelen",
+      "pos": "verb",
+      "meaning": "to wag",
+      "new": false
+    },
+    {
+      "form": "horen",
+      "lemma": "horen",
+      "pos": "verb",
+      "meaning": "to hear",
+      "new": false
+    },
+    {
+      "form": "staan",
+      "lemma": "staan",
+      "pos": "verb",
+      "meaning": "to stand",
+      "new": false
+    },
+    {
+      "form": "maken",
+      "lemma": "maken",
+      "pos": "verb",
+      "meaning": "to make",
+      "new": false
+    },
+    {
+      "form": "geven",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give",
+      "new": false
+    },
+    {
+      "form": "worden",
+      "lemma": "worden",
+      "pos": "verb",
+      "meaning": "to become",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "snel",
+      "lemma": "snel",
+      "pos": "adjective",
+      "meaning": "fast",
+      "new": false
+    },
+    {
+      "form": "roepen",
+      "lemma": "roepen",
+      "pos": "verb",
+      "meaning": "to call / shout",
+      "new": false
+    },
+    {
+      "form": "wachten",
+      "lemma": "wachten",
+      "pos": "verb",
+      "meaning": "to wait",
+      "new": false
+    },
+    {
+      "form": "laten",
+      "lemma": "laten",
+      "pos": "verb",
+      "meaning": "to let",
+      "new": false
+    },
+    {
+      "form": "winnen",
+      "lemma": "winnen",
+      "pos": "verb",
+      "meaning": "to win",
+      "new": false
+    },
+    {
+      "form": "blaffen",
+      "lemma": "blaffen",
+      "pos": "verb",
+      "meaning": "to bark",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+import { Theme } from "../theme.slint";
+
+export component PrimaryButton inherits Rectangle {
+    in property <string> text;
+    in property <bool> enabled: true;
+    in property <bool> danger: false;
+    callback clicked();
+
+    height: 58px;
+    border-radius: Theme.radius-md;
+    background: !root.enabled
+        ? Theme.surface-alt
+        : (ta.pressed
+            ? (root.danger ? Theme.danger-pressed : Theme.accent-pressed)
+            : (root.danger ? Theme.danger : Theme.accent));
+    opacity: root.enabled ? 1 : 0.7;
+
+    Text {
+        width: parent.width;
+        height: parent.height;
+        text: root.text;
+        color: root.enabled
+            ? (root.danger ? Theme.on-danger : Theme.on-accent)
+            : Theme.muted;
+        font-family: Theme.font-ui;
+        font-size: Theme.body-large;
+        font-weight: 700;
+        horizontal-alignment: center;
+        vertical-alignment: center;
+    }
+
+    ta := TouchArea {
+        enabled: root.enabled;
+        clicked => { root.clicked(); }
+    }
+}
+
+export component SecondaryButton inherits Rectangle {
+    in property <string> text;
+    in property <bool> selected: false;
+    in property <bool> enabled: true;
+    callback clicked();
+
+    height: 46px;
+    border-radius: Theme.radius-sm;
+    background: !root.enabled
+        ? Theme.surface-alt
+        : (ta.pressed ? Theme.surface-alt : (root.selected ? Theme.accent-soft : Theme.surface));
+    border-width: 1px;
+    border-color: !root.enabled
+        ? Theme.border
+        : (root.selected ? Theme.accent : Theme.border);
+    opacity: root.enabled ? 1 : 0.6;
+
+    Text {
+        width: parent.width;
+        height: parent.height;
+        text: root.text;
+        color: !root.enabled
+            ? Theme.muted
+            : (root.selected ? Theme.accent : Theme.text);
+        font-family: Theme.font-ui;
+        font-size: 14px;
+        font-weight: 600;
+        horizontal-alignment: center;
+        vertical-alignment: center;
+        overflow: elide;
+    }
+
+    ta := TouchArea {
+        enabled: root.enabled;
+        clicked => { root.clicked(); }
+    }
+}

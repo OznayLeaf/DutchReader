@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- An open book: the DutchReader placeholder icon. -->
+    <path
+        android:fillColor="#FFF8F0"
+        android:pathData="M31,36 L52,40 L52,74 L31,70 Z" />
+    <path
+        android:fillColor="#F2E8D8"
+        android:pathData="M77,36 L56,40 L56,74 L77,70 Z" />
+    <path
+        android:strokeColor="#1E3A32"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M54,40 L54,74" />
+    <path
+        android:strokeColor="#1E3A32"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M36,45 L47,47 M36,52 L47,54 M36,59 L47,61 M61,47 L72,45 M61,54 L72,52 M61,61 L72,59" />
+</vector>

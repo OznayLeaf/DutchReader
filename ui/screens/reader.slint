@@ -1,0 +1,507 @@
+import { ScrollView } from "std-widgets.slint";
+import { Theme } from "../theme.slint";
+
+// One word positioned by the Rust layout. Slint has no flow layout with
+// per-word hit-testing, so every word is its own Text element at an absolute
+// position. This keeps glyphs, underlines, and tap targets aligned even when
+// Slint's shaper rounds advances slightly differently from ab_glyph.
+export struct ReaderWord {
+    text: string,
+    x: length,
+    y: length,
+    width: length,
+    height: length,
+}
+
+// A new-word underline or a sentence highlight segment.
+export struct ReaderMark {
+    x: length,
+    y: length,
+    width: length,
+    height: length,
+    sentence: int,
+}
+
+export component ReaderScreen inherits Rectangle {
+    in property <string> title: "";
+    in property <string> level: "A1";
+    in property <int> page-index: 0;
+    in property <int> page-count: 1;
+    in property <string> page-label: "Page 1 of 1";
+    in property <[ReaderWord]> words;
+    in property <[ReaderMark]> underlines;
+    in property <[ReaderMark]> sentence-marks;
+    in property <length> font-size: 18px;
+    in property <length> line-height: 27px;
+    in property <bool> overlay-visible: true;
+    in property <bool> tts-active: false;
+    in property <int> tts-sentence: -1;
+    in property <bool> completed: false;
+    in property <bool> popup-visible: false;
+    in property <bool> popup-loading: false;
+    in property <string> popup-word: "";
+    in property <string> popup-article: "";
+    in property <string> popup-meaning: "";
+    in property <string> popup-base: "";
+    in property <string> popup-source: "";
+    in property <string> popup-note: "";
+    in property <bool> toast-visible: false;
+    in property <string> toast-text: "";
+    in property <length> top-inset: 0px;
+    in property <length> bottom-inset: 0px;
+
+    callback back();
+    callback tap-reader(float, float);
+    callback next-page();
+    callback previous-page();
+    callback toggle-tts();
+    callback close-popup();
+
+    // The dimensions Rust uses for layout. They are also what the reader draws
+    // into, so the word rectangles always line up with the visible text.
+    private property <length> margin-x: 26px;
+    private property <length> content-top: root.top-inset + 64px;
+    private property <length> content-bottom: root.bottom-inset + 52px;
+    out property <length> content-width: max(0px, root.width - 2 * root.margin-x);
+    out property <length> content-height: max(0px, root.height - root.content-top - root.content-bottom);
+
+    background: Theme.bg;
+
+    // ---- page content ------------------------------------------------------
+    page := Rectangle {
+        width: root.width;
+        height: root.height;
+
+        // Text viewport. Coordinates are relative to this rectangle, matching
+        // the Rust layout's word boxes exactly.
+        Rectangle {
+            x: root.margin-x;
+            y: root.content-top;
+            width: root.content-width;
+            height: root.content-height;
+            clip: true;
+
+            // Current sentence highlight (behind the text).
+            for mark in root.sentence-marks : Rectangle {
+                visible: root.tts-active && mark.sentence == root.tts-sentence;
+                x: mark.x;
+                y: mark.y;
+                width: mark.width;
+                height: mark.height;
+                border-radius: 4px;
+                background: Theme.accent-soft;
+                opacity: 0.7;
+            }
+
+            // One Text per word at the exact measured position. The width
+            // reaches to the right edge of the text viewport so Slint's shaper
+            // can never clip a long word, even if it is a hair wider than
+            // ab_glyph measured.
+            for word in root.words : Text {
+                x: word.x;
+                y: word.y;
+                width: max(word.width + 12px, parent.width - word.x);
+                height: word.height;
+                text: word.text;
+                color: Theme.text;
+                font-family: Theme.font-serif;
+                font-size: root.font-size;
+                vertical-alignment: top;
+                wrap: no-wrap;
+            }
+
+            // New-word marking: a quiet accent underline, never a colour that
+            // competes with the text in either theme.
+            for mark in root.underlines : Rectangle {
+                x: mark.x;
+                y: mark.y;
+                width: mark.width;
+                height: 2px;
+                border-radius: 1px;
+                background: Theme.accent;
+                opacity: 0.55;
+            }
+        }
+
+        // Word hit-test first, then the left/middle/right zones, all decided in
+        // Rust from these coordinates. This covers the whole page, not just the
+        // text column, so tapping a margin still turns the page or toggles the
+        // overlay. Coordinates are converted back into the text viewport's
+        // space, which is what Rust's hit-testing expects.
+        TouchArea {
+            property <bool> pressed-here: false;
+            pointer-event(event) => {
+                if (event.kind == PointerEventKind.down) {
+                    self.pressed-here = true;
+                } else if (event.kind == PointerEventKind.up) {
+                    if (self.pressed-here) {
+                        root.tap-reader(
+                            self.mouse-x / 1px - root.margin-x / 1px,
+                            self.mouse-y / 1px - root.content-top / 1px
+                        );
+                    }
+                    self.pressed-here = false;
+                } else if (event.kind == PointerEventKind.cancel) {
+                    self.pressed-here = false;
+                }
+            }
+        }
+    }
+
+    // ---- persistent page number -------------------------------------------
+    Text {
+        x: 0;
+        y: root.height - root.bottom-inset - 28px;
+        width: root.width;
+        height: 20px;
+        text: root.page-label;
+        color: Theme.muted;
+        opacity: root.overlay-visible ? 0 : 0.7;
+        font-family: Theme.font-ui;
+        font-size: 12px;
+        horizontal-alignment: center;
+        vertical-alignment: center;
+    }
+
+    // ---- top overlay -------------------------------------------------------
+    Rectangle {
+        x: 0;
+        y: 0;
+        width: root.width;
+        height: root.top-inset + 58px;
+        opacity: root.overlay-visible ? 1 : 0;
+        background: @linear-gradient(180deg, Theme.bg 68%, Theme.bg.with-alpha(0));
+
+        // Back
+        Rectangle {
+            x: 16px;
+            y: root.top-inset + 10px;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            background: Theme.surface;
+            border-width: 1px;
+            border-color: Theme.border;
+            Text {
+                width: parent.width;
+                height: parent.height;
+                text: "←";
+                color: Theme.text;
+                font-family: Theme.font-ui;
+                font-size: 20px;
+                horizontal-alignment: center;
+                vertical-alignment: center;
+            }
+            TouchArea {
+                enabled: root.overlay-visible;
+                clicked => { root.back(); }
+            }
+        }
+
+        // Title
+        Text {
+            x: 66px;
+            y: root.top-inset + 10px;
+            width: max(0px, root.width - 66px - 102px);
+            height: 40px;
+            text: root.level + " · " + root.title;
+            color: Theme.text;
+            font-family: Theme.font-serif;
+            font-size: 17px;
+            font-weight: 600;
+            vertical-alignment: center;
+            overflow: elide;
+        }
+
+        // Listen / Stop
+        Rectangle {
+            x: root.width - 94px;
+            y: root.top-inset + 12px;
+            width: 78px;
+            height: 36px;
+            border-radius: 18px;
+            background: root.tts-active ? Theme.accent : Theme.surface;
+            border-width: 1px;
+            border-color: root.tts-active ? Theme.accent : Theme.border;
+            Text {
+                width: parent.width;
+                height: parent.height;
+                text: root.tts-active ? "Stop" : "Listen";
+                color: root.tts-active ? Theme.on-accent : Theme.text;
+                font-family: Theme.font-ui;
+                font-size: 13px;
+                font-weight: 700;
+                horizontal-alignment: center;
+                vertical-alignment: center;
+            }
+            TouchArea {
+                enabled: root.overlay-visible;
+                clicked => { root.toggle-tts(); }
+            }
+        }
+    }
+
+    // ---- bottom overlay ----------------------------------------------------
+    Rectangle {
+        x: 0;
+        y: root.height - root.bottom-inset - 52px;
+        width: root.width;
+        height: root.bottom-inset + 52px;
+        opacity: root.overlay-visible ? 1 : 0;
+        background: @linear-gradient(0deg, Theme.bg 70%, Theme.bg.with-alpha(0));
+
+        Rectangle {
+            x: 16px;
+            y: 8px;
+            width: 44px;
+            height: 36px;
+            border-radius: 18px;
+            background: Theme.surface;
+            border-width: 1px;
+            border-color: Theme.border;
+            opacity: root.page-index > 0 ? 1 : 0.35;
+            Text {
+                width: parent.width;
+                height: parent.height;
+                text: "‹";
+                color: Theme.text;
+                font-family: Theme.font-ui;
+                font-size: 24px;
+                horizontal-alignment: center;
+                vertical-alignment: center;
+            }
+            TouchArea {
+                enabled: root.overlay-visible && root.page-index > 0;
+                clicked => { root.previous-page(); }
+            }
+        }
+
+        Text {
+            x: 0;
+            y: 8px;
+            width: root.width;
+            height: 36px;
+            text: root.completed ? root.page-label + "  ·  completed" : root.page-label;
+            color: root.completed ? Theme.success : Theme.muted;
+            font-family: Theme.font-ui;
+            font-size: 13px;
+            font-weight: 600;
+            horizontal-alignment: center;
+            vertical-alignment: center;
+        }
+
+        Rectangle {
+            x: root.width - 60px;
+            y: 8px;
+            width: 44px;
+            height: 36px;
+            border-radius: 18px;
+            background: Theme.surface;
+            border-width: 1px;
+            border-color: Theme.border;
+            opacity: root.page-index < root.page-count - 1 ? 1 : 0.35;
+            Text {
+                width: parent.width;
+                height: parent.height;
+                text: "›";
+                color: Theme.text;
+                font-family: Theme.font-ui;
+                font-size: 24px;
+                horizontal-alignment: center;
+                vertical-alignment: center;
+            }
+            TouchArea {
+                enabled: root.overlay-visible && root.page-index < root.page-count - 1;
+                clicked => { root.next-page(); }
+            }
+        }
+    }
+
+    // ---- toast -------------------------------------------------------------
+    Rectangle {
+        x: 20px;
+        width: root.width - 40px;
+        height: toast-text.preferred-height + 24px;
+        y: root.height - root.bottom-inset - 70px - self.height;
+        border-radius: 14px;
+        background: Theme.dark ? #2b2a28f2 : #241f1af2;
+        opacity: root.toast-visible ? 1 : 0;
+
+        toast-text := Text {
+            x: 14px;
+            y: 12px;
+            width: parent.width - 28px;
+            height: parent.height - 24px;
+            text: root.toast-text;
+            color: #f4eee4;
+            font-family: Theme.font-ui;
+            font-size: 14px;
+            wrap: word-wrap;
+            vertical-alignment: center;
+        }
+    }
+
+    // ---- lookup scrim + bottom sheet --------------------------------------
+    Rectangle {
+        x: 0;
+        y: 0;
+        width: root.width;
+        height: root.height;
+        background: #000000;
+        opacity: root.popup-visible ? 0.38 : 0;
+        TouchArea {
+            enabled: root.popup-visible;
+            clicked => { root.close-popup(); }
+        }
+    }
+
+    // The sheet grows with its content but never past the safe area. Long
+    // meanings or fallback notes scroll instead of being cut off by the screen
+    // edge.
+    private property <length> sheet-max-height: max(220px, root.height - root.top-inset - 96px);
+    private property <length> sheet-height: min(
+        sheet-content.preferred-height + 36px,
+        root.sheet-max-height
+    );
+
+    sheet := Rectangle {
+        x: 0;
+        y: root.popup-visible ? root.height - root.sheet-height : root.height;
+        width: root.width;
+        height: root.sheet-height;
+        border-radius: 22px;
+        background: Theme.surface;
+        clip: true;
+        drop-shadow-blur: 18px;
+        drop-shadow-color: #00000040;
+
+        // Blocks taps so the scrim does not close the sheet from underneath.
+        TouchArea {
+            width: parent.width;
+            height: parent.height;
+            clicked => { }
+        }
+
+        ScrollView {
+            x: 20px;
+            y: 18px;
+            width: parent.width - 40px;
+            height: parent.height - 36px;
+            content-width: self.width;
+            mouse-drag-pan-enabled: true;
+
+            sheet-content := VerticalLayout {
+                width: parent.width;
+                spacing: 10px;
+
+            HorizontalLayout {
+                spacing: 8px;
+
+                Text {
+                    text: root.popup-article == ""
+                        ? root.popup-word
+                        : root.popup-article + " " + root.popup-word;
+                    color: Theme.text;
+                    font-family: Theme.font-serif;
+                    font-size: 30px;
+                    font-weight: 700;
+                    horizontal-stretch: 1;
+                    vertical-alignment: center;
+                    wrap: word-wrap;
+                }
+
+                Rectangle {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 16px;
+                    background: Theme.surface-alt;
+                    Text {
+                        width: parent.width;
+                        height: parent.height;
+                        text: "×";
+                        color: Theme.muted;
+                        font-family: Theme.font-ui;
+                        font-size: 22px;
+                        horizontal-alignment: center;
+                        vertical-alignment: center;
+                    }
+                    TouchArea {
+                        clicked => { root.close-popup(); }
+                    }
+                }
+            }
+
+            if root.popup-source != "" : Rectangle {
+                width: source-label.preferred-width + 20px;
+                height: 26px;
+                border-radius: 13px;
+                background: Theme.accent-soft;
+                source-label := Text {
+                    x: 10px;
+                    y: 0;
+                    width: parent.width - 20px;
+                    height: parent.height;
+                    text: root.popup-source;
+                    color: Theme.accent;
+                    font-family: Theme.font-ui;
+                    font-size: 11px;
+                    font-weight: 700;
+                    vertical-alignment: center;
+                }
+            }
+
+            if root.popup-loading : HorizontalLayout {
+                spacing: 9px;
+                alignment: center;
+
+                Rectangle {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 4px;
+                    background: Theme.accent;
+                    opacity: 0.7;
+                }
+                Text {
+                    text: "Looking up online…";
+                    color: Theme.muted;
+                    font-family: Theme.font-ui;
+                    font-size: 15px;
+                }
+            }
+
+            if !root.popup-loading : Text {
+                text: root.popup-meaning;
+                color: Theme.text;
+                font-family: Theme.font-ui;
+                font-size: 16px;
+                wrap: word-wrap;
+            }
+
+            if root.popup-base != "" : Text {
+                text: root.popup-base;
+                color: Theme.muted;
+                font-family: Theme.font-ui;
+                font-size: 13px;
+                wrap: word-wrap;
+            }
+
+            if root.popup-note != "" : Rectangle {
+                height: note-text.preferred-height + 20px;
+                border-radius: 10px;
+                background: Theme.accent-soft;
+
+                note-text := Text {
+                    x: 12px;
+                    y: 10px;
+                    width: parent.width - 24px;
+                    text: root.popup-note;
+                    color: Theme.accent;
+                    font-family: Theme.font-ui;
+                    font-size: 13px;
+                    wrap: word-wrap;
+                }
+            }
+            }
+        }
+    }
+}

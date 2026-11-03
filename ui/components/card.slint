@@ -1,0 +1,20 @@
+import { Theme } from "../theme.slint";
+
+// A rounded surface used by cards and list rows. Children are laid out
+// vertically with the standard card padding.
+export component Card inherits Rectangle {
+    in property <length> pad: Theme.space-md;
+
+    background: Theme.surface;
+    border-radius: Theme.radius-lg;
+    border-width: 1px;
+    border-color: Theme.border;
+    drop-shadow-blur: 10px;
+    drop-shadow-color: Theme.dark ? #00000040 : #4a382010;
+    drop-shadow-offset-y: 3px;
+
+    VerticalLayout {
+        padding: root.pad;
+        @children
+    }
+}
