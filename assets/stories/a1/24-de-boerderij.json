@@ -1,0 +1,489 @@
+{
+  "id": "a1-24",
+  "level": "A1",
+  "order": 24,
+  "title": "De boerderij",
+  "blurb_nl": "Sam en Noor bezoeken de boerderij. De boer voert de koeien en de kippen.",
+  "blurb_en": "Sam and Noor visit the farm. The farmer feeds the cows and the chickens.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam en Noor zijn op de boerderij. De boerderij is groot.",
+    "De boerderij is landelijk. De boerderij is niet vies.",
+    "De boer komt. De boer is blij.",
+    "Sam ziet een koe. De koe is groot. De koe is bruin.",
+    "Noor ziet een schaap. Het schaap is klein. Het schaap is tam.",
+    "Sam ziet een kip. De kip is klein. De kip is bruin.",
+    "Noor ziet een paard. Het paard is groot. Het paard is bruin.",
+    "Sam ziet een varken. Het varken is groot. Het varken is niet vies.",
+    "Noor ziet een geit. De geit is klein. De geit is tam.",
+    "De boer voert de koe. De boer voert het schaap.",
+    "Sam voert de kip. Noor voert het paard.",
+    "De boer melkt de koe. Sam melkt de koe. Noor melkt de koe.",
+    "De boer ploegt. Sam ploegt. Noor ploegt.",
+    "De boer hooit. Sam hooit. Noor hooit.",
+    "De boer leidt het paard. Sam leidt het paard. Noor leidt het paard.",
+    "Sam borstelt het paard. Noor borstelt het paard.",
+    "Het paard is tam. De koe is tam. De geit is tam.",
+    "De boerderij is landelijk. De tuin is landelijk.",
+    "De koe is bruin. Het paard is bruin. De kip is bruin.",
+    "Het varken is niet vies. De boerderij is niet vies.",
+    "We voeren de koe dagelijks. We voeren het paard dagelijks.",
+    "We melken de koe dagelijks. We borstelen het paard dagelijks.",
+    "We zijn zelden op de boerderij. We zijn zelden in de tuin.",
+    "We zijn op de boerderij.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We gaan naar de boerderij.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam loopt naar de boerderij.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "De boerderij is groot.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "De boer komt.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We zien de boer.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "De boer is hier.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "We zien de koe.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "We lopen met de hond. We lopen met de bal.",
+    "Sam ziet de koe.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Noor ziet de koe.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "We kijken naar de koe.",
+    "Sam komt. Noor komt. Bo komt.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "We zien het schaap.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "Sam ziet het schaap.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Noor ziet het schaap.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We kijken naar het schaap.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "We zien de kip.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "Sam ziet de kip.",
+    "We spelen in de tuin. We zijn blij.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Noor ziet de kip.",
+    "We zijn samen. We zijn blij. De boerderij is groot.",
+    "Hallo, boer! Hallo, koe! Hallo, paard!",
+    "We zijn altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "boerderij",
+    "boer",
+    "koe",
+    "schaap",
+    "kip",
+    "paard",
+    "varken",
+    "geit",
+    "voeren",
+    "melken",
+    "ploegen",
+    "hooien",
+    "leiden",
+    "borstelen",
+    "landelijk",
+    "tam",
+    "bruin",
+    "vies",
+    "dagelijks",
+    "zelden"
+  ],
+  "glossary": [
+    {
+      "form": "boerderij",
+      "lemma": "boerderij",
+      "pos": "noun",
+      "meaning": "farm",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "boer",
+      "lemma": "boer",
+      "pos": "noun",
+      "meaning": "farmer",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "koe",
+      "lemma": "koe",
+      "pos": "noun",
+      "meaning": "cow",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "schaap",
+      "lemma": "schaap",
+      "pos": "noun",
+      "meaning": "sheep",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "kip",
+      "lemma": "kip",
+      "pos": "noun",
+      "meaning": "chicken",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "paard",
+      "lemma": "paard",
+      "pos": "noun",
+      "meaning": "horse",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "varken",
+      "lemma": "varken",
+      "pos": "noun",
+      "meaning": "pig",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "geit",
+      "lemma": "geit",
+      "pos": "noun",
+      "meaning": "goat",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "voeren",
+      "lemma": "voeren",
+      "pos": "verb",
+      "meaning": "to feed",
+      "new": true
+    },
+    {
+      "form": "melken",
+      "lemma": "melken",
+      "pos": "verb",
+      "meaning": "to milk",
+      "new": true
+    },
+    {
+      "form": "ploegen",
+      "lemma": "ploegen",
+      "pos": "verb",
+      "meaning": "to plough",
+      "new": true
+    },
+    {
+      "form": "hooien",
+      "lemma": "hooien",
+      "pos": "verb",
+      "meaning": "to make hay",
+      "new": true
+    },
+    {
+      "form": "leiden",
+      "lemma": "leiden",
+      "pos": "verb",
+      "meaning": "to lead",
+      "new": true
+    },
+    {
+      "form": "borstelen",
+      "lemma": "borstelen",
+      "pos": "verb",
+      "meaning": "to brush",
+      "new": true
+    },
+    {
+      "form": "landelijk",
+      "lemma": "landelijk",
+      "pos": "adjective",
+      "meaning": "rural",
+      "new": true
+    },
+    {
+      "form": "tam",
+      "lemma": "tam",
+      "pos": "adjective",
+      "meaning": "tame",
+      "new": true
+    },
+    {
+      "form": "bruin",
+      "lemma": "bruin",
+      "pos": "adjective",
+      "meaning": "brown",
+      "new": true
+    },
+    {
+      "form": "vies",
+      "lemma": "vies",
+      "pos": "adjective",
+      "meaning": "dirty",
+      "new": true
+    },
+    {
+      "form": "dagelijks",
+      "lemma": "dagelijks",
+      "pos": "adverb",
+      "meaning": "daily",
+      "new": true
+    },
+    {
+      "form": "zelden",
+      "lemma": "zelden",
+      "pos": "adverb",
+      "meaning": "rarely",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "voert",
+      "lemma": "voeren",
+      "pos": "verb",
+      "meaning": "feeds",
+      "new": true
+    },
+    {
+      "form": "melkt",
+      "lemma": "melken",
+      "pos": "verb",
+      "meaning": "milks",
+      "new": true
+    },
+    {
+      "form": "ploegt",
+      "lemma": "ploegen",
+      "pos": "verb",
+      "meaning": "ploughs",
+      "new": true
+    },
+    {
+      "form": "hooit",
+      "lemma": "hooien",
+      "pos": "verb",
+      "meaning": "makes hay",
+      "new": true
+    },
+    {
+      "form": "leidt",
+      "lemma": "leiden",
+      "pos": "verb",
+      "meaning": "leads",
+      "new": true
+    },
+    {
+      "form": "borstelt",
+      "lemma": "borstelen",
+      "pos": "verb",
+      "meaning": "brushes",
+      "new": true
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    }
+  ]
+}

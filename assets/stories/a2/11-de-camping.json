@@ -1,0 +1,653 @@
+{
+  "id": "a2-11",
+  "level": "A2",
+  "order": 11,
+  "title": "De camping",
+  "blurb_nl": "Sam en Noor gaan kamperen. De tent is nat en de lamp doet het niet. Dan komt de buurman.",
+  "blurb_en": "Sam and Noor go camping. The tent is wet and the lamp does not work. Then the neighbour comes.",
+  "sections": [
+    "Sam en Noor gaan kamperen.",
+    "De camping is afgelegen.",
+    "De plek is mooi. De plek is afgelegen.",
+    "Sam zoekt een plek.",
+    "De plek is knus.",
+    "Sam installeert de tent.",
+    "De tentstok is stuk.",
+    "Sam pakt de tentstok.",
+    "Noor installeert de lantaarn.",
+    "De lantaarn is stuk.",
+    "Sam pakt de lantaarn.",
+    "Het gasstel is oud.",
+    "Sam installeert het gasstel.",
+    "De koelbox is vol.",
+    "Noor pakt de koelbox.",
+    "De slaapzak is nat.",
+    "Sam pakt de slaapzak.",
+    "De camping is primitief.",
+    "De camping is avontuurlijk.",
+    "Sam verkent de camping.",
+    "Noor verkent de camping.",
+    "Overdag is het heet.",
+    "Overdag verkent Sam de camping.",
+    "Sam ontsteekt het kampvuur.",
+    "Het kampvuur is heet.",
+    "Noor ontsteekt de lantaarn.",
+    "De lantaarn is goed.",
+    "Daarnaast is de camping mooi.",
+    "Daarnaast is de tent knus.",
+    "De tent is knus.",
+    "Sam overleeft.",
+    "Noor overleeft.",
+    "Sam blust het kampvuur.",
+    "Noor blust het kampvuur.",
+    "Sam demonteert de tent.",
+    "Noor demonteert het gasstel.",
+    "De camping is goed.",
+    "Sam en Noor gaan naar huis.",
+    "De wandelaar is avontuurlijk.",
+    "De plek is primitief.",
+    "De tent is goed.",
+    "Overdag is de camping mooi.",
+    "Daarnaast is de plek afgelegen.",
+    "Sam en Noor lachen.",
+    "De camping is knus.",
+    "Het kampvuur is niet heet.",
+    "De lantaarn is niet stuk.",
+    "De slaapzak is droog.",
+    "De koelbox is niet vol.",
+    "Sam en Noor zijn blij.",
+    "De camping is afgelegen, maar de plek is knus.",
+    "Sam overleeft.",
+    "Sam ziet de slaapzak.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet de slaapzak.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "De slaapzak is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet de camping.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet de camping.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "De camping is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet de plek.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet de plek.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "De plek is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet het kampvuur.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Noor ziet het kampvuur.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "We spelen in de tuin. We zijn blij.",
+    "Het kampvuur is hier.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Bo pakt de bal. Bo is blij.",
+    "We pakken de bal. We zijn blij.",
+    "Sam ziet de lantaarn.",
+    "Sam geeft de bal aan Noor. Noor is blij.",
+    "Noor geeft de bal aan Sam. Sam is blij.",
+    "Sam geeft de bal aan Bo. Bo is blij.",
+    "Noor ziet de lantaarn.",
+    "Bo geeft de bal aan Sam. Sam is blij.",
+    "We geven de bal aan de hond. We zijn blij.",
+    "Sam heeft de bal. Noor heeft de bal.",
+    "De lantaarn is hier.",
+    "Bo heeft de bal. Bo is blij.",
+    "We hebben de bal. We zijn blij.",
+    "Sam wil de hond zien. Noor wil de bal zien.",
+    "Sam ziet de koelbox.",
+    "We willen de hond zien. We zijn blij.",
+    "Sam ziet de hond. Noor ziet de bal.",
+    "Bo ziet Sam. Bo is blij.",
+    "Noor ziet de koelbox.",
+    "We zien de hond. We zien de bal.",
+    "We zien Sam en Noor. We zijn blij.",
+    "Noor overleeft.",
+    "De tent is droog.",
+    "De camping is mooi."
+  ],
+  "new_words": [
+    "slaapzak",
+    "camping",
+    "plek",
+    "kampvuur",
+    "lantaarn",
+    "koelbox",
+    "gasstel",
+    "tentstok",
+    "installeren",
+    "demonteren",
+    "ontsteken",
+    "blussen",
+    "verkennen",
+    "overleven",
+    "knus",
+    "afgelegen",
+    "avontuurlijk",
+    "primitief",
+    "overdag",
+    "daarnaast"
+  ],
+  "glossary": [
+    {
+      "form": "slaapzak",
+      "lemma": "slaapzak",
+      "pos": "noun",
+      "meaning": "sleeping bag",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "camping",
+      "lemma": "camping",
+      "pos": "noun",
+      "meaning": "campsite",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "plek",
+      "lemma": "plek",
+      "pos": "noun",
+      "meaning": "spot",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "kampvuur",
+      "lemma": "kampvuur",
+      "pos": "noun",
+      "meaning": "campfire",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "lantaarn",
+      "lemma": "lantaarn",
+      "pos": "noun",
+      "meaning": "lantern",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "koelbox",
+      "lemma": "koelbox",
+      "pos": "noun",
+      "meaning": "cool box",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "gasstel",
+      "lemma": "gasstel",
+      "pos": "noun",
+      "meaning": "camping stove",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "tentstok",
+      "lemma": "tentstok",
+      "pos": "noun",
+      "meaning": "tent pole",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "installeren",
+      "lemma": "installeren",
+      "pos": "verb",
+      "meaning": "to install",
+      "new": true
+    },
+    {
+      "form": "demonteren",
+      "lemma": "demonteren",
+      "pos": "verb",
+      "meaning": "to dismantle",
+      "new": true
+    },
+    {
+      "form": "ontsteken",
+      "lemma": "ontsteken",
+      "pos": "verb",
+      "meaning": "to ignite",
+      "new": true
+    },
+    {
+      "form": "blussen",
+      "lemma": "blussen",
+      "pos": "verb",
+      "meaning": "to extinguish",
+      "new": true
+    },
+    {
+      "form": "verkennen",
+      "lemma": "verkennen",
+      "pos": "verb",
+      "meaning": "to explore",
+      "new": true
+    },
+    {
+      "form": "overleven",
+      "lemma": "overleven",
+      "pos": "verb",
+      "meaning": "to survive",
+      "new": true
+    },
+    {
+      "form": "knus",
+      "lemma": "knus",
+      "pos": "adjective",
+      "meaning": "cosy",
+      "new": true
+    },
+    {
+      "form": "afgelegen",
+      "lemma": "afgelegen",
+      "pos": "adjective",
+      "meaning": "remote",
+      "new": true
+    },
+    {
+      "form": "avontuurlijk",
+      "lemma": "avontuurlijk",
+      "pos": "adjective",
+      "meaning": "adventurous",
+      "new": true
+    },
+    {
+      "form": "primitief",
+      "lemma": "primitief",
+      "pos": "adjective",
+      "meaning": "primitive",
+      "new": true
+    },
+    {
+      "form": "overdag",
+      "lemma": "overdag",
+      "pos": "adverb",
+      "meaning": "during the day",
+      "new": true
+    },
+    {
+      "form": "daarnaast",
+      "lemma": "daarnaast",
+      "pos": "adverb",
+      "meaning": "besides",
+      "new": true
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "kamperen",
+      "lemma": "kamperen",
+      "pos": "verb",
+      "meaning": "to camp",
+      "new": false
+    },
+    {
+      "form": "mooi",
+      "lemma": "mooi",
+      "pos": "adjective",
+      "meaning": "beautiful / nice",
+      "new": false
+    },
+    {
+      "form": "zoekt",
+      "lemma": "zoeken",
+      "pos": "verb",
+      "meaning": "looks for",
+      "new": false
+    },
+    {
+      "form": "installeert",
+      "lemma": "installeren",
+      "pos": "verb",
+      "meaning": "installs",
+      "new": true
+    },
+    {
+      "form": "tent",
+      "lemma": "tent",
+      "pos": "noun",
+      "meaning": "tent",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "stuk",
+      "lemma": "stuk",
+      "pos": "adjective",
+      "meaning": "broken",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "oud",
+      "lemma": "oud",
+      "pos": "adjective",
+      "meaning": "old",
+      "new": false
+    },
+    {
+      "form": "vol",
+      "lemma": "vol",
+      "pos": "adjective",
+      "meaning": "full",
+      "new": false
+    },
+    {
+      "form": "nat",
+      "lemma": "nat",
+      "pos": "adjective",
+      "meaning": "wet",
+      "new": false
+    },
+    {
+      "form": "verkent",
+      "lemma": "verkennen",
+      "pos": "verb",
+      "meaning": "explores",
+      "new": true
+    },
+    {
+      "form": "heet",
+      "lemma": "heet",
+      "pos": "adjective",
+      "meaning": "hot",
+      "new": false
+    },
+    {
+      "form": "ontsteekt",
+      "lemma": "ontsteken",
+      "pos": "verb",
+      "meaning": "ignites",
+      "new": true
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "overleeft",
+      "lemma": "overleven",
+      "pos": "verb",
+      "meaning": "survives",
+      "new": true
+    },
+    {
+      "form": "blust",
+      "lemma": "blussen",
+      "pos": "verb",
+      "meaning": "extinguishes",
+      "new": true
+    },
+    {
+      "form": "demonteert",
+      "lemma": "demonteren",
+      "pos": "verb",
+      "meaning": "dismantles",
+      "new": true
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "wandelaar",
+      "lemma": "wandelaar",
+      "pos": "noun",
+      "meaning": "hiker",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lachen",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "to laugh",
+      "new": false
+    },
+    {
+      "form": "droog",
+      "lemma": "droog",
+      "pos": "adjective",
+      "meaning": "dry",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "geven",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give",
+      "new": false
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "willen",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want",
+      "new": false
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 //! owns the navigation stack, the open reader session, the 30-second page rule,
 //! the lookup worker, narration, and persistence.
 
-use crate::dictionary::{Dictionary, Sort, format_date};
+use crate::dictionary::{Dictionary, Sort, TappedWords, format_date};
 use crate::lookup::{self, CacheEntry, LookupCache, LookupOutcome, MyMemoryProvider};
 use crate::platform::lifecycle::Lifecycle;
 use crate::platform::share;
@@ -103,12 +103,38 @@ struct EditorSession {
     dirty: bool,
 }
 
+/// Which list the Dictionary screen is showing. The selection is in-memory
+/// only and starts on the Personal Dictionary after every launch.
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
+enum DictionaryTab {
+    #[default]
+    All,
+    Tapped,
+}
+
+impl DictionaryTab {
+    fn from_code(code: &str) -> Self {
+        match code {
+            "tapped" => DictionaryTab::Tapped,
+            _ => DictionaryTab::All,
+        }
+    }
+
+    fn code(self) -> &'static str {
+        match self {
+            DictionaryTab::All => "all",
+            DictionaryTab::Tapped => "tapped",
+        }
+    }
+}
+
 struct AppState {
     index: StoryIndex,
     storage: Storage,
     settings: Settings,
     progress: Progress,
     dictionary: Dictionary,
+    tapped: TappedWords,
     lookup_cache: LookupCache,
     /// Starter lemma -> first story (in reading order) that uses it.
     starter_origins: HashMap<String, (String, Level)>,
@@ -122,6 +148,7 @@ struct AppState {
     reader: Option<ReaderSession>,
     dictionary_query: String,
     dictionary_sort: Sort,
+    dictionary_tab: DictionaryTab,
     lookup: Option<LookupJob>,
     lookup_seq: u64,
     /// Bumped for every toast so an old hide timer cannot hide a newer toast.
@@ -173,6 +200,7 @@ fn run_inner(
     let settings = storage.load_settings();
     let progress = storage.load_progress();
     let dictionary = storage.load_dictionary();
+    let tapped = storage.load_tapped_words();
     let lookup_cache = storage.load_lookup_cache();
     let writing = WritingStore::load(&storage.writings_path());
     let draft = Draft::load(&storage.draft_path());
@@ -186,6 +214,7 @@ fn run_inner(
         settings,
         progress,
         dictionary,
+        tapped,
         lookup_cache,
         starter_origins,
         current_level: Level::A1,
@@ -194,6 +223,7 @@ fn run_inner(
         reader: None,
         dictionary_query: String::new(),
         dictionary_sort: Sort::Alphabetical,
+        dictionary_tab: DictionaryTab::All,
         lookup: None,
         lookup_seq: 0,
         toast_seq: Rc::new(Cell::new(0)),
@@ -542,6 +572,19 @@ fn run_inner(
     {
         let ui_weak = ui.as_weak();
         let state = state.clone();
+        ui.on_dictionary_tab_changed(move |code| {
+            if let Some(ui) = ui_weak.upgrade() {
+                let mut state = state.borrow_mut();
+                state.dictionary_tab = DictionaryTab::from_code(&code);
+                ui.set_dictionary_tab(state.dictionary_tab.code().into());
+                state.refresh_dictionary(&ui);
+            }
+        });
+    }
+
+    {
+        let ui_weak = ui.as_weak();
+        let state = state.clone();
         ui.on_settings_theme(move |code| {
             if let Some(ui) = ui_weak.upgrade() {
                 let mut state = state.borrow_mut();
@@ -615,6 +658,7 @@ impl AppState {
         ui.set_settings_tts_speed_label(format!("{:.1}×", self.settings.tts_speed).into());
         ui.set_settings_meanings_source(meanings_code(self.settings.meanings_source).into());
         ui.set_dictionary_sort(self.dictionary_sort.code().into());
+        ui.set_dictionary_tab(self.dictionary_tab.code().into());
         ui.set_current_level(self.current_level.as_str().into());
         ui.set_current_level_label(level_label(self.current_level).into());
         self.refresh_home(ui);
@@ -638,35 +682,70 @@ impl AppState {
     }
 
     fn refresh_dictionary(&self, ui: &AppWindow) {
-        let total = self.dictionary.len();
-        let entries = self
-            .dictionary
-            .search(&self.dictionary_query, self.dictionary_sort);
-        let rows: Vec<DictionaryRow> = entries
-            .iter()
-            .map(|entry| {
-                let story_title = self
-                    .index
-                    .get(&entry.story_id)
-                    .map(|loaded| loaded.story.title.clone())
-                    .unwrap_or_else(|| entry.story_id.clone());
-                DictionaryRow {
+        let total = match self.dictionary_tab {
+            DictionaryTab::All => self.dictionary.len(),
+            DictionaryTab::Tapped => self.tapped.len(),
+        };
+
+        let rows: Vec<DictionaryRow> = match self.dictionary_tab {
+            DictionaryTab::All => self
+                .dictionary
+                .search(&self.dictionary_query, self.dictionary_sort)
+                .iter()
+                .map(|entry| DictionaryRow {
                     word: entry.display_word().into(),
                     meaning: entry.meaning.clone().into(),
                     meta: format!(
                         "{} · {} · {}",
                         entry.level,
-                        story_title,
+                        self.story_title(&entry.story_id),
                         format_date(entry.added_at, timezone::offset_seconds(entry.added_at))
                     )
                     .into(),
                     pos: entry.pos.to_uppercase().into(),
-                }
-            })
-            .collect();
+                    note: "".into(),
+                })
+                .collect(),
+            DictionaryTab::Tapped => self
+                .tapped
+                .search(&self.dictionary_query, self.dictionary_sort)
+                .iter()
+                .map(|entry| {
+                    let taps = if entry.tap_count == 1 {
+                        "tapped once".to_string()
+                    } else {
+                        format!("tapped {} times", entry.tap_count)
+                    };
+                    DictionaryRow {
+                        word: entry.display_word().into(),
+                        meaning: entry.meaning.clone().into(),
+                        meta: format!(
+                            "{} · {} · {} · {} · {}",
+                            entry.level,
+                            self.story_title(&entry.story_id),
+                            format_date(entry.tapped_at, timezone::offset_seconds(entry.tapped_at)),
+                            entry.source,
+                            taps
+                        )
+                        .into(),
+                        pos: "".into(),
+                        note: entry.base.clone().unwrap_or_default().into(),
+                    }
+                })
+                .collect(),
+        };
+
+        ui.set_dictionary_tab(self.dictionary_tab.code().into());
         ui.set_dictionary_total(total as i32);
         ui.set_dictionary_count_text(count_words(total).into());
         ui.set_dictionary_entries(Rc::new(VecModel::from(rows)).into());
+    }
+
+    fn story_title(&self, story_id: &str) -> String {
+        self.index
+            .get(story_id)
+            .map(|loaded| loaded.story.title.clone())
+            .unwrap_or_else(|| story_id.to_string())
     }
 
     fn navigate(&mut self, ui: &AppWindow, target: &str, forward: bool) {
@@ -1447,6 +1526,11 @@ impl AppState {
             }
         }
 
+        let context = self
+            .reader
+            .as_ref()
+            .map(|reader| (reader.story.id.clone(), reader.story.level));
+
         let Some(reader) = self.reader.as_mut() else {
             return;
         };
@@ -1475,6 +1559,17 @@ impl AppState {
         ui.set_reader_popup_base(base.into());
         ui.set_reader_popup_source(popup.source.clone().into());
         ui.set_reader_popup_note(note.into());
+
+        if let Some((story_id, level)) = context
+            && self.tapped.record(&outcome, &story_id, level, now_unix())
+        {
+            if let Err(error) = self.storage.save_tapped_words(&self.tapped) {
+                eprintln!("[tapped] could not save tapped words: {error}");
+            }
+            if self.dictionary_tab == DictionaryTab::Tapped {
+                self.refresh_dictionary(ui);
+            }
+        }
     }
 
     fn toggle_tts(&mut self, ui: &AppWindow) {

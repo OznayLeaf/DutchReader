@@ -1,0 +1,609 @@
+{
+  "id": "a2-07",
+  "level": "A2",
+  "order": 7,
+  "title": "De vrijwilliger",
+  "blurb_nl": "Noor werkt als vrijwilliger in het buurthuis. Een bezoeker verrast haar.",
+  "blurb_en": "Noor works as a volunteer in the community centre. A visitor surprises her.",
+  "sections": [
+    "Noor is een vrijwilliger. Noor werkt in het buurthuis.",
+    "Noor werkt wekelijks in het buurthuis.",
+    "Noor werkt vrijwillig. Noor is actief.",
+    "Het buurthuis is groot. Het buurthuis is gezellig.",
+    "Noor organiseert een activiteit.",
+    "De activiteit is wekelijks.",
+    "De activiteit is nuttig. De activiteit is sociaal.",
+    "Noor organiseert een spelletje.",
+    "Het spelletje is leuk.",
+    "Een bezoeker komt naar het buurthuis.",
+    "Noor verwelkomt de bezoeker.",
+    "De bezoeker is een vriend.",
+    "Noor ontmoet de bezoeker.",
+    "Noor begeleidt de bezoeker naar de tafel.",
+    "Noor bedient de bezoeker.",
+    "Noor geeft de bezoeker een drankje.",
+    "De bezoeker is blij. De bezoeker is sociaal.",
+    "Noor is geduldig. Noor luistert naar de bezoeker.",
+    "De bezoeker vraagt hulp.",
+    "Noor geeft hulp. De hulp is nuttig.",
+    "Noor heeft een initiatief.",
+    "Het initiatief is goed. Het initiatief is sociaal.",
+    "Noor organiseert een spelletje met de bezoeker.",
+    "Noor en de bezoeker spelen het spelletje.",
+    "Het gezelschap is gezellig.",
+    "Noor heeft gezelschap.",
+    "Sam komt naar het buurthuis.",
+    "Noor verwelkomt Sam.",
+    "Noor ontmoet Sam.",
+    "Sam is een bezoeker.",
+    "Noor bedient Sam.",
+    "Sam is blij. Sam is actief.",
+    "Sam helpt Noor.",
+    "Sam is een vrijwilliger.",
+    "Sam werkt vrijwillig.",
+    "Sam werkt wekelijks in het buurthuis.",
+    "Noor en Sam begeleiden de activiteit.",
+    "De bezoeker is blij. Het gezelschap is blij.",
+    "De hulp is nuttig. De activiteit is nuttig.",
+    "Noor is geduldig. Sam is geduldig.",
+    "Noor is sociaal. Sam is sociaal.",
+    "Sam ziet de vrijwilliger.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet de vrijwilliger.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "De vrijwilliger is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet het buurthuis.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet het buurthuis.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "Het buurthuis is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet de activiteit.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet de activiteit.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "De activiteit is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet het spelletje.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Noor ziet het spelletje.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "We spelen in de tuin. We zijn blij.",
+    "Het spelletje is hier.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Bo pakt de bal. Bo is blij.",
+    "We pakken de bal. We zijn blij.",
+    "Sam ziet het gezelschap.",
+    "Sam geeft de bal aan Noor. Noor is blij.",
+    "Noor geeft de bal aan Sam. Sam is blij.",
+    "Sam geeft de bal aan Bo. Bo is blij.",
+    "Noor ziet het gezelschap.",
+    "Bo geeft de bal aan Sam. Sam is blij.",
+    "We geven de bal aan de hond. We zijn blij.",
+    "Sam heeft de bal. Noor heeft de bal.",
+    "Het gezelschap is hier.",
+    "Bo heeft de bal. Bo is blij.",
+    "We hebben de bal. We zijn blij.",
+    "Sam wil de hond zien. Noor wil de bal zien.",
+    "Sam ziet de hulp.",
+    "Het buurthuis is sociaal.",
+    "Noor is blij. Noor is trots.",
+    "De vrijwilliger is blij."
+  ],
+  "new_words": [
+    "vrijwilliger",
+    "buurthuis",
+    "activiteit",
+    "spelletje",
+    "gezelschap",
+    "hulp",
+    "initiatief",
+    "bezoeker",
+    "organiseren",
+    "begeleiden",
+    "werken",
+    "verwelkomen",
+    "bedienen",
+    "ontmoeten",
+    "geduldig",
+    "actief",
+    "sociaal",
+    "nuttig",
+    "wekelijks",
+    "vrijwillig"
+  ],
+  "glossary": [
+    {
+      "form": "vrijwilliger",
+      "lemma": "vrijwilliger",
+      "pos": "noun",
+      "meaning": "volunteer",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "buurthuis",
+      "lemma": "buurthuis",
+      "pos": "noun",
+      "meaning": "community centre",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "activiteit",
+      "lemma": "activiteit",
+      "pos": "noun",
+      "meaning": "activity",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "spelletje",
+      "lemma": "spelletje",
+      "pos": "noun",
+      "meaning": "game",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "gezelschap",
+      "lemma": "gezelschap",
+      "pos": "noun",
+      "meaning": "company",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "hulp",
+      "lemma": "hulp",
+      "pos": "noun",
+      "meaning": "help",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "initiatief",
+      "lemma": "initiatief",
+      "pos": "noun",
+      "meaning": "initiative",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "bezoeker",
+      "lemma": "bezoeker",
+      "pos": "noun",
+      "meaning": "visitor",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "organiseren",
+      "lemma": "organiseren",
+      "pos": "verb",
+      "meaning": "to organize",
+      "new": true
+    },
+    {
+      "form": "begeleiden",
+      "lemma": "begeleiden",
+      "pos": "verb",
+      "meaning": "to guide",
+      "new": true
+    },
+    {
+      "form": "werken",
+      "lemma": "werken",
+      "pos": "verb",
+      "meaning": "to work",
+      "new": true
+    },
+    {
+      "form": "verwelkomen",
+      "lemma": "verwelkomen",
+      "pos": "verb",
+      "meaning": "to welcome",
+      "new": true
+    },
+    {
+      "form": "bedienen",
+      "lemma": "bedienen",
+      "pos": "verb",
+      "meaning": "to serve",
+      "new": true
+    },
+    {
+      "form": "ontmoeten",
+      "lemma": "ontmoeten",
+      "pos": "verb",
+      "meaning": "to meet",
+      "new": true
+    },
+    {
+      "form": "geduldig",
+      "lemma": "geduldig",
+      "pos": "adjective",
+      "meaning": "patient",
+      "new": true
+    },
+    {
+      "form": "actief",
+      "lemma": "actief",
+      "pos": "adjective",
+      "meaning": "active",
+      "new": true
+    },
+    {
+      "form": "sociaal",
+      "lemma": "sociaal",
+      "pos": "adjective",
+      "meaning": "social",
+      "new": true
+    },
+    {
+      "form": "nuttig",
+      "lemma": "nuttig",
+      "pos": "adjective",
+      "meaning": "useful",
+      "new": true
+    },
+    {
+      "form": "wekelijks",
+      "lemma": "wekelijks",
+      "pos": "adverb",
+      "meaning": "weekly",
+      "new": true
+    },
+    {
+      "form": "vrijwillig",
+      "lemma": "vrijwillig",
+      "pos": "adverb",
+      "meaning": "voluntarily",
+      "new": true
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "werkt",
+      "lemma": "werken",
+      "pos": "verb",
+      "meaning": "works",
+      "new": true
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "gezellig",
+      "lemma": "gezellig",
+      "pos": "adjective",
+      "meaning": "cosy / pleasant",
+      "new": false
+    },
+    {
+      "form": "organiseert",
+      "lemma": "organiseren",
+      "pos": "verb",
+      "meaning": "organizes",
+      "new": true
+    },
+    {
+      "form": "leuk",
+      "lemma": "leuk",
+      "pos": "adjective",
+      "meaning": "fun / nice",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "verwelkomt",
+      "lemma": "verwelkomen",
+      "pos": "verb",
+      "meaning": "welcomes",
+      "new": true
+    },
+    {
+      "form": "vriend",
+      "lemma": "vriend",
+      "pos": "noun",
+      "meaning": "friend",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "ontmoet",
+      "lemma": "ontmoeten",
+      "pos": "verb",
+      "meaning": "met",
+      "new": true
+    },
+    {
+      "form": "begeleidt",
+      "lemma": "begeleiden",
+      "pos": "verb",
+      "meaning": "guides",
+      "new": true
+    },
+    {
+      "form": "tafel",
+      "lemma": "tafel",
+      "pos": "noun",
+      "meaning": "table",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bedient",
+      "lemma": "bedienen",
+      "pos": "verb",
+      "meaning": "serves",
+      "new": true
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "drankje",
+      "lemma": "drankje",
+      "pos": "noun",
+      "meaning": "drink",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "luistert",
+      "lemma": "luisteren",
+      "pos": "verb",
+      "meaning": "listens",
+      "new": false
+    },
+    {
+      "form": "vraagt",
+      "lemma": "vragen",
+      "pos": "verb",
+      "meaning": "asks",
+      "new": false
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "helpt",
+      "lemma": "helpen",
+      "pos": "verb",
+      "meaning": "helps",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "geven",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give",
+      "new": false
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "trots",
+      "lemma": "trots",
+      "pos": "adjective",
+      "meaning": "proud",
+      "new": false
+    }
+  ]
+}

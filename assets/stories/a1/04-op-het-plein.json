@@ -1,0 +1,481 @@
+{
+  "id": "a1-04",
+  "level": "A1",
+  "order": 4,
+  "title": "Op het plein",
+  "blurb_nl": "Sam en Noor gaan naar het plein. Daar is een markt met fruit en brood.",
+  "blurb_en": "Sam and Noor go to the square, where there is a market with fruit and bread.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam en Noor gaan naar het plein. Het plein is groot.",
+    "Op het plein is een appel. Op het plein is een peer. Op het plein is een tomaat.",
+    "Sam ziet de appel. De appel is rood. De appel is vers.",
+    "Noor ziet de peer. De peer is zoet. De peer is vers.",
+    "Sam ziet de tomaat. De tomaat is rood. De tomaat is niet duur.",
+    "Noor ziet brood. Het brood is vers. Het brood is niet duur.",
+    "Sam ziet kaas. De kaas is duur. De kaas is niet goedkoop.",
+    "Noor ziet een bloem. De bloem is rood. De bloem is niet duur.",
+    "Sam wil de appel. Noor wil de peer. Bo wil het brood.",
+    "Sam kiest de appel. Noor kiest de peer. Sam kiest de tomaat.",
+    "Sam koopt de appel. Noor koopt de peer. Sam koopt de tomaat.",
+    "Sam betaalt. Noor betaalt. De appel is goedkoop. De peer is goedkoop.",
+    "Sam ruikt de bloem. Noor ruikt de kaas. De kaas is niet zoet.",
+    "Sam telt de appel. Noor telt de peer. Sam telt de tomaat.",
+    "Sam draagt de zak. De zak is groot.",
+    "Noor draagt de zak. Sam draagt de zak. De zak is groot.",
+    "Sam pakt de appel. Sam geeft de appel aan Noor.",
+    "Noor pakt de peer. Noor geeft de peer aan Sam.",
+    "Sam pakt de kaas. Sam geeft de kaas aan Noor.",
+    "We kijken naar de bloem. We kijken naar de appel. We zijn blij.",
+    "We kopen alleen de appel. We kopen alleen de peer.",
+    "We betalen even. We zijn even op het plein.",
+    "De appel is vers. De peer is zoet. De tomaat is rood.",
+    "De kaas is duur. Het brood is goedkoop. De bloem is rood.",
+    "We gaan naar huis. We zijn blij. We zijn samen.",
+    "We zijn op het plein.",
+    "We gaan naar het plein.",
+    "Sam loopt naar het plein.",
+    "Noor gaat naar het plein.",
+    "Het plein is hier.",
+    "We zien de appel.",
+    "Sam ziet de appel.",
+    "Noor ziet de appel.",
+    "Sam pakt de appel.",
+    "We spelen met de appel.",
+    "De appel is hier.",
+    "We zien de peer.",
+    "Sam ziet de peer.",
+    "Noor ziet de peer.",
+    "Sam pakt de peer.",
+    "We spelen met de peer.",
+    "De peer is hier.",
+    "We zien de tomaat.",
+    "Sam ziet de tomaat.",
+    "Noor ziet de tomaat.",
+    "Sam pakt de tomaat.",
+    "We spelen met de tomaat.",
+    "De tomaat is hier.",
+    "We zien het brood.",
+    "Sam ziet het brood.",
+    "Noor ziet het brood.",
+    "Sam pakt het brood.",
+    "We spelen met het brood.",
+    "Het brood is hier.",
+    "We zien de kaas.",
+    "Sam ziet de kaas.",
+    "Noor ziet de kaas.",
+    "Sam pakt de kaas.",
+    "We spelen met de kaas.",
+    "De kaas is hier.",
+    "We zien de bloem.",
+    "Sam ziet de bloem.",
+    "Noor ziet de bloem.",
+    "Sam pakt de bloem.",
+    "We spelen met de bloem.",
+    "De bloem is hier.",
+    "We zien de zak.",
+    "Sam ziet de zak.",
+    "Noor ziet de zak.",
+    "Sam pakt de zak.",
+    "We spelen met de zak.",
+    "De zak is hier.",
+    "Hallo, plein! Hallo, appel! Hallo, brood!",
+    "Sam geeft het plein aan Noor.",
+    "Noor geeft het plein aan Sam.",
+    "Bo ziet het plein. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zijn op het plein.",
+    "We gaan naar het plein.",
+    "Sam loopt naar het plein.",
+    "Noor gaat naar het plein.",
+    "Het plein is hier.",
+    "We zien de appel.",
+    "Sam ziet de appel. Sam is blij.",
+    "Noor ziet de peer. Noor is blij. Bo is blij.",
+    "We zijn altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "plein",
+    "appel",
+    "peer",
+    "tomaat",
+    "brood",
+    "kaas",
+    "bloem",
+    "zak",
+    "kopen",
+    "betalen",
+    "kiezen",
+    "dragen",
+    "ruiken",
+    "tellen",
+    "vers",
+    "zoet",
+    "duur",
+    "goedkoop",
+    "alleen",
+    "even"
+  ],
+  "glossary": [
+    {
+      "form": "plein",
+      "lemma": "plein",
+      "pos": "noun",
+      "meaning": "square",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "appel",
+      "lemma": "appel",
+      "pos": "noun",
+      "meaning": "apple",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "peer",
+      "lemma": "peer",
+      "pos": "noun",
+      "meaning": "pear",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "tomaat",
+      "lemma": "tomaat",
+      "pos": "noun",
+      "meaning": "tomato",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "brood",
+      "lemma": "brood",
+      "pos": "noun",
+      "meaning": "bread",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "kaas",
+      "lemma": "kaas",
+      "pos": "noun",
+      "meaning": "cheese",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "bloem",
+      "lemma": "bloem",
+      "pos": "noun",
+      "meaning": "flower",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "zak",
+      "lemma": "zak",
+      "pos": "noun",
+      "meaning": "bag",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "kopen",
+      "lemma": "kopen",
+      "pos": "verb",
+      "meaning": "to buy",
+      "new": true
+    },
+    {
+      "form": "betalen",
+      "lemma": "betalen",
+      "pos": "verb",
+      "meaning": "to pay",
+      "new": true
+    },
+    {
+      "form": "kiezen",
+      "lemma": "kiezen",
+      "pos": "verb",
+      "meaning": "to choose",
+      "new": true
+    },
+    {
+      "form": "dragen",
+      "lemma": "dragen",
+      "pos": "verb",
+      "meaning": "to carry",
+      "new": true
+    },
+    {
+      "form": "ruiken",
+      "lemma": "ruiken",
+      "pos": "verb",
+      "meaning": "to smell",
+      "new": true
+    },
+    {
+      "form": "tellen",
+      "lemma": "tellen",
+      "pos": "verb",
+      "meaning": "to count",
+      "new": true
+    },
+    {
+      "form": "vers",
+      "lemma": "vers",
+      "pos": "adjective",
+      "meaning": "fresh",
+      "new": true
+    },
+    {
+      "form": "zoet",
+      "lemma": "zoet",
+      "pos": "adjective",
+      "meaning": "sweet",
+      "new": true
+    },
+    {
+      "form": "duur",
+      "lemma": "duur",
+      "pos": "adjective",
+      "meaning": "expensive",
+      "new": true
+    },
+    {
+      "form": "goedkoop",
+      "lemma": "goedkoop",
+      "pos": "adjective",
+      "meaning": "cheap",
+      "new": true
+    },
+    {
+      "form": "alleen",
+      "lemma": "alleen",
+      "pos": "adverb",
+      "meaning": "alone / only",
+      "new": true
+    },
+    {
+      "form": "even",
+      "lemma": "even",
+      "pos": "adverb",
+      "meaning": "briefly / just",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "kiest",
+      "lemma": "kiezen",
+      "pos": "verb",
+      "meaning": "chooses",
+      "new": true
+    },
+    {
+      "form": "koopt",
+      "lemma": "kopen",
+      "pos": "verb",
+      "meaning": "buys",
+      "new": true
+    },
+    {
+      "form": "betaalt",
+      "lemma": "betalen",
+      "pos": "verb",
+      "meaning": "pays",
+      "new": true
+    },
+    {
+      "form": "ruikt",
+      "lemma": "ruiken",
+      "pos": "verb",
+      "meaning": "smells",
+      "new": true
+    },
+    {
+      "form": "telt",
+      "lemma": "tellen",
+      "pos": "verb",
+      "meaning": "counts",
+      "new": true
+    },
+    {
+      "form": "draagt",
+      "lemma": "dragen",
+      "pos": "verb",
+      "meaning": "carries",
+      "new": true
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

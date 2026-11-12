@@ -1,0 +1,491 @@
+{
+  "id": "a1-21",
+  "level": "A1",
+  "order": 21,
+  "title": "De sneeuw",
+  "blurb_nl": "Het sneeuwt en het is koud. Sam en Noor maken een sneeuwpop.",
+  "blurb_en": "It is snowing and it is cold. Sam and Noor make a snowman.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Het is winter. De winter is streng.",
+    "Het sneeuwt. De sneeuw is wit.",
+    "Het vriest. Het ijs is bevroren.",
+    "De sneeuw is wit. Het ijs is glad.",
+    "Sam heeft een muts. De muts is rood.",
+    "Noor heeft een want. De want is rood.",
+    "Sam heeft een slee. De slee is groot.",
+    "Noor heeft een sneeuwpop. De sneeuwpop is groot.",
+    "Sam heeft een sneeuwbal. De sneeuwbal is klein.",
+    "Sam glijdt op het ijs. Noor glijdt op het ijs.",
+    "Sam trekt de slee. Noor trekt de slee.",
+    "Sam rolt de sneeuwbal. Noor rolt de sneeuwbal.",
+    "Sam schaatst op het ijs. Noor schaatst op het ijs.",
+    "De sneeuwpop is wit. De sneeuwbal is wit. Het ijs is wit.",
+    "Het ijs is glad. De sneeuw is glad.",
+    "De winter is streng. Het ijs is bevroren. De sneeuw is wit.",
+    "Sam komt laat. Noor komt laat.",
+    "Opeens is de sneeuw niet hier.",
+    "Opeens is het ijs glad. Opeens is de winter streng.",
+    "Sam ziet de sneeuw. De sneeuw is wit. Sam is blij.",
+    "Noor ziet de sneeuwpop. De sneeuwpop is groot. Noor is blij.",
+    "We zijn samen. We zijn blij.",
+    "De muts is rood. De want is rood. De slee is groot.",
+    "Het sneeuwt. Het sneeuwt laat.",
+    "We zien de sneeuw.",
+    "Sam ziet de sneeuw.",
+    "Noor ziet de sneeuw.",
+    "Sam pakt de sneeuw.",
+    "We spelen met de sneeuw.",
+    "De sneeuw is hier.",
+    "We zien de winter.",
+    "De winter is hier.",
+    "We zien het ijs.",
+    "Sam ziet het ijs.",
+    "Noor ziet het ijs.",
+    "Sam pakt het ijs.",
+    "We spelen met het ijs.",
+    "Het ijs is hier.",
+    "We zien de muts.",
+    "Sam ziet de muts.",
+    "Noor ziet de muts.",
+    "Sam pakt de muts.",
+    "We spelen met de muts.",
+    "De muts is hier.",
+    "We zien de want.",
+    "Sam ziet de want.",
+    "Noor ziet de want.",
+    "Sam pakt de want.",
+    "We spelen met de want.",
+    "De want is hier.",
+    "We zien de slee.",
+    "Sam ziet de slee.",
+    "Noor ziet de slee.",
+    "Sam pakt de slee.",
+    "We spelen met de slee.",
+    "De slee is hier.",
+    "We zien de sneeuwpop.",
+    "Sam ziet de sneeuwpop.",
+    "Noor ziet de sneeuwpop.",
+    "Sam pakt de sneeuwpop.",
+    "We spelen met de sneeuwpop.",
+    "De sneeuwpop is hier.",
+    "We zien de sneeuwbal.",
+    "Sam ziet de sneeuwbal.",
+    "Noor ziet de sneeuwbal.",
+    "Sam pakt de sneeuwbal.",
+    "We spelen met de sneeuwbal.",
+    "De sneeuwbal is hier.",
+    "Hallo, sneeuw! Hallo, winter! Hallo, want!",
+    "Sam geeft de sneeuw aan Noor.",
+    "Noor geeft de sneeuw aan Sam.",
+    "Bo ziet de sneeuw. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zien de sneeuw.",
+    "Sam ziet de sneeuw.",
+    "Noor ziet de sneeuw.",
+    "Sam pakt de sneeuw.",
+    "We spelen met de sneeuw.",
+    "De sneeuw is hier.",
+    "We zien de winter.",
+    "De winter is hier.",
+    "We zien het ijs.",
+    "Sam ziet het ijs.",
+    "Noor ziet het ijs.",
+    "Sam pakt het ijs.",
+    "We spelen met het ijs.",
+    "Het ijs is hier.",
+    "We zien de muts.",
+    "Sam ziet de muts.",
+    "Noor ziet de muts.",
+    "Sam pakt de muts.",
+    "We spelen met de muts.",
+    "De muts is hier.",
+    "We zien de want.",
+    "Sam ziet de want.",
+    "Noor ziet de want.",
+    "Sam pakt de want.",
+    "We spelen met de want.",
+    "De want is hier.",
+    "We zien de slee.",
+    "Sam ziet de slee.",
+    "Noor ziet de slee.",
+    "Sam pakt de slee.",
+    "We spelen met de slee.",
+    "De slee is hier.",
+    "We zien de sneeuwpop.",
+    "Sam ziet de sneeuwpop.",
+    "Het vriest. Het vriest streng.",
+    "Hallo, sneeuw! Hallo, winter! Hallo, ijs!",
+    "We zijn altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "sneeuw",
+    "winter",
+    "ijs",
+    "muts",
+    "want",
+    "slee",
+    "sneeuwpop",
+    "sneeuwbal",
+    "sneeuwen",
+    "vriezen",
+    "glijden",
+    "trekken",
+    "rollen",
+    "schaatsen",
+    "glad",
+    "wit",
+    "bevroren",
+    "streng",
+    "laat",
+    "opeens"
+  ],
+  "glossary": [
+    {
+      "form": "sneeuw",
+      "lemma": "sneeuw",
+      "pos": "noun",
+      "meaning": "snow",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "winter",
+      "lemma": "winter",
+      "pos": "noun",
+      "meaning": "winter",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "ijs",
+      "lemma": "ijs",
+      "pos": "noun",
+      "meaning": "ice",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "muts",
+      "lemma": "muts",
+      "pos": "noun",
+      "meaning": "hat / beanie",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "want",
+      "lemma": "want",
+      "pos": "noun",
+      "meaning": "mitten",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "slee",
+      "lemma": "slee",
+      "pos": "noun",
+      "meaning": "sled",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "sneeuwpop",
+      "lemma": "sneeuwpop",
+      "pos": "noun",
+      "meaning": "snowman",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "sneeuwbal",
+      "lemma": "sneeuwbal",
+      "pos": "noun",
+      "meaning": "snowball",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "sneeuwen",
+      "lemma": "sneeuwen",
+      "pos": "verb",
+      "meaning": "to snow",
+      "new": true
+    },
+    {
+      "form": "vriezen",
+      "lemma": "vriezen",
+      "pos": "verb",
+      "meaning": "to freeze",
+      "new": true
+    },
+    {
+      "form": "glijden",
+      "lemma": "glijden",
+      "pos": "verb",
+      "meaning": "to slide",
+      "new": true
+    },
+    {
+      "form": "trekken",
+      "lemma": "trekken",
+      "pos": "verb",
+      "meaning": "to pull",
+      "new": true
+    },
+    {
+      "form": "rollen",
+      "lemma": "rollen",
+      "pos": "verb",
+      "meaning": "to roll",
+      "new": true
+    },
+    {
+      "form": "schaatsen",
+      "lemma": "schaatsen",
+      "pos": "verb",
+      "meaning": "to skate",
+      "new": true
+    },
+    {
+      "form": "glad",
+      "lemma": "glad",
+      "pos": "adjective",
+      "meaning": "slippery",
+      "new": true
+    },
+    {
+      "form": "wit",
+      "lemma": "wit",
+      "pos": "adjective",
+      "meaning": "white",
+      "new": true
+    },
+    {
+      "form": "bevroren",
+      "lemma": "bevroren",
+      "pos": "adjective",
+      "meaning": "frozen",
+      "new": true
+    },
+    {
+      "form": "streng",
+      "lemma": "streng",
+      "pos": "adjective",
+      "meaning": "harsh",
+      "new": true
+    },
+    {
+      "form": "laat",
+      "lemma": "laat",
+      "pos": "adverb",
+      "meaning": "late",
+      "new": true
+    },
+    {
+      "form": "opeens",
+      "lemma": "opeens",
+      "pos": "adverb",
+      "meaning": "suddenly",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "sneeuwt",
+      "lemma": "sneeuwen",
+      "pos": "verb",
+      "meaning": "snows",
+      "new": true
+    },
+    {
+      "form": "vriest",
+      "lemma": "vriezen",
+      "pos": "verb",
+      "meaning": "freezes",
+      "new": true
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "glijdt",
+      "lemma": "glijden",
+      "pos": "verb",
+      "meaning": "slides",
+      "new": true
+    },
+    {
+      "form": "trekt",
+      "lemma": "trekken",
+      "pos": "verb",
+      "meaning": "pulls",
+      "new": true
+    },
+    {
+      "form": "rolt",
+      "lemma": "rollen",
+      "pos": "verb",
+      "meaning": "rolls",
+      "new": true
+    },
+    {
+      "form": "schaatst",
+      "lemma": "schaatsen",
+      "pos": "verb",
+      "meaning": "skates",
+      "new": true
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

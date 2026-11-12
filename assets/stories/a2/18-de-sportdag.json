@@ -1,0 +1,632 @@
+{
+  "id": "a2-18",
+  "level": "A2",
+  "order": 18,
+  "title": "De sportdag",
+  "blurb_nl": "Het is sportdag op school. Sam doet mee aan de estafette. Dan struikelt hij.",
+  "blurb_en": "It is sports day at school. Sam takes part in the relay. Then he trips.",
+  "sections": [
+    "De sportdag is vandaag.",
+    "De sportdag is leuk.",
+    "Sam is in de kleedkamer.",
+    "De kleedkamer is groot.",
+    "Sam pakt de scheenbeschermer.",
+    "De scheenbeschermer is goed.",
+    "Sam start met de opwarming.",
+    "De opwarming is goed.",
+    "Noor start met de opwarming.",
+    "De wedstrijdleider is hier.",
+    "Sam ziet de wedstrijdleider.",
+    "De teamgenoot is vriendelijk.",
+    "Sam ziet de teamgenoot.",
+    "Sam doet de estafette.",
+    "De estafette is goed.",
+    "Sam sprint.",
+    "Sam sprint krachtig.",
+    "Noor sprint.",
+    "Noor sprint krachtig.",
+    "Sam wisselt met Noor.",
+    "Noor wisselt met Sam.",
+    "Sam struikelt.",
+    "Noor struikelt.",
+    "Sam herstelt.",
+    "Noor herstelt.",
+    "Sam is flink.",
+    "Noor is flink.",
+    "Sam is fanatiek.",
+    "Noor is fanatiek.",
+    "Sam is gespierd.",
+    "De teamgenoot is gespierd.",
+    "Noor is lenig.",
+    "Sam is lenig.",
+    "Sam wint een medaille.",
+    "De medaille is groot.",
+    "Noor feliciteert Sam.",
+    "Sam feliciteert Noor.",
+    "Sam is opgetogen.",
+    "Noor is opgetogen.",
+    "De sportdag is goed.",
+    "Sam en Noor lachen.",
+    "De wedstrijdleider is blij.",
+    "De teamgenoot is blij.",
+    "Sam en Noor gaan naar huis.",
+    "Sam is blij. Noor is blij.",
+    "De estafette is goed. De medaille is goed.",
+    "Sam is fanatiek en flink.",
+    "De sportdag is goed.",
+    "Sam ziet de sportdag.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet de sportdag.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "De sportdag is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet de estafette.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet de estafette.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "De estafette is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet de medaille.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet de medaille.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "De medaille is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet de scheenbeschermer.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Noor ziet de scheenbeschermer.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "We spelen in de tuin. We zijn blij.",
+    "De scheenbeschermer is hier.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Bo pakt de bal. Bo is blij.",
+    "We pakken de bal. We zijn blij.",
+    "Sam ziet de opwarming.",
+    "Sam geeft de bal aan Noor. Noor is blij.",
+    "Noor geeft de bal aan Sam. Sam is blij.",
+    "Sam geeft de bal aan Bo. Bo is blij.",
+    "Noor ziet de opwarming.",
+    "Bo geeft de bal aan Sam. Sam is blij.",
+    "We geven de bal aan de hond. We zijn blij.",
+    "Sam heeft de bal. Noor heeft de bal.",
+    "De opwarming is hier.",
+    "Bo heeft de bal. Bo is blij.",
+    "We hebben de bal. We zijn blij.",
+    "Sam wil de hond zien. Noor wil de bal zien.",
+    "Sam ziet de kleedkamer.",
+    "We willen de hond zien. We zijn blij.",
+    "Sam ziet de hond. Noor ziet de bal.",
+    "Bo ziet Sam. Bo is blij.",
+    "Noor ziet de kleedkamer.",
+    "We zien de hond. We zien de bal.",
+    "We zien Sam en Noor. We zijn blij.",
+    "Sam is hier. Noor is daar. Bo is hier.",
+    "De kleedkamer is hier.",
+    "We zijn niet in het huis. We zijn in de tuin.",
+    "De hond is niet in het huis. De hond is in de tuin.",
+    "Sam heeft geen bal. Noor heeft de bal.",
+    "Sam ziet de teamgenoot.",
+    "We hebben geen hond. We hebben een bal.",
+    "Hallo, Sam! Hallo, Noor! Hallo, Bo!",
+    "Hallo, hond! Hallo, bal! Hallo, huis!",
+    "Noor ziet de teamgenoot.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is trots.",
+    "Noor is trots.",
+    "De teamgenoot is trots."
+  ],
+  "new_words": [
+    "sportdag",
+    "estafette",
+    "medaille",
+    "scheenbeschermer",
+    "opwarming",
+    "kleedkamer",
+    "teamgenoot",
+    "wedstrijdleider",
+    "sprinten",
+    "starten",
+    "wisselen",
+    "struikelen",
+    "herstellen",
+    "feliciteren",
+    "fanatiek",
+    "gespierd",
+    "lenig",
+    "flink",
+    "krachtig",
+    "opgetogen"
+  ],
+  "glossary": [
+    {
+      "form": "sportdag",
+      "lemma": "sportdag",
+      "pos": "noun",
+      "meaning": "sports day",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "estafette",
+      "lemma": "estafette",
+      "pos": "noun",
+      "meaning": "relay",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "medaille",
+      "lemma": "medaille",
+      "pos": "noun",
+      "meaning": "medal",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "scheenbeschermer",
+      "lemma": "scheenbeschermer",
+      "pos": "noun",
+      "meaning": "shin pad",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "opwarming",
+      "lemma": "opwarming",
+      "pos": "noun",
+      "meaning": "warm-up",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "kleedkamer",
+      "lemma": "kleedkamer",
+      "pos": "noun",
+      "meaning": "changing room",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "teamgenoot",
+      "lemma": "teamgenoot",
+      "pos": "noun",
+      "meaning": "teammate",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "wedstrijdleider",
+      "lemma": "wedstrijdleider",
+      "pos": "noun",
+      "meaning": "referee / match leader",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "sprinten",
+      "lemma": "sprinten",
+      "pos": "verb",
+      "meaning": "to sprint",
+      "new": true
+    },
+    {
+      "form": "starten",
+      "lemma": "starten",
+      "pos": "verb",
+      "meaning": "to start",
+      "new": true
+    },
+    {
+      "form": "wisselen",
+      "lemma": "wisselen",
+      "pos": "verb",
+      "meaning": "to swap / change",
+      "new": true
+    },
+    {
+      "form": "struikelen",
+      "lemma": "struikelen",
+      "pos": "verb",
+      "meaning": "to trip",
+      "new": true
+    },
+    {
+      "form": "herstellen",
+      "lemma": "herstellen",
+      "pos": "verb",
+      "meaning": "to recover",
+      "new": true
+    },
+    {
+      "form": "feliciteren",
+      "lemma": "feliciteren",
+      "pos": "verb",
+      "meaning": "to congratulate",
+      "new": true
+    },
+    {
+      "form": "fanatiek",
+      "lemma": "fanatiek",
+      "pos": "adjective",
+      "meaning": "fanatical",
+      "new": true
+    },
+    {
+      "form": "gespierd",
+      "lemma": "gespierd",
+      "pos": "adjective",
+      "meaning": "muscular",
+      "new": true
+    },
+    {
+      "form": "lenig",
+      "lemma": "lenig",
+      "pos": "adjective",
+      "meaning": "flexible",
+      "new": true
+    },
+    {
+      "form": "flink",
+      "lemma": "flink",
+      "pos": "adjective",
+      "meaning": "sturdy / brave",
+      "new": true
+    },
+    {
+      "form": "krachtig",
+      "lemma": "krachtig",
+      "pos": "adverb",
+      "meaning": "powerfully",
+      "new": true
+    },
+    {
+      "form": "opgetogen",
+      "lemma": "opgetogen",
+      "pos": "adverb",
+      "meaning": "elated",
+      "new": true
+    },
+    {
+      "form": "vandaag",
+      "lemma": "vandaag",
+      "pos": "adverb",
+      "meaning": "today",
+      "new": false
+    },
+    {
+      "form": "leuk",
+      "lemma": "leuk",
+      "pos": "adjective",
+      "meaning": "fun / nice",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "start",
+      "lemma": "starten",
+      "pos": "verb",
+      "meaning": "starts",
+      "new": true
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "vriendelijk",
+      "lemma": "vriendelijk",
+      "pos": "adjective",
+      "meaning": "friendly",
+      "new": false
+    },
+    {
+      "form": "doet",
+      "lemma": "opendoen",
+      "pos": "verb",
+      "meaning": "opens",
+      "new": false
+    },
+    {
+      "form": "sprint",
+      "lemma": "sprinten",
+      "pos": "verb",
+      "meaning": "sprints",
+      "new": true
+    },
+    {
+      "form": "wisselt",
+      "lemma": "wisselen",
+      "pos": "verb",
+      "meaning": "swaps",
+      "new": true
+    },
+    {
+      "form": "struikelt",
+      "lemma": "struikelen",
+      "pos": "verb",
+      "meaning": "trips",
+      "new": true
+    },
+    {
+      "form": "herstelt",
+      "lemma": "herstellen",
+      "pos": "verb",
+      "meaning": "recovers",
+      "new": true
+    },
+    {
+      "form": "wint",
+      "lemma": "winnen",
+      "pos": "verb",
+      "meaning": "wins",
+      "new": false
+    },
+    {
+      "form": "feliciteert",
+      "lemma": "feliciteren",
+      "pos": "verb",
+      "meaning": "congratulates",
+      "new": true
+    },
+    {
+      "form": "lachen",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "to laugh",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "geven",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give",
+      "new": false
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "willen",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want",
+      "new": false
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "trots",
+      "lemma": "trots",
+      "pos": "adjective",
+      "meaning": "proud",
+      "new": false
+    }
+  ]
+}

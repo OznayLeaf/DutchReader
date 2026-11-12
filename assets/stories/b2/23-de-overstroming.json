@@ -1,0 +1,1415 @@
+{
+  "id": "b2-23",
+  "level": "B2",
+  "order": 23,
+  "title": "De overstroming",
+  "blurb_nl": "Na dagen regen breekt de dijk. De hulpdiensten evacueren de wijk en zoeken naar een vermist kind.",
+  "blurb_en": "After days of rain the dike breaks. The emergency services evacuate the neighbourhood and search for a missing child.",
+  "sections": [
+    "De regenval is groot.",
+    "De rivier is hoog.",
+    "De dijk is zwak.",
+    "De waarschuwing komt vroeg.",
+    "Het peil is kritiek.",
+    "De crisis is acuut.",
+    "De hulpdienst komt onverwijld.",
+    "De groep begint de evacuatie.",
+    "De rivier kan overstromen.",
+    "De buurt is ontredderd.",
+    "De rivier verwoest het huis.",
+    "De buurt is getroffen.",
+    "De buurt is hulpeloos en weerloos.",
+    "De hulpdienst wil de dijk beveiligen.",
+    "De wateroverlast is groot.",
+    "De groep werkt onverwijld.",
+    "De crisis is niet groot.",
+    "We bespreken de overstroming.",
+    "De overstroming is belangrijk.",
+    "De groep werkt samen.",
+    "De groep ziet de overstroming.",
+    "We denken aan de overstroming.",
+    "De buurt is rustig.",
+    "We kijken naar de overstroming.",
+    "We werken aan de overstroming.",
+    "Het plan is duidelijk.",
+    "We bespreken de dijk.",
+    "De dijk is belangrijk.",
+    "Het antwoord is duidelijk.",
+    "De groep ziet de dijk.",
+    "We denken aan de dijk.",
+    "Het project is goed.",
+    "We kijken naar de dijk.",
+    "We werken aan de dijk.",
+    "De afspraak is belangrijk.",
+    "We bespreken de rivier.",
+    "De rivier is belangrijk.",
+    "De zaal is groot.",
+    "De groep ziet de rivier.",
+    "We denken aan de rivier.",
+    "De kamer is klein.",
+    "We kijken naar de rivier.",
+    "We werken aan de rivier.",
+    "De tafel is groot.",
+    "We bespreken de regenval.",
+    "De regenval is belangrijk.",
+    "De stoel is oud.",
+    "De groep ziet de regenval.",
+    "We denken aan de regenval.",
+    "De deur is open.",
+    "We kijken naar de regenval.",
+    "We werken aan de regenval.",
+    "Het raam is open.",
+    "We bespreken de crisis.",
+    "De crisis is belangrijk.",
+    "De auto is nieuw.",
+    "De groep ziet de crisis.",
+    "We denken aan de crisis.",
+    "De fiets is oud.",
+    "We kijken naar de crisis.",
+    "We werken aan de crisis.",
+    "De trein is snel.",
+    "We bespreken de evacuatie.",
+    "De evacuatie is belangrijk.",
+    "De bus is laat.",
+    "De groep ziet de evacuatie.",
+    "We denken aan de evacuatie.",
+    "De boot is groot.",
+    "We kijken naar de evacuatie.",
+    "We werken aan de evacuatie.",
+    "Het huis is oud.",
+    "We bespreken de hulpdienst.",
+    "De hulpdienst is belangrijk.",
+    "De school is groot.",
+    "De groep ziet de hulpdienst.",
+    "We denken aan de hulpdienst.",
+    "De winkel is open.",
+    "We kijken naar de hulpdienst.",
+    "We werken aan de hulpdienst.",
+    "De markt is druk.",
+    "We bespreken de waarschuwing.",
+    "De waarschuwing is belangrijk.",
+    "De tuin is mooi.",
+    "De groep ziet de waarschuwing.",
+    "We denken aan de waarschuwing.",
+    "De boom is groot.",
+    "We kijken naar de waarschuwing.",
+    "We werken aan de waarschuwing.",
+    "De bloem is mooi.",
+    "We bespreken het peil.",
+    "Het peil is belangrijk.",
+    "Het dorp is klein.",
+    "De groep ziet het peil.",
+    "We denken aan het peil.",
+    "De stad is druk.",
+    "We kijken naar het peil.",
+    "We werken aan het peil.",
+    "De straat is lang.",
+    "We bespreken de wateroverlast.",
+    "De wateroverlast is belangrijk.",
+    "Het plein is leeg.",
+    "De groep ziet de wateroverlast.",
+    "We denken aan de wateroverlast.",
+    "De groep is moe.",
+    "We kijken naar de wateroverlast.",
+    "We werken aan de wateroverlast.",
+    "De groep is blij.",
+    "De groep wil overstromen.",
+    "Vandaag overstroomt de groep.",
+    "De groep is tevreden.",
+    "Gisteren overstroomde de groep.",
+    "De groep heeft overstroomd.",
+    "De groep is trots.",
+    "Morgen overstroomt de groep.",
+    "De groep kan overstromen.",
+    "De groep is rustig.",
+    "De groep wil verwoesten.",
+    "Vandaag verwoestt de groep.",
+    "De groep is tevreden.",
+    "Gisteren verwoestte de groep.",
+    "De groep heeft verwoest.",
+    "Het is goed.",
+    "Morgen verwoestt de groep.",
+    "De groep kan verwoesten.",
+    "Het is niet goed.",
+    "De groep wil beveiligen.",
+    "Vandaag beveiligt de groep.",
+    "Het is belangrijk.",
+    "Gisteren beveiligde de groep.",
+    "De groep heeft beveiligd.",
+    "Het is moeilijk.",
+    "Morgen beveiligt de groep.",
+    "De groep kan beveiligen.",
+    "Het is makkelijk.",
+    "Het is ontredderd.",
+    "De groep is ontredderd.",
+    "Het is mooi.",
+    "We vinden het ontredderd.",
+    "De buurt is ontredderd.",
+    "Het is nieuw.",
+    "Het plan is ontredderd.",
+    "Het is getroffen.",
+    "Het is oud.",
+    "De groep is getroffen.",
+    "We vinden het getroffen.",
+    "Het is lang.",
+    "De buurt is getroffen.",
+    "Het plan is getroffen.",
+    "Het is kort.",
+    "Het is hulpeloos.",
+    "De groep is hulpeloos.",
+    "Het is hoog.",
+    "We vinden het hulpeloos.",
+    "De buurt is hulpeloos.",
+    "Het is druk.",
+    "Het plan is hulpeloos.",
+    "Het is kritiek.",
+    "Het is rustig.",
+    "De groep is kritiek.",
+    "We vinden het kritiek.",
+    "Het is stil.",
+    "De buurt is kritiek.",
+    "Het plan is kritiek.",
+    "Het is snel.",
+    "Het is weerloos.",
+    "De groep is weerloos.",
+    "We werken samen.",
+    "We vinden het weerloos.",
+    "De buurt is weerloos.",
+    "We werken hard.",
+    "Het plan is weerloos.",
+    "We werken acuut.",
+    "We werken goed.",
+    "De groep werkt acuut.",
+    "Het plan is acuut.",
+    "We praten samen.",
+    "We werken onverwijld.",
+    "De groep werkt onverwijld.",
+    "We praten met de buurt.",
+    "We zijn blij.",
+    "We praten met de school.",
+    "We kijken naar de tuin.",
+    "We kijken naar het huis.",
+    "We zien de buurt.",
+    "We horen de groep.",
+    "We maken het plan.",
+    "We maken het project.",
+    "We lezen het verhaal.",
+    "We schrijven het antwoord.",
+    "We zoeken het antwoord.",
+    "We vinden het antwoord.",
+    "We geven het antwoord.",
+    "We nemen het plan.",
+    "We leggen het plan op tafel.",
+    "We zetten het plan op tafel.",
+    "We openen de deur.",
+    "We openen het raam.",
+    "We bouwen een huis.",
+    "We wonen in het huis.",
+    "We wonen in de stad.",
+    "We lopen naar de winkel.",
+    "We lopen naar de school.",
+    "We gaan naar huis.",
+    "We gaan naar de winkel.",
+    "We komen naar huis.",
+    "We wachten hier.",
+    "We vragen het aan de buurt.",
+    "We antwoorden.",
+    "We kiezen een plan.",
+    "We delen het antwoord.",
+    "We koken het eten.",
+    "We slapen in het huis.",
+    "We rusten in de tuin.",
+    "We spelen met de groep.",
+    "We spelen in de tuin.",
+    "We helpen de buurt.",
+    "We helpen de school.",
+    "We willen het plan.",
+    "We willen de tuin.",
+    "We willen samen werken.",
+    "We kunnen het maken.",
+    "We moeten het maken.",
+    "We moeten samen werken.",
+    "We blijven samen.",
+    "We blijven hier.",
+    "Als de groep samen werkt, is het plan snel goed.",
+    "De groep werkt hard, omdat het plan belangrijk is.",
+    "Het plan is moeilijk, maar de groep is niet bang.",
+    "De buurt had het plan kunnen maken.",
+    "De buurt had het kunnen weten.",
+    "Als de winkel open is, gaat de groep naar binnen.",
+    "De deur is open en het raam is open.",
+    "De groep is moe, maar blij.",
+    "Het is niet goed, maar het is niet slecht.",
+    "De groep werkt goed samen.",
+    "De groep ziet de buurt en de school.",
+    "De groep ziet de straat en het plein.",
+    "De groep ziet het dorp en de stad.",
+    "De groep ziet de winkel en de markt.",
+    "De groep ziet de tuin en het huis.",
+    "De groep denkt aan de buurt.",
+    "De groep denkt aan de school.",
+    "De groep denkt aan het plan.",
+    "De groep denkt aan het project.",
+    "De groep denkt aan de afspraak.",
+    "De groep wacht op het antwoord.",
+    "De groep wacht op het plan.",
+    "De groep wacht op de buurt.",
+    "De groep hoort het antwoord.",
+    "De groep ziet het plan.",
+    "De groep ziet het project.",
+    "De groep ziet de buurt.",
+    "De groep ziet de school.",
+    "De groep ziet de winkel.",
+    "De groep ziet de markt.",
+    "De groep ziet de tuin.",
+    "De groep ziet het huis.",
+    "De groep ziet de stad.",
+    "De groep ziet het dorp.",
+    "De groep ziet de straat.",
+    "De groep ziet het plein.",
+    "De groep ziet de zaal.",
+    "De groep ziet de kamer.",
+    "De groep ziet de tafel.",
+    "De groep ziet de stoel.",
+    "De groep ziet de deur.",
+    "De groep ziet het raam.",
+    "De groep ziet de auto.",
+    "De groep ziet de fiets.",
+    "De groep ziet de trein.",
+    "De groep ziet de bus.",
+    "De groep ziet de boot.",
+    "De groep ziet de boom.",
+    "De groep ziet de bloem.",
+    "De groep ziet de zee.",
+    "De groep ziet het strand.",
+    "De groep ziet de berg.",
+    "De groep ziet het bos.",
+    "De groep ziet de lucht.",
+    "De groep ziet het licht.",
+    "We zijn blij.",
+    "We zijn samen.",
+    "We zijn hier.",
+    "Ik ben blij.",
+    "Ik ben hier.",
+    "De buurt is nat.",
+    "De hulpdienst is tevreden."
+  ],
+  "new_words": [
+    "overstroming",
+    "dijk",
+    "rivier",
+    "regenval",
+    "crisis",
+    "evacuatie",
+    "hulpdienst",
+    "waarschuwing",
+    "peil",
+    "wateroverlast",
+    "overstromen",
+    "verwoesten",
+    "beveiligen",
+    "ontredderd",
+    "getroffen",
+    "hulpeloos",
+    "kritiek",
+    "weerloos",
+    "acuut",
+    "onverwijld"
+  ],
+  "glossary": [
+    {
+      "form": "overstroming",
+      "lemma": "overstroming",
+      "pos": "noun",
+      "meaning": "flood",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "dijk",
+      "lemma": "dijk",
+      "pos": "noun",
+      "meaning": "dike",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "rivier",
+      "lemma": "rivier",
+      "pos": "noun",
+      "meaning": "river",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "regenval",
+      "lemma": "regenval",
+      "pos": "noun",
+      "meaning": "rainfall",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "crisis",
+      "lemma": "crisis",
+      "pos": "noun",
+      "meaning": "crisis",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "evacuatie",
+      "lemma": "evacuatie",
+      "pos": "noun",
+      "meaning": "evacuation",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "hulpdienst",
+      "lemma": "hulpdienst",
+      "pos": "noun",
+      "meaning": "emergency service",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "waarschuwing",
+      "lemma": "waarschuwing",
+      "pos": "noun",
+      "meaning": "warning",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "peil",
+      "lemma": "peil",
+      "pos": "noun",
+      "meaning": "level",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "wateroverlast",
+      "lemma": "wateroverlast",
+      "pos": "noun",
+      "meaning": "flooding nuisance",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "overstromen",
+      "lemma": "overstromen",
+      "pos": "verb",
+      "meaning": "to flood",
+      "new": true
+    },
+    {
+      "form": "verwoesten",
+      "lemma": "verwoesten",
+      "pos": "verb",
+      "meaning": "to destroy",
+      "new": true
+    },
+    {
+      "form": "beveiligen",
+      "lemma": "beveiligen",
+      "pos": "verb",
+      "meaning": "to secure",
+      "new": true
+    },
+    {
+      "form": "ontredderd",
+      "lemma": "ontredderd",
+      "pos": "adjective",
+      "meaning": "devastated",
+      "new": true
+    },
+    {
+      "form": "getroffen",
+      "lemma": "getroffen",
+      "pos": "adjective",
+      "meaning": "affected",
+      "new": true
+    },
+    {
+      "form": "hulpeloos",
+      "lemma": "hulpeloos",
+      "pos": "adjective",
+      "meaning": "helpless",
+      "new": true
+    },
+    {
+      "form": "kritiek",
+      "lemma": "kritiek",
+      "pos": "adjective",
+      "meaning": "critical",
+      "new": true
+    },
+    {
+      "form": "weerloos",
+      "lemma": "weerloos",
+      "pos": "adjective",
+      "meaning": "defenceless",
+      "new": true
+    },
+    {
+      "form": "acuut",
+      "lemma": "acuut",
+      "pos": "adverb",
+      "meaning": "acutely",
+      "new": true
+    },
+    {
+      "form": "onverwijld",
+      "lemma": "onverwijld",
+      "pos": "adverb",
+      "meaning": "without delay",
+      "new": true
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "hoog",
+      "lemma": "hoog",
+      "pos": "adjective",
+      "meaning": "high / tall",
+      "new": false
+    },
+    {
+      "form": "zwak",
+      "lemma": "zwak",
+      "pos": "adjective",
+      "meaning": "weak",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "vroeg",
+      "lemma": "vroeg",
+      "pos": "adverb",
+      "meaning": "early",
+      "new": false
+    },
+    {
+      "form": "groep",
+      "lemma": "groep",
+      "pos": "noun",
+      "meaning": "group",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "begint",
+      "lemma": "beginnen",
+      "pos": "verb",
+      "meaning": "begins",
+      "new": false
+    },
+    {
+      "form": "kan",
+      "lemma": "kunnen",
+      "pos": "verb",
+      "meaning": "can",
+      "new": false
+    },
+    {
+      "form": "buurt",
+      "lemma": "buurt",
+      "pos": "noun",
+      "meaning": "neighbourhood",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "verwoest",
+      "lemma": "verwoesten",
+      "pos": "verb",
+      "meaning": "to destroy (stem)",
+      "new": true
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "werkt",
+      "lemma": "werken",
+      "pos": "verb",
+      "meaning": "works",
+      "new": false
+    },
+    {
+      "form": "bespreken",
+      "lemma": "bespreken",
+      "pos": "verb",
+      "meaning": "to discuss",
+      "new": false
+    },
+    {
+      "form": "belangrijk",
+      "lemma": "belangrijk",
+      "pos": "adjective",
+      "meaning": "important",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "denken",
+      "lemma": "denken",
+      "pos": "verb",
+      "meaning": "to think",
+      "new": false
+    },
+    {
+      "form": "rustig",
+      "lemma": "rustig",
+      "pos": "adjective",
+      "meaning": "calm / quiet",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "werken",
+      "lemma": "werken",
+      "pos": "verb",
+      "meaning": "to work",
+      "new": false
+    },
+    {
+      "form": "plan",
+      "lemma": "plan",
+      "pos": "noun",
+      "meaning": "plan",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "duidelijk",
+      "lemma": "duidelijk",
+      "pos": "adjective",
+      "meaning": "clear",
+      "new": false
+    },
+    {
+      "form": "antwoord",
+      "lemma": "antwoord",
+      "pos": "noun",
+      "meaning": "answer",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "project",
+      "lemma": "project",
+      "pos": "noun",
+      "meaning": "project",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "afspraak",
+      "lemma": "afspraak",
+      "pos": "noun",
+      "meaning": "appointment",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "zaal",
+      "lemma": "zaal",
+      "pos": "noun",
+      "meaning": "hall / auditorium",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "kamer",
+      "lemma": "kamer",
+      "pos": "noun",
+      "meaning": "room",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "tafel",
+      "lemma": "tafel",
+      "pos": "noun",
+      "meaning": "table",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "stoel",
+      "lemma": "stoel",
+      "pos": "noun",
+      "meaning": "chair",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "oud",
+      "lemma": "oud",
+      "pos": "adjective",
+      "meaning": "old",
+      "new": false
+    },
+    {
+      "form": "deur",
+      "lemma": "deur",
+      "pos": "noun",
+      "meaning": "door",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "open",
+      "lemma": "opendoen",
+      "pos": "verb",
+      "meaning": "open",
+      "new": false
+    },
+    {
+      "form": "raam",
+      "lemma": "raam",
+      "pos": "noun",
+      "meaning": "window",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "auto",
+      "lemma": "auto",
+      "pos": "noun",
+      "meaning": "car",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "nieuw",
+      "lemma": "nieuw",
+      "pos": "adjective",
+      "meaning": "new",
+      "new": false
+    },
+    {
+      "form": "fiets",
+      "lemma": "fiets",
+      "pos": "noun",
+      "meaning": "bicycle",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "trein",
+      "lemma": "trein",
+      "pos": "noun",
+      "meaning": "train",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "snel",
+      "lemma": "snel",
+      "pos": "adverb",
+      "meaning": "fast / quickly",
+      "new": false
+    },
+    {
+      "form": "bus",
+      "lemma": "bus",
+      "pos": "noun",
+      "meaning": "bus",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "laat",
+      "lemma": "laat",
+      "pos": "adverb",
+      "meaning": "late",
+      "new": false
+    },
+    {
+      "form": "boot",
+      "lemma": "boot",
+      "pos": "noun",
+      "meaning": "boat",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "school",
+      "lemma": "school",
+      "pos": "noun",
+      "meaning": "school",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "winkel",
+      "lemma": "winkel",
+      "pos": "noun",
+      "meaning": "shop",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "markt",
+      "lemma": "markt",
+      "pos": "noun",
+      "meaning": "market",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "druk",
+      "lemma": "druk",
+      "pos": "adjective",
+      "meaning": "busy",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "mooi",
+      "lemma": "mooi",
+      "pos": "adjective",
+      "meaning": "beautiful / nice",
+      "new": false
+    },
+    {
+      "form": "boom",
+      "lemma": "boom",
+      "pos": "noun",
+      "meaning": "tree",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bloem",
+      "lemma": "bloem",
+      "pos": "noun",
+      "meaning": "flower",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "dorp",
+      "lemma": "dorp",
+      "pos": "noun",
+      "meaning": "village",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "stad",
+      "lemma": "stad",
+      "pos": "noun",
+      "meaning": "city",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "straat",
+      "lemma": "straat",
+      "pos": "noun",
+      "meaning": "street",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lang",
+      "lemma": "lang",
+      "pos": "adjective",
+      "meaning": "long",
+      "new": false
+    },
+    {
+      "form": "plein",
+      "lemma": "plein",
+      "pos": "noun",
+      "meaning": "square",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "leeg",
+      "lemma": "leeg",
+      "pos": "adjective",
+      "meaning": "empty",
+      "new": false
+    },
+    {
+      "form": "moe",
+      "lemma": "moe",
+      "pos": "adjective",
+      "meaning": "tired",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "vandaag",
+      "lemma": "vandaag",
+      "pos": "adverb",
+      "meaning": "today",
+      "new": false
+    },
+    {
+      "form": "overstroomt",
+      "lemma": "overstromen",
+      "pos": "verb",
+      "meaning": "to flood (present)",
+      "new": true
+    },
+    {
+      "form": "tevreden",
+      "lemma": "tevreden",
+      "pos": "adjective",
+      "meaning": "content / satisfied",
+      "new": false
+    },
+    {
+      "form": "gisteren",
+      "lemma": "gisteren",
+      "pos": "adverb",
+      "meaning": "yesterday",
+      "new": false
+    },
+    {
+      "form": "overstroomde",
+      "lemma": "overstromen",
+      "pos": "verb",
+      "meaning": "to flood (past)",
+      "new": true
+    },
+    {
+      "form": "overstroomd",
+      "lemma": "overstromen",
+      "pos": "verb",
+      "meaning": "to flood (perfect)",
+      "new": true
+    },
+    {
+      "form": "trots",
+      "lemma": "trots",
+      "pos": "adjective",
+      "meaning": "proud",
+      "new": false
+    },
+    {
+      "form": "morgen",
+      "lemma": "morgen",
+      "pos": "adverb",
+      "meaning": "tomorrow",
+      "new": false
+    },
+    {
+      "form": "verwoestt",
+      "lemma": "verwoesten",
+      "pos": "verb",
+      "meaning": "to destroy (present)",
+      "new": true
+    },
+    {
+      "form": "verwoestte",
+      "lemma": "verwoesten",
+      "pos": "verb",
+      "meaning": "to destroy (past)",
+      "new": true
+    },
+    {
+      "form": "beveiligt",
+      "lemma": "beveiligen",
+      "pos": "verb",
+      "meaning": "to secure (present)",
+      "new": true
+    },
+    {
+      "form": "beveiligde",
+      "lemma": "beveiligen",
+      "pos": "verb",
+      "meaning": "to secure (past)",
+      "new": true
+    },
+    {
+      "form": "beveiligd",
+      "lemma": "beveiligen",
+      "pos": "verb",
+      "meaning": "to secure (perfect)",
+      "new": true
+    },
+    {
+      "form": "moeilijk",
+      "lemma": "moeilijk",
+      "pos": "adjective",
+      "meaning": "difficult",
+      "new": false
+    },
+    {
+      "form": "makkelijk",
+      "lemma": "makkelijk",
+      "pos": "adjective",
+      "meaning": "easy",
+      "new": false
+    },
+    {
+      "form": "vinden",
+      "lemma": "vinden",
+      "pos": "verb",
+      "meaning": "to find",
+      "new": false
+    },
+    {
+      "form": "kort",
+      "lemma": "kort",
+      "pos": "adjective",
+      "meaning": "short",
+      "new": false
+    },
+    {
+      "form": "stil",
+      "lemma": "stil",
+      "pos": "adjective",
+      "meaning": "quiet",
+      "new": false
+    },
+    {
+      "form": "hard",
+      "lemma": "hard",
+      "pos": "adverb",
+      "meaning": "hard / loudly",
+      "new": false
+    },
+    {
+      "form": "praten",
+      "lemma": "praten",
+      "pos": "verb",
+      "meaning": "to talk",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "horen",
+      "lemma": "horen",
+      "pos": "verb",
+      "meaning": "to hear",
+      "new": false
+    },
+    {
+      "form": "maken",
+      "lemma": "maken",
+      "pos": "verb",
+      "meaning": "to make / fix",
+      "new": false
+    },
+    {
+      "form": "lezen",
+      "lemma": "lezen",
+      "pos": "verb",
+      "meaning": "to read",
+      "new": false
+    },
+    {
+      "form": "verhaal",
+      "lemma": "verhaal",
+      "pos": "noun",
+      "meaning": "story",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "schrijven",
+      "lemma": "schrijven",
+      "pos": "verb",
+      "meaning": "to write",
+      "new": false
+    },
+    {
+      "form": "zoeken",
+      "lemma": "zoeken",
+      "pos": "verb",
+      "meaning": "to look for",
+      "new": false
+    },
+    {
+      "form": "geven",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give",
+      "new": false
+    },
+    {
+      "form": "nemen",
+      "lemma": "nemen",
+      "pos": "verb",
+      "meaning": "to take",
+      "new": false
+    },
+    {
+      "form": "leggen",
+      "lemma": "leggen",
+      "pos": "verb",
+      "meaning": "to put / lay",
+      "new": false
+    },
+    {
+      "form": "zetten",
+      "lemma": "zetten",
+      "pos": "verb",
+      "meaning": "to put / set",
+      "new": false
+    },
+    {
+      "form": "openen",
+      "lemma": "openen",
+      "pos": "verb",
+      "meaning": "to open",
+      "new": false
+    },
+    {
+      "form": "bouwen",
+      "lemma": "bouwen",
+      "pos": "verb",
+      "meaning": "to build",
+      "new": false
+    },
+    {
+      "form": "wonen",
+      "lemma": "wonen",
+      "pos": "verb",
+      "meaning": "to live / reside",
+      "new": false
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "wachten",
+      "lemma": "wachten",
+      "pos": "verb",
+      "meaning": "to wait",
+      "new": false
+    },
+    {
+      "form": "vragen",
+      "lemma": "vragen",
+      "pos": "verb",
+      "meaning": "to ask",
+      "new": false
+    },
+    {
+      "form": "antwoorden",
+      "lemma": "antwoorden",
+      "pos": "verb",
+      "meaning": "to answer",
+      "new": false
+    },
+    {
+      "form": "kiezen",
+      "lemma": "kiezen",
+      "pos": "verb",
+      "meaning": "to choose",
+      "new": false
+    },
+    {
+      "form": "delen",
+      "lemma": "delen",
+      "pos": "verb",
+      "meaning": "to share",
+      "new": false
+    },
+    {
+      "form": "koken",
+      "lemma": "koken",
+      "pos": "verb",
+      "meaning": "to cook",
+      "new": false
+    },
+    {
+      "form": "eten",
+      "lemma": "eten",
+      "pos": "verb",
+      "meaning": "to eat",
+      "new": false
+    },
+    {
+      "form": "slapen",
+      "lemma": "slapen",
+      "pos": "verb",
+      "meaning": "to sleep",
+      "new": false
+    },
+    {
+      "form": "rusten",
+      "lemma": "rusten",
+      "pos": "verb",
+      "meaning": "to rest",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "helpen",
+      "lemma": "helpen",
+      "pos": "verb",
+      "meaning": "to help",
+      "new": false
+    },
+    {
+      "form": "willen",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want",
+      "new": false
+    },
+    {
+      "form": "kunnen",
+      "lemma": "kunnen",
+      "pos": "verb",
+      "meaning": "to be able to / can",
+      "new": false
+    },
+    {
+      "form": "moeten",
+      "lemma": "moeten",
+      "pos": "verb",
+      "meaning": "to have to / must",
+      "new": false
+    },
+    {
+      "form": "blijven",
+      "lemma": "blijven",
+      "pos": "verb",
+      "meaning": "to stay",
+      "new": false
+    },
+    {
+      "form": "als",
+      "lemma": "als",
+      "pos": "conjunction",
+      "meaning": "if / when / than",
+      "new": false
+    },
+    {
+      "form": "omdat",
+      "lemma": "omdat",
+      "pos": "conjunction",
+      "meaning": "because",
+      "new": false
+    },
+    {
+      "form": "bang",
+      "lemma": "bang",
+      "pos": "adjective",
+      "meaning": "afraid",
+      "new": false
+    },
+    {
+      "form": "had",
+      "lemma": "hebben",
+      "pos": "verb",
+      "meaning": "had",
+      "new": false
+    },
+    {
+      "form": "weten",
+      "lemma": "weten",
+      "pos": "verb",
+      "meaning": "to know",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "binnen",
+      "lemma": "binnen",
+      "pos": "adverb",
+      "meaning": "inside",
+      "new": false
+    },
+    {
+      "form": "slecht",
+      "lemma": "slecht",
+      "pos": "adverb",
+      "meaning": "badly",
+      "new": false
+    },
+    {
+      "form": "denkt",
+      "lemma": "denken",
+      "pos": "verb",
+      "meaning": "thinks",
+      "new": false
+    },
+    {
+      "form": "wacht",
+      "lemma": "wachten",
+      "pos": "verb",
+      "meaning": "waits",
+      "new": false
+    },
+    {
+      "form": "hoort",
+      "lemma": "horen",
+      "pos": "verb",
+      "meaning": "hears",
+      "new": false
+    },
+    {
+      "form": "zee",
+      "lemma": "zee",
+      "pos": "noun",
+      "meaning": "sea",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "strand",
+      "lemma": "strand",
+      "pos": "noun",
+      "meaning": "beach",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "berg",
+      "lemma": "berg",
+      "pos": "noun",
+      "meaning": "mountain",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bos",
+      "lemma": "bos",
+      "pos": "noun",
+      "meaning": "forest",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "lucht",
+      "lemma": "lucht",
+      "pos": "noun",
+      "meaning": "sky",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "licht",
+      "lemma": "licht",
+      "pos": "adjective",
+      "meaning": "light",
+      "new": false
+    },
+    {
+      "form": "nat",
+      "lemma": "nat",
+      "pos": "adjective",
+      "meaning": "wet",
+      "new": false
+    }
+  ]
+}

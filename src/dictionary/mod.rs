@@ -10,6 +10,9 @@ use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
 use std::path::Path;
 
+pub mod tapped;
+pub use tapped::{TappedWord, TappedWords};
+
 /// How the Personal Dictionary screen sorts its list.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
 pub enum Sort {

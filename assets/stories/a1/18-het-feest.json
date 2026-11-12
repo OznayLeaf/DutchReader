@@ -1,0 +1,483 @@
+{
+  "id": "a1-18",
+  "level": "A1",
+  "order": 18,
+  "title": "Het feest",
+  "blurb_nl": "Er is een feest in de tuin. De gasten praten, eten en er is een verrassing.",
+  "blurb_en": "There is a party in the garden. The guests talk, eat and there is a surprise.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Het feest is in de tuin. Het feest is groot.",
+    "Het feest is feestelijk. Het feest is leuk.",
+    "De gast komt. De gast is blij.",
+    "Sam begroet de gast. Noor begroet de gast.",
+    "De gast begroet Sam. De gast begroet Noor.",
+    "Sam kletst met de gast. Noor kletst met de gast.",
+    "Sam praat met de gast. Noor praat met de gast.",
+    "De gast praat met Sam. De gast praat met Noor.",
+    "Sam heeft een ballon. De ballon is rood.",
+    "Noor heeft een vlag. De vlag is rood.",
+    "De gast heeft een drankje. Het drankje is klein.",
+    "Sam heeft een hapje. Het hapje is klein.",
+    "We eten. We zijn blij.",
+    "Sam proost. Noor proost. De gast proost.",
+    "We proosten. We zijn blij. We zijn feestelijk.",
+    "De verrassing is groot. De verrassing is speciaal.",
+    "De gast ziet de verrassing. De gast is blij.",
+    "Sam ziet de verrassing. Sam is blij.",
+    "Het feest is lawaaiig. De gast is lawaaiig.",
+    "De dans is leuk. De dans is feestelijk.",
+    "Sam ziet de dans. Noor ziet de dans.",
+    "We blijven in de tuin. We blijven op het feest.",
+    "Sam blijft in de tuin. Noor blijft in de tuin. De gast blijft in de tuin.",
+    "We zijn straks in de tuin. We zijn straks op het feest.",
+    "We zijn binnenkort op het feest. We zijn binnenkort in de tuin.",
+    "Het feest is speciaal. De gast is speciaal. De verrassing is speciaal.",
+    "Sam eet. Noor eet. De gast eet.",
+    "We zien het feest.",
+    "Het feest is hier.",
+    "De gast komt.",
+    "We zien de gast.",
+    "De gast is hier.",
+    "De gast is in het huis.",
+    "We zien de dans.",
+    "De dans is hier.",
+    "We zien de ballon.",
+    "Sam ziet de ballon.",
+    "Noor ziet de ballon.",
+    "Sam pakt de ballon.",
+    "We spelen met de ballon.",
+    "De ballon is hier.",
+    "We zien de vlag.",
+    "Sam ziet de vlag.",
+    "Noor ziet de vlag.",
+    "Sam pakt de vlag.",
+    "We spelen met de vlag.",
+    "De vlag is hier.",
+    "We zien het drankje.",
+    "Sam ziet het drankje.",
+    "Noor ziet het drankje.",
+    "Sam pakt het drankje.",
+    "We spelen met het drankje.",
+    "Het drankje is hier.",
+    "We zien het hapje.",
+    "Sam ziet het hapje.",
+    "Noor ziet het hapje.",
+    "Sam pakt het hapje.",
+    "We spelen met het hapje.",
+    "Het hapje is hier.",
+    "We zien de verrassing.",
+    "De verrassing is hier.",
+    "Hallo, feest! Hallo, gast! Hallo, vlag!",
+    "Sam geeft het feest aan Noor.",
+    "Noor geeft het feest aan Sam.",
+    "Bo ziet het feest. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zien het feest.",
+    "Het feest is hier.",
+    "De gast komt.",
+    "We zien de gast.",
+    "De gast is hier.",
+    "De gast is in het huis.",
+    "We zien de dans.",
+    "De dans is hier.",
+    "We zien de ballon.",
+    "Sam ziet de ballon.",
+    "Noor ziet de ballon.",
+    "Sam pakt de ballon.",
+    "We spelen met de ballon.",
+    "De ballon is hier.",
+    "We zien de vlag.",
+    "Sam ziet de vlag.",
+    "Noor ziet de vlag.",
+    "Sam pakt de vlag.",
+    "We spelen met de vlag.",
+    "De vlag is hier.",
+    "We zien het drankje.",
+    "Sam ziet het drankje.",
+    "Noor ziet het drankje.",
+    "Sam pakt het drankje.",
+    "We spelen met het drankje.",
+    "Het drankje is hier.",
+    "We zien het hapje.",
+    "Sam ziet het hapje.",
+    "Noor ziet het hapje.",
+    "Sam pakt het hapje.",
+    "We spelen met het hapje.",
+    "Het hapje is hier.",
+    "We zien de verrassing.",
+    "We zijn samen. We zijn blij. We zijn feestelijk.",
+    "Hallo, gast! Hallo, feest! Hallo, verrassing!",
+    "We zijn altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "feest",
+    "gast",
+    "dans",
+    "ballon",
+    "vlag",
+    "drankje",
+    "hapje",
+    "verrassing",
+    "kletsen",
+    "proosten",
+    "begroeten",
+    "blijven",
+    "praten",
+    "eten",
+    "leuk",
+    "lawaaiig",
+    "feestelijk",
+    "speciaal",
+    "straks",
+    "binnenkort"
+  ],
+  "glossary": [
+    {
+      "form": "feest",
+      "lemma": "feest",
+      "pos": "noun",
+      "meaning": "party",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "gast",
+      "lemma": "gast",
+      "pos": "noun",
+      "meaning": "guest",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "dans",
+      "lemma": "dans",
+      "pos": "noun",
+      "meaning": "dance",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "ballon",
+      "lemma": "ballon",
+      "pos": "noun",
+      "meaning": "balloon",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "vlag",
+      "lemma": "vlag",
+      "pos": "noun",
+      "meaning": "flag",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "drankje",
+      "lemma": "drankje",
+      "pos": "noun",
+      "meaning": "drink",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "hapje",
+      "lemma": "hapje",
+      "pos": "noun",
+      "meaning": "snack",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "verrassing",
+      "lemma": "verrassing",
+      "pos": "noun",
+      "meaning": "surprise",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "kletsen",
+      "lemma": "kletsen",
+      "pos": "verb",
+      "meaning": "to chat",
+      "new": true
+    },
+    {
+      "form": "proosten",
+      "lemma": "proosten",
+      "pos": "verb",
+      "meaning": "to toast",
+      "new": true
+    },
+    {
+      "form": "begroeten",
+      "lemma": "begroeten",
+      "pos": "verb",
+      "meaning": "to greet",
+      "new": true
+    },
+    {
+      "form": "blijven",
+      "lemma": "blijven",
+      "pos": "verb",
+      "meaning": "to stay",
+      "new": true
+    },
+    {
+      "form": "praten",
+      "lemma": "praten",
+      "pos": "verb",
+      "meaning": "to talk",
+      "new": true
+    },
+    {
+      "form": "eten",
+      "lemma": "eten",
+      "pos": "verb",
+      "meaning": "to eat",
+      "new": true
+    },
+    {
+      "form": "leuk",
+      "lemma": "leuk",
+      "pos": "adjective",
+      "meaning": "fun / nice",
+      "new": true
+    },
+    {
+      "form": "lawaaiig",
+      "lemma": "lawaaiig",
+      "pos": "adjective",
+      "meaning": "noisy",
+      "new": true
+    },
+    {
+      "form": "feestelijk",
+      "lemma": "feestelijk",
+      "pos": "adjective",
+      "meaning": "festive",
+      "new": true
+    },
+    {
+      "form": "speciaal",
+      "lemma": "speciaal",
+      "pos": "adjective",
+      "meaning": "special",
+      "new": true
+    },
+    {
+      "form": "straks",
+      "lemma": "straks",
+      "pos": "adverb",
+      "meaning": "later",
+      "new": true
+    },
+    {
+      "form": "binnenkort",
+      "lemma": "binnenkort",
+      "pos": "adverb",
+      "meaning": "soon",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "begroet",
+      "lemma": "begroeten",
+      "pos": "verb",
+      "meaning": "greets",
+      "new": true
+    },
+    {
+      "form": "kletst",
+      "lemma": "kletsen",
+      "pos": "verb",
+      "meaning": "chats",
+      "new": true
+    },
+    {
+      "form": "praat",
+      "lemma": "praten",
+      "pos": "verb",
+      "meaning": "talks",
+      "new": true
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "proost",
+      "lemma": "proosten",
+      "pos": "verb",
+      "meaning": "toasts",
+      "new": true
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "blijft",
+      "lemma": "blijven",
+      "pos": "verb",
+      "meaning": "stays",
+      "new": true
+    },
+    {
+      "form": "eet",
+      "lemma": "eten",
+      "pos": "verb",
+      "meaning": "eats",
+      "new": true
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

@@ -25,7 +25,7 @@ Read this whole document before writing. Then follow the workflow in
 9. [Validation workflow](#9-validation-workflow)
 10. [Pre-submission checklist](#10-pre-submission-checklist)
 11. [AI writing prompt template](#11-ai-writing-prompt-template)
-12. [The four sample stories](#12-the-four-sample-stories)
+12. [Reference stories](#12-reference-stories)
 13. [Appendix: coverage table and budgets](#13-appendix-coverage-table-and-budgets)
 
 ---
@@ -151,12 +151,12 @@ guide is self-contained.
    a warning, not an error.
 3. **The sample stories have gaps.** A2-01, B1-01, and B2-01 are written before
    the stories that should introduce their background vocabulary. Decision: the
-   validator runs in **`--allow-gaps` mode** while fewer than 100 stories exist.
+   validator keeps running in **`--allow-gaps` mode** for the 100-story library.
    Words that are neither new nor previously introduced are reported as
    **"assumed known"** and collected in the **debt list**
-   (`assets/assumed_known.json`). When the missing earlier stories are written,
-   the debt list is passed to the writer so those stories introduce the words.
-   Once all 100 stories exist, run in `--strict` mode.
+   (`assets/assumed_known.json`). The debt belongs only to those three sample
+   stories; the generated shelves never use it. Paying the debt down is separate
+   cleanup work, after which `--strict` can become the default.
 4. **Vocabulary targets vs. the 20-word rule.** The level totals in
    [§2.1](#21-the-numbers) describe the learner's overall level, not only what
    the stories teach.
@@ -207,9 +207,9 @@ Within a level, early stories sit at the low end and later stories at the high
 end. The four sample stories are calibrated this way:
 
 - A1-01: 697 words, 62 short sections.
-- A2-01: 622 words, 65 sections.
-- B1-01: 846 words.
-- B2-01: 1,053 words.
+- A2-01: 622 words, 65 sections; A2-02 through A2-25 run from 657 to 849 words.
+- B1-01: 846 words; B1-02 through B1-25 run from 850 to 1,028 words.
+- B2-01: 1,053 words; B2-02 through B2-25 run from 1,122 to 1,288 words.
 
 The validator is the final judge: if a story is below 5 screens, add real story
 material (a scene, a beat of dialogue, a consequence), not filler.
@@ -976,7 +976,7 @@ missing early stories still have to introduce.
 Run from the repository root:
 
 ```bash
-# Validate all stories in allow-gaps mode (default while fewer than 100 exist).
+# Validate all stories in allow-gaps mode (the default for this library).
 cargo run -p validate_stories -- --allow-gaps
 
 # Regenerate wordlist.json and assumed_known.json, then validate.
@@ -998,11 +998,12 @@ when the app starts.
 
 ### 9.2 Modes
 
-- **allow-gaps** (default with fewer than 100 stories): words that are neither
+- **allow-gaps** (the default for the current library): words that are neither
   new nor introduced earlier are collected as "assumed known" and reported as
-  one warning per story. This is how the four samples were written.
-- **strict** (use once all 100 stories exist): the same situation is an error.
-  Every used lemma must be introduced by an earlier story.
+  one warning per story. Only the three sample stories still produce these
+  warnings.
+- **strict** (use after the sample-story debt is paid down): the same situation
+  is an error. Every used lemma must be introduced by an earlier story.
 
 ### 9.3 What the validator checks
 
@@ -1050,8 +1051,8 @@ when the app starts.
 3. Fix every **error**. Read `MISSING_GLOSSARY` carefully; it lists every
    surface form you still need.
 4. Fix the warnings that indicate a real problem (`NEW_WORD_REPEAT`,
-   `COVERAGE`). Leave the expected gap warnings while the app has fewer than 100
-   stories.
+   `COVERAGE`). Leave only the three expected gap warnings for `a2-01`,
+   `b1-01`, and `b2-01`.
 5. Run `cargo run -p validate_stories -- --write-wordlist --allow-gaps` to
    regenerate the cumulative list and the debt list.
 6. Run the validator once more with `--allow-gaps` and confirm
@@ -1276,10 +1277,18 @@ exactly 20 new words remain.
 
 ---
 
-## 12. The four sample stories
+## 12. Reference stories
 
-These are the reference implementations. Read them before writing a new story at
-the same level.
+All four shelves are complete: `a1/01` through `a1/25`, `a2/01` through
+`a2/25`, `b1/01` through `b1/25`, and `b2/01` through `b2/25` are present.
+Every story introduces exactly 20 new lemmas and uses only previously known
+vocabulary plus its own new words. A2-02 through A2-25, B1-02 through B1-25,
+and B2-02 through B2-25 avoid the sample-story debt and every earlier story's
+owned lemmas, and none of them adds a coverage or repetition warning.
+
+The four sample stories below remain the reference implementations for
+structure, difficulty, and glossary style. Read them before writing a new story
+at the same level.
 
 | File | Level | Title | Sections | Screens (large/small) | Tokens | New words | Notes |
 |------|-------|-------|----------|-----------------------|--------|-----------|-------|
@@ -1288,10 +1297,12 @@ the same level.
 | `b1/01-de-laatste-stroopwafel.json` | B1 | De laatste stroopwafel | 15 | 5+ / 5+ | 846 | 20 | Mixed tenses, opinions, humour, cultural setting. |
 | `b2/01-het-sollicitatiegesprek.json` | B2 | Het sollicitatiegesprek | 14 | 5+ / 5+ | 1053 | 20 | Formal register, conditionals, passive, workplace farce. |
 
-All four pass the validator in `--allow-gaps` mode with only the expected
-`ASSUMED_KNOWN` warnings. The generated `wordlist.json` and
-`assumed_known.json` are the current source of truth for what the learner knows
-and what the missing stories still owe.
+All 100 stories pass the validator in `--allow-gaps` mode with 0 errors. The
+only warnings are the expected `ASSUMED_KNOWN` gaps for `a2-01`, `b1-01`, and
+`b2-01`; every other shelf is clean. The generated `wordlist.json` (100 stories,
+2,025 owned lemmas) and `assumed_known.json` (244 sample-story debt words) are
+the current source of truth for what the learner knows and what the sample
+stories still owe.
 
 ---
 

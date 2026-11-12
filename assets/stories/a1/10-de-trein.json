@@ -1,0 +1,487 @@
+{
+  "id": "a1-10",
+  "level": "A1",
+  "order": 10,
+  "title": "De trein",
+  "blurb_nl": "Sam en Noor nemen de trein. De trein is laat en het perron is vol.",
+  "blurb_en": "Sam and Noor take the train. The train is late and the platform is full.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam en Noor gaan naar het station. Het station is groot.",
+    "Het perron is groot. Het perron is niet klein.",
+    "De trein is niet vroeg. De trein is bijna hier.",
+    "Sam is bezorgd. Noor is bezorgd. Bo is bezorgd.",
+    "Sam is verdrietig. Noor is verdrietig. Bo is verdrietig.",
+    "Sam is hongerig. Noor is hongerig. Bo is hongerig.",
+    "Sam heeft een kaartje. Het kaartje is klein.",
+    "Noor heeft een koffer. De koffer is groot.",
+    "Sam ziet de klok. De klok is groot. De klok is niet klein.",
+    "Sam ziet de rail. De rail is niet klein.",
+    "De conducteur komt. De conducteur is bezorgd.",
+    "De conducteur ziet het kaartje. De conducteur is blij.",
+    "Sam wacht op het perron. Noor wacht op het perron. Bo wacht op het perron.",
+    "De trein stopt. De trein staat op het perron.",
+    "Sam stapt in de trein. Noor stapt in de trein. Bo stapt in de trein.",
+    "De trein vertrekt. De trein reist.",
+    "De trein vertrekt vroeg. De trein reist vroeg.",
+    "Sam is opgelucht. Noor is opgelucht. Bo is opgelucht.",
+    "Sam is niet bezorgd. Noor is niet verdrietig. Bo is niet hongerig.",
+    "De trein reist vroeg. De trein is bijna op het station.",
+    "De trein stopt op het perron. De trein staat op het perron.",
+    "Sam staat op het perron. Noor staat op het perron.",
+    "We reizen met de trein. We zijn opgelucht. We zijn blij.",
+    "We wachten op het perron. We staan op het perron. We zijn samen.",
+    "De conducteur is blij. De trein is groot. Het perron is groot.",
+    "Sam ziet de koffer. Noor ziet het kaartje. Bo ziet de trein.",
+    "We zien de trein.",
+    "Sam ziet de trein.",
+    "Noor ziet de trein.",
+    "Sam pakt de trein.",
+    "We spelen met de trein.",
+    "De trein is hier.",
+    "We zijn op het station.",
+    "We gaan naar het station.",
+    "Sam loopt naar het station.",
+    "Noor gaat naar het station.",
+    "Het station is hier.",
+    "We zijn op het perron.",
+    "We gaan naar het perron.",
+    "Sam loopt naar het perron.",
+    "Noor gaat naar het perron.",
+    "Het perron is hier.",
+    "We zien het kaartje.",
+    "Sam ziet het kaartje.",
+    "Noor ziet het kaartje.",
+    "Sam pakt het kaartje.",
+    "We spelen met het kaartje.",
+    "Het kaartje is hier.",
+    "De conducteur komt.",
+    "We zien de conducteur.",
+    "De conducteur is hier.",
+    "De conducteur is in het huis.",
+    "We zien de koffer.",
+    "Sam ziet de koffer.",
+    "Noor ziet de koffer.",
+    "Sam pakt de koffer.",
+    "We spelen met de koffer.",
+    "De koffer is hier.",
+    "We zien de rail.",
+    "Sam ziet de rail.",
+    "Noor ziet de rail.",
+    "Sam pakt de rail.",
+    "We spelen met de rail.",
+    "De rail is hier.",
+    "We zien de klok.",
+    "Sam ziet de klok.",
+    "Noor ziet de klok.",
+    "Sam pakt de klok.",
+    "We spelen met de klok.",
+    "De klok is hier.",
+    "Hallo, trein! Hallo, station! Hallo, conducteur!",
+    "Sam geeft de trein aan Noor.",
+    "Noor geeft de trein aan Sam.",
+    "Bo ziet de trein. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zien de trein.",
+    "Sam ziet de trein.",
+    "Noor ziet de trein.",
+    "Sam pakt de trein.",
+    "We spelen met de trein.",
+    "De trein is hier.",
+    "We zijn op het station.",
+    "We gaan naar het station.",
+    "Sam loopt naar het station.",
+    "Noor gaat naar het station.",
+    "Het station is hier.",
+    "We zijn op het perron.",
+    "We gaan naar het perron.",
+    "Sam loopt naar het perron.",
+    "We zijn samen. We zijn blij. We zijn opgelucht.",
+    "Hallo, trein! Hallo, conducteur! Hallo, station!",
+    "We reizen altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "trein",
+    "station",
+    "perron",
+    "kaartje",
+    "conducteur",
+    "koffer",
+    "rail",
+    "klok",
+    "reizen",
+    "wachten",
+    "instappen",
+    "stoppen",
+    "vertrekken",
+    "staan",
+    "bezorgd",
+    "verdrietig",
+    "hongerig",
+    "opgelucht",
+    "vroeg",
+    "bijna"
+  ],
+  "glossary": [
+    {
+      "form": "trein",
+      "lemma": "trein",
+      "pos": "noun",
+      "meaning": "train",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "station",
+      "lemma": "station",
+      "pos": "noun",
+      "meaning": "station",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "perron",
+      "lemma": "perron",
+      "pos": "noun",
+      "meaning": "platform",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "kaartje",
+      "lemma": "kaartje",
+      "pos": "noun",
+      "meaning": "ticket",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "conducteur",
+      "lemma": "conducteur",
+      "pos": "noun",
+      "meaning": "conductor",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "koffer",
+      "lemma": "koffer",
+      "pos": "noun",
+      "meaning": "suitcase",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "rail",
+      "lemma": "rail",
+      "pos": "noun",
+      "meaning": "rail",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "klok",
+      "lemma": "klok",
+      "pos": "noun",
+      "meaning": "clock",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "reizen",
+      "lemma": "reizen",
+      "pos": "verb",
+      "meaning": "to travel",
+      "new": true
+    },
+    {
+      "form": "wachten",
+      "lemma": "wachten",
+      "pos": "verb",
+      "meaning": "to wait",
+      "new": true
+    },
+    {
+      "form": "instappen",
+      "lemma": "instappen",
+      "pos": "verb",
+      "meaning": "to get on",
+      "new": true
+    },
+    {
+      "form": "stoppen",
+      "lemma": "stoppen",
+      "pos": "verb",
+      "meaning": "to stop",
+      "new": true
+    },
+    {
+      "form": "vertrekken",
+      "lemma": "vertrekken",
+      "pos": "verb",
+      "meaning": "to leave",
+      "new": true
+    },
+    {
+      "form": "staan",
+      "lemma": "staan",
+      "pos": "verb",
+      "meaning": "to stand",
+      "new": true
+    },
+    {
+      "form": "bezorgd",
+      "lemma": "bezorgd",
+      "pos": "adjective",
+      "meaning": "worried",
+      "new": true
+    },
+    {
+      "form": "verdrietig",
+      "lemma": "verdrietig",
+      "pos": "adjective",
+      "meaning": "sad",
+      "new": true
+    },
+    {
+      "form": "hongerig",
+      "lemma": "hongerig",
+      "pos": "adjective",
+      "meaning": "hungry",
+      "new": true
+    },
+    {
+      "form": "opgelucht",
+      "lemma": "opgelucht",
+      "pos": "adjective",
+      "meaning": "relieved",
+      "new": true
+    },
+    {
+      "form": "vroeg",
+      "lemma": "vroeg",
+      "pos": "adverb",
+      "meaning": "early",
+      "new": true
+    },
+    {
+      "form": "bijna",
+      "lemma": "bijna",
+      "pos": "adverb",
+      "meaning": "almost",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "wacht",
+      "lemma": "wachten",
+      "pos": "verb",
+      "meaning": "waits",
+      "new": true
+    },
+    {
+      "form": "stopt",
+      "lemma": "stoppen",
+      "pos": "verb",
+      "meaning": "stops",
+      "new": true
+    },
+    {
+      "form": "staat",
+      "lemma": "staan",
+      "pos": "verb",
+      "meaning": "stands",
+      "new": true
+    },
+    {
+      "form": "stapt",
+      "lemma": "instappen",
+      "pos": "verb",
+      "meaning": "gets on",
+      "new": true
+    },
+    {
+      "form": "vertrekt",
+      "lemma": "vertrekken",
+      "pos": "verb",
+      "meaning": "leaves",
+      "new": true
+    },
+    {
+      "form": "reist",
+      "lemma": "reizen",
+      "pos": "verb",
+      "meaning": "travels",
+      "new": true
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

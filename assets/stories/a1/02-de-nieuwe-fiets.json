@@ -1,0 +1,498 @@
+{
+  "id": "a1-02",
+  "level": "A1",
+  "order": 2,
+  "title": "De nieuwe fiets",
+  "blurb_nl": "Sam heeft een nieuwe fiets. Maar de bel is kapot. De buurvrouw helpt.",
+  "blurb_en": "Sam has a new bike, but the bell is broken. The neighbour helps.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam heeft een fiets. De fiets is nieuw.",
+    "De fiets is mooi. De fiets is stevig. De fiets is niet kapot.",
+    "Sam wil fietsen. Sam gaat naar de straat.",
+    "De straat is groot. Het park is mooi. De winkel is klein.",
+    "Sam fietst in de straat. Sam fietst snel.",
+    "Maar de bel is kapot. Sam is niet blij.",
+    "Sam is niet blij. Sam kijkt naar de bel.",
+    "Noor komt. Noor ziet de bel. Noor is niet blij.",
+    "De buurvrouw komt. De buurvrouw is blij.",
+    "De buurvrouw heeft een bel. De bel is nieuw.",
+    "De buurvrouw geeft de bel aan Sam. Sam is blij.",
+    "Sam maakt de fiets. Sam maakt de fiets met de bel.",
+    "De fiets is mooi. De fiets is stevig. De fiets is niet kapot.",
+    "Sam fietst naar het park. Noor loopt naar het park. Bo loopt naar het park.",
+    "In het park is een winkel. De winkel is klein.",
+    "Sam ziet een mand in de winkel. Sam ziet een slot in de winkel.",
+    "Sam pakt de mand. Sam pakt het slot. De mand is stevig. Het slot is nieuw.",
+    "Sam geeft de mand aan Noor. Noor is blij.",
+    "Sam rijdt naar de winkel. Sam rijdt snel. Noor rijdt langzaam.",
+    "Bo rijdt langzaam. Sam rijdt langzaam. Noor rijdt snel.",
+    "De buurvrouw helpt Sam. Sam helpt de buurvrouw.",
+    "Sam repareert de fiets. Sam repareert de bel.",
+    "Sam duwt de fiets. Noor duwt de fiets. De fiets is stevig.",
+    "We fietsen samen. We fietsen snel. We zijn blij.",
+    "De fiets is nieuw. De bel is nieuw. Het slot is nieuw.",
+    "De mand is stevig. De straat is groot. Het park is mooi.",
+    "We zien de fiets.",
+    "Sam ziet de fiets.",
+    "Noor ziet de fiets.",
+    "Sam pakt de fiets.",
+    "We spelen met de fiets.",
+    "De fiets is hier.",
+    "We zijn in de straat.",
+    "We gaan naar de straat.",
+    "Sam loopt naar de straat.",
+    "Noor gaat naar de straat.",
+    "De straat is hier.",
+    "We zijn in het park.",
+    "We gaan naar het park.",
+    "Sam loopt naar het park.",
+    "Noor gaat naar het park.",
+    "Het park is hier.",
+    "We zien de bel.",
+    "Sam ziet de bel.",
+    "Noor ziet de bel.",
+    "Sam pakt de bel.",
+    "We spelen met de bel.",
+    "De bel is hier.",
+    "De buurvrouw komt.",
+    "We zien de buurvrouw.",
+    "De buurvrouw is hier.",
+    "De buurvrouw is in het huis.",
+    "We zien de mand.",
+    "Sam ziet de mand.",
+    "Noor ziet de mand.",
+    "Sam pakt de mand.",
+    "We spelen met de mand.",
+    "De mand is hier.",
+    "We zijn in de winkel.",
+    "We gaan naar de winkel.",
+    "Sam loopt naar de winkel.",
+    "Noor gaat naar de winkel.",
+    "De winkel is hier.",
+    "We zien het slot.",
+    "Sam ziet het slot.",
+    "Noor ziet het slot.",
+    "Sam pakt het slot.",
+    "We spelen met het slot.",
+    "Het slot is hier.",
+    "Hallo, fiets! Hallo, straat! Hallo, buurvrouw!",
+    "Sam geeft de fiets aan Noor.",
+    "Noor geeft de fiets aan Sam.",
+    "Bo ziet de fiets. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zien de fiets.",
+    "Sam ziet de fiets.",
+    "Noor ziet de fiets.",
+    "Sam pakt de fiets.",
+    "We spelen met de fiets.",
+    "De fiets is hier.",
+    "We zijn in de straat.",
+    "We gaan naar de straat.",
+    "Sam loopt naar de straat.",
+    "Noor gaat naar de straat.",
+    "De straat is hier.",
+    "We zijn in het park.",
+    "Sam ziet de fiets. De fiets is mooi. Sam is blij.",
+    "Noor ziet de fiets. Noor is blij. Bo is blij.",
+    "We zijn altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "fiets",
+    "straat",
+    "park",
+    "bel",
+    "buurvrouw",
+    "mand",
+    "winkel",
+    "slot",
+    "maken",
+    "fietsen",
+    "helpen",
+    "repareren",
+    "rijden",
+    "duwen",
+    "nieuw",
+    "kapot",
+    "mooi",
+    "stevig",
+    "snel",
+    "langzaam"
+  ],
+  "glossary": [
+    {
+      "form": "fiets",
+      "lemma": "fiets",
+      "pos": "noun",
+      "meaning": "bicycle",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "straat",
+      "lemma": "straat",
+      "pos": "noun",
+      "meaning": "street",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "park",
+      "lemma": "park",
+      "pos": "noun",
+      "meaning": "park",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "bel",
+      "lemma": "bel",
+      "pos": "noun",
+      "meaning": "bell",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "buurvrouw",
+      "lemma": "buurvrouw",
+      "pos": "noun",
+      "meaning": "neighbour (woman)",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "mand",
+      "lemma": "mand",
+      "pos": "noun",
+      "meaning": "basket",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "winkel",
+      "lemma": "winkel",
+      "pos": "noun",
+      "meaning": "shop",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "slot",
+      "lemma": "slot",
+      "pos": "noun",
+      "meaning": "lock",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "maken",
+      "lemma": "maken",
+      "pos": "verb",
+      "meaning": "to make / fix",
+      "new": true
+    },
+    {
+      "form": "fietsen",
+      "lemma": "fietsen",
+      "pos": "verb",
+      "meaning": "to cycle",
+      "new": true
+    },
+    {
+      "form": "helpen",
+      "lemma": "helpen",
+      "pos": "verb",
+      "meaning": "to help",
+      "new": true
+    },
+    {
+      "form": "repareren",
+      "lemma": "repareren",
+      "pos": "verb",
+      "meaning": "to repair",
+      "new": true
+    },
+    {
+      "form": "rijden",
+      "lemma": "rijden",
+      "pos": "verb",
+      "meaning": "to ride / drive",
+      "new": true
+    },
+    {
+      "form": "duwen",
+      "lemma": "duwen",
+      "pos": "verb",
+      "meaning": "to push",
+      "new": true
+    },
+    {
+      "form": "nieuw",
+      "lemma": "nieuw",
+      "pos": "adjective",
+      "meaning": "new",
+      "new": true
+    },
+    {
+      "form": "kapot",
+      "lemma": "kapot",
+      "pos": "adjective",
+      "meaning": "broken",
+      "new": true
+    },
+    {
+      "form": "mooi",
+      "lemma": "mooi",
+      "pos": "adjective",
+      "meaning": "beautiful / nice",
+      "new": true
+    },
+    {
+      "form": "stevig",
+      "lemma": "stevig",
+      "pos": "adjective",
+      "meaning": "sturdy",
+      "new": true
+    },
+    {
+      "form": "snel",
+      "lemma": "snel",
+      "pos": "adverb",
+      "meaning": "fast / quickly",
+      "new": true
+    },
+    {
+      "form": "langzaam",
+      "lemma": "langzaam",
+      "pos": "adverb",
+      "meaning": "slowly",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "fietst",
+      "lemma": "fietsen",
+      "pos": "verb",
+      "meaning": "cycles",
+      "new": true
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "maakt",
+      "lemma": "maken",
+      "pos": "verb",
+      "meaning": "makes / fixes",
+      "new": true
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "rijdt",
+      "lemma": "rijden",
+      "pos": "verb",
+      "meaning": "rides / drives",
+      "new": true
+    },
+    {
+      "form": "helpt",
+      "lemma": "helpen",
+      "pos": "verb",
+      "meaning": "helps",
+      "new": true
+    },
+    {
+      "form": "repareert",
+      "lemma": "repareren",
+      "pos": "verb",
+      "meaning": "repairs",
+      "new": true
+    },
+    {
+      "form": "duwt",
+      "lemma": "duwen",
+      "pos": "verb",
+      "meaning": "pushes",
+      "new": true
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

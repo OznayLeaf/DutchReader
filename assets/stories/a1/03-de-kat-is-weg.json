@@ -1,0 +1,498 @@
+{
+  "id": "a1-03",
+  "level": "A1",
+  "order": 3,
+  "title": "De kat is weg",
+  "blurb_nl": "De kat van Sam is weg. Sam zoekt in de kamer, op de trap en op zolder.",
+  "blurb_en": "Sam's cat is missing. Sam searches the room, the stairs and the attic.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam heeft een kat. De kat is lief. De kat is niet stout.",
+    "De kat is in de kamer. De kamer is groot.",
+    "De kat slaapt op de stoel. De stoel is niet klein.",
+    "Noor ziet de kat. Noor is blij.",
+    "Maar de kat is niet hier. De kat is niet op de stoel.",
+    "Sam is niet blij. Sam kijkt in de kamer.",
+    "Sam kijkt op de trap. Sam kijkt op zolder.",
+    "Noor kijkt naar het raam. Het raam is groot.",
+    "Noor kijkt naar de deur. De deur is niet klein.",
+    "Sam roept de kat. Noor roept de kat. De kat komt niet.",
+    "De kat is bang. De kat verstopt de bal in de kamer.",
+    "Sam ziet de bal niet. Noor ziet de bal niet.",
+    "De kat klimt op de trap. De kat springt op de stoel.",
+    "De kat springt naar het raam. Het raam is groot.",
+    "Sam ziet de kat niet. Noor ziet de kat niet.",
+    "De kat is op zolder. De zolder is groot.",
+    "Sam gaat naar zolder. Noor gaat naar zolder.",
+    "De kat slaapt op het kussen. Het kussen is groot.",
+    "Sam aait de kat. De kat is lief. Sam is blij.",
+    "Noor aait de kat. Noor is blij. De kat is blij.",
+    "De kat is moe. De kat slaapt. De kat is niet bang.",
+    "Sam is moe. Noor is moe. Bo is moe.",
+    "We kijken overal. We kijken binnen. We zien de kat.",
+    "We kijken overal in de kamer. We kijken overal op zolder.",
+    "We zijn binnen. De kat is binnen.",
+    "De kat is niet stout. De kat is lief. We zijn blij.",
+    "Sam pakt de kat. Sam geeft de kat aan Noor.",
+    "Noor pakt de kat. Noor geeft de kat aan Sam.",
+    "We zien de kat.",
+    "Sam ziet de kat.",
+    "Noor ziet de kat.",
+    "We kijken naar de kat.",
+    "De kat is hier.",
+    "De kat is groot.",
+    "We zijn in de kamer.",
+    "We gaan naar de kamer.",
+    "Sam loopt naar de kamer.",
+    "Noor gaat naar de kamer.",
+    "De kamer is hier.",
+    "We zien de stoel.",
+    "Sam ziet de stoel.",
+    "Noor ziet de stoel.",
+    "Sam pakt de stoel.",
+    "We spelen met de stoel.",
+    "De stoel is hier.",
+    "We zien het kussen.",
+    "Sam ziet het kussen.",
+    "Noor ziet het kussen.",
+    "Sam pakt het kussen.",
+    "We spelen met het kussen.",
+    "Het kussen is hier.",
+    "We zien de deur.",
+    "Sam ziet de deur.",
+    "Noor ziet de deur.",
+    "Sam pakt de deur.",
+    "We spelen met de deur.",
+    "De deur is hier.",
+    "We zien het raam.",
+    "Sam ziet het raam.",
+    "Noor ziet het raam.",
+    "Sam pakt het raam.",
+    "We spelen met het raam.",
+    "Het raam is hier.",
+    "We zijn in de zolder.",
+    "We gaan naar de zolder.",
+    "Sam loopt naar de zolder.",
+    "Noor gaat naar de zolder.",
+    "De zolder is hier.",
+    "We zijn in de trap.",
+    "We gaan naar de trap.",
+    "Sam loopt naar de trap.",
+    "Noor gaat naar de trap.",
+    "De trap is hier.",
+    "Hallo, kat! Hallo, kamer! Hallo, deur!",
+    "Sam geeft de kat aan Noor.",
+    "Noor geeft de kat aan Sam.",
+    "Bo ziet de kat. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zien de kat.",
+    "Sam ziet de kat.",
+    "Noor ziet de kat.",
+    "We kijken naar de kat.",
+    "De kat is hier.",
+    "De kat is groot.",
+    "We zijn in de kamer.",
+    "De kat springt. De kat klimt. De kat is blij.",
+    "De kat verstopt de bal. Sam ziet de bal niet.",
+    "We zijn samen. We zijn blij. De kat is lief."
+  ],
+  "new_words": [
+    "kat",
+    "kamer",
+    "stoel",
+    "kussen",
+    "deur",
+    "raam",
+    "zolder",
+    "trap",
+    "roepen",
+    "slapen",
+    "springen",
+    "aaien",
+    "verstoppen",
+    "klimmen",
+    "lief",
+    "stout",
+    "moe",
+    "bang",
+    "overal",
+    "binnen"
+  ],
+  "glossary": [
+    {
+      "form": "kat",
+      "lemma": "kat",
+      "pos": "noun",
+      "meaning": "cat",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "kamer",
+      "lemma": "kamer",
+      "pos": "noun",
+      "meaning": "room",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "stoel",
+      "lemma": "stoel",
+      "pos": "noun",
+      "meaning": "chair",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "kussen",
+      "lemma": "kussen",
+      "pos": "noun",
+      "meaning": "cushion",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "deur",
+      "lemma": "deur",
+      "pos": "noun",
+      "meaning": "door",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "raam",
+      "lemma": "raam",
+      "pos": "noun",
+      "meaning": "window",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "zolder",
+      "lemma": "zolder",
+      "pos": "noun",
+      "meaning": "attic",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "trap",
+      "lemma": "trap",
+      "pos": "noun",
+      "meaning": "stairs",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "roepen",
+      "lemma": "roepen",
+      "pos": "verb",
+      "meaning": "to call",
+      "new": true
+    },
+    {
+      "form": "slapen",
+      "lemma": "slapen",
+      "pos": "verb",
+      "meaning": "to sleep",
+      "new": true
+    },
+    {
+      "form": "springen",
+      "lemma": "springen",
+      "pos": "verb",
+      "meaning": "to jump",
+      "new": true
+    },
+    {
+      "form": "aaien",
+      "lemma": "aaien",
+      "pos": "verb",
+      "meaning": "to stroke / pet",
+      "new": true
+    },
+    {
+      "form": "verstoppen",
+      "lemma": "verstoppen",
+      "pos": "verb",
+      "meaning": "to hide",
+      "new": true
+    },
+    {
+      "form": "klimmen",
+      "lemma": "klimmen",
+      "pos": "verb",
+      "meaning": "to climb",
+      "new": true
+    },
+    {
+      "form": "lief",
+      "lemma": "lief",
+      "pos": "adjective",
+      "meaning": "sweet / kind",
+      "new": true
+    },
+    {
+      "form": "stout",
+      "lemma": "stout",
+      "pos": "adjective",
+      "meaning": "naughty",
+      "new": true
+    },
+    {
+      "form": "moe",
+      "lemma": "moe",
+      "pos": "adjective",
+      "meaning": "tired",
+      "new": true
+    },
+    {
+      "form": "bang",
+      "lemma": "bang",
+      "pos": "adjective",
+      "meaning": "afraid",
+      "new": true
+    },
+    {
+      "form": "overal",
+      "lemma": "overal",
+      "pos": "adverb",
+      "meaning": "everywhere",
+      "new": true
+    },
+    {
+      "form": "binnen",
+      "lemma": "binnen",
+      "pos": "adverb",
+      "meaning": "inside",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "slaapt",
+      "lemma": "slapen",
+      "pos": "verb",
+      "meaning": "sleeps",
+      "new": true
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "roept",
+      "lemma": "roepen",
+      "pos": "verb",
+      "meaning": "calls",
+      "new": true
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "verstopt",
+      "lemma": "verstoppen",
+      "pos": "verb",
+      "meaning": "hides",
+      "new": true
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "klimt",
+      "lemma": "klimmen",
+      "pos": "verb",
+      "meaning": "climbs",
+      "new": true
+    },
+    {
+      "form": "springt",
+      "lemma": "springen",
+      "pos": "verb",
+      "meaning": "jumps",
+      "new": true
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "aait",
+      "lemma": "aaien",
+      "pos": "verb",
+      "meaning": "strokes / pets",
+      "new": true
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

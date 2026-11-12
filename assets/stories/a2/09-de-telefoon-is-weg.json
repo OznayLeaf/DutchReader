@@ -1,0 +1,710 @@
+{
+  "id": "a2-09",
+  "level": "A2",
+  "order": 9,
+  "title": "De telefoon is weg",
+  "blurb_nl": "Sam is zijn telefoon kwijt. De batterij is bijna leeg. Wie heeft hem?",
+  "blurb_en": "Sam has lost his phone. The battery is almost empty. Who has it?",
+  "sections": [
+    "Sam is zijn telefoon kwijt.",
+    "Sam zoekt in zijn tas.",
+    "De telefoon is niet in de tas.",
+    "Sam zoekt in zijn broek.",
+    "De telefoon is niet in de broek.",
+    "Sam zoekt in de keuken.",
+    "De telefoon is niet in de keuken.",
+    "Sam zoekt op de vloer.",
+    "De telefoon is niet op de vloer.",
+    "Sam zoekt in de kast.",
+    "De telefoon is niet in de kast.",
+    "Plotseling hoort Sam een geluid.",
+    "Het geluid is zacht.",
+    "De telefoon trilt.",
+    "Sam zoekt weer.",
+    "De telefoon trilt weer.",
+    "Sam vindt de telefoon niet.",
+    "De batterij is plat.",
+    "Sam zoekt de oplader.",
+    "De oplader is in de tas.",
+    "Sam vindt de oplader.",
+    "Sam laadt de telefoon.",
+    "De telefoon laadt niet.",
+    "De telefoon is onbereikbaar.",
+    "Noor belt Sam.",
+    "De telefoon rinkelt.",
+    "De telefoon rinkelt niet.",
+    "Sam beantwoordt de telefoon.",
+    "Noor vraagt: Is de telefoon goed?",
+    "Sam antwoordt: De batterij is plat.",
+    "Noor is nieuwsgierig.",
+    "Noor vraagt: Is de telefoon in de kast?",
+    "Sam antwoordt: Nee, de telefoon is niet in de kast.",
+    "Vervolgens zoekt Noor in de bank.",
+    "Noor vindt een hoesje.",
+    "Het hoesje is rood.",
+    "Noor is nieuwsgierig.",
+    "Noor kijkt naar de melding.",
+    "De melding is dringend.",
+    "Sam beantwoordt de melding.",
+    "Sam kijkt naar de app.",
+    "De app is nieuw.",
+    "Sam kijkt naar het album.",
+    "Het album is op de telefoon.",
+    "Sam belt een contact.",
+    "Het contact is Noor.",
+    "Noor houdt de telefoon.",
+    "Sam houdt de telefoon.",
+    "Bo verbergt de telefoon.",
+    "De telefoon is zacht. De telefoon trilt.",
+    "Noor verbergt de telefoon.",
+    "Sam zoekt en zoekt.",
+    "Eindelijk vindt Sam de telefoon.",
+    "De telefoon is in de tuin.",
+    "Bo heeft de telefoon.",
+    "Sam lacht. Noor lacht. Bo is blij.",
+    "Daarnet was de telefoon in de tas.",
+    "Daarnet hoorde Sam de telefoon.",
+    "Vervolgens gaat Sam naar huis.",
+    "De telefoon is niet kwijt.",
+    "De batterij is niet plat.",
+    "De telefoon is goed.",
+    "Sam is blij. Noor is blij.",
+    "Sam ziet de telefoon.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet de telefoon.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "De telefoon is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet de batterij.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet de batterij.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "De batterij is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet de oplader.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet de oplader.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "De oplader is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet het hoesje.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Noor ziet het hoesje.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "We spelen in de tuin. We zijn blij.",
+    "Het hoesje is hier.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Bo pakt de bal. Bo is blij.",
+    "We pakken de bal. We zijn blij.",
+    "Sam ziet de melding.",
+    "Sam geeft de bal aan Noor. Noor is blij.",
+    "Noor geeft de bal aan Sam. Sam is blij.",
+    "Sam geeft de bal aan Bo. Bo is blij.",
+    "Noor is onbereikbaar.",
+    "De melding is niet dringend.",
+    "Sam houdt de telefoon goed."
+  ],
+  "new_words": [
+    "telefoon",
+    "batterij",
+    "oplader",
+    "hoesje",
+    "melding",
+    "app",
+    "album",
+    "contact",
+    "trillen",
+    "laden",
+    "rinkelen",
+    "beantwoorden",
+    "houden",
+    "verbergen",
+    "plat",
+    "onbereikbaar",
+    "dringend",
+    "nieuwsgierig",
+    "vervolgens",
+    "daarnet"
+  ],
+  "glossary": [
+    {
+      "form": "telefoon",
+      "lemma": "telefoon",
+      "pos": "noun",
+      "meaning": "phone",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "batterij",
+      "lemma": "batterij",
+      "pos": "noun",
+      "meaning": "battery",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "oplader",
+      "lemma": "oplader",
+      "pos": "noun",
+      "meaning": "charger",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "hoesje",
+      "lemma": "hoesje",
+      "pos": "noun",
+      "meaning": "case",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "melding",
+      "lemma": "melding",
+      "pos": "noun",
+      "meaning": "notification",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "app",
+      "lemma": "app",
+      "pos": "noun",
+      "meaning": "app",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "album",
+      "lemma": "album",
+      "pos": "noun",
+      "meaning": "album",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "contact",
+      "lemma": "contact",
+      "pos": "noun",
+      "meaning": "contact",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "trillen",
+      "lemma": "trillen",
+      "pos": "verb",
+      "meaning": "to vibrate",
+      "new": true
+    },
+    {
+      "form": "laden",
+      "lemma": "laden",
+      "pos": "verb",
+      "meaning": "to charge / load",
+      "new": true
+    },
+    {
+      "form": "rinkelen",
+      "lemma": "rinkelen",
+      "pos": "verb",
+      "meaning": "to ring",
+      "new": true
+    },
+    {
+      "form": "beantwoorden",
+      "lemma": "beantwoorden",
+      "pos": "verb",
+      "meaning": "to answer",
+      "new": true
+    },
+    {
+      "form": "houden",
+      "lemma": "houden",
+      "pos": "verb",
+      "meaning": "to keep / hold",
+      "new": true
+    },
+    {
+      "form": "verbergen",
+      "lemma": "verbergen",
+      "pos": "verb",
+      "meaning": "to hide",
+      "new": true
+    },
+    {
+      "form": "plat",
+      "lemma": "plat",
+      "pos": "adjective",
+      "meaning": "flat / dead",
+      "new": true
+    },
+    {
+      "form": "onbereikbaar",
+      "lemma": "onbereikbaar",
+      "pos": "adjective",
+      "meaning": "unreachable",
+      "new": true
+    },
+    {
+      "form": "dringend",
+      "lemma": "dringend",
+      "pos": "adjective",
+      "meaning": "urgent",
+      "new": true
+    },
+    {
+      "form": "nieuwsgierig",
+      "lemma": "nieuwsgierig",
+      "pos": "adjective",
+      "meaning": "curious",
+      "new": true
+    },
+    {
+      "form": "vervolgens",
+      "lemma": "vervolgens",
+      "pos": "adverb",
+      "meaning": "subsequently",
+      "new": true
+    },
+    {
+      "form": "daarnet",
+      "lemma": "daarnet",
+      "pos": "adverb",
+      "meaning": "just now",
+      "new": true
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "kwijt",
+      "lemma": "kwijt",
+      "pos": "adjective",
+      "meaning": "lost / missing",
+      "new": false
+    },
+    {
+      "form": "zoekt",
+      "lemma": "zoeken",
+      "pos": "verb",
+      "meaning": "looks for",
+      "new": false
+    },
+    {
+      "form": "tas",
+      "lemma": "tas",
+      "pos": "noun",
+      "meaning": "bag",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "broek",
+      "lemma": "broek",
+      "pos": "noun",
+      "meaning": "trousers",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "keuken",
+      "lemma": "keuken",
+      "pos": "noun",
+      "meaning": "kitchen",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "vloer",
+      "lemma": "vloer",
+      "pos": "noun",
+      "meaning": "floor",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "kast",
+      "lemma": "kast",
+      "pos": "noun",
+      "meaning": "cupboard",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "Plotseling",
+      "lemma": "plotseling",
+      "pos": "adverb",
+      "meaning": "suddenly",
+      "new": false
+    },
+    {
+      "form": "hoort",
+      "lemma": "horen",
+      "pos": "verb",
+      "meaning": "hears",
+      "new": false
+    },
+    {
+      "form": "geluid",
+      "lemma": "geluid",
+      "pos": "noun",
+      "meaning": "sound",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "zacht",
+      "lemma": "zacht",
+      "pos": "adjective",
+      "meaning": "soft / quiet",
+      "new": false
+    },
+    {
+      "form": "trilt",
+      "lemma": "trillen",
+      "pos": "verb",
+      "meaning": "vibrates",
+      "new": true
+    },
+    {
+      "form": "weer",
+      "lemma": "weer",
+      "pos": "adverb",
+      "meaning": "again",
+      "new": false
+    },
+    {
+      "form": "vindt",
+      "lemma": "vinden",
+      "pos": "verb",
+      "meaning": "finds",
+      "new": false
+    },
+    {
+      "form": "laadt",
+      "lemma": "laden",
+      "pos": "verb",
+      "meaning": "charges",
+      "new": true
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "belt",
+      "lemma": "bellen",
+      "pos": "verb",
+      "meaning": "calls",
+      "new": false
+    },
+    {
+      "form": "rinkelt",
+      "lemma": "rinkelen",
+      "pos": "verb",
+      "meaning": "rings",
+      "new": true
+    },
+    {
+      "form": "beantwoordt",
+      "lemma": "beantwoorden",
+      "pos": "verb",
+      "meaning": "answers",
+      "new": true
+    },
+    {
+      "form": "vraagt",
+      "lemma": "vragen",
+      "pos": "verb",
+      "meaning": "asks",
+      "new": false
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "antwoordt",
+      "lemma": "antwoorden",
+      "pos": "verb",
+      "meaning": "answers",
+      "new": false
+    },
+    {
+      "form": "bank",
+      "lemma": "bank",
+      "pos": "noun",
+      "meaning": "sofa / bench",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "nieuw",
+      "lemma": "nieuw",
+      "pos": "adjective",
+      "meaning": "new",
+      "new": false
+    },
+    {
+      "form": "houdt",
+      "lemma": "houden",
+      "pos": "verb",
+      "meaning": "keeps",
+      "new": true
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "verbergt",
+      "lemma": "verbergen",
+      "pos": "verb",
+      "meaning": "hides",
+      "new": true
+    },
+    {
+      "form": "Eindelijk",
+      "lemma": "eindelijk",
+      "pos": "adverb",
+      "meaning": "finally",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lacht",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "laughs",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "was",
+      "lemma": "zijn",
+      "pos": "verb",
+      "meaning": "was",
+      "new": false
+    },
+    {
+      "form": "hoorde",
+      "lemma": "horen",
+      "pos": "verb",
+      "meaning": "to hear",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    }
+  ]
+}

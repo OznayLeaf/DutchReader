@@ -1,0 +1,496 @@
+{
+  "id": "a1-09",
+  "level": "A1",
+  "order": 9,
+  "title": "De school",
+  "blurb_nl": "Sam gaat naar school. De juf leest een boek en de klas schrijft.",
+  "blurb_en": "Sam goes to school. The teacher reads a book and the class writes.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam gaat naar school. De school is groot.",
+    "Noor gaat naar school. De school is niet klein.",
+    "Sam is in de klas. De klas is groot. De klas is stil.",
+    "De juf is in de klas. De juf is slim.",
+    "Sam heeft een boek. Het boek is groot.",
+    "Noor heeft een pen. De pen is klein. De pen is rood.",
+    "Sam heeft een schrift. Het schrift is groot.",
+    "Noor heeft een potlood. Het potlood is klein.",
+    "Sam leest het boek. Noor leest het boek. De juf leest het boek.",
+    "Sam schrijft in het schrift. Noor schrijft in het schrift.",
+    "Sam tekent met het potlood. Noor tekent met de pen.",
+    "Sam rekent. Noor rekent. De juf rekent.",
+    "Sam luistert. Noor luistert. De klas luistert.",
+    "Sam leert. Noor leert. De klas leert.",
+    "Het boek is makkelijk. Het schrift is makkelijk. De school is makkelijk.",
+    "Het boek is moeilijk. Het schrift is moeilijk. De klas is moeilijk.",
+    "Sam is slim. Noor is slim. De juf is slim.",
+    "De klas is stil. De school is stil. De juf is stil.",
+    "Sam leest slecht. Noor leest slecht. De juf leest niet slecht.",
+    "Sam schrijft slecht. Noor schrijft slecht. De juf schrijft niet slecht.",
+    "Nu leest Sam. Nu schrijft Noor. Nu tekent Sam.",
+    "Nu is de klas stil. Nu is de school stil.",
+    "Sam is in het lokaal. Het lokaal is groot. Het lokaal is stil.",
+    "Noor is in het lokaal. De juf is in het lokaal.",
+    "We leren nu. We lezen nu. We schrijven nu.",
+    "We zijn in de school.",
+    "We gaan naar de school.",
+    "Sam loopt naar de school.",
+    "Noor gaat naar de school.",
+    "De school is hier.",
+    "We zijn in de klas.",
+    "We gaan naar de klas.",
+    "Sam loopt naar de klas.",
+    "Noor gaat naar de klas.",
+    "De klas is hier.",
+    "De juf komt.",
+    "We zien de juf.",
+    "De juf is hier.",
+    "De juf is in het huis.",
+    "We zien het boek.",
+    "Sam ziet het boek.",
+    "Noor ziet het boek.",
+    "Sam pakt het boek.",
+    "We spelen met het boek.",
+    "Het boek is hier.",
+    "We zien de pen.",
+    "Sam ziet de pen.",
+    "Noor ziet de pen.",
+    "Sam pakt de pen.",
+    "We spelen met de pen.",
+    "De pen is hier.",
+    "We zien het schrift.",
+    "Sam ziet het schrift.",
+    "Noor ziet het schrift.",
+    "Sam pakt het schrift.",
+    "We spelen met het schrift.",
+    "Het schrift is hier.",
+    "We zijn in het lokaal.",
+    "We gaan naar het lokaal.",
+    "Sam loopt naar het lokaal.",
+    "Noor gaat naar het lokaal.",
+    "Het lokaal is hier.",
+    "We zien het potlood.",
+    "Sam ziet het potlood.",
+    "Noor ziet het potlood.",
+    "Sam pakt het potlood.",
+    "We spelen met het potlood.",
+    "Het potlood is hier.",
+    "Hallo, school! Hallo, klas! Hallo, pen!",
+    "Sam geeft de school aan Noor.",
+    "Noor geeft de school aan Sam.",
+    "Bo ziet de school. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zijn in de school.",
+    "We gaan naar de school.",
+    "Sam loopt naar de school.",
+    "Noor gaat naar de school.",
+    "De school is hier.",
+    "We zijn in de klas.",
+    "We gaan naar de klas.",
+    "Sam loopt naar de klas.",
+    "Noor gaat naar de klas.",
+    "De klas is hier.",
+    "De juf komt.",
+    "We zien de juf.",
+    "De juf is hier.",
+    "De juf is in het huis.",
+    "We zien het boek.",
+    "Sam ziet het boek.",
+    "Noor ziet het boek.",
+    "Sam pakt het boek.",
+    "We zijn samen. We zijn blij. De school is groot.",
+    "Hallo, juf! Hallo, klas! Hallo, school!",
+    "We leren altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "school",
+    "klas",
+    "juf",
+    "boek",
+    "pen",
+    "schrift",
+    "lokaal",
+    "potlood",
+    "leren",
+    "lezen",
+    "schrijven",
+    "tekenen",
+    "rekenen",
+    "luisteren",
+    "slim",
+    "makkelijk",
+    "moeilijk",
+    "stil",
+    "slecht",
+    "nu"
+  ],
+  "glossary": [
+    {
+      "form": "school",
+      "lemma": "school",
+      "pos": "noun",
+      "meaning": "school",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "klas",
+      "lemma": "klas",
+      "pos": "noun",
+      "meaning": "class",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "juf",
+      "lemma": "juf",
+      "pos": "noun",
+      "meaning": "teacher (woman)",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "boek",
+      "lemma": "boek",
+      "pos": "noun",
+      "meaning": "book",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "pen",
+      "lemma": "pen",
+      "pos": "noun",
+      "meaning": "pen",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "schrift",
+      "lemma": "schrift",
+      "pos": "noun",
+      "meaning": "notebook",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "lokaal",
+      "lemma": "lokaal",
+      "pos": "noun",
+      "meaning": "classroom",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "potlood",
+      "lemma": "potlood",
+      "pos": "noun",
+      "meaning": "pencil",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "leren",
+      "lemma": "leren",
+      "pos": "verb",
+      "meaning": "to learn",
+      "new": true
+    },
+    {
+      "form": "lezen",
+      "lemma": "lezen",
+      "pos": "verb",
+      "meaning": "to read",
+      "new": true
+    },
+    {
+      "form": "schrijven",
+      "lemma": "schrijven",
+      "pos": "verb",
+      "meaning": "to write",
+      "new": true
+    },
+    {
+      "form": "tekenen",
+      "lemma": "tekenen",
+      "pos": "verb",
+      "meaning": "to draw",
+      "new": true
+    },
+    {
+      "form": "rekenen",
+      "lemma": "rekenen",
+      "pos": "verb",
+      "meaning": "to do sums",
+      "new": true
+    },
+    {
+      "form": "luisteren",
+      "lemma": "luisteren",
+      "pos": "verb",
+      "meaning": "to listen",
+      "new": true
+    },
+    {
+      "form": "slim",
+      "lemma": "slim",
+      "pos": "adjective",
+      "meaning": "smart",
+      "new": true
+    },
+    {
+      "form": "makkelijk",
+      "lemma": "makkelijk",
+      "pos": "adjective",
+      "meaning": "easy",
+      "new": true
+    },
+    {
+      "form": "moeilijk",
+      "lemma": "moeilijk",
+      "pos": "adjective",
+      "meaning": "difficult",
+      "new": true
+    },
+    {
+      "form": "stil",
+      "lemma": "stil",
+      "pos": "adjective",
+      "meaning": "quiet",
+      "new": true
+    },
+    {
+      "form": "slecht",
+      "lemma": "slecht",
+      "pos": "adverb",
+      "meaning": "badly",
+      "new": true
+    },
+    {
+      "form": "nu",
+      "lemma": "nu",
+      "pos": "adverb",
+      "meaning": "now",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "leest",
+      "lemma": "lezen",
+      "pos": "verb",
+      "meaning": "reads",
+      "new": true
+    },
+    {
+      "form": "schrijft",
+      "lemma": "schrijven",
+      "pos": "verb",
+      "meaning": "writes",
+      "new": true
+    },
+    {
+      "form": "tekent",
+      "lemma": "tekenen",
+      "pos": "verb",
+      "meaning": "draws",
+      "new": true
+    },
+    {
+      "form": "rekent",
+      "lemma": "rekenen",
+      "pos": "verb",
+      "meaning": "does sums",
+      "new": true
+    },
+    {
+      "form": "luistert",
+      "lemma": "luisteren",
+      "pos": "verb",
+      "meaning": "listens",
+      "new": true
+    },
+    {
+      "form": "leert",
+      "lemma": "leren",
+      "pos": "verb",
+      "meaning": "learns",
+      "new": true
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

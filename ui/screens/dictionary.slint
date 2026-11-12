@@ -7,6 +7,7 @@ export struct DictionaryRow {
     meaning: string,
     meta: string,
     pos: string,
+    note: string,
 }
 
 export component DictionaryScreen inherits Rectangle {
@@ -15,12 +16,14 @@ export component DictionaryScreen inherits Rectangle {
     in property <string> count-text: "0 words";
     in-out property <string> query: "";
     in-out property <string> sort: "alpha";
+    in-out property <string> tab: "all";
     in property <length> top-inset: 0px;
     in property <length> bottom-inset: 0px;
 
     callback back();
     callback search-changed(string);
     callback set-sort(string);
+    callback set-tab(string);
 
     public function clear-search-focus() {
         search.clear-focus();
@@ -55,11 +58,37 @@ export component DictionaryScreen inherits Rectangle {
         }
 
         Text {
-            text: "Words from pages you read for at least 30 seconds.";
+            text: root.tab == "tapped"
+                ? "Words you tapped to see the meaning of."
+                : "Words from pages you read for at least 30 seconds.";
             color: Theme.muted;
             font-family: Theme.font-ui;
             font-size: Theme.caption;
             wrap: word-wrap;
+        }
+
+        // ---- tabs ------------------------------------------------------------
+        HorizontalLayout {
+            spacing: Theme.space-xs;
+            SecondaryButton {
+                text: "All words";
+                width: 120px;
+                selected: root.tab == "all";
+                clicked => {
+                    root.tab = "all";
+                    root.set-tab("all");
+                }
+            }
+            SecondaryButton {
+                text: "Tapped words";
+                width: 142px;
+                selected: root.tab == "tapped";
+                clicked => {
+                    root.tab = "tapped";
+                    root.set-tab("tapped");
+                }
+            }
+            Rectangle { horizontal-stretch: 1; }
         }
 
         // ---- search ----------------------------------------------------------
@@ -75,7 +104,9 @@ export component DictionaryScreen inherits Rectangle {
                 y: 0;
                 width: parent.width - 58px;
                 height: parent.height;
-                text: "Search words or meanings";
+                text: root.tab == "tapped"
+                    ? "Search tapped words or meanings"
+                    : "Search words or meanings";
                 color: Theme.muted;
                 font-family: Theme.font-ui;
                 font-size: 15px;
@@ -168,7 +199,7 @@ export component DictionaryScreen inherits Rectangle {
                 padding: Theme.space-lg;
                 spacing: Theme.space-xs;
                 Text {
-                    text: "Your dictionary is empty";
+                    text: root.tab == "tapped" ? "No tapped words yet" : "Your dictionary is empty";
                     color: Theme.text;
                     font-family: Theme.font-serif;
                     font-size: 22px;
@@ -176,7 +207,9 @@ export component DictionaryScreen inherits Rectangle {
                     horizontal-alignment: center;
                 }
                 Text {
-                    text: "Read a page for 30 seconds and its glossary words will appear here.";
+                    text: root.tab == "tapped"
+                        ? "Tap a word while reading and the meaning you see is saved here."
+                        : "Read a page for 30 seconds and its glossary words will appear here.";
                     color: Theme.muted;
                     font-family: Theme.font-ui;
                     font-size: 14px;
@@ -277,12 +310,20 @@ export component DictionaryScreen inherits Rectangle {
                             wrap: word-wrap;
                         }
 
+                        if entry.note != "" : Text {
+                            text: entry.note;
+                            color: Theme.muted;
+                            font-family: Theme.font-ui;
+                            font-size: 13px;
+                            wrap: word-wrap;
+                        }
+
                         Text {
                             text: entry.meta;
                             color: Theme.muted;
                             font-family: Theme.font-ui;
                             font-size: 12px;
-                            overflow: elide;
+                            wrap: word-wrap;
                         }
                     }
                 }

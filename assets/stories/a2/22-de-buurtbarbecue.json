@@ -1,0 +1,649 @@
+{
+  "id": "a2-22",
+  "level": "A2",
+  "order": 22,
+  "title": "De buurtbarbecue",
+  "blurb_nl": "De buurt houdt een barbecue. Sam mag het vlees grillen. Dan begint het te waaien.",
+  "blurb_en": "The neighbourhood holds a barbecue. Sam gets to grill the meat. Then the wind picks up.",
+  "sections": [
+    "Sam en Noor gaan naar het buurfeest.",
+    "Het buurfeest is leuk.",
+    "Het buurfeest is gemoedelijk.",
+    "De barbecue is groot.",
+    "Sam kijkt naar de barbecue.",
+    "Sam pakt de aansteker.",
+    "De aansteker is goed.",
+    "Sam pakt het kooltje.",
+    "Het kooltje is heet.",
+    "Sam marineert het worstje.",
+    "Noor marineert het worstje.",
+    "Sam grilt het worstje.",
+    "Noor grilt het worstje.",
+    "Het worstje is sappig.",
+    "Het worstje is krokant.",
+    "Sam roostert de saté.",
+    "Noor roostert de saté.",
+    "De saté is krokant.",
+    "De saté is sappig.",
+    "Noor pakt de salade.",
+    "De salade is groen.",
+    "De salade is vegetarisch.",
+    "Het gerecht is vegetarisch.",
+    "Sam pakt de prikker.",
+    "De prikker is goed.",
+    "Sam verdeelt de salade.",
+    "Noor verdeelt de salade.",
+    "Sam schenkt een drankje.",
+    "Noor schenkt een drankje.",
+    "Sam en Noor hebben bijgepraat.",
+    "De gast heeft bijgepraat.",
+    "Sam is onbezorgd.",
+    "Noor is onbezorgd.",
+    "Gaandeweg is het buurfeest druk.",
+    "Gaandeweg komt de wind.",
+    "De barbecue is gemoedelijk.",
+    "Sam en Noor lachen.",
+    "De gast is blij.",
+    "Sam is blij. Noor is blij.",
+    "Het worstje is goed. De saté is goed.",
+    "De salade is goed. Het drankje is goed.",
+    "Sam en Noor gaan naar huis.",
+    "Het buurfeest is goed.",
+    "De barbecue is goed.",
+    "Sam en Noor hebben bijgepraat.",
+    "De gast is onbezorgd.",
+    "Het buurfeest is gemoedelijk en leuk.",
+    "Sam ziet de barbecue.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet de barbecue.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "De barbecue is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet het worstje.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet het worstje.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "Het worstje is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet de saté.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet de saté.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "De saté is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet de salade.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Noor ziet de salade.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "We spelen in de tuin. We zijn blij.",
+    "De salade is hier.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Bo pakt de bal. Bo is blij.",
+    "We pakken de bal. We zijn blij.",
+    "Sam ziet de prikker.",
+    "Sam geeft de bal aan Noor. Noor is blij.",
+    "Noor geeft de bal aan Sam. Sam is blij.",
+    "Sam geeft de bal aan Bo. Bo is blij.",
+    "Noor ziet de prikker.",
+    "Bo geeft de bal aan Sam. Sam is blij.",
+    "We geven de bal aan de hond. We zijn blij.",
+    "Sam heeft de bal. Noor heeft de bal.",
+    "De prikker is hier.",
+    "Bo heeft de bal. Bo is blij.",
+    "We hebben de bal. We zijn blij.",
+    "Sam wil de hond zien. Noor wil de bal zien.",
+    "Sam ziet het kooltje.",
+    "We willen de hond zien. We zijn blij.",
+    "Sam ziet de hond. Noor ziet de bal.",
+    "Bo ziet Sam. Bo is blij.",
+    "Noor ziet het kooltje.",
+    "We zien de hond. We zien de bal.",
+    "We zien Sam en Noor. We zijn blij.",
+    "Sam is hier. Noor is daar. Bo is hier.",
+    "Het kooltje is hier.",
+    "We zijn niet in het huis. We zijn in de tuin.",
+    "De hond is niet in het huis. De hond is in de tuin.",
+    "Sam heeft geen bal. Noor heeft de bal.",
+    "Sam ziet de aansteker.",
+    "We hebben geen hond. We hebben een bal.",
+    "Hallo, Sam! Hallo, Noor! Hallo, Bo!",
+    "Hallo, hond! Hallo, bal! Hallo, huis!",
+    "Noor ziet de aansteker.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "De salade is vegetarisch.",
+    "Het worstje is sappig en krokant.",
+    "Sam en Noor zijn samen blij."
+  ],
+  "new_words": [
+    "barbecue",
+    "worstje",
+    "saté",
+    "salade",
+    "prikker",
+    "kooltje",
+    "aansteker",
+    "buurfeest",
+    "grillen",
+    "marineren",
+    "roosteren",
+    "verdelen",
+    "schenken",
+    "bijpraten",
+    "sappig",
+    "krokant",
+    "vegetarisch",
+    "gemoedelijk",
+    "onbezorgd",
+    "gaandeweg"
+  ],
+  "glossary": [
+    {
+      "form": "barbecue",
+      "lemma": "barbecue",
+      "pos": "noun",
+      "meaning": "barbecue",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "worstje",
+      "lemma": "worstje",
+      "pos": "noun",
+      "meaning": "sausage",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "saté",
+      "lemma": "saté",
+      "pos": "noun",
+      "meaning": "satay",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "salade",
+      "lemma": "salade",
+      "pos": "noun",
+      "meaning": "salad",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "prikker",
+      "lemma": "prikker",
+      "pos": "noun",
+      "meaning": "skewer",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "kooltje",
+      "lemma": "kooltje",
+      "pos": "noun",
+      "meaning": "charcoal briquette",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "aansteker",
+      "lemma": "aansteker",
+      "pos": "noun",
+      "meaning": "lighter",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "buurfeest",
+      "lemma": "buurfeest",
+      "pos": "noun",
+      "meaning": "neighbourhood party",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "grillen",
+      "lemma": "grillen",
+      "pos": "verb",
+      "meaning": "to grill",
+      "new": true
+    },
+    {
+      "form": "marineren",
+      "lemma": "marineren",
+      "pos": "verb",
+      "meaning": "to marinate",
+      "new": true
+    },
+    {
+      "form": "roosteren",
+      "lemma": "roosteren",
+      "pos": "verb",
+      "meaning": "to roast",
+      "new": true
+    },
+    {
+      "form": "verdelen",
+      "lemma": "verdelen",
+      "pos": "verb",
+      "meaning": "to distribute",
+      "new": true
+    },
+    {
+      "form": "schenken",
+      "lemma": "schenken",
+      "pos": "verb",
+      "meaning": "to pour",
+      "new": true
+    },
+    {
+      "form": "bijpraten",
+      "lemma": "bijpraten",
+      "pos": "verb",
+      "meaning": "to catch up",
+      "new": true
+    },
+    {
+      "form": "sappig",
+      "lemma": "sappig",
+      "pos": "adjective",
+      "meaning": "juicy",
+      "new": true
+    },
+    {
+      "form": "krokant",
+      "lemma": "krokant",
+      "pos": "adjective",
+      "meaning": "crispy",
+      "new": true
+    },
+    {
+      "form": "vegetarisch",
+      "lemma": "vegetarisch",
+      "pos": "adjective",
+      "meaning": "vegetarian",
+      "new": true
+    },
+    {
+      "form": "gemoedelijk",
+      "lemma": "gemoedelijk",
+      "pos": "adjective",
+      "meaning": "cosy / relaxed",
+      "new": true
+    },
+    {
+      "form": "onbezorgd",
+      "lemma": "onbezorgd",
+      "pos": "adverb",
+      "meaning": "carefree",
+      "new": true
+    },
+    {
+      "form": "gaandeweg",
+      "lemma": "gaandeweg",
+      "pos": "adverb",
+      "meaning": "gradually",
+      "new": true
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "leuk",
+      "lemma": "leuk",
+      "pos": "adjective",
+      "meaning": "fun / nice",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "heet",
+      "lemma": "heet",
+      "pos": "adjective",
+      "meaning": "hot",
+      "new": false
+    },
+    {
+      "form": "marineert",
+      "lemma": "marineren",
+      "pos": "verb",
+      "meaning": "marinates",
+      "new": true
+    },
+    {
+      "form": "grilt",
+      "lemma": "grillen",
+      "pos": "verb",
+      "meaning": "grills",
+      "new": true
+    },
+    {
+      "form": "roostert",
+      "lemma": "roosteren",
+      "pos": "verb",
+      "meaning": "roasts",
+      "new": true
+    },
+    {
+      "form": "groen",
+      "lemma": "groen",
+      "pos": "adjective",
+      "meaning": "green",
+      "new": false
+    },
+    {
+      "form": "gerecht",
+      "lemma": "gerecht",
+      "pos": "noun",
+      "meaning": "dish",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "verdeelt",
+      "lemma": "verdelen",
+      "pos": "verb",
+      "meaning": "distributes",
+      "new": true
+    },
+    {
+      "form": "schenkt",
+      "lemma": "schenken",
+      "pos": "verb",
+      "meaning": "pours",
+      "new": true
+    },
+    {
+      "form": "drankje",
+      "lemma": "drankje",
+      "pos": "noun",
+      "meaning": "drink",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "bijgepraat",
+      "lemma": "bijpraten",
+      "pos": "verb",
+      "meaning": "caught up",
+      "new": true
+    },
+    {
+      "form": "gast",
+      "lemma": "gast",
+      "pos": "noun",
+      "meaning": "guest",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "druk",
+      "lemma": "druk",
+      "pos": "adjective",
+      "meaning": "busy",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "wind",
+      "lemma": "wind",
+      "pos": "noun",
+      "meaning": "wind",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lachen",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "to laugh",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "geven",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give",
+      "new": false
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "willen",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want",
+      "new": false
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    }
+  ]
+}

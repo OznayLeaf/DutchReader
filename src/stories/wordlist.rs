@@ -126,8 +126,8 @@ impl Wordlist {
 }
 
 /// Words used by a story that are neither new nor introduced by an earlier
-/// story. While the app ships fewer than 100 stories this is expected; the list
-/// is handed to future story writers so the missing stories can introduce them.
+/// story. The three sample stories still carry this debt; the list records it
+/// and keeps it out of the owned vocabulary. Generated shelves never use it.
 pub const ASSUMED_KNOWN_VERSION: u32 = 1;
 
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]

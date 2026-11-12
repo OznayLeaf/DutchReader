@@ -1,0 +1,1339 @@
+{
+  "id": "b2-12",
+  "level": "B2",
+  "order": 12,
+  "title": "De automatisering",
+  "blurb_nl": "Het bedrijf voert nieuwe software in. Een algoritme maakt een fout en de privacy van klanten komt in gevaar.",
+  "blurb_en": "The company introduces new software. An algorithm makes a mistake and the customers' privacy is at risk.",
+  "sections": [
+    "De onderneming wil het project automatiseren.",
+    "De automatisering is een groot project.",
+    "De machine is nieuw.",
+    "De software is duur.",
+    "Het algoritme werkt razendsnel.",
+    "Het systeem is digitaal.",
+    "Het netwerk is technologisch.",
+    "De data is belangrijk.",
+    "De privacy is belangrijk.",
+    "De beveiliging is goed.",
+    "De server staat in een kamer.",
+    "De onderneming digitaliseert het project.",
+    "De groep wil innoveren.",
+    "Het systeem is vernuftig.",
+    "De data is accuraat.",
+    "De software is foutloos.",
+    "De machine werkt vanzelf.",
+    "De privacy is veilig.",
+    "We bespreken de automatisering.",
+    "De automatisering is belangrijk.",
+    "De groep werkt samen.",
+    "De groep ziet de automatisering.",
+    "We denken aan de automatisering.",
+    "De buurt is rustig.",
+    "We kijken naar de automatisering.",
+    "We werken aan de automatisering.",
+    "Het plan is duidelijk.",
+    "We bespreken de machine.",
+    "De machine is belangrijk.",
+    "Het antwoord is duidelijk.",
+    "De groep ziet de machine.",
+    "We denken aan de machine.",
+    "Het project is goed.",
+    "We kijken naar de machine.",
+    "We werken aan de machine.",
+    "De afspraak is belangrijk.",
+    "We bespreken de software.",
+    "De software is belangrijk.",
+    "De zaal is groot.",
+    "De groep ziet de software.",
+    "We denken aan de software.",
+    "De kamer is klein.",
+    "We kijken naar de software.",
+    "We werken aan de software.",
+    "De tafel is groot.",
+    "We bespreken het algoritme.",
+    "Het algoritme is belangrijk.",
+    "De stoel is oud.",
+    "De groep ziet het algoritme.",
+    "We denken aan het algoritme.",
+    "De deur is open.",
+    "We kijken naar het algoritme.",
+    "We werken aan het algoritme.",
+    "Het raam is open.",
+    "We bespreken het systeem.",
+    "Het systeem is belangrijk.",
+    "De auto is nieuw.",
+    "De groep ziet het systeem.",
+    "We denken aan het systeem.",
+    "De fiets is oud.",
+    "We kijken naar het systeem.",
+    "We werken aan het systeem.",
+    "De trein is snel.",
+    "We bespreken het netwerk.",
+    "Het netwerk is belangrijk.",
+    "De bus is laat.",
+    "De groep ziet het netwerk.",
+    "We denken aan het netwerk.",
+    "De boot is groot.",
+    "We kijken naar het netwerk.",
+    "We werken aan het netwerk.",
+    "Het huis is oud.",
+    "We bespreken de data.",
+    "De data is belangrijk.",
+    "De school is groot.",
+    "De groep ziet de data.",
+    "We denken aan de data.",
+    "De winkel is open.",
+    "We kijken naar de data.",
+    "We werken aan de data.",
+    "De markt is druk.",
+    "We bespreken de privacy.",
+    "De privacy is belangrijk.",
+    "De tuin is mooi.",
+    "De groep ziet de privacy.",
+    "We denken aan de privacy.",
+    "De boom is groot.",
+    "We kijken naar de privacy.",
+    "We werken aan de privacy.",
+    "De bloem is mooi.",
+    "We bespreken de beveiliging.",
+    "De beveiliging is belangrijk.",
+    "Het dorp is klein.",
+    "De groep ziet de beveiliging.",
+    "We denken aan de beveiliging.",
+    "De stad is druk.",
+    "We kijken naar de beveiliging.",
+    "We werken aan de beveiliging.",
+    "De straat is lang.",
+    "We bespreken de server.",
+    "De server is belangrijk.",
+    "Het plein is leeg.",
+    "De groep ziet de server.",
+    "We denken aan de server.",
+    "De groep is moe.",
+    "We kijken naar de server.",
+    "We werken aan de server.",
+    "De groep is blij.",
+    "De groep wil automatiseren.",
+    "Vandaag automatiseert de groep.",
+    "De groep is tevreden.",
+    "Gisteren automatiseerde de groep.",
+    "De groep heeft geautomatiseerd.",
+    "De groep is trots.",
+    "Morgen automatiseert de groep.",
+    "De groep kan automatiseren.",
+    "De groep is rustig.",
+    "De groep wil digitaliseren.",
+    "Vandaag digitaliseert de groep.",
+    "De groep is tevreden.",
+    "Gisteren digitaliseerde de groep.",
+    "De groep heeft gedigitaliseerd.",
+    "Het is goed.",
+    "Morgen digitaliseert de groep.",
+    "De groep kan digitaliseren.",
+    "Het is niet goed.",
+    "De groep wil innoveren.",
+    "Vandaag innoveert de groep.",
+    "Het is belangrijk.",
+    "Gisteren innoveerde de groep.",
+    "De groep heeft geinnoveerd.",
+    "Het is moeilijk.",
+    "Morgen innoveert de groep.",
+    "De groep kan innoveren.",
+    "Het is makkelijk.",
+    "Het is digitaal.",
+    "De groep is digitaal.",
+    "Het is mooi.",
+    "We vinden het digitaal.",
+    "De buurt is digitaal.",
+    "Het is nieuw.",
+    "Het plan is digitaal.",
+    "Het is technologisch.",
+    "Het is oud.",
+    "De groep is technologisch.",
+    "We vinden het technologisch.",
+    "Het is lang.",
+    "De buurt is technologisch.",
+    "Het plan is technologisch.",
+    "Het is kort.",
+    "Het is vernuftig.",
+    "De groep is vernuftig.",
+    "Het is hoog.",
+    "We vinden het vernuftig.",
+    "De buurt is vernuftig.",
+    "Het is druk.",
+    "Het plan is vernuftig.",
+    "Het is accuraat.",
+    "Het is rustig.",
+    "De groep is accuraat.",
+    "We vinden het accuraat.",
+    "Het is stil.",
+    "De buurt is accuraat.",
+    "Het plan is accuraat.",
+    "Het is snel.",
+    "Het is foutloos.",
+    "De groep is foutloos.",
+    "We werken samen.",
+    "We vinden het foutloos.",
+    "De buurt is foutloos.",
+    "We werken hard.",
+    "Het plan is foutloos.",
+    "We werken razendsnel.",
+    "We werken goed.",
+    "De groep werkt razendsnel.",
+    "Het plan is razendsnel.",
+    "We praten samen.",
+    "We werken vanzelf.",
+    "De groep werkt vanzelf.",
+    "We praten met de buurt.",
+    "Het plan is vanzelf.",
+    "We praten met de school.",
+    "We kijken naar de tuin.",
+    "We kijken naar het huis.",
+    "We zien de buurt.",
+    "We horen de groep.",
+    "We maken het plan.",
+    "We maken het project.",
+    "We lezen het verhaal.",
+    "We schrijven het antwoord.",
+    "We zoeken het antwoord.",
+    "We vinden het antwoord.",
+    "We geven het antwoord.",
+    "We nemen het plan.",
+    "We leggen het plan op tafel.",
+    "We zetten het plan op tafel.",
+    "We openen de deur.",
+    "We openen het raam.",
+    "We bouwen een huis.",
+    "We wonen in het huis.",
+    "We wonen in de stad.",
+    "We lopen naar de winkel.",
+    "We lopen naar de school.",
+    "We gaan naar huis.",
+    "We gaan naar de winkel.",
+    "We komen naar huis.",
+    "We wachten hier.",
+    "We vragen het aan de buurt.",
+    "We antwoorden.",
+    "We kiezen een plan.",
+    "We delen het antwoord.",
+    "We koken het eten.",
+    "We slapen in het huis.",
+    "We rusten in de tuin.",
+    "We spelen met de groep.",
+    "We spelen in de tuin.",
+    "We helpen de buurt.",
+    "We helpen de school.",
+    "We willen het plan.",
+    "We willen de tuin.",
+    "We willen samen werken.",
+    "We kunnen het maken.",
+    "We moeten het maken.",
+    "We moeten samen werken.",
+    "We blijven samen.",
+    "We blijven hier.",
+    "Als de groep samen werkt, is het plan snel goed.",
+    "De groep werkt hard, omdat het plan belangrijk is.",
+    "Het plan is moeilijk, maar de groep is niet bang.",
+    "De buurt had het plan kunnen maken.",
+    "De buurt had het kunnen weten.",
+    "Als de winkel open is, gaat de groep naar binnen.",
+    "De deur is open en het raam is open.",
+    "De groep is moe, maar blij.",
+    "Het is niet goed, maar het is niet slecht.",
+    "De groep werkt goed samen.",
+    "De groep ziet de buurt en de school.",
+    "De groep ziet de straat en het plein.",
+    "De groep ziet het dorp en de stad.",
+    "De groep ziet de winkel en de markt.",
+    "De groep ziet de tuin en het huis.",
+    "De groep denkt aan de buurt.",
+    "De groep denkt aan de school.",
+    "De groep denkt aan het plan.",
+    "De groep denkt aan het project.",
+    "De groep denkt aan de afspraak.",
+    "De groep wacht op het antwoord.",
+    "De groep wacht op het plan.",
+    "De groep wacht op de buurt.",
+    "De groep hoort het antwoord.",
+    "De groep ziet het plan.",
+    "De groep ziet het project.",
+    "De groep ziet de buurt.",
+    "De groep ziet de school.",
+    "De groep ziet de winkel.",
+    "De groep ziet de markt.",
+    "De groep ziet de tuin.",
+    "De groep ziet het huis.",
+    "De groep ziet de stad.",
+    "De groep ziet het dorp.",
+    "De groep ziet de straat.",
+    "De groep ziet het plein.",
+    "Het project is goed.",
+    "De groep is blij."
+  ],
+  "new_words": [
+    "automatisering",
+    "machine",
+    "software",
+    "algoritme",
+    "systeem",
+    "netwerk",
+    "data",
+    "privacy",
+    "beveiliging",
+    "server",
+    "automatiseren",
+    "digitaliseren",
+    "innoveren",
+    "digitaal",
+    "technologisch",
+    "vernuftig",
+    "accuraat",
+    "foutloos",
+    "razendsnel",
+    "vanzelf"
+  ],
+  "glossary": [
+    {
+      "form": "automatisering",
+      "lemma": "automatisering",
+      "pos": "noun",
+      "meaning": "automation",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "machine",
+      "lemma": "machine",
+      "pos": "noun",
+      "meaning": "machine",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "software",
+      "lemma": "software",
+      "pos": "noun",
+      "meaning": "software",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "algoritme",
+      "lemma": "algoritme",
+      "pos": "noun",
+      "meaning": "algorithm",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "systeem",
+      "lemma": "systeem",
+      "pos": "noun",
+      "meaning": "system",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "netwerk",
+      "lemma": "netwerk",
+      "pos": "noun",
+      "meaning": "network",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "data",
+      "lemma": "data",
+      "pos": "noun",
+      "meaning": "data",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "privacy",
+      "lemma": "privacy",
+      "pos": "noun",
+      "meaning": "privacy",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "beveiliging",
+      "lemma": "beveiliging",
+      "pos": "noun",
+      "meaning": "security",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "server",
+      "lemma": "server",
+      "pos": "noun",
+      "meaning": "server",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "automatiseren",
+      "lemma": "automatiseren",
+      "pos": "verb",
+      "meaning": "to automate",
+      "new": true
+    },
+    {
+      "form": "digitaliseren",
+      "lemma": "digitaliseren",
+      "pos": "verb",
+      "meaning": "to digitise",
+      "new": true
+    },
+    {
+      "form": "innoveren",
+      "lemma": "innoveren",
+      "pos": "verb",
+      "meaning": "to innovate",
+      "new": true
+    },
+    {
+      "form": "digitaal",
+      "lemma": "digitaal",
+      "pos": "adjective",
+      "meaning": "digital",
+      "new": true
+    },
+    {
+      "form": "technologisch",
+      "lemma": "technologisch",
+      "pos": "adjective",
+      "meaning": "technological",
+      "new": true
+    },
+    {
+      "form": "vernuftig",
+      "lemma": "vernuftig",
+      "pos": "adjective",
+      "meaning": "ingenious",
+      "new": true
+    },
+    {
+      "form": "accuraat",
+      "lemma": "accuraat",
+      "pos": "adjective",
+      "meaning": "accurate",
+      "new": true
+    },
+    {
+      "form": "foutloos",
+      "lemma": "foutloos",
+      "pos": "adjective",
+      "meaning": "faultless",
+      "new": true
+    },
+    {
+      "form": "razendsnel",
+      "lemma": "razendsnel",
+      "pos": "adverb",
+      "meaning": "at lightning speed",
+      "new": true
+    },
+    {
+      "form": "vanzelf",
+      "lemma": "vanzelf",
+      "pos": "adverb",
+      "meaning": "by itself",
+      "new": true
+    },
+    {
+      "form": "onderneming",
+      "lemma": "onderneming",
+      "pos": "noun",
+      "meaning": "company / enterprise",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "project",
+      "lemma": "project",
+      "pos": "noun",
+      "meaning": "project",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "nieuw",
+      "lemma": "nieuw",
+      "pos": "adjective",
+      "meaning": "new",
+      "new": false
+    },
+    {
+      "form": "duur",
+      "lemma": "duur",
+      "pos": "adjective",
+      "meaning": "expensive",
+      "new": false
+    },
+    {
+      "form": "werkt",
+      "lemma": "werken",
+      "pos": "verb",
+      "meaning": "works",
+      "new": false
+    },
+    {
+      "form": "belangrijk",
+      "lemma": "belangrijk",
+      "pos": "adjective",
+      "meaning": "important",
+      "new": false
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "staat",
+      "lemma": "staan",
+      "pos": "verb",
+      "meaning": "stands",
+      "new": false
+    },
+    {
+      "form": "kamer",
+      "lemma": "kamer",
+      "pos": "noun",
+      "meaning": "room",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "digitaliseert",
+      "lemma": "digitaliseren",
+      "pos": "verb",
+      "meaning": "to digitise (present)",
+      "new": true
+    },
+    {
+      "form": "groep",
+      "lemma": "groep",
+      "pos": "noun",
+      "meaning": "group",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "veilig",
+      "lemma": "veilig",
+      "pos": "adjective",
+      "meaning": "safe",
+      "new": false
+    },
+    {
+      "form": "bespreken",
+      "lemma": "bespreken",
+      "pos": "verb",
+      "meaning": "to discuss",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "denken",
+      "lemma": "denken",
+      "pos": "verb",
+      "meaning": "to think",
+      "new": false
+    },
+    {
+      "form": "buurt",
+      "lemma": "buurt",
+      "pos": "noun",
+      "meaning": "neighbourhood",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "rustig",
+      "lemma": "rustig",
+      "pos": "adjective",
+      "meaning": "calm / quiet",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "werken",
+      "lemma": "werken",
+      "pos": "verb",
+      "meaning": "to work",
+      "new": false
+    },
+    {
+      "form": "plan",
+      "lemma": "plan",
+      "pos": "noun",
+      "meaning": "plan",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "duidelijk",
+      "lemma": "duidelijk",
+      "pos": "adjective",
+      "meaning": "clear",
+      "new": false
+    },
+    {
+      "form": "antwoord",
+      "lemma": "antwoord",
+      "pos": "noun",
+      "meaning": "answer",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "afspraak",
+      "lemma": "afspraak",
+      "pos": "noun",
+      "meaning": "appointment",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "zaal",
+      "lemma": "zaal",
+      "pos": "noun",
+      "meaning": "hall / auditorium",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "tafel",
+      "lemma": "tafel",
+      "pos": "noun",
+      "meaning": "table",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "stoel",
+      "lemma": "stoel",
+      "pos": "noun",
+      "meaning": "chair",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "oud",
+      "lemma": "oud",
+      "pos": "adjective",
+      "meaning": "old",
+      "new": false
+    },
+    {
+      "form": "deur",
+      "lemma": "deur",
+      "pos": "noun",
+      "meaning": "door",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "open",
+      "lemma": "opendoen",
+      "pos": "verb",
+      "meaning": "open",
+      "new": false
+    },
+    {
+      "form": "raam",
+      "lemma": "raam",
+      "pos": "noun",
+      "meaning": "window",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "auto",
+      "lemma": "auto",
+      "pos": "noun",
+      "meaning": "car",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "fiets",
+      "lemma": "fiets",
+      "pos": "noun",
+      "meaning": "bicycle",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "trein",
+      "lemma": "trein",
+      "pos": "noun",
+      "meaning": "train",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "snel",
+      "lemma": "snel",
+      "pos": "adverb",
+      "meaning": "fast / quickly",
+      "new": false
+    },
+    {
+      "form": "bus",
+      "lemma": "bus",
+      "pos": "noun",
+      "meaning": "bus",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "laat",
+      "lemma": "laat",
+      "pos": "adverb",
+      "meaning": "late",
+      "new": false
+    },
+    {
+      "form": "boot",
+      "lemma": "boot",
+      "pos": "noun",
+      "meaning": "boat",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "school",
+      "lemma": "school",
+      "pos": "noun",
+      "meaning": "school",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "winkel",
+      "lemma": "winkel",
+      "pos": "noun",
+      "meaning": "shop",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "markt",
+      "lemma": "markt",
+      "pos": "noun",
+      "meaning": "market",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "druk",
+      "lemma": "druk",
+      "pos": "adjective",
+      "meaning": "busy",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "mooi",
+      "lemma": "mooi",
+      "pos": "adjective",
+      "meaning": "beautiful / nice",
+      "new": false
+    },
+    {
+      "form": "boom",
+      "lemma": "boom",
+      "pos": "noun",
+      "meaning": "tree",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bloem",
+      "lemma": "bloem",
+      "pos": "noun",
+      "meaning": "flower",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "dorp",
+      "lemma": "dorp",
+      "pos": "noun",
+      "meaning": "village",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "stad",
+      "lemma": "stad",
+      "pos": "noun",
+      "meaning": "city",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "straat",
+      "lemma": "straat",
+      "pos": "noun",
+      "meaning": "street",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lang",
+      "lemma": "lang",
+      "pos": "adjective",
+      "meaning": "long",
+      "new": false
+    },
+    {
+      "form": "plein",
+      "lemma": "plein",
+      "pos": "noun",
+      "meaning": "square",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "leeg",
+      "lemma": "leeg",
+      "pos": "adjective",
+      "meaning": "empty",
+      "new": false
+    },
+    {
+      "form": "moe",
+      "lemma": "moe",
+      "pos": "adjective",
+      "meaning": "tired",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "vandaag",
+      "lemma": "vandaag",
+      "pos": "adverb",
+      "meaning": "today",
+      "new": false
+    },
+    {
+      "form": "automatiseert",
+      "lemma": "automatiseren",
+      "pos": "verb",
+      "meaning": "to automate (present)",
+      "new": true
+    },
+    {
+      "form": "tevreden",
+      "lemma": "tevreden",
+      "pos": "adjective",
+      "meaning": "content / satisfied",
+      "new": false
+    },
+    {
+      "form": "gisteren",
+      "lemma": "gisteren",
+      "pos": "adverb",
+      "meaning": "yesterday",
+      "new": false
+    },
+    {
+      "form": "automatiseerde",
+      "lemma": "automatiseren",
+      "pos": "verb",
+      "meaning": "to automate (past)",
+      "new": true
+    },
+    {
+      "form": "geautomatiseerd",
+      "lemma": "automatiseren",
+      "pos": "verb",
+      "meaning": "to automate (perfect)",
+      "new": true
+    },
+    {
+      "form": "trots",
+      "lemma": "trots",
+      "pos": "adjective",
+      "meaning": "proud",
+      "new": false
+    },
+    {
+      "form": "morgen",
+      "lemma": "morgen",
+      "pos": "adverb",
+      "meaning": "tomorrow",
+      "new": false
+    },
+    {
+      "form": "kan",
+      "lemma": "kunnen",
+      "pos": "verb",
+      "meaning": "can",
+      "new": false
+    },
+    {
+      "form": "digitaliseerde",
+      "lemma": "digitaliseren",
+      "pos": "verb",
+      "meaning": "to digitise (past)",
+      "new": true
+    },
+    {
+      "form": "gedigitaliseerd",
+      "lemma": "digitaliseren",
+      "pos": "verb",
+      "meaning": "to digitise (perfect)",
+      "new": true
+    },
+    {
+      "form": "innoveert",
+      "lemma": "innoveren",
+      "pos": "verb",
+      "meaning": "to innovate (present)",
+      "new": true
+    },
+    {
+      "form": "innoveerde",
+      "lemma": "innoveren",
+      "pos": "verb",
+      "meaning": "to innovate (past)",
+      "new": true
+    },
+    {
+      "form": "geinnoveerd",
+      "lemma": "innoveren",
+      "pos": "verb",
+      "meaning": "to innovate (perfect)",
+      "new": true
+    },
+    {
+      "form": "moeilijk",
+      "lemma": "moeilijk",
+      "pos": "adjective",
+      "meaning": "difficult",
+      "new": false
+    },
+    {
+      "form": "makkelijk",
+      "lemma": "makkelijk",
+      "pos": "adjective",
+      "meaning": "easy",
+      "new": false
+    },
+    {
+      "form": "vinden",
+      "lemma": "vinden",
+      "pos": "verb",
+      "meaning": "to find",
+      "new": false
+    },
+    {
+      "form": "kort",
+      "lemma": "kort",
+      "pos": "adjective",
+      "meaning": "short",
+      "new": false
+    },
+    {
+      "form": "hoog",
+      "lemma": "hoog",
+      "pos": "adjective",
+      "meaning": "high / tall",
+      "new": false
+    },
+    {
+      "form": "stil",
+      "lemma": "stil",
+      "pos": "adjective",
+      "meaning": "quiet",
+      "new": false
+    },
+    {
+      "form": "hard",
+      "lemma": "hard",
+      "pos": "adverb",
+      "meaning": "hard / loudly",
+      "new": false
+    },
+    {
+      "form": "praten",
+      "lemma": "praten",
+      "pos": "verb",
+      "meaning": "to talk",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "horen",
+      "lemma": "horen",
+      "pos": "verb",
+      "meaning": "to hear",
+      "new": false
+    },
+    {
+      "form": "maken",
+      "lemma": "maken",
+      "pos": "verb",
+      "meaning": "to make / fix",
+      "new": false
+    },
+    {
+      "form": "lezen",
+      "lemma": "lezen",
+      "pos": "verb",
+      "meaning": "to read",
+      "new": false
+    },
+    {
+      "form": "verhaal",
+      "lemma": "verhaal",
+      "pos": "noun",
+      "meaning": "story",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "schrijven",
+      "lemma": "schrijven",
+      "pos": "verb",
+      "meaning": "to write",
+      "new": false
+    },
+    {
+      "form": "zoeken",
+      "lemma": "zoeken",
+      "pos": "verb",
+      "meaning": "to look for",
+      "new": false
+    },
+    {
+      "form": "geven",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give",
+      "new": false
+    },
+    {
+      "form": "nemen",
+      "lemma": "nemen",
+      "pos": "verb",
+      "meaning": "to take",
+      "new": false
+    },
+    {
+      "form": "leggen",
+      "lemma": "leggen",
+      "pos": "verb",
+      "meaning": "to put / lay",
+      "new": false
+    },
+    {
+      "form": "zetten",
+      "lemma": "zetten",
+      "pos": "verb",
+      "meaning": "to put / set",
+      "new": false
+    },
+    {
+      "form": "openen",
+      "lemma": "openen",
+      "pos": "verb",
+      "meaning": "to open",
+      "new": false
+    },
+    {
+      "form": "bouwen",
+      "lemma": "bouwen",
+      "pos": "verb",
+      "meaning": "to build",
+      "new": false
+    },
+    {
+      "form": "wonen",
+      "lemma": "wonen",
+      "pos": "verb",
+      "meaning": "to live / reside",
+      "new": false
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "wachten",
+      "lemma": "wachten",
+      "pos": "verb",
+      "meaning": "to wait",
+      "new": false
+    },
+    {
+      "form": "vragen",
+      "lemma": "vragen",
+      "pos": "verb",
+      "meaning": "to ask",
+      "new": false
+    },
+    {
+      "form": "antwoorden",
+      "lemma": "antwoorden",
+      "pos": "verb",
+      "meaning": "to answer",
+      "new": false
+    },
+    {
+      "form": "kiezen",
+      "lemma": "kiezen",
+      "pos": "verb",
+      "meaning": "to choose",
+      "new": false
+    },
+    {
+      "form": "delen",
+      "lemma": "delen",
+      "pos": "verb",
+      "meaning": "to share",
+      "new": false
+    },
+    {
+      "form": "koken",
+      "lemma": "koken",
+      "pos": "verb",
+      "meaning": "to cook",
+      "new": false
+    },
+    {
+      "form": "eten",
+      "lemma": "eten",
+      "pos": "verb",
+      "meaning": "to eat",
+      "new": false
+    },
+    {
+      "form": "slapen",
+      "lemma": "slapen",
+      "pos": "verb",
+      "meaning": "to sleep",
+      "new": false
+    },
+    {
+      "form": "rusten",
+      "lemma": "rusten",
+      "pos": "verb",
+      "meaning": "to rest",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "helpen",
+      "lemma": "helpen",
+      "pos": "verb",
+      "meaning": "to help",
+      "new": false
+    },
+    {
+      "form": "willen",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want",
+      "new": false
+    },
+    {
+      "form": "kunnen",
+      "lemma": "kunnen",
+      "pos": "verb",
+      "meaning": "to be able to / can",
+      "new": false
+    },
+    {
+      "form": "moeten",
+      "lemma": "moeten",
+      "pos": "verb",
+      "meaning": "to have to / must",
+      "new": false
+    },
+    {
+      "form": "blijven",
+      "lemma": "blijven",
+      "pos": "verb",
+      "meaning": "to stay",
+      "new": false
+    },
+    {
+      "form": "als",
+      "lemma": "als",
+      "pos": "conjunction",
+      "meaning": "if / when / than",
+      "new": false
+    },
+    {
+      "form": "omdat",
+      "lemma": "omdat",
+      "pos": "conjunction",
+      "meaning": "because",
+      "new": false
+    },
+    {
+      "form": "bang",
+      "lemma": "bang",
+      "pos": "adjective",
+      "meaning": "afraid",
+      "new": false
+    },
+    {
+      "form": "had",
+      "lemma": "hebben",
+      "pos": "verb",
+      "meaning": "had",
+      "new": false
+    },
+    {
+      "form": "weten",
+      "lemma": "weten",
+      "pos": "verb",
+      "meaning": "to know",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "binnen",
+      "lemma": "binnen",
+      "pos": "adverb",
+      "meaning": "inside",
+      "new": false
+    },
+    {
+      "form": "slecht",
+      "lemma": "slecht",
+      "pos": "adverb",
+      "meaning": "badly",
+      "new": false
+    },
+    {
+      "form": "denkt",
+      "lemma": "denken",
+      "pos": "verb",
+      "meaning": "thinks",
+      "new": false
+    },
+    {
+      "form": "wacht",
+      "lemma": "wachten",
+      "pos": "verb",
+      "meaning": "waits",
+      "new": false
+    },
+    {
+      "form": "hoort",
+      "lemma": "horen",
+      "pos": "verb",
+      "meaning": "hears",
+      "new": false
+    }
+  ]
+}

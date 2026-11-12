@@ -1,0 +1,483 @@
+{
+  "id": "a1-14",
+  "level": "A1",
+  "order": 14,
+  "title": "Het bos",
+  "blurb_nl": "Sam en Noor wandelen in het bos. Het wordt donker en ze zien een vos.",
+  "blurb_en": "Sam and Noor walk in the forest. It gets dark and they see a fox.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam en Noor wandelen in het bos. Het bos is groot.",
+    "Het pad is niet groot. Het pad is klein.",
+    "Het is donker. Het bos is donker. Het pad is donker.",
+    "Sam ziet een tak. De tak is groot. De tak is donker.",
+    "Noor ziet een dier. Het dier is wild.",
+    "Sam ziet een vos. De vos is wild. De vos is niet groot.",
+    "Noor ziet een eekhoorn. De eekhoorn is klein. De eekhoorn is niet groot.",
+    "Sam ziet een nest. Het nest is groot.",
+    "Noor ziet de beek. De beek is niet groot.",
+    "Sam wandelt op het pad. Noor wandelt op het pad. Bo wandelt op het pad.",
+    "De eekhoorn is op de tak.",
+    "De vos kruipt. De eekhoorn kruipt. Het dier kruipt.",
+    "Sam graaft. Noor graaft. Bo graaft.",
+    "Het dier vliegt. De eekhoorn vliegt niet.",
+    "Sam volgt de vos. Noor volgt de eekhoorn. Bo volgt het dier.",
+    "Sam verdwaalt. Noor verdwaalt. Het bos is groot.",
+    "Sam is dapper. Noor is dapper. Bo is dapper.",
+    "Het is donker. Het pad is niet licht. Het bos is donker.",
+    "De beek is niet donker. De beek is licht.",
+    "We wandelen stilletjes. We kijken stilletjes. We zijn stilletjes.",
+    "We zien ergens een licht. We zien ergens een dier.",
+    "Sam ziet de vos. De vos is wild. De vos is niet dapper.",
+    "Noor ziet de eekhoorn. De eekhoorn is klein. De eekhoorn is wild.",
+    "We volgen het pad. We volgen de beek. We zijn samen.",
+    "We zijn in het bos.",
+    "We gaan naar het bos.",
+    "Sam loopt naar het bos.",
+    "Noor gaat naar het bos.",
+    "Het bos is hier.",
+    "We zijn op het pad.",
+    "We gaan naar het pad.",
+    "Sam loopt naar het pad.",
+    "Noor gaat naar het pad.",
+    "Het pad is hier.",
+    "We zien de tak.",
+    "Sam ziet de tak.",
+    "Noor ziet de tak.",
+    "Sam pakt de tak.",
+    "We spelen met de tak.",
+    "De tak is hier.",
+    "We zien het dier.",
+    "Sam ziet het dier.",
+    "Noor ziet het dier.",
+    "We kijken naar het dier.",
+    "Het dier is hier.",
+    "Het dier is groot.",
+    "We zien de vos.",
+    "Sam ziet de vos.",
+    "Noor ziet de vos.",
+    "We kijken naar de vos.",
+    "De vos is hier.",
+    "De vos is groot.",
+    "We zien de eekhoorn.",
+    "Sam ziet de eekhoorn.",
+    "Noor ziet de eekhoorn.",
+    "We kijken naar de eekhoorn.",
+    "De eekhoorn is hier.",
+    "De eekhoorn is groot.",
+    "We zien het nest.",
+    "Sam ziet het nest.",
+    "Noor ziet het nest.",
+    "Sam pakt het nest.",
+    "We spelen met het nest.",
+    "Het nest is hier.",
+    "We zijn in de beek.",
+    "We gaan naar de beek.",
+    "Sam loopt naar de beek.",
+    "Noor gaat naar de beek.",
+    "De beek is hier.",
+    "Hallo, bos! Hallo, pad! Hallo, vos!",
+    "Sam geeft het bos aan Noor.",
+    "Noor geeft het bos aan Sam.",
+    "Bo ziet het bos. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zijn in het bos.",
+    "We gaan naar het bos.",
+    "Sam loopt naar het bos.",
+    "Noor gaat naar het bos.",
+    "Het bos is hier.",
+    "We zijn op het pad.",
+    "We gaan naar het pad.",
+    "Sam loopt naar het pad.",
+    "Noor gaat naar het pad.",
+    "Het pad is hier.",
+    "We zien de tak.",
+    "Sam ziet de tak.",
+    "Noor ziet de tak.",
+    "Sam pakt de tak.",
+    "We spelen met de tak.",
+    "De tak is hier.",
+    "We zien het dier.",
+    "Sam ziet het dier.",
+    "Het bos is donker. Het pad is licht. We zijn blij.",
+    "We zijn altijd samen. We zijn blij.",
+    "Hallo, bos! Hallo, vos! Hallo, eekhoorn!"
+  ],
+  "new_words": [
+    "bos",
+    "pad",
+    "tak",
+    "dier",
+    "vos",
+    "eekhoorn",
+    "nest",
+    "beek",
+    "wandelen",
+    "verdwalen",
+    "vliegen",
+    "kruipen",
+    "graven",
+    "volgen",
+    "donker",
+    "licht",
+    "wild",
+    "dapper",
+    "stilletjes",
+    "ergens"
+  ],
+  "glossary": [
+    {
+      "form": "bos",
+      "lemma": "bos",
+      "pos": "noun",
+      "meaning": "forest",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "pad",
+      "lemma": "pad",
+      "pos": "noun",
+      "meaning": "path",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "tak",
+      "lemma": "tak",
+      "pos": "noun",
+      "meaning": "branch",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "dier",
+      "lemma": "dier",
+      "pos": "noun",
+      "meaning": "animal",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "vos",
+      "lemma": "vos",
+      "pos": "noun",
+      "meaning": "fox",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "eekhoorn",
+      "lemma": "eekhoorn",
+      "pos": "noun",
+      "meaning": "squirrel",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "nest",
+      "lemma": "nest",
+      "pos": "noun",
+      "meaning": "nest",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "beek",
+      "lemma": "beek",
+      "pos": "noun",
+      "meaning": "stream",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "wandelen",
+      "lemma": "wandelen",
+      "pos": "verb",
+      "meaning": "to walk / hike",
+      "new": true
+    },
+    {
+      "form": "verdwalen",
+      "lemma": "verdwalen",
+      "pos": "verb",
+      "meaning": "to get lost",
+      "new": true
+    },
+    {
+      "form": "vliegen",
+      "lemma": "vliegen",
+      "pos": "verb",
+      "meaning": "to fly",
+      "new": true
+    },
+    {
+      "form": "kruipen",
+      "lemma": "kruipen",
+      "pos": "verb",
+      "meaning": "to crawl",
+      "new": true
+    },
+    {
+      "form": "graven",
+      "lemma": "graven",
+      "pos": "verb",
+      "meaning": "to dig",
+      "new": true
+    },
+    {
+      "form": "volgen",
+      "lemma": "volgen",
+      "pos": "verb",
+      "meaning": "to follow",
+      "new": true
+    },
+    {
+      "form": "donker",
+      "lemma": "donker",
+      "pos": "adjective",
+      "meaning": "dark",
+      "new": true
+    },
+    {
+      "form": "licht",
+      "lemma": "licht",
+      "pos": "adjective",
+      "meaning": "light",
+      "new": true
+    },
+    {
+      "form": "wild",
+      "lemma": "wild",
+      "pos": "adjective",
+      "meaning": "wild",
+      "new": true
+    },
+    {
+      "form": "dapper",
+      "lemma": "dapper",
+      "pos": "adjective",
+      "meaning": "brave",
+      "new": true
+    },
+    {
+      "form": "stilletjes",
+      "lemma": "stilletjes",
+      "pos": "adverb",
+      "meaning": "quietly",
+      "new": true
+    },
+    {
+      "form": "ergens",
+      "lemma": "ergens",
+      "pos": "adverb",
+      "meaning": "somewhere",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "wandelt",
+      "lemma": "wandelen",
+      "pos": "verb",
+      "meaning": "walks / hikes",
+      "new": true
+    },
+    {
+      "form": "kruipt",
+      "lemma": "kruipen",
+      "pos": "verb",
+      "meaning": "crawls",
+      "new": true
+    },
+    {
+      "form": "graaft",
+      "lemma": "graven",
+      "pos": "verb",
+      "meaning": "digs",
+      "new": true
+    },
+    {
+      "form": "vliegt",
+      "lemma": "vliegen",
+      "pos": "verb",
+      "meaning": "flies",
+      "new": true
+    },
+    {
+      "form": "volgt",
+      "lemma": "volgen",
+      "pos": "verb",
+      "meaning": "follows",
+      "new": true
+    },
+    {
+      "form": "verdwaalt",
+      "lemma": "verdwalen",
+      "pos": "verb",
+      "meaning": "gets lost",
+      "new": true
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

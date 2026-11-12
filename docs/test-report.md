@@ -14,7 +14,7 @@ requested for this pass. Every result below was produced in this working tree.
 | `cargo-apk` | 0.10.0 |
 | Device | Android emulator `DutchReaderTest`, 1080×2400 @420 dpi |
 | Emulator time zone | `Africa/Cairo` (EET/EEST, UTC+2/+3 with DST) |
-| Device date | Sat 31 Oct – Mon 2 Nov 2026 (final pass on 2 Nov) |
+| Device date | Sat 31 Oct – Tue 10 Nov 2026 (B2 shelf re-run on 10 Nov) |
 
 **Limitation:** no physical phone was available. All device checks ran on the
 emulator above. The 60 fps target cannot be measured reliably on the software
@@ -39,25 +39,31 @@ cargo run -p validate_stories -- --allow-gaps
 |-------|--------|
 | `cargo fmt --all -- --check` | Pass (no diff) |
 | `cargo clippy --workspace --all-targets -- -D warnings` | Pass (no warnings) |
-| `cargo test --workspace` | Pass — **131 tests** |
-| Validator on the four stories | Pass — `0 error(s), 3 warning(s)` |
+| `cargo test --workspace` | Pass — **137 tests** |
+| Validator on the 100-story library | Pass — `0 error(s), 3 warning(s)` |
 
 Test breakdown:
 
 | Suite | Tests | Result |
 |-------|-------|--------|
-| `dutchreader` library unit tests | 124 | Pass |
+| `dutchreader` library unit tests | 130 | Pass |
 | `tests/atomic_kill.rs` (real process kill mid-write) | 2 | Pass |
 | `validator` fixture/CLI tests | 5 | Pass |
 | desktop unit tests | 0 | — |
 | doc tests | 0 | — |
 
-The three validator warnings are `ASSUMED_KNOWN` for `a2-01` (65 words),
-`b1-01` (171 words), and `b2-01` (247 words). They are expected with only four
-sample stories: the strict 20-new-word progression is enforced across the future
-100-story set, and allow-gaps mode records the debt in
-`assets/assumed_known.json`. The broken fixtures in `tests/fixtures/` still fail
-with their expected diagnostics (covered by the 5 validator tests).
+The three validator warnings are `ASSUMED_KNOWN` for `a2-01` (44 words),
+`b1-01` (109 words), and `b2-01` (173 words). They are expected because those
+three samples were written before the stories that would introduce their
+background vocabulary. All four shelves are complete and ordered, and no
+story produces a coverage or repetition warning. The broken fixtures in
+`tests/fixtures/` still fail with their expected diagnostics (covered by the
+5 validator tests).
+
+The Tapped words follow-up added six library tests (`dictionary::tapped`),
+raising the library suite from 124 to 130. The total is now 137. The follow-up
+was re-verified with `cargo fmt`, clippy, the full test suite, and the device
+checks below.
 
 Coverage explicitly required by 5.1 is present: atomic write recovery, page
 timer 29/30 s and reset rules, dictionary dedupe, lookup fallback and cache,
@@ -99,12 +105,17 @@ A real keystore is required for shipping; the test key is not for distribution.
 |-------|-----------|---------------------------|-------------------------------------|---------------|----------------------------------|
 | A1-01 De rode bal | 20 | Yes | Pass | Pass | Pass |
 | A2-01 De sleutel is weg | 20 | Yes | Pass | Pass | Pass |
+| A2-02 to A2-25 (24 stories) | 20 each | Yes | Pass | Pass | Pass |
 | B1-01 De laatste stroopwafel | 20 | Yes | Pass | Pass | Pass |
+| B1-02 to B1-25 (24 stories) | 20 each | Yes | Pass | Pass | Pass |
 | B2-01 Het sollicitatiegesprek | 20 | Yes | Pass | Pass | Pass |
+| B2-02 to B2-25 (24 stories) | 20 each | Yes | Pass | Pass | Pass |
 
-Word counts (sections joined): A1 697, A2 621, B1 846, B2 1053. A1 and B2 sit
-inside the brief's ranges; A2 (621 vs 650–850) and B1 (846 vs 850–1100) are
-slightly below, recorded as a deviation.
+Word counts (sections joined): A1 650-697, A2-01 622, A2-02 to A2-25
+657-849, B1-01 846, B1-02 to B1-25 850-1,028, B2-01 1,053, B2-02 to B2-25
+1,122-1,288. A1, A2-02 through A2-25, B1-02 through B1-25, and all B2 stories
+sit inside the brief's ranges; A2-01 (622 vs 650-850) and B1-01 (846 vs
+850-1100) are slightly below, recorded as a deviation.
 
 - **TTS flow:** Listen spoke each page sentence by sentence, highlighted the
   current sentence, followed the speed slider, survived page turns, stopped on
@@ -113,7 +124,7 @@ slightly below, recorded as a deviation.
 - **A1-01 constraint:** exactly 20 new lemmas; every other text word is a
   starter word or a proper name (checked by the validator).
 - **Difficulty step:** the validator's word-debt counts rise from A1 to B2
-  (0 / 65 / 171 / 247 assumed-known words), consistent with a graded step.
+  (0 / 44 / 109 / 173 assumed-known words), consistent with a graded step.
 - **Copy-a-story test:** added `assets/stories/a1/02-copy-test.json`, rebuilt,
   and the A1 level screen showed `STORY 02` with no Rust or Slint change. The
   file was then removed and the final debug APK rebuilt.
@@ -127,6 +138,12 @@ Run on the emulator at 1080×2400 @420 unless noted.
 | Area | Check | Result |
 |------|-------|--------|
 | Home | Progress counts (`1 of 1 story` per level, completed state) | Pass |
+| Home | All shelves show 25 stories each (A1/A2/B2 `0 of 25`, B1 `1 of 25` from the stored resume; 100 in total) | Pass |
+| B1 shelf | Stories 01-25 listed with title, blurb, and page counts (15-18 pages) | Pass |
+| B1 reader | Story 24 `De reünie` opens at `Page 1 of 18`; last page is `Page 18 of 18` | Pass |
+| B1 glossary | Tapping `oudleerling` shows `de oudleerling`, `Story glossary`, and `former pupil` | Pass |
+| B2 shelf | Stories 01-25 listed with title, blurb, and page counts | Pass |
+| B2 reader | Story 25 opens with pagination; glossary shows `de`/`het` and the new-word badge | Pass |
 | Home | Continue Reading card opens the stored resume position | Pass |
 | Home | Write / Dictionary / My Writing / Settings route correctly | Pass |
 | Level | Ordered story cards, page counts, in-progress/completed state | Pass |
@@ -142,6 +159,11 @@ Run on the emulator at 1080×2400 @420 unless noted.
 | Lookup | Slow network shows a loading state without freezing the UI | Pass |
 | Dictionary | Words from a 30-second page, dedupe, local date | Pass |
 | Dictionary | Search, A–Z / Newest sort, empty search state | Pass |
+| Dictionary | Tapped words tab saves a lookup with meaning, story, date, source | Pass |
+| Dictionary | `form of:` base line shown as a note under the meaning | Pass |
+| Dictionary | Repeat tap increments the count instead of duplicating | Pass |
+| Dictionary | Tapped words survive force-stop and app restart | Pass |
+| Dictionary | Tab resets to All words on launch; empty state per tab | Pass |
 | Settings | Dark theme applies live and persists | Pass |
 | Settings | TTS speed `1.9x` persists | Pass |
 | Settings | Meanings source `Online` persists | Pass |
@@ -168,6 +190,18 @@ TTS start/stop with highlight, Dictionary timer entries/search/empty state,
 Settings dark/light, Editor typing and Share chooser, My Writing copy and
 delete (Cancel and Delete), draft force-stop/Continue, rotation request,
 small/large screens, and both themes on every screen. All passed.
+
+**B2 shelf re-run (10 Nov 2026, after completing the 100-story library):** the
+debug APK was rebuilt with all 25 B2 story files, reinstalled over the existing
+app data, and launched on the same emulator. The startup validator logged
+`100 stories, 0 error(s), 3 warning(s)`. Home showed 25 stories per shelf
+(A1/A2/B2 `0 of 25`; B1 `1 of 25` from the stored resume). The B2 shelf listed
+stories 01–25 with page counts (7 for the `b2-01` sample, 17–20 for the
+generated stories). `b2-25` opened as `B2 · De promotie`; tapping `promotie`
+showed `de promotie`, the `Story glossary` badge, and `promotion`, and tapping
+`vooraanstaand` showed the adjective meaning without an article. No
+`FATAL EXCEPTION`, `ANR in com.dutchreader.app`, or `panic` appeared in logcat;
+`dumpsys meminfo` reported PSS 99,442 kB / RSS 185,560 kB for the session.
 
 ---
 
@@ -282,8 +316,10 @@ build, and the full on-device script were re-run from cleared app data on
    should be excluded, but all glossary words are added, so `de`, `het`, `een`,
    and `en` appear (103 words in the test state). This was chosen so every
    glossary word is reviewable; it is a deviation from the "filler words" note.
-3. **A2 and B1 story lengths.** A2-01 is 621 words (brief: 650–850) and B1-01 is
-   846 words (brief: 850–1100). A1 (697) and B2 (1053) are in range.
+3. **A2 and B1 story lengths.** A2-01 is 622 words (brief: 650-850); A2-02
+   through A2-25 are 657-849 words and are in range. B1-01 is 846 words
+   (brief: 850-1100) and is slightly below. A1 and all B2 stories are in range
+   (B2-02 through B2-25 are 1,122-1,288 words).
 4. **TTS highlights sentences, not individual words.** This matches the
    `ARCHITECTURE.md` sentence-level reader but differs from a word-by-word
    karaoke reading.
@@ -292,8 +328,11 @@ build, and the full on-device script were re-run from cleared app data on
    chosen, matching `ARCHITECTURE.md`.
 6. **Editing a saved story and pressing Back keeps the changes as a draft.**
    Tapping Share updates the saved story. Back does not silently discard edits.
-7. **`ASSUMED_KNOWN` warnings.** Expected with only four sample stories; strict
-   progression applies to the future 100-story set.
+7. **`ASSUMED_KNOWN` warnings.** Expected because A2-01, B1-01, and B2-01
+   were written before the stories that would introduce their background
+   vocabulary. The generated shelves never use that debt, so the 100-story
+   library still defaults to allow-gaps mode; strict mode becomes the default
+   once the three samples are cleaned up.
 8. **Status-bar icon appearance** is a visual workaround (accent strip in light
    mode), not a true system-icon-colour API fix.
 9. **Release signing.** A real keystore is required; the test key is not for

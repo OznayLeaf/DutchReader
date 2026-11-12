@@ -75,6 +75,7 @@ export component AppWindow inherits Window {
     in-out property <int> dictionary-total: 0;
     in-out property <string> dictionary-count-text: "0 words";
     in-out property <string> dictionary-sort: "alpha";
+    in-out property <string> dictionary-tab: "all";
 
     // ---- settings ---------------------------------------------------------
     in-out property <float> settings-tts-speed: 0.88;
@@ -127,6 +128,7 @@ export component AppWindow inherits Window {
 
     callback dictionary-search(string);
     callback dictionary-sort-changed(string);
+    callback dictionary-tab-changed(string);
 
     callback settings-theme(string);
     callback settings-speed(float);
@@ -267,12 +269,14 @@ export component AppWindow inherits Window {
             total: root.dictionary-total;
             count-text: root.dictionary-count-text;
             sort <=> root.dictionary-sort;
+            tab <=> root.dictionary-tab;
             top-inset: root.safe-area-insets.top;
             bottom-inset: root.safe-area-insets.bottom;
 
             back() => { root.go-back(); }
             search-changed(text) => { root.dictionary-search(text); }
             set-sort(sort) => { root.dictionary-sort-changed(sort); }
+            set-tab(tab) => { root.dictionary-tab-changed(tab); }
         }
 
         SettingsScreen {

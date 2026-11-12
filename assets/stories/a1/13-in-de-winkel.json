@@ -1,0 +1,489 @@
+{
+  "id": "a1-13",
+  "level": "A1",
+  "order": 13,
+  "title": "In de winkel",
+  "blurb_nl": "Noor zoekt een sjaal in de winkel. De verkoper helpt en Noor past de sjaal.",
+  "blurb_en": "Noor looks for a scarf in the shop. The shop assistant helps and Noor tries on the scarf.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam en Noor zijn in het huis. In het huis is een schap.",
+    "Sam ziet een schap. Het schap is groot.",
+    "Noor ziet een sjaal. De sjaal is lang. De sjaal is niet kort.",
+    "Sam ziet de prijs. De prijs is groot.",
+    "De klant komt. De klant is blij.",
+    "De verkoper komt. De verkoper is blij.",
+    "Sam pakt de sjaal. Sam past de sjaal. De sjaal is niet wijd. De sjaal is smal.",
+    "Noor past de sjaal. De sjaal is lang. De sjaal is niet kort.",
+    "Sam hangt de sjaal. Noor hangt de sjaal.",
+    "Sam zet de sjaal op de kar. De kar is groot.",
+    "Noor vouwt de sjaal. De sjaal is niet wijd.",
+    "Sam ruilt de sjaal. Noor ruilt de sjaal. De sjaal is lang.",
+    "Sam tilt de kar. Noor tilt de kar. De kar is groot.",
+    "De kassa is groot. De bon is klein.",
+    "Sam ziet de bon. De bon is niet groot.",
+    "De klant ziet de prijs. De klant is niet blij.",
+    "De verkoper ziet de prijs. De verkoper is blij.",
+    "Sam ziet de kassa. De kassa is groot.",
+    "Noor ziet de kassa. De kassa is groot. De bon is klein.",
+    "We zijn in het huis. We zijn samen. We zijn blij.",
+    "De sjaal is lang. De sjaal is smal. De sjaal is niet wijd.",
+    "De kar is groot. Het schap is groot. De kassa is groot.",
+    "We hebben de sjaal. We zijn blij.",
+    "Sam zet de kar. Noor zet de kar.",
+    "Sam vouwt de sjaal. Noor vouwt de sjaal.",
+    "Sam past de sjaal vaak. Noor past de sjaal vaak.",
+    "We zien de kassa.",
+    "Sam ziet de kassa.",
+    "Noor ziet de kassa.",
+    "Sam pakt de kassa.",
+    "We spelen met de kassa.",
+    "De kassa is hier.",
+    "We zijn in het schap.",
+    "We gaan naar het schap.",
+    "Sam loopt naar het schap.",
+    "Noor gaat naar het schap.",
+    "Het schap is hier.",
+    "De klant komt.",
+    "We zien de klant.",
+    "De klant is hier.",
+    "De klant is in het huis.",
+    "De verkoper komt.",
+    "We zien de verkoper.",
+    "De verkoper is hier.",
+    "De verkoper is in het huis.",
+    "We zien de prijs.",
+    "De prijs is hier.",
+    "We zien de bon.",
+    "Sam ziet de bon.",
+    "Noor ziet de bon.",
+    "Sam pakt de bon.",
+    "We spelen met de bon.",
+    "De bon is hier.",
+    "We zien de kar.",
+    "Sam ziet de kar.",
+    "Noor ziet de kar.",
+    "Sam pakt de kar.",
+    "We spelen met de kar.",
+    "De kar is hier.",
+    "We zien de sjaal.",
+    "Sam ziet de sjaal.",
+    "Noor ziet de sjaal.",
+    "Sam pakt de sjaal.",
+    "We spelen met de sjaal.",
+    "De sjaal is hier.",
+    "Hallo, kassa! Hallo, schap! Hallo, prijs!",
+    "Sam geeft de kassa aan Noor.",
+    "Noor geeft de kassa aan Sam.",
+    "Bo ziet de kassa. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zien de kassa.",
+    "Sam ziet de kassa.",
+    "Noor ziet de kassa.",
+    "Sam pakt de kassa.",
+    "We spelen met de kassa.",
+    "De kassa is hier.",
+    "We zijn in het schap.",
+    "We gaan naar het schap.",
+    "Sam loopt naar het schap.",
+    "Noor gaat naar het schap.",
+    "Het schap is hier.",
+    "De klant komt.",
+    "We zien de klant.",
+    "De klant is hier.",
+    "De klant is in het huis.",
+    "De verkoper komt.",
+    "We zien de verkoper.",
+    "De verkoper is hier.",
+    "De verkoper is in het huis.",
+    "We zien de prijs.",
+    "De prijs is hier.",
+    "Sam ziet de sjaal weer. Noor ziet de sjaal weer.",
+    "Hallo, sjaal! Hallo, verkoper! Hallo, klant!",
+    "We zijn altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "kassa",
+    "schap",
+    "klant",
+    "verkoper",
+    "prijs",
+    "bon",
+    "kar",
+    "sjaal",
+    "passen",
+    "ruilen",
+    "tillen",
+    "hangen",
+    "zetten",
+    "vouwen",
+    "lang",
+    "kort",
+    "wijd",
+    "smal",
+    "vaak",
+    "weer"
+  ],
+  "glossary": [
+    {
+      "form": "kassa",
+      "lemma": "kassa",
+      "pos": "noun",
+      "meaning": "cash register",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "schap",
+      "lemma": "schap",
+      "pos": "noun",
+      "meaning": "shelf",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "klant",
+      "lemma": "klant",
+      "pos": "noun",
+      "meaning": "customer",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "verkoper",
+      "lemma": "verkoper",
+      "pos": "noun",
+      "meaning": "shop assistant",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "prijs",
+      "lemma": "prijs",
+      "pos": "noun",
+      "meaning": "price",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "bon",
+      "lemma": "bon",
+      "pos": "noun",
+      "meaning": "receipt",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "kar",
+      "lemma": "kar",
+      "pos": "noun",
+      "meaning": "cart",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "sjaal",
+      "lemma": "sjaal",
+      "pos": "noun",
+      "meaning": "scarf",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "passen",
+      "lemma": "passen",
+      "pos": "verb",
+      "meaning": "to try on / fit",
+      "new": true
+    },
+    {
+      "form": "ruilen",
+      "lemma": "ruilen",
+      "pos": "verb",
+      "meaning": "to exchange",
+      "new": true
+    },
+    {
+      "form": "tillen",
+      "lemma": "tillen",
+      "pos": "verb",
+      "meaning": "to lift",
+      "new": true
+    },
+    {
+      "form": "hangen",
+      "lemma": "hangen",
+      "pos": "verb",
+      "meaning": "to hang",
+      "new": true
+    },
+    {
+      "form": "zetten",
+      "lemma": "zetten",
+      "pos": "verb",
+      "meaning": "to put / set",
+      "new": true
+    },
+    {
+      "form": "vouwen",
+      "lemma": "vouwen",
+      "pos": "verb",
+      "meaning": "to fold",
+      "new": true
+    },
+    {
+      "form": "lang",
+      "lemma": "lang",
+      "pos": "adjective",
+      "meaning": "long",
+      "new": true
+    },
+    {
+      "form": "kort",
+      "lemma": "kort",
+      "pos": "adjective",
+      "meaning": "short",
+      "new": true
+    },
+    {
+      "form": "wijd",
+      "lemma": "wijd",
+      "pos": "adjective",
+      "meaning": "wide / loose",
+      "new": true
+    },
+    {
+      "form": "smal",
+      "lemma": "smal",
+      "pos": "adjective",
+      "meaning": "narrow",
+      "new": true
+    },
+    {
+      "form": "vaak",
+      "lemma": "vaak",
+      "pos": "adverb",
+      "meaning": "often",
+      "new": true
+    },
+    {
+      "form": "weer",
+      "lemma": "weer",
+      "pos": "adverb",
+      "meaning": "again",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "past",
+      "lemma": "passen",
+      "pos": "verb",
+      "meaning": "tries on / fits",
+      "new": true
+    },
+    {
+      "form": "hangt",
+      "lemma": "hangen",
+      "pos": "verb",
+      "meaning": "hangs",
+      "new": true
+    },
+    {
+      "form": "zet",
+      "lemma": "zetten",
+      "pos": "verb",
+      "meaning": "puts / sets",
+      "new": true
+    },
+    {
+      "form": "vouwt",
+      "lemma": "vouwen",
+      "pos": "verb",
+      "meaning": "folds",
+      "new": true
+    },
+    {
+      "form": "ruilt",
+      "lemma": "ruilen",
+      "pos": "verb",
+      "meaning": "exchanges",
+      "new": true
+    },
+    {
+      "form": "tilt",
+      "lemma": "tillen",
+      "pos": "verb",
+      "meaning": "lifts",
+      "new": true
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

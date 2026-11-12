@@ -1,0 +1,641 @@
+{
+  "id": "a2-14",
+  "level": "A2",
+  "order": 14,
+  "title": "Het museum",
+  "blurb_nl": "Noor bezoekt een tentoonstelling. Een gids vertelt over een geheimzinnig schilderij.",
+  "blurb_en": "Noor visits an exhibition. A guide talks about a mysterious painting.",
+  "sections": [
+    "Noor bezoekt de tentoonstelling.",
+    "De tentoonstelling is groot.",
+    "De gids is vriendelijk.",
+    "Noor ziet de gids.",
+    "De gids gidst Noor.",
+    "De gids gidst de toerist.",
+    "De rondleiding is goed.",
+    "Noor gaat met de rondleiding.",
+    "Noor bekijkt het schilderij.",
+    "Het schilderij is klassiek.",
+    "Het schilderij is waardevol.",
+    "Het schilderij is een kunstwerk.",
+    "Het kunstwerk is origineel.",
+    "Sam bekijkt het beeld.",
+    "Het beeld is groot.",
+    "Het beeld is abstract.",
+    "Het kunstwerk is abstract.",
+    "De collectie is groot.",
+    "Het museum heeft een collectie.",
+    "De collectie is klassiek.",
+    "De collectie is waardevol.",
+    "Noor ontdekt het schilderij.",
+    "Sam ontdekt het beeld.",
+    "Het museum bewaart het schilderij.",
+    "Het museum bewaart het beeld.",
+    "De gids verzamelt het bordje.",
+    "Noor verzamelt het bordje.",
+    "Het bordje is klein.",
+    "Noor leest het bordje.",
+    "De gids schildert.",
+    "Noor schildert.",
+    "Sam schildert.",
+    "Noor kijkt aandachtig.",
+    "Sam kijkt aandachtig.",
+    "Noor is geïnteresseerd.",
+    "Sam is geïnteresseerd.",
+    "Het schilderij is origineel.",
+    "Het beeld is origineel.",
+    "Noor is blij. Sam is blij.",
+    "De tentoonstelling is mooi.",
+    "Het museum is indrukwekkend.",
+    "Noor en Sam gaan naar huis.",
+    "Noor bewondert het schilderij.",
+    "Sam bewondert het beeld.",
+    "Het kunstwerk is waardevol.",
+    "De gids is geïnteresseerd.",
+    "De toerist is geïnteresseerd.",
+    "Noor en Sam lachen.",
+    "De tentoonstelling is klassiek.",
+    "Sam ziet de tentoonstelling.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet de tentoonstelling.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "De tentoonstelling is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet de gids.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet de gids.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "De gids is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet het schilderij.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet het schilderij.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "Het schilderij is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet het beeld.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Noor ziet het beeld.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "We spelen in de tuin. We zijn blij.",
+    "Het beeld is hier.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Bo pakt de bal. Bo is blij.",
+    "We pakken de bal. We zijn blij.",
+    "Sam ziet het kunstwerk.",
+    "Sam geeft de bal aan Noor. Noor is blij.",
+    "Noor geeft de bal aan Sam. Sam is blij.",
+    "Sam geeft de bal aan Bo. Bo is blij.",
+    "Noor ziet het kunstwerk.",
+    "Bo geeft de bal aan Sam. Sam is blij.",
+    "We geven de bal aan de hond. We zijn blij.",
+    "Sam heeft de bal. Noor heeft de bal.",
+    "Het kunstwerk is hier.",
+    "Bo heeft de bal. Bo is blij.",
+    "We hebben de bal. We zijn blij.",
+    "Sam wil de hond zien. Noor wil de bal zien.",
+    "Sam ziet de collectie.",
+    "We willen de hond zien. We zijn blij.",
+    "Sam ziet de hond. Noor ziet de bal.",
+    "Bo ziet Sam. Bo is blij.",
+    "Noor ziet de collectie.",
+    "We zien de hond. We zien de bal.",
+    "We zien Sam en Noor. We zijn blij.",
+    "Sam is hier. Noor is daar. Bo is hier.",
+    "De collectie is hier.",
+    "We zijn niet in het huis. We zijn in de tuin.",
+    "De hond is niet in het huis. De hond is in de tuin.",
+    "Sam heeft geen bal. Noor heeft de bal.",
+    "Het museum is groot. De collectie is groot.",
+    "Noor is aandachtig. Sam is aandachtig.",
+    "De rondleiding is waardevol."
+  ],
+  "new_words": [
+    "tentoonstelling",
+    "gids",
+    "schilderij",
+    "beeld",
+    "kunstwerk",
+    "collectie",
+    "rondleiding",
+    "bordje",
+    "bekijken",
+    "gidsen",
+    "verzamelen",
+    "schilderen",
+    "ontdekken",
+    "bewaren",
+    "klassiek",
+    "abstract",
+    "origineel",
+    "waardevol",
+    "aandachtig",
+    "geïnteresseerd"
+  ],
+  "glossary": [
+    {
+      "form": "tentoonstelling",
+      "lemma": "tentoonstelling",
+      "pos": "noun",
+      "meaning": "exhibition",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "gids",
+      "lemma": "gids",
+      "pos": "noun",
+      "meaning": "guide",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "schilderij",
+      "lemma": "schilderij",
+      "pos": "noun",
+      "meaning": "painting",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "beeld",
+      "lemma": "beeld",
+      "pos": "noun",
+      "meaning": "statue / image",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "kunstwerk",
+      "lemma": "kunstwerk",
+      "pos": "noun",
+      "meaning": "artwork",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "collectie",
+      "lemma": "collectie",
+      "pos": "noun",
+      "meaning": "collection",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "rondleiding",
+      "lemma": "rondleiding",
+      "pos": "noun",
+      "meaning": "guided tour",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "bordje",
+      "lemma": "bordje",
+      "pos": "noun",
+      "meaning": "sign",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "bekijken",
+      "lemma": "bekijken",
+      "pos": "verb",
+      "meaning": "to view",
+      "new": true
+    },
+    {
+      "form": "gidsen",
+      "lemma": "gidsen",
+      "pos": "verb",
+      "meaning": "to guide",
+      "new": true
+    },
+    {
+      "form": "verzamelen",
+      "lemma": "verzamelen",
+      "pos": "verb",
+      "meaning": "to collect",
+      "new": true
+    },
+    {
+      "form": "schilderen",
+      "lemma": "schilderen",
+      "pos": "verb",
+      "meaning": "to paint",
+      "new": true
+    },
+    {
+      "form": "ontdekken",
+      "lemma": "ontdekken",
+      "pos": "verb",
+      "meaning": "to discover",
+      "new": true
+    },
+    {
+      "form": "bewaren",
+      "lemma": "bewaren",
+      "pos": "verb",
+      "meaning": "to keep",
+      "new": true
+    },
+    {
+      "form": "klassiek",
+      "lemma": "klassiek",
+      "pos": "adjective",
+      "meaning": "classical",
+      "new": true
+    },
+    {
+      "form": "abstract",
+      "lemma": "abstract",
+      "pos": "adjective",
+      "meaning": "abstract",
+      "new": true
+    },
+    {
+      "form": "origineel",
+      "lemma": "origineel",
+      "pos": "adjective",
+      "meaning": "original",
+      "new": true
+    },
+    {
+      "form": "waardevol",
+      "lemma": "waardevol",
+      "pos": "adjective",
+      "meaning": "valuable",
+      "new": true
+    },
+    {
+      "form": "aandachtig",
+      "lemma": "aandachtig",
+      "pos": "adverb",
+      "meaning": "attentively",
+      "new": true
+    },
+    {
+      "form": "geïnteresseerd",
+      "lemma": "geïnteresseerd",
+      "pos": "adverb",
+      "meaning": "with interest",
+      "new": true
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "bezoekt",
+      "lemma": "bezoeken",
+      "pos": "verb",
+      "meaning": "visits",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "vriendelijk",
+      "lemma": "vriendelijk",
+      "pos": "adjective",
+      "meaning": "friendly",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "gidst",
+      "lemma": "gidsen",
+      "pos": "verb",
+      "meaning": "guides",
+      "new": true
+    },
+    {
+      "form": "toerist",
+      "lemma": "toerist",
+      "pos": "noun",
+      "meaning": "tourist",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "bekijkt",
+      "lemma": "bekijken",
+      "pos": "verb",
+      "meaning": "views",
+      "new": true
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "museum",
+      "lemma": "museum",
+      "pos": "noun",
+      "meaning": "museum",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "ontdekt",
+      "lemma": "ontdekken",
+      "pos": "verb",
+      "meaning": "discovered",
+      "new": true
+    },
+    {
+      "form": "bewaart",
+      "lemma": "bewaren",
+      "pos": "verb",
+      "meaning": "keeps",
+      "new": true
+    },
+    {
+      "form": "verzamelt",
+      "lemma": "verzamelen",
+      "pos": "verb",
+      "meaning": "collects",
+      "new": true
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "leest",
+      "lemma": "lezen",
+      "pos": "verb",
+      "meaning": "reads",
+      "new": false
+    },
+    {
+      "form": "schildert",
+      "lemma": "schilderen",
+      "pos": "verb",
+      "meaning": "paints",
+      "new": true
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "mooi",
+      "lemma": "mooi",
+      "pos": "adjective",
+      "meaning": "beautiful / nice",
+      "new": false
+    },
+    {
+      "form": "indrukwekkend",
+      "lemma": "indrukwekkend",
+      "pos": "adjective",
+      "meaning": "impressive",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "bewondert",
+      "lemma": "bewonderen",
+      "pos": "verb",
+      "meaning": "admires",
+      "new": false
+    },
+    {
+      "form": "lachen",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "to laugh",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "geven",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give",
+      "new": false
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "willen",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want",
+      "new": false
+    }
+  ]
+}

@@ -34,6 +34,10 @@ impl Storage {
         self.root.join("dictionary.json")
     }
 
+    pub fn tapped_words_path(&self) -> PathBuf {
+        self.root.join("tapped_words.json")
+    }
+
     pub fn lookup_cache_path(&self) -> PathBuf {
         self.root.join("lookup_cache.json")
     }
@@ -75,6 +79,17 @@ impl Storage {
         dictionary: &crate::dictionary::Dictionary,
     ) -> std::io::Result<()> {
         dictionary.save(&self.dictionary_path())
+    }
+
+    pub fn load_tapped_words(&self) -> crate::dictionary::TappedWords {
+        crate::dictionary::TappedWords::load(&self.tapped_words_path())
+    }
+
+    pub fn save_tapped_words(
+        &self,
+        tapped: &crate::dictionary::TappedWords,
+    ) -> std::io::Result<()> {
+        tapped.save(&self.tapped_words_path())
     }
 
     pub fn load_lookup_cache(&self) -> crate::lookup::LookupCache {

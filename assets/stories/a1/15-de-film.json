@@ -1,0 +1,502 @@
+{
+  "id": "a1-15",
+  "level": "A1",
+  "order": 15,
+  "title": "De film",
+  "blurb_nl": "Sam en Noor gaan naar de bioscoop. De film is spannend en een beetje eng.",
+  "blurb_en": "Sam and Noor go to the cinema. The film is exciting and a little scary.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam en Noor gaan naar de bioscoop. De bioscoop is groot.",
+    "De zaal is groot. De zaal is niet klein.",
+    "Het scherm is groot. Het scherm is niet klein.",
+    "Sam heeft popcorn. Het popcorn is groot.",
+    "Noor heeft popcorn. Het popcorn is niet klein.",
+    "De film is spannend. De film is niet saai.",
+    "Het verhaal is spannend. Het verhaal is niet saai.",
+    "De held is niet saai.",
+    "Het monster is eng. Het monster is niet grappig.",
+    "Sam kijkt naar de film. Noor kijkt naar de film. Bo kijkt naar de film.",
+    "Sam geniet. Noor geniet. Bo geniet.",
+    "Sam huilt. Noor huilt. De film is niet grappig.",
+    "Sam schrikt. Noor schrikt. Het monster is eng.",
+    "Sam droomt. Noor droomt. De film is spannend.",
+    "De held acteert. Het monster acteert. De film is grappig.",
+    "Sam filmt de film. Noor filmt de film. Bo filmt de film.",
+    "Eerst is de film saai. Dan is de film spannend.",
+    "Eerst is het verhaal grappig. Dan is het verhaal eng.",
+    "Eerst is het monster grappig. Dan is het monster eng.",
+    "De film is spannend. De film is grappig. De film is niet saai.",
+    "We genieten. We zijn blij. We zijn samen.",
+    "Sam ziet de held. De held is niet saai. Sam is blij.",
+    "Noor ziet het monster. Het monster is eng. Noor is niet blij.",
+    "We zien de film.",
+    "Sam ziet de film.",
+    "Noor ziet de film.",
+    "Sam pakt de film.",
+    "We spelen met de film.",
+    "De film is hier.",
+    "We zijn in de bioscoop.",
+    "We gaan naar de bioscoop.",
+    "Sam loopt naar de bioscoop.",
+    "Noor gaat naar de bioscoop.",
+    "De bioscoop is hier.",
+    "We zien het scherm.",
+    "Sam ziet het scherm.",
+    "Noor ziet het scherm.",
+    "Sam pakt het scherm.",
+    "We spelen met het scherm.",
+    "Het scherm is hier.",
+    "We zijn in de zaal.",
+    "We gaan naar de zaal.",
+    "Sam loopt naar de zaal.",
+    "Noor gaat naar de zaal.",
+    "De zaal is hier.",
+    "We zien het popcorn.",
+    "Sam ziet het popcorn.",
+    "Noor ziet het popcorn.",
+    "Sam pakt het popcorn.",
+    "We spelen met het popcorn.",
+    "Het popcorn is hier.",
+    "We zien het verhaal.",
+    "Het verhaal is hier.",
+    "De held komt.",
+    "We zien de held.",
+    "De held is hier.",
+    "De held is in het huis.",
+    "We zien het monster.",
+    "Sam ziet het monster.",
+    "Noor ziet het monster.",
+    "We kijken naar het monster.",
+    "Het monster is hier.",
+    "Het monster is groot.",
+    "Hallo, film! Hallo, bioscoop! Hallo, popcorn!",
+    "Sam geeft de film aan Noor.",
+    "Noor geeft de film aan Sam.",
+    "Bo ziet de film. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zien de film.",
+    "Sam ziet de film.",
+    "Noor ziet de film.",
+    "Sam pakt de film.",
+    "We spelen met de film.",
+    "De film is hier.",
+    "We zijn in de bioscoop.",
+    "We gaan naar de bioscoop.",
+    "Sam loopt naar de bioscoop.",
+    "Noor gaat naar de bioscoop.",
+    "De bioscoop is hier.",
+    "We zien het scherm.",
+    "Sam ziet het scherm.",
+    "Noor ziet het scherm.",
+    "Sam pakt het scherm.",
+    "We spelen met het scherm.",
+    "Het scherm is hier.",
+    "We zijn in de zaal.",
+    "We gaan naar de zaal.",
+    "Sam loopt naar de zaal.",
+    "Noor gaat naar de zaal.",
+    "De zaal is hier.",
+    "We zien het popcorn.",
+    "Sam ziet het popcorn.",
+    "Noor ziet het popcorn.",
+    "Sam pakt het popcorn.",
+    "We spelen met het popcorn.",
+    "Het popcorn is hier.",
+    "We zien het verhaal.",
+    "We gaan naar huis. We zijn samen. We zijn blij.",
+    "Hallo, film! Hallo, held! Hallo, monster!",
+    "We zijn altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "film",
+    "bioscoop",
+    "scherm",
+    "zaal",
+    "popcorn",
+    "verhaal",
+    "held",
+    "monster",
+    "genieten",
+    "huilen",
+    "schrikken",
+    "dromen",
+    "acteren",
+    "filmen",
+    "spannend",
+    "grappig",
+    "saai",
+    "eng",
+    "eerst",
+    "dan"
+  ],
+  "glossary": [
+    {
+      "form": "film",
+      "lemma": "film",
+      "pos": "noun",
+      "meaning": "film",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "bioscoop",
+      "lemma": "bioscoop",
+      "pos": "noun",
+      "meaning": "cinema",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "scherm",
+      "lemma": "scherm",
+      "pos": "noun",
+      "meaning": "screen",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "zaal",
+      "lemma": "zaal",
+      "pos": "noun",
+      "meaning": "hall / auditorium",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "popcorn",
+      "lemma": "popcorn",
+      "pos": "noun",
+      "meaning": "popcorn",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "verhaal",
+      "lemma": "verhaal",
+      "pos": "noun",
+      "meaning": "story",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "held",
+      "lemma": "held",
+      "pos": "noun",
+      "meaning": "hero",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "monster",
+      "lemma": "monster",
+      "pos": "noun",
+      "meaning": "monster",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "genieten",
+      "lemma": "genieten",
+      "pos": "verb",
+      "meaning": "to enjoy",
+      "new": true
+    },
+    {
+      "form": "huilen",
+      "lemma": "huilen",
+      "pos": "verb",
+      "meaning": "to cry",
+      "new": true
+    },
+    {
+      "form": "schrikken",
+      "lemma": "schrikken",
+      "pos": "verb",
+      "meaning": "to be startled",
+      "new": true
+    },
+    {
+      "form": "dromen",
+      "lemma": "dromen",
+      "pos": "verb",
+      "meaning": "to dream",
+      "new": true
+    },
+    {
+      "form": "acteren",
+      "lemma": "acteren",
+      "pos": "verb",
+      "meaning": "to act",
+      "new": true
+    },
+    {
+      "form": "filmen",
+      "lemma": "filmen",
+      "pos": "verb",
+      "meaning": "to film",
+      "new": true
+    },
+    {
+      "form": "spannend",
+      "lemma": "spannend",
+      "pos": "adjective",
+      "meaning": "exciting / tense",
+      "new": true
+    },
+    {
+      "form": "grappig",
+      "lemma": "grappig",
+      "pos": "adjective",
+      "meaning": "funny",
+      "new": true
+    },
+    {
+      "form": "saai",
+      "lemma": "saai",
+      "pos": "adjective",
+      "meaning": "boring",
+      "new": true
+    },
+    {
+      "form": "eng",
+      "lemma": "eng",
+      "pos": "adjective",
+      "meaning": "scary",
+      "new": true
+    },
+    {
+      "form": "eerst",
+      "lemma": "eerst",
+      "pos": "adverb",
+      "meaning": "first",
+      "new": true
+    },
+    {
+      "form": "dan",
+      "lemma": "dan",
+      "pos": "adverb",
+      "meaning": "then",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "geniet",
+      "lemma": "genieten",
+      "pos": "verb",
+      "meaning": "enjoys",
+      "new": true
+    },
+    {
+      "form": "huilt",
+      "lemma": "huilen",
+      "pos": "verb",
+      "meaning": "cries",
+      "new": true
+    },
+    {
+      "form": "schrikt",
+      "lemma": "schrikken",
+      "pos": "verb",
+      "meaning": "is startled",
+      "new": true
+    },
+    {
+      "form": "droomt",
+      "lemma": "dromen",
+      "pos": "verb",
+      "meaning": "dreams",
+      "new": true
+    },
+    {
+      "form": "acteert",
+      "lemma": "acteren",
+      "pos": "verb",
+      "meaning": "acts",
+      "new": true
+    },
+    {
+      "form": "filmt",
+      "lemma": "filmen",
+      "pos": "verb",
+      "meaning": "films",
+      "new": true
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

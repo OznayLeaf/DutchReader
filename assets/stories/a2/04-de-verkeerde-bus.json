@@ -1,0 +1,685 @@
+{
+  "id": "a2-04",
+  "level": "A2",
+  "order": 4,
+  "title": "De verkeerde bus",
+  "blurb_nl": "Sam stapt in de verkeerde bus. De chauffeur helpt, maar de rit wordt lang.",
+  "blurb_en": "Sam gets on the wrong bus. The driver helps, but the journey becomes long.",
+  "sections": [
+    "Sam gaat naar het station. Sam heeft een koffer.",
+    "Sam mist de trein.",
+    "Daarna mist Sam de bus.",
+    "Sam wacht aan de halte. De bus komt.",
+    "Sam stapt in de bus. De bus is groot.",
+    "Sam kijkt naar de richting. De richting is verkeerd.",
+    "Sam is onzeker. Sam snapt het niet.",
+    "De chauffeur is behulpzaam.",
+    "De chauffeur vraagt: Naar het station?",
+    "Sam antwoordt: Ja, naar het station.",
+    "De chauffeur kijkt naar de dienstregeling.",
+    "De dienstregeling is ingewikkeld.",
+    "De chauffeur herhaalt de richting.",
+    "De bus heeft een omleiding.",
+    "De omleiding is ingewikkeld. De bus gaat naar het dorpsplein.",
+    "Sam is onderweg naar het dorpsplein.",
+    "Onderweg stopt de bus. De bus staat aan de halte.",
+    "Sam gaat naar buiten. Sam is aan de halte.",
+    "Sam is op het dorpsplein. Het dorpsplein is groot.",
+    "Toevallig ziet Sam Noor. Noor is op het dorpsplein.",
+    "Noor is toevallig op het dorpsplein.",
+    "Sam is opgelucht.",
+    "Noor vraagt: Is de bus verkeerd?",
+    "Sam antwoordt: Ja, de bus is verkeerd.",
+    "Sam begint met lachen.",
+    "Noor lacht.",
+    "De chauffeur komt naar Sam. De chauffeur is behulpzaam.",
+    "Sam bedankt de chauffeur.",
+    "De chauffeur bedankt Sam.",
+    "De chauffeur herhaalt de richting naar het station.",
+    "Sam snapt het nu.",
+    "Sam probeert het.",
+    "Noor probeert het.",
+    "Sam koopt een abonnement.",
+    "Het abonnement is nieuw.",
+    "Sam en Noor wachten aan de halte.",
+    "De bus komt. De bus begint met rijden.",
+    "De richting is goed. Sam is blij.",
+    "Sam en Noor zijn samen in de bus.",
+    "Onderweg praat Sam met Noor.",
+    "De bus stopt aan het station.",
+    "Sam en Noor gaan naar het perron.",
+    "De trein komt. Sam en Noor stappen in de trein.",
+    "Sam is blij. Noor is blij. De trein begint met rijden.",
+    "De trein is goed.",
+    "Sam is opgelucht. Noor is opgelucht.",
+    "De bus was verkeerd, maar de trein is goed.",
+    "Sam en Noor lachen samen.",
+    "De chauffeur is vriendelijk en behulpzaam.",
+    "De dienstregeling is ingewikkeld, maar Sam snapt het.",
+    "Sam herhaalt de richting. Noor herhaalt de richting.",
+    "Sam ziet de bus.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet de bus.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "De bus is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet de halte.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet de halte.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "De halte is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet de richting.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet de richting.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "De richting is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet de chauffeur.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Noor ziet de chauffeur.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Het abonnement is goed. De bus is goed. De trein is goed.",
+    "Sam is niet onzeker. Sam is blij.",
+    "De omleiding is vervelend, maar de bus is goed."
+  ],
+  "new_words": [
+    "bus",
+    "halte",
+    "richting",
+    "chauffeur",
+    "dienstregeling",
+    "omleiding",
+    "dorpsplein",
+    "abonnement",
+    "missen",
+    "beginnen",
+    "bedanken",
+    "proberen",
+    "snappen",
+    "herhalen",
+    "verkeerd",
+    "onzeker",
+    "behulpzaam",
+    "ingewikkeld",
+    "onderweg",
+    "toevallig"
+  ],
+  "glossary": [
+    {
+      "form": "bus",
+      "lemma": "bus",
+      "pos": "noun",
+      "meaning": "bus",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "halte",
+      "lemma": "halte",
+      "pos": "noun",
+      "meaning": "stop",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "richting",
+      "lemma": "richting",
+      "pos": "noun",
+      "meaning": "direction",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "chauffeur",
+      "lemma": "chauffeur",
+      "pos": "noun",
+      "meaning": "driver",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "dienstregeling",
+      "lemma": "dienstregeling",
+      "pos": "noun",
+      "meaning": "timetable",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "omleiding",
+      "lemma": "omleiding",
+      "pos": "noun",
+      "meaning": "diversion",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "dorpsplein",
+      "lemma": "dorpsplein",
+      "pos": "noun",
+      "meaning": "village square",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "abonnement",
+      "lemma": "abonnement",
+      "pos": "noun",
+      "meaning": "season ticket",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "missen",
+      "lemma": "missen",
+      "pos": "verb",
+      "meaning": "to miss",
+      "new": true
+    },
+    {
+      "form": "beginnen",
+      "lemma": "beginnen",
+      "pos": "verb",
+      "meaning": "to begin",
+      "new": true
+    },
+    {
+      "form": "bedanken",
+      "lemma": "bedanken",
+      "pos": "verb",
+      "meaning": "to thank",
+      "new": true
+    },
+    {
+      "form": "proberen",
+      "lemma": "proberen",
+      "pos": "verb",
+      "meaning": "to try",
+      "new": true
+    },
+    {
+      "form": "snappen",
+      "lemma": "snappen",
+      "pos": "verb",
+      "meaning": "to understand / get",
+      "new": true
+    },
+    {
+      "form": "herhalen",
+      "lemma": "herhalen",
+      "pos": "verb",
+      "meaning": "to repeat",
+      "new": true
+    },
+    {
+      "form": "verkeerd",
+      "lemma": "verkeerd",
+      "pos": "adjective",
+      "meaning": "wrong",
+      "new": true
+    },
+    {
+      "form": "onzeker",
+      "lemma": "onzeker",
+      "pos": "adjective",
+      "meaning": "uncertain",
+      "new": true
+    },
+    {
+      "form": "behulpzaam",
+      "lemma": "behulpzaam",
+      "pos": "adjective",
+      "meaning": "helpful",
+      "new": true
+    },
+    {
+      "form": "ingewikkeld",
+      "lemma": "ingewikkeld",
+      "pos": "adjective",
+      "meaning": "complicated",
+      "new": true
+    },
+    {
+      "form": "onderweg",
+      "lemma": "onderweg",
+      "pos": "adverb",
+      "meaning": "on the way",
+      "new": true
+    },
+    {
+      "form": "toevallig",
+      "lemma": "toevallig",
+      "pos": "adverb",
+      "meaning": "by chance",
+      "new": true
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "station",
+      "lemma": "station",
+      "pos": "noun",
+      "meaning": "station",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "koffer",
+      "lemma": "koffer",
+      "pos": "noun",
+      "meaning": "suitcase",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "mist",
+      "lemma": "missen",
+      "pos": "verb",
+      "meaning": "misses",
+      "new": true
+    },
+    {
+      "form": "trein",
+      "lemma": "trein",
+      "pos": "noun",
+      "meaning": "train",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "daarna",
+      "lemma": "daarna",
+      "pos": "adverb",
+      "meaning": "afterwards",
+      "new": false
+    },
+    {
+      "form": "wacht",
+      "lemma": "wachten",
+      "pos": "verb",
+      "meaning": "waits",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "stapt",
+      "lemma": "instappen",
+      "pos": "verb",
+      "meaning": "gets on",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "snapt",
+      "lemma": "snappen",
+      "pos": "verb",
+      "meaning": "understands",
+      "new": true
+    },
+    {
+      "form": "vraagt",
+      "lemma": "vragen",
+      "pos": "verb",
+      "meaning": "asks",
+      "new": false
+    },
+    {
+      "form": "antwoordt",
+      "lemma": "antwoorden",
+      "pos": "verb",
+      "meaning": "answers",
+      "new": false
+    },
+    {
+      "form": "herhaalt",
+      "lemma": "herhalen",
+      "pos": "verb",
+      "meaning": "repeats",
+      "new": true
+    },
+    {
+      "form": "stopt",
+      "lemma": "stoppen",
+      "pos": "verb",
+      "meaning": "stops",
+      "new": false
+    },
+    {
+      "form": "staat",
+      "lemma": "staan",
+      "pos": "verb",
+      "meaning": "stands",
+      "new": false
+    },
+    {
+      "form": "buiten",
+      "lemma": "buiten",
+      "pos": "adverb",
+      "meaning": "outside",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "opgelucht",
+      "lemma": "opgelucht",
+      "pos": "adjective",
+      "meaning": "relieved",
+      "new": false
+    },
+    {
+      "form": "begint",
+      "lemma": "beginnen",
+      "pos": "verb",
+      "meaning": "begins",
+      "new": true
+    },
+    {
+      "form": "lachen",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "to laugh",
+      "new": false
+    },
+    {
+      "form": "lacht",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "laughs",
+      "new": false
+    },
+    {
+      "form": "bedankt",
+      "lemma": "bedanken",
+      "pos": "verb",
+      "meaning": "thanked",
+      "new": true
+    },
+    {
+      "form": "nu",
+      "lemma": "nu",
+      "pos": "adverb",
+      "meaning": "now",
+      "new": false
+    },
+    {
+      "form": "probeert",
+      "lemma": "proberen",
+      "pos": "verb",
+      "meaning": "tries",
+      "new": true
+    },
+    {
+      "form": "koopt",
+      "lemma": "kopen",
+      "pos": "verb",
+      "meaning": "buys",
+      "new": false
+    },
+    {
+      "form": "nieuw",
+      "lemma": "nieuw",
+      "pos": "adjective",
+      "meaning": "new",
+      "new": false
+    },
+    {
+      "form": "wachten",
+      "lemma": "wachten",
+      "pos": "verb",
+      "meaning": "to wait",
+      "new": false
+    },
+    {
+      "form": "rijden",
+      "lemma": "rijden",
+      "pos": "verb",
+      "meaning": "to ride / drive",
+      "new": false
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "praat",
+      "lemma": "praten",
+      "pos": "verb",
+      "meaning": "talks",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "perron",
+      "lemma": "perron",
+      "pos": "noun",
+      "meaning": "platform",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "stappen",
+      "lemma": "stappen",
+      "pos": "verb",
+      "meaning": "to step / walk",
+      "new": false
+    },
+    {
+      "form": "was",
+      "lemma": "zijn",
+      "pos": "verb",
+      "meaning": "was",
+      "new": false
+    },
+    {
+      "form": "vriendelijk",
+      "lemma": "vriendelijk",
+      "pos": "adjective",
+      "meaning": "friendly",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "vervelend",
+      "lemma": "vervelend",
+      "pos": "adjective",
+      "meaning": "annoying",
+      "new": false
+    }
+  ]
+}

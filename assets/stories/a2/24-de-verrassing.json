@@ -1,0 +1,669 @@
+{
+  "id": "a2-24",
+  "level": "A2",
+  "order": 24,
+  "title": "De verrassing",
+  "blurb_nl": "Sam en Noor plannen een verrassingsfeest. Iemand fluistert te hard. Dan komt de gast binnen.",
+  "blurb_en": "Sam and Noor plan a surprise party. Someone whispers too loudly. Then the guest walks in.",
+  "sections": [
+    "Sam en Noor maken een verrassingsfeest.",
+    "Het verrassingsfeest is goed.",
+    "De geheimhouding is belangrijk.",
+    "Noor bewaart de geheimhouding.",
+    "Sam bewaart de geheimhouding.",
+    "Sam pakt de boodschappenlijst.",
+    "De boodschappenlijst is lang.",
+    "Noor pakt de boodschappenlijst.",
+    "Sam kijkt naar het tijdschema.",
+    "Het tijdschema is goed.",
+    "Noor kijkt naar het tijdschema.",
+    "Sam pakt het cadeautje.",
+    "Het cadeautje is klein.",
+    "Noor pakt de versiering.",
+    "De versiering is mooi.",
+    "Sam stuurt de uitnodiging.",
+    "De uitnodiging is mooi.",
+    "Sam fluistert.",
+    "Noor fluistert.",
+    "Sam bespreekt het feest.",
+    "Noor bespreekt het feest.",
+    "Sam heeft het feest voorbereid.",
+    "Noor heeft het feest voorbereid.",
+    "Sam coördineert het feest.",
+    "Noor coördineert het feest.",
+    "Sam vermomt zich.",
+    "Noor vermomt zich.",
+    "Sam is opgewonden.",
+    "Noor is opgewonden.",
+    "Sam is gespannen.",
+    "Noor is gespannen.",
+    "Sam kijkt heimelijk.",
+    "Noor kijkt heimelijk.",
+    "De gast is argwanend.",
+    "Sam is argwanend.",
+    "De gast komt.",
+    "Sam onthult de verrassing.",
+    "Noor onthult de verrassing.",
+    "De onthulling is goed.",
+    "Noor kijkt naar de onthulling.",
+    "Noor is dolgelukkig.",
+    "Sam is dolgelukkig.",
+    "Het feest is onvergetelijk.",
+    "De verrassing is onvergetelijk.",
+    "Sam en Noor lachen.",
+    "De gast is blij.",
+    "Sam is blij. Noor is blij.",
+    "Het verrassingsfeest is goed.",
+    "De versiering is goed. Het cadeautje is goed.",
+    "Sam en Noor gaan naar huis.",
+    "Sam ziet het cadeautje.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet het cadeautje.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "Het cadeautje is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet de versiering.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet de versiering.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "De versiering is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet de geheimhouding.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet de geheimhouding.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "De geheimhouding is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet de onthulling.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Noor ziet de onthulling.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "We spelen in de tuin. We zijn blij.",
+    "De onthulling is hier.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Bo pakt de bal. Bo is blij.",
+    "We pakken de bal. We zijn blij.",
+    "Sam ziet de uitnodiging.",
+    "Sam geeft de bal aan Noor. Noor is blij.",
+    "Noor geeft de bal aan Sam. Sam is blij.",
+    "Sam geeft de bal aan Bo. Bo is blij.",
+    "Noor ziet de uitnodiging.",
+    "Bo geeft de bal aan Sam. Sam is blij.",
+    "We geven de bal aan de hond. We zijn blij.",
+    "Sam heeft de bal. Noor heeft de bal.",
+    "De uitnodiging is hier.",
+    "Bo heeft de bal. Bo is blij.",
+    "We hebben de bal. We zijn blij.",
+    "Sam wil de hond zien. Noor wil de bal zien.",
+    "Sam ziet het verrassingsfeest.",
+    "We willen de hond zien. We zijn blij.",
+    "Sam ziet de hond. Noor ziet de bal.",
+    "Bo ziet Sam. Bo is blij.",
+    "Noor ziet het verrassingsfeest.",
+    "We zien de hond. We zien de bal.",
+    "We zien Sam en Noor. We zijn blij.",
+    "Sam is hier. Noor is daar. Bo is hier.",
+    "Het verrassingsfeest is hier.",
+    "We zijn niet in het huis. We zijn in de tuin.",
+    "De hond is niet in het huis. De hond is in de tuin.",
+    "Sam heeft geen bal. Noor heeft de bal.",
+    "Sam ziet de boodschappenlijst.",
+    "We hebben geen hond. We hebben een bal.",
+    "Hallo, Sam! Hallo, Noor! Hallo, Bo!",
+    "Hallo, hond! Hallo, bal! Hallo, huis!",
+    "Noor ziet de boodschappenlijst.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "De boodschappenlijst is hier.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "De uitnodiging is goed. Het tijdschema is goed.",
+    "De geheimhouding is goed.",
+    "Sam en Noor zijn dolgelukkig."
+  ],
+  "new_words": [
+    "cadeautje",
+    "versiering",
+    "geheimhouding",
+    "onthulling",
+    "uitnodiging",
+    "verrassingsfeest",
+    "boodschappenlijst",
+    "tijdschema",
+    "fluisteren",
+    "bespreken",
+    "voorbereiden",
+    "onthullen",
+    "vermommen",
+    "coördineren",
+    "opgewonden",
+    "argwanend",
+    "dolgelukkig",
+    "onvergetelijk",
+    "heimelijk",
+    "gespannen"
+  ],
+  "glossary": [
+    {
+      "form": "cadeautje",
+      "lemma": "cadeautje",
+      "pos": "noun",
+      "meaning": "small gift",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "versiering",
+      "lemma": "versiering",
+      "pos": "noun",
+      "meaning": "decoration",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "geheimhouding",
+      "lemma": "geheimhouding",
+      "pos": "noun",
+      "meaning": "secrecy",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "onthulling",
+      "lemma": "onthulling",
+      "pos": "noun",
+      "meaning": "reveal",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "uitnodiging",
+      "lemma": "uitnodiging",
+      "pos": "noun",
+      "meaning": "invitation",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "verrassingsfeest",
+      "lemma": "verrassingsfeest",
+      "pos": "noun",
+      "meaning": "surprise party",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "boodschappenlijst",
+      "lemma": "boodschappenlijst",
+      "pos": "noun",
+      "meaning": "shopping list",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "tijdschema",
+      "lemma": "tijdschema",
+      "pos": "noun",
+      "meaning": "schedule",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "fluisteren",
+      "lemma": "fluisteren",
+      "pos": "verb",
+      "meaning": "to whisper",
+      "new": true
+    },
+    {
+      "form": "bespreken",
+      "lemma": "bespreken",
+      "pos": "verb",
+      "meaning": "to discuss",
+      "new": true
+    },
+    {
+      "form": "voorbereiden",
+      "lemma": "voorbereiden",
+      "pos": "verb",
+      "meaning": "to prepare",
+      "new": true
+    },
+    {
+      "form": "onthullen",
+      "lemma": "onthullen",
+      "pos": "verb",
+      "meaning": "to reveal",
+      "new": true
+    },
+    {
+      "form": "vermommen",
+      "lemma": "vermommen",
+      "pos": "verb",
+      "meaning": "to disguise",
+      "new": true
+    },
+    {
+      "form": "coördineren",
+      "lemma": "coördineren",
+      "pos": "verb",
+      "meaning": "to coordinate",
+      "new": true
+    },
+    {
+      "form": "opgewonden",
+      "lemma": "opgewonden",
+      "pos": "adjective",
+      "meaning": "excited",
+      "new": true
+    },
+    {
+      "form": "argwanend",
+      "lemma": "argwanend",
+      "pos": "adjective",
+      "meaning": "suspicious",
+      "new": true
+    },
+    {
+      "form": "dolgelukkig",
+      "lemma": "dolgelukkig",
+      "pos": "adjective",
+      "meaning": "overjoyed",
+      "new": true
+    },
+    {
+      "form": "onvergetelijk",
+      "lemma": "onvergetelijk",
+      "pos": "adjective",
+      "meaning": "unforgettable",
+      "new": true
+    },
+    {
+      "form": "heimelijk",
+      "lemma": "heimelijk",
+      "pos": "adverb",
+      "meaning": "secretly",
+      "new": true
+    },
+    {
+      "form": "gespannen",
+      "lemma": "gespannen",
+      "pos": "adverb",
+      "meaning": "tensely",
+      "new": true
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "maken",
+      "lemma": "maken",
+      "pos": "verb",
+      "meaning": "to make / fix",
+      "new": false
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "belangrijk",
+      "lemma": "belangrijk",
+      "pos": "adjective",
+      "meaning": "important",
+      "new": false
+    },
+    {
+      "form": "bewaart",
+      "lemma": "bewaren",
+      "pos": "verb",
+      "meaning": "keeps",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "lang",
+      "lemma": "lang",
+      "pos": "adjective",
+      "meaning": "long",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "mooi",
+      "lemma": "mooi",
+      "pos": "adjective",
+      "meaning": "beautiful / nice",
+      "new": false
+    },
+    {
+      "form": "stuurt",
+      "lemma": "sturen",
+      "pos": "verb",
+      "meaning": "sends",
+      "new": false
+    },
+    {
+      "form": "fluistert",
+      "lemma": "fluisteren",
+      "pos": "verb",
+      "meaning": "whispers",
+      "new": true
+    },
+    {
+      "form": "bespreekt",
+      "lemma": "bespreken",
+      "pos": "verb",
+      "meaning": "discusses",
+      "new": true
+    },
+    {
+      "form": "feest",
+      "lemma": "feest",
+      "pos": "noun",
+      "meaning": "party",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "voorbereid",
+      "lemma": "voorbereiden",
+      "pos": "verb",
+      "meaning": "prepared",
+      "new": true
+    },
+    {
+      "form": "coördineert",
+      "lemma": "coördineren",
+      "pos": "verb",
+      "meaning": "coordinates",
+      "new": true
+    },
+    {
+      "form": "vermomt",
+      "lemma": "vermommen",
+      "pos": "verb",
+      "meaning": "disguises",
+      "new": true
+    },
+    {
+      "form": "zich",
+      "lemma": "zich",
+      "pos": "pronoun",
+      "meaning": "himself / herself / themselves",
+      "new": false
+    },
+    {
+      "form": "gast",
+      "lemma": "gast",
+      "pos": "noun",
+      "meaning": "guest",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "onthult",
+      "lemma": "onthullen",
+      "pos": "verb",
+      "meaning": "reveals",
+      "new": true
+    },
+    {
+      "form": "verrassing",
+      "lemma": "verrassing",
+      "pos": "noun",
+      "meaning": "surprise",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lachen",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "to laugh",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "geven",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give",
+      "new": false
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "willen",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want",
+      "new": false
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    }
+  ]
+}

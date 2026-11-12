@@ -1,0 +1,487 @@
+{
+  "id": "a1-11",
+  "level": "A1",
+  "order": 11,
+  "title": "De hond is ziek",
+  "blurb_nl": "Bo is ziek. Sam en Noor gaan naar de dierenarts en Bo krijgt medicijn.",
+  "blurb_en": "Bo is ill. Sam and Noor go to the vet and Bo gets medicine.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Bo is ziek. Bo is niet beter. Bo is slap.",
+    "Bo hoest. Bo niest. Bo jankt.",
+    "Sam is niet blij. Noor is niet blij.",
+    "Sam ziet de poot. De poot is pijnlijk. Bo jankt.",
+    "Noor ziet het oor. Het oor is pijnlijk.",
+    "Sam ziet de neus. De neus is pijnlijk.",
+    "Noor ziet de tong. De tong is pijnlijk.",
+    "Sam ziet de vacht. De vacht is niet groot.",
+    "Sam heeft een riem. De riem is groot. De riem is niet klein.",
+    "Sam gaat naar de dierenarts. Noor gaat naar de dierenarts. Bo gaat naar de dierenarts.",
+    "De dierenarts onderzoekt Bo. De dierenarts meet Bo.",
+    "Sam meet Bo. Noor meet Bo.",
+    "De dierenarts onderzoekt de poot. De dierenarts onderzoekt het oor.",
+    "De dierenarts ziet de neus. De dierenarts ziet de tong.",
+    "De dierenarts geeft medicijn aan Bo. Het medicijn is niet groot.",
+    "Bo is thuis. Bo rust. Bo is thuis.",
+    "Sam is thuis. Noor is thuis. Bo is thuis.",
+    "Bo is beter. Bo is niet ziek. Bo is niet slap.",
+    "Bo hoest niet. Bo niest niet. Bo jankt niet.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Sam ziet de vacht. De vacht is beter.",
+    "Noor ziet de poot. De poot is niet pijnlijk.",
+    "De neus is niet pijnlijk. Het oor is niet pijnlijk. De tong is niet pijnlijk.",
+    "Bo rust zachtjes. Bo is thuis. Bo is beter.",
+    "Sam loopt zachtjes. Noor loopt zachtjes.",
+    "We zijn thuis. We zijn samen. We zijn blij.",
+    "De dierenarts is blij. De riem is groot. Het medicijn is klein.",
+    "De dierenarts komt.",
+    "We zien de dierenarts.",
+    "De dierenarts is hier.",
+    "De dierenarts is in het huis.",
+    "We zien het medicijn.",
+    "Sam ziet het medicijn.",
+    "Noor ziet het medicijn.",
+    "Sam pakt het medicijn.",
+    "We spelen met het medicijn.",
+    "Het medicijn is hier.",
+    "We zien de poot.",
+    "Sam ziet de poot.",
+    "Noor ziet de poot.",
+    "Sam pakt de poot.",
+    "We spelen met de poot.",
+    "De poot is hier.",
+    "We zien het oor.",
+    "Sam ziet het oor.",
+    "Noor ziet het oor.",
+    "Sam pakt het oor.",
+    "We spelen met het oor.",
+    "Het oor is hier.",
+    "We zien de neus.",
+    "Sam ziet de neus.",
+    "Noor ziet de neus.",
+    "Sam pakt de neus.",
+    "We spelen met de neus.",
+    "De neus is hier.",
+    "We zien de tong.",
+    "Sam ziet de tong.",
+    "Noor ziet de tong.",
+    "Sam pakt de tong.",
+    "We spelen met de tong.",
+    "De tong is hier.",
+    "We zien de vacht.",
+    "Sam ziet de vacht.",
+    "Noor ziet de vacht.",
+    "Sam pakt de vacht.",
+    "We spelen met de vacht.",
+    "De vacht is hier.",
+    "We zien de riem.",
+    "Sam ziet de riem.",
+    "Noor ziet de riem.",
+    "Sam pakt de riem.",
+    "We spelen met de riem.",
+    "De riem is hier.",
+    "Hallo, dierenarts! Hallo, medicijn! Hallo, neus!",
+    "Sam geeft de dierenarts aan Noor.",
+    "Noor geeft de dierenarts aan Sam.",
+    "Bo ziet de dierenarts. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "De dierenarts komt.",
+    "We zien de dierenarts.",
+    "De dierenarts is hier.",
+    "De dierenarts is in het huis.",
+    "We zien het medicijn.",
+    "Sam ziet het medicijn.",
+    "Noor ziet het medicijn.",
+    "Sam pakt het medicijn.",
+    "We spelen met het medicijn.",
+    "Het medicijn is hier.",
+    "We zien de poot.",
+    "Sam ziet de poot.",
+    "Noor ziet de poot.",
+    "Sam pakt de poot.",
+    "We spelen met de poot.",
+    "De poot is hier.",
+    "We zien het oor.",
+    "Sam ziet het oor.",
+    "Bo is niet ziek. Bo is beter. Bo is blij.",
+    "We zijn altijd samen. We zijn blij.",
+    "Hallo, Bo! Hallo, dierenarts! Hallo, thuis!"
+  ],
+  "new_words": [
+    "dierenarts",
+    "medicijn",
+    "poot",
+    "oor",
+    "neus",
+    "tong",
+    "vacht",
+    "riem",
+    "hoesten",
+    "niezen",
+    "janken",
+    "onderzoeken",
+    "meten",
+    "rusten",
+    "ziek",
+    "beter",
+    "slap",
+    "pijnlijk",
+    "zachtjes",
+    "thuis"
+  ],
+  "glossary": [
+    {
+      "form": "dierenarts",
+      "lemma": "dierenarts",
+      "pos": "noun",
+      "meaning": "vet",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "medicijn",
+      "lemma": "medicijn",
+      "pos": "noun",
+      "meaning": "medicine",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "poot",
+      "lemma": "poot",
+      "pos": "noun",
+      "meaning": "paw",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "oor",
+      "lemma": "oor",
+      "pos": "noun",
+      "meaning": "ear",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "neus",
+      "lemma": "neus",
+      "pos": "noun",
+      "meaning": "nose",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "tong",
+      "lemma": "tong",
+      "pos": "noun",
+      "meaning": "tongue",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "vacht",
+      "lemma": "vacht",
+      "pos": "noun",
+      "meaning": "fur",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "riem",
+      "lemma": "riem",
+      "pos": "noun",
+      "meaning": "leash",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "hoesten",
+      "lemma": "hoesten",
+      "pos": "verb",
+      "meaning": "to cough",
+      "new": true
+    },
+    {
+      "form": "niezen",
+      "lemma": "niezen",
+      "pos": "verb",
+      "meaning": "to sneeze",
+      "new": true
+    },
+    {
+      "form": "janken",
+      "lemma": "janken",
+      "pos": "verb",
+      "meaning": "to whine",
+      "new": true
+    },
+    {
+      "form": "onderzoeken",
+      "lemma": "onderzoeken",
+      "pos": "verb",
+      "meaning": "to examine",
+      "new": true
+    },
+    {
+      "form": "meten",
+      "lemma": "meten",
+      "pos": "verb",
+      "meaning": "to measure",
+      "new": true
+    },
+    {
+      "form": "rusten",
+      "lemma": "rusten",
+      "pos": "verb",
+      "meaning": "to rest",
+      "new": true
+    },
+    {
+      "form": "ziek",
+      "lemma": "ziek",
+      "pos": "adjective",
+      "meaning": "ill / sick",
+      "new": true
+    },
+    {
+      "form": "beter",
+      "lemma": "beter",
+      "pos": "adjective",
+      "meaning": "better",
+      "new": true
+    },
+    {
+      "form": "slap",
+      "lemma": "slap",
+      "pos": "adjective",
+      "meaning": "weak / limp",
+      "new": true
+    },
+    {
+      "form": "pijnlijk",
+      "lemma": "pijnlijk",
+      "pos": "adjective",
+      "meaning": "painful",
+      "new": true
+    },
+    {
+      "form": "zachtjes",
+      "lemma": "zachtjes",
+      "pos": "adverb",
+      "meaning": "softly",
+      "new": true
+    },
+    {
+      "form": "thuis",
+      "lemma": "thuis",
+      "pos": "adverb",
+      "meaning": "at home",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "hoest",
+      "lemma": "hoesten",
+      "pos": "verb",
+      "meaning": "coughs",
+      "new": true
+    },
+    {
+      "form": "niest",
+      "lemma": "niezen",
+      "pos": "verb",
+      "meaning": "sneezes",
+      "new": true
+    },
+    {
+      "form": "jankt",
+      "lemma": "janken",
+      "pos": "verb",
+      "meaning": "whines",
+      "new": true
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "onderzoekt",
+      "lemma": "onderzoeken",
+      "pos": "verb",
+      "meaning": "examines",
+      "new": true
+    },
+    {
+      "form": "meet",
+      "lemma": "meten",
+      "pos": "verb",
+      "meaning": "measures",
+      "new": true
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "rust",
+      "lemma": "rusten",
+      "pos": "verb",
+      "meaning": "rests",
+      "new": true
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

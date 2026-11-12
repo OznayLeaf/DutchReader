@@ -1,0 +1,503 @@
+{
+  "id": "a1-17",
+  "level": "A1",
+  "order": 17,
+  "title": "De sport",
+  "blurb_nl": "Sam doet aan sport. Het team speelt een wedstrijd en Sam scoort.",
+  "blurb_en": "Sam plays a sport. The team plays a match and Sam scores.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam is in het veld. Het veld is groot.",
+    "De sport is groot. De sport is niet klein.",
+    "Het team is in het veld. Het team is sportief.",
+    "De wedstrijd is groot.",
+    "De speler is sterk. De speler is fit.",
+    "De trainer is sterk. De trainer is fit.",
+    "De scheidsrechter is in het veld. De scheidsrechter is niet blij.",
+    "Sam beweegt. Noor beweegt. Bo beweegt.",
+    "Sam traint. Noor traint. Het team traint.",
+    "Sam schopt de bal. Noor schopt de bal. De speler schopt de bal.",
+    "Sam scoort. Noor scoort. De speler scoort.",
+    "De goal is groot. De goal is niet klein.",
+    "Het team wint. Sam is blij. Noor is blij.",
+    "Het team verliest niet. De speler is blij.",
+    "De trainer is blij.",
+    "Sam is sterk. Noor is sterk. Het team is sterk.",
+    "Sam is fit. Noor is fit. Het team is fit.",
+    "Sam is sportief. Noor is sportief. Het team is sportief.",
+    "Sam is gezond. Noor is gezond. Het team is gezond.",
+    "We bewegen vlug. We scoren vlug. We zijn blij.",
+    "We trainen meteen. We scoren meteen. We zijn blij.",
+    "De wedstrijd is groot.",
+    "De speler ziet de goal. De goal is groot. De speler is blij.",
+    "Sam wint. Noor wint. Het team wint.",
+    "Sam verliest niet. Noor verliest niet. Het team verliest niet.",
+    "We zien de sport.",
+    "De sport is hier.",
+    "We zien de wedstrijd.",
+    "De wedstrijd is hier.",
+    "Het team komt.",
+    "We zien het team.",
+    "Het team is hier.",
+    "Het team is in het huis.",
+    "We zijn op het veld.",
+    "We gaan naar het veld.",
+    "Sam loopt naar het veld.",
+    "Noor gaat naar het veld.",
+    "Het veld is hier.",
+    "We zien de goal.",
+    "Sam ziet de goal.",
+    "Noor ziet de goal.",
+    "Sam pakt de goal.",
+    "We spelen met de goal.",
+    "De goal is hier.",
+    "De scheidsrechter komt.",
+    "We zien de scheidsrechter.",
+    "De scheidsrechter is hier.",
+    "De scheidsrechter is in het huis.",
+    "De speler komt.",
+    "We zien de speler.",
+    "De speler is hier.",
+    "De speler is in het huis.",
+    "De trainer komt.",
+    "We zien de trainer.",
+    "De trainer is hier.",
+    "De trainer is in het huis.",
+    "Hallo, sport! Hallo, wedstrijd! Hallo, goal!",
+    "Sam geeft de sport aan Noor.",
+    "Noor geeft de sport aan Sam.",
+    "Bo ziet de sport. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zien de sport.",
+    "De sport is hier.",
+    "We zien de wedstrijd.",
+    "De wedstrijd is hier.",
+    "Het team komt.",
+    "We zien het team.",
+    "Het team is hier.",
+    "Het team is in het huis.",
+    "We zijn op het veld.",
+    "We gaan naar het veld.",
+    "Sam loopt naar het veld.",
+    "Noor gaat naar het veld.",
+    "Het veld is hier.",
+    "We zien de goal.",
+    "Sam ziet de goal.",
+    "Noor ziet de goal.",
+    "Sam pakt de goal.",
+    "We spelen met de goal.",
+    "De goal is hier.",
+    "De scheidsrechter komt.",
+    "We zien de scheidsrechter.",
+    "De scheidsrechter is hier.",
+    "De scheidsrechter is in het huis.",
+    "De speler komt.",
+    "We zien de speler.",
+    "De speler is hier.",
+    "De speler is in het huis.",
+    "De trainer komt.",
+    "We zien de trainer.",
+    "De trainer is hier.",
+    "De trainer is in het huis.",
+    "Hallo, sport! Hallo, wedstrijd! Hallo, goal!",
+    "Sam geeft de sport aan Noor.",
+    "Noor geeft de sport aan Sam.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "Bo ziet de sport. Bo is blij.",
+    "We zijn samen. We zijn blij. We zijn fit.",
+    "Hallo, team! Hallo, trainer! Hallo, goal!",
+    "We zijn altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "sport",
+    "wedstrijd",
+    "team",
+    "veld",
+    "goal",
+    "scheidsrechter",
+    "speler",
+    "trainer",
+    "bewegen",
+    "trainen",
+    "winnen",
+    "verliezen",
+    "scoren",
+    "schoppen",
+    "sterk",
+    "fit",
+    "sportief",
+    "gezond",
+    "vlug",
+    "meteen"
+  ],
+  "glossary": [
+    {
+      "form": "sport",
+      "lemma": "sport",
+      "pos": "noun",
+      "meaning": "sport",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "wedstrijd",
+      "lemma": "wedstrijd",
+      "pos": "noun",
+      "meaning": "match",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "team",
+      "lemma": "team",
+      "pos": "noun",
+      "meaning": "team",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "veld",
+      "lemma": "veld",
+      "pos": "noun",
+      "meaning": "field",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "goal",
+      "lemma": "goal",
+      "pos": "noun",
+      "meaning": "goal",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "scheidsrechter",
+      "lemma": "scheidsrechter",
+      "pos": "noun",
+      "meaning": "referee",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "speler",
+      "lemma": "speler",
+      "pos": "noun",
+      "meaning": "player",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "trainer",
+      "lemma": "trainer",
+      "pos": "noun",
+      "meaning": "coach",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "bewegen",
+      "lemma": "bewegen",
+      "pos": "verb",
+      "meaning": "to move",
+      "new": true
+    },
+    {
+      "form": "trainen",
+      "lemma": "trainen",
+      "pos": "verb",
+      "meaning": "to train",
+      "new": true
+    },
+    {
+      "form": "winnen",
+      "lemma": "winnen",
+      "pos": "verb",
+      "meaning": "to win",
+      "new": true
+    },
+    {
+      "form": "verliezen",
+      "lemma": "verliezen",
+      "pos": "verb",
+      "meaning": "to lose",
+      "new": true
+    },
+    {
+      "form": "scoren",
+      "lemma": "scoren",
+      "pos": "verb",
+      "meaning": "to score",
+      "new": true
+    },
+    {
+      "form": "schoppen",
+      "lemma": "schoppen",
+      "pos": "verb",
+      "meaning": "to kick",
+      "new": true
+    },
+    {
+      "form": "sterk",
+      "lemma": "sterk",
+      "pos": "adjective",
+      "meaning": "strong",
+      "new": true
+    },
+    {
+      "form": "fit",
+      "lemma": "fit",
+      "pos": "adjective",
+      "meaning": "fit",
+      "new": true
+    },
+    {
+      "form": "sportief",
+      "lemma": "sportief",
+      "pos": "adjective",
+      "meaning": "sporty",
+      "new": true
+    },
+    {
+      "form": "gezond",
+      "lemma": "gezond",
+      "pos": "adjective",
+      "meaning": "healthy",
+      "new": true
+    },
+    {
+      "form": "vlug",
+      "lemma": "vlug",
+      "pos": "adverb",
+      "meaning": "quickly",
+      "new": true
+    },
+    {
+      "form": "meteen",
+      "lemma": "meteen",
+      "pos": "adverb",
+      "meaning": "immediately",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "beweegt",
+      "lemma": "bewegen",
+      "pos": "verb",
+      "meaning": "moves",
+      "new": true
+    },
+    {
+      "form": "traint",
+      "lemma": "trainen",
+      "pos": "verb",
+      "meaning": "trains",
+      "new": true
+    },
+    {
+      "form": "schopt",
+      "lemma": "schoppen",
+      "pos": "verb",
+      "meaning": "kicks",
+      "new": true
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "scoort",
+      "lemma": "scoren",
+      "pos": "verb",
+      "meaning": "scores",
+      "new": true
+    },
+    {
+      "form": "wint",
+      "lemma": "winnen",
+      "pos": "verb",
+      "meaning": "wins",
+      "new": true
+    },
+    {
+      "form": "verliest",
+      "lemma": "verliezen",
+      "pos": "verb",
+      "meaning": "loses",
+      "new": true
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

@@ -1,0 +1,641 @@
+{
+  "id": "a2-08",
+  "level": "A2",
+  "order": 8,
+  "title": "De pakketbezorger",
+  "blurb_nl": "Het pakket komt niet aan. De bezorger klopt bij de buren. Dan gaat het mis.",
+  "blurb_en": "The parcel does not arrive. The courier knocks at the neighbours. Then it goes wrong.",
+  "sections": [
+    "Sam bestelt een pakket.",
+    "De bestelling is belangrijk.",
+    "Sam verstuurt een brief.",
+    "De brief is aan de buurvrouw.",
+    "De bezorger komt met een pakket.",
+    "De bezorger klopt aan de deur.",
+    "Sam is niet thuis.",
+    "De bezorger klopt weer.",
+    "De bezorger kijkt naar de deur. De buurvrouw komt.",
+    "De bezorger levert het pakket.",
+    "Het pakket is beschadigd.",
+    "De buurvrouw weigert het pakket.",
+    "De bezorger is verrast.",
+    "De bezorger kijkt naar het etiket.",
+    "Het etiket is onduidelijk.",
+    "De postcode is correct.",
+    "Het huisnummer is onduidelijk.",
+    "Daardoor gaat het pakket retour.",
+    "Het pakket gaat retour naar het magazijn.",
+    "Het pakket gaat naar het magazijn.",
+    "In het magazijn werkt de bezorger.",
+    "De bezorger kijkt naar het pakket.",
+    "De bezorger verstuurt het pakket weer.",
+    "Sam bestelt het pakket weer.",
+    "De bestelling is onverwacht.",
+    "De bezorger komt onverwacht.",
+    "De bezorger levert het pakket.",
+    "Sam ondertekent het papier.",
+    "Sam ondertekent zorgvuldig.",
+    "De bezorger is correct.",
+    "De bezorger is zorgvuldig.",
+    "Het pakket is niet beschadigd.",
+    "Sam is blij. De bezorger is blij.",
+    "Sam weigert het pakket niet.",
+    "Hopelijk komt het pakket morgen.",
+    "Hopelijk is het pakket correct.",
+    "De postcode is correct. Het huisnummer is correct.",
+    "Sam heeft een pakket. De buurvrouw heeft een pakket.",
+    "De bezorger gaat naar het magazijn.",
+    "Het magazijn is groot.",
+    "Sam is verrast. De buurvrouw is verrast.",
+    "De bestelling is goed. Het pakket is goed.",
+    "Sam en de bezorger lachen.",
+    "De bezorger is correct en zorgvuldig.",
+    "Hopelijk blijft het pakket goed.",
+    "Daardoor is Sam verrast.",
+    "Sam ziet het pakket.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet het pakket.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "Het pakket is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet de bezorger.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet de bezorger.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "De bezorger is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet de postcode.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet de postcode.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "De postcode is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet het huisnummer.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Noor ziet het huisnummer.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "We spelen in de tuin. We zijn blij.",
+    "Het huisnummer is hier.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Bo pakt de bal. Bo is blij.",
+    "We pakken de bal. We zijn blij.",
+    "Sam ziet het magazijn.",
+    "Sam geeft de bal aan Noor. Noor is blij.",
+    "Noor geeft de bal aan Sam. Sam is blij.",
+    "Sam geeft de bal aan Bo. Bo is blij.",
+    "Noor ziet het magazijn.",
+    "Bo geeft de bal aan Sam. Sam is blij.",
+    "We geven de bal aan de hond. We zijn blij.",
+    "Sam heeft de bal. Noor heeft de bal.",
+    "Het magazijn is hier.",
+    "Bo heeft de bal. Bo is blij.",
+    "We hebben de bal. We zijn blij.",
+    "De bezorger klopt niet weer.",
+    "Het pakket is niet beschadigd. Het etiket is correct.",
+    "Sam is blij met het pakket."
+  ],
+  "new_words": [
+    "pakket",
+    "bezorger",
+    "postcode",
+    "huisnummer",
+    "magazijn",
+    "bestelling",
+    "etiket",
+    "retour",
+    "leveren",
+    "bestellen",
+    "weigeren",
+    "versturen",
+    "kloppen",
+    "ondertekenen",
+    "onverwacht",
+    "beschadigd",
+    "correct",
+    "zorgvuldig",
+    "daardoor",
+    "hopelijk"
+  ],
+  "glossary": [
+    {
+      "form": "pakket",
+      "lemma": "pakket",
+      "pos": "noun",
+      "meaning": "parcel",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "bezorger",
+      "lemma": "bezorger",
+      "pos": "noun",
+      "meaning": "courier",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "postcode",
+      "lemma": "postcode",
+      "pos": "noun",
+      "meaning": "postcode",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "huisnummer",
+      "lemma": "huisnummer",
+      "pos": "noun",
+      "meaning": "house number",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "magazijn",
+      "lemma": "magazijn",
+      "pos": "noun",
+      "meaning": "warehouse",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "bestelling",
+      "lemma": "bestelling",
+      "pos": "noun",
+      "meaning": "order",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "etiket",
+      "lemma": "etiket",
+      "pos": "noun",
+      "meaning": "label",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "retour",
+      "lemma": "retour",
+      "pos": "noun",
+      "meaning": "return",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "leveren",
+      "lemma": "leveren",
+      "pos": "verb",
+      "meaning": "to deliver",
+      "new": true
+    },
+    {
+      "form": "bestellen",
+      "lemma": "bestellen",
+      "pos": "verb",
+      "meaning": "to order",
+      "new": true
+    },
+    {
+      "form": "weigeren",
+      "lemma": "weigeren",
+      "pos": "verb",
+      "meaning": "to refuse",
+      "new": true
+    },
+    {
+      "form": "versturen",
+      "lemma": "versturen",
+      "pos": "verb",
+      "meaning": "to send",
+      "new": true
+    },
+    {
+      "form": "kloppen",
+      "lemma": "kloppen",
+      "pos": "verb",
+      "meaning": "to knock",
+      "new": true
+    },
+    {
+      "form": "ondertekenen",
+      "lemma": "ondertekenen",
+      "pos": "verb",
+      "meaning": "to sign",
+      "new": true
+    },
+    {
+      "form": "onverwacht",
+      "lemma": "onverwacht",
+      "pos": "adjective",
+      "meaning": "unexpected",
+      "new": true
+    },
+    {
+      "form": "beschadigd",
+      "lemma": "beschadigd",
+      "pos": "adjective",
+      "meaning": "damaged",
+      "new": true
+    },
+    {
+      "form": "correct",
+      "lemma": "correct",
+      "pos": "adjective",
+      "meaning": "correct",
+      "new": true
+    },
+    {
+      "form": "zorgvuldig",
+      "lemma": "zorgvuldig",
+      "pos": "adjective",
+      "meaning": "careful",
+      "new": true
+    },
+    {
+      "form": "daardoor",
+      "lemma": "daardoor",
+      "pos": "adverb",
+      "meaning": "because of that",
+      "new": true
+    },
+    {
+      "form": "hopelijk",
+      "lemma": "hopelijk",
+      "pos": "adverb",
+      "meaning": "hopefully",
+      "new": true
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "bestelt",
+      "lemma": "bestellen",
+      "pos": "verb",
+      "meaning": "orders",
+      "new": true
+    },
+    {
+      "form": "belangrijk",
+      "lemma": "belangrijk",
+      "pos": "adjective",
+      "meaning": "important",
+      "new": false
+    },
+    {
+      "form": "verstuurt",
+      "lemma": "versturen",
+      "pos": "verb",
+      "meaning": "sends",
+      "new": true
+    },
+    {
+      "form": "brief",
+      "lemma": "brief",
+      "pos": "noun",
+      "meaning": "letter",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "buurvrouw",
+      "lemma": "buurvrouw",
+      "pos": "noun",
+      "meaning": "neighbour (woman)",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "klopt",
+      "lemma": "kloppen",
+      "pos": "verb",
+      "meaning": "knocks",
+      "new": true
+    },
+    {
+      "form": "deur",
+      "lemma": "deur",
+      "pos": "noun",
+      "meaning": "door",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "thuis",
+      "lemma": "thuis",
+      "pos": "adverb",
+      "meaning": "at home",
+      "new": false
+    },
+    {
+      "form": "weer",
+      "lemma": "weer",
+      "pos": "adverb",
+      "meaning": "again",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "levert",
+      "lemma": "leveren",
+      "pos": "verb",
+      "meaning": "delivers",
+      "new": true
+    },
+    {
+      "form": "weigert",
+      "lemma": "weigeren",
+      "pos": "verb",
+      "meaning": "refuses",
+      "new": true
+    },
+    {
+      "form": "verrast",
+      "lemma": "verrast",
+      "pos": "adjective",
+      "meaning": "surprised",
+      "new": false
+    },
+    {
+      "form": "onduidelijk",
+      "lemma": "onduidelijk",
+      "pos": "adjective",
+      "meaning": "unclear",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "werkt",
+      "lemma": "werken",
+      "pos": "verb",
+      "meaning": "works",
+      "new": false
+    },
+    {
+      "form": "ondertekent",
+      "lemma": "ondertekenen",
+      "pos": "verb",
+      "meaning": "signs",
+      "new": true
+    },
+    {
+      "form": "papier",
+      "lemma": "papier",
+      "pos": "noun",
+      "meaning": "paper",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "morgen",
+      "lemma": "morgen",
+      "pos": "adverb",
+      "meaning": "tomorrow",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "lachen",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "to laugh",
+      "new": false
+    },
+    {
+      "form": "blijft",
+      "lemma": "blijven",
+      "pos": "verb",
+      "meaning": "stays",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "geven",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give",
+      "new": false
+    }
+  ]
+}

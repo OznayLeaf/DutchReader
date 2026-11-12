@@ -1,0 +1,660 @@
+{
+  "id": "a2-23",
+  "level": "A2",
+  "order": 23,
+  "title": "De oude foto",
+  "blurb_nl": "Noor vindt een oude foto op zolder. Wie is de vrouw op de foto?",
+  "blurb_en": "Noor finds an old photo in the attic. Who is the woman in the photo?",
+  "sections": [
+    "Noor is op zolder.",
+    "Noor zoekt in een doos.",
+    "Noor vindt een foto.",
+    "De foto is oud.",
+    "Het kader is oud.",
+    "Noor pakt het kader.",
+    "Het portret is mooi.",
+    "Noor ziet het portret.",
+    "De foto is vaag.",
+    "Het verleden is vaag.",
+    "De foto is herkenbaar.",
+    "Het portret is herkenbaar.",
+    "De familie is groot.",
+    "Noor ziet de familie.",
+    "De generatie is oud.",
+    "Noor ziet een generatie.",
+    "Het tijdperk is oud.",
+    "Noor ziet een tijdperk.",
+    "Noor herinnert zich de foto.",
+    "Sam herinnert zich de foto.",
+    "Noor heeft een herinnering.",
+    "De herinnering is dierbaar.",
+    "De foto is dierbaar.",
+    "Noor raadpleegt de familie.",
+    "Sam raadpleegt de familie.",
+    "Noor overdenkt de foto.",
+    "Sam overdenkt de foto.",
+    "Noor vertelt.",
+    "Sam vertelt.",
+    "Noor vergelijkt de foto.",
+    "Sam vergelijkt de foto.",
+    "Noor koestert de foto.",
+    "Sam koestert de foto.",
+    "Noor is nostalgisch.",
+    "Sam is nostalgisch.",
+    "Vroeger was de familie groot.",
+    "Vroeger was de foto nieuw.",
+    "Destijds was de familie groot.",
+    "Destijds was de foto nieuw.",
+    "Noor en Sam lachen.",
+    "Noor is blij. Sam is blij.",
+    "De foto is goed. Het kader is goed.",
+    "Noor en Sam gaan naar huis.",
+    "De herinnering is goed.",
+    "Het verleden is niet vaag.",
+    "De foto is niet vaag.",
+    "De familie is dierbaar.",
+    "Het portret is dierbaar.",
+    "Noor is blij.",
+    "Sam ziet de foto.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet de foto.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "De foto is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet het kader.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet het kader.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "Het kader is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet de herinnering.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet de herinnering.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "De herinnering is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet de familie.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Noor ziet de familie.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "We spelen in de tuin. We zijn blij.",
+    "De familie is hier.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Bo pakt de bal. Bo is blij.",
+    "We pakken de bal. We zijn blij.",
+    "Sam ziet de generatie.",
+    "Sam geeft de bal aan Noor. Noor is blij.",
+    "Noor geeft de bal aan Sam. Sam is blij.",
+    "Sam geeft de bal aan Bo. Bo is blij.",
+    "Noor ziet de generatie.",
+    "Bo geeft de bal aan Sam. Sam is blij.",
+    "We geven de bal aan de hond. We zijn blij.",
+    "Sam heeft de bal. Noor heeft de bal.",
+    "De generatie is hier.",
+    "Bo heeft de bal. Bo is blij.",
+    "We hebben de bal. We zijn blij.",
+    "Sam wil de hond zien. Noor wil de bal zien.",
+    "Sam ziet het verleden.",
+    "We willen de hond zien. We zijn blij.",
+    "Sam ziet de hond. Noor ziet de bal.",
+    "Bo ziet Sam. Bo is blij.",
+    "Noor ziet het verleden.",
+    "We zien de hond. We zien de bal.",
+    "We zien Sam en Noor. We zijn blij.",
+    "Sam is hier. Noor is daar. Bo is hier.",
+    "De verleden zijn hier.",
+    "We zijn niet in het huis. We zijn in de tuin.",
+    "De hond is niet in het huis. De hond is in de tuin.",
+    "Sam heeft geen bal. Noor heeft de bal.",
+    "We zien de verleden.",
+    "We hebben geen hond. We hebben een bal.",
+    "Hallo, Sam! Hallo, Noor! Hallo, Bo!",
+    "Hallo, hond! Hallo, bal! Hallo, huis!",
+    "Sam ziet het tijdperk.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We zijn blij.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "We zijn blij.",
+    "Sam is blij.",
+    "De foto is herkenbaar en dierbaar.",
+    "Het verleden is oud. Het tijdperk is oud."
+  ],
+  "new_words": [
+    "foto",
+    "kader",
+    "herinnering",
+    "familie",
+    "generatie",
+    "verleden",
+    "tijdperk",
+    "portret",
+    "herinneren",
+    "raadplegen",
+    "overdenken",
+    "vertellen",
+    "vergelijken",
+    "koesteren",
+    "nostalgisch",
+    "dierbaar",
+    "vaag",
+    "herkenbaar",
+    "vroeger",
+    "destijds"
+  ],
+  "glossary": [
+    {
+      "form": "foto",
+      "lemma": "foto",
+      "pos": "noun",
+      "meaning": "photo",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "kader",
+      "lemma": "kader",
+      "pos": "noun",
+      "meaning": "frame",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "herinnering",
+      "lemma": "herinnering",
+      "pos": "noun",
+      "meaning": "memory",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "familie",
+      "lemma": "familie",
+      "pos": "noun",
+      "meaning": "family",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "generatie",
+      "lemma": "generatie",
+      "pos": "noun",
+      "meaning": "generation",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "verleden",
+      "lemma": "verleden",
+      "pos": "noun",
+      "meaning": "past",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "tijdperk",
+      "lemma": "tijdperk",
+      "pos": "noun",
+      "meaning": "era",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "portret",
+      "lemma": "portret",
+      "pos": "noun",
+      "meaning": "portrait",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "herinneren",
+      "lemma": "herinneren",
+      "pos": "verb",
+      "meaning": "to remember",
+      "new": true
+    },
+    {
+      "form": "raadplegen",
+      "lemma": "raadplegen",
+      "pos": "verb",
+      "meaning": "to consult",
+      "new": true
+    },
+    {
+      "form": "overdenken",
+      "lemma": "overdenken",
+      "pos": "verb",
+      "meaning": "to reflect on",
+      "new": true
+    },
+    {
+      "form": "vertellen",
+      "lemma": "vertellen",
+      "pos": "verb",
+      "meaning": "to tell",
+      "new": true
+    },
+    {
+      "form": "vergelijken",
+      "lemma": "vergelijken",
+      "pos": "verb",
+      "meaning": "to compare",
+      "new": true
+    },
+    {
+      "form": "koesteren",
+      "lemma": "koesteren",
+      "pos": "verb",
+      "meaning": "to cherish",
+      "new": true
+    },
+    {
+      "form": "nostalgisch",
+      "lemma": "nostalgisch",
+      "pos": "adjective",
+      "meaning": "nostalgic",
+      "new": true
+    },
+    {
+      "form": "dierbaar",
+      "lemma": "dierbaar",
+      "pos": "adjective",
+      "meaning": "precious",
+      "new": true
+    },
+    {
+      "form": "vaag",
+      "lemma": "vaag",
+      "pos": "adjective",
+      "meaning": "vague",
+      "new": true
+    },
+    {
+      "form": "herkenbaar",
+      "lemma": "herkenbaar",
+      "pos": "adjective",
+      "meaning": "recognizable",
+      "new": true
+    },
+    {
+      "form": "vroeger",
+      "lemma": "vroeger",
+      "pos": "adverb",
+      "meaning": "in the past",
+      "new": true
+    },
+    {
+      "form": "destijds",
+      "lemma": "destijds",
+      "pos": "adverb",
+      "meaning": "at the time",
+      "new": true
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "zolder",
+      "lemma": "zolder",
+      "pos": "noun",
+      "meaning": "attic",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "zoekt",
+      "lemma": "zoeken",
+      "pos": "verb",
+      "meaning": "looks for",
+      "new": false
+    },
+    {
+      "form": "doos",
+      "lemma": "doos",
+      "pos": "noun",
+      "meaning": "box",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "vindt",
+      "lemma": "vinden",
+      "pos": "verb",
+      "meaning": "finds",
+      "new": false
+    },
+    {
+      "form": "oud",
+      "lemma": "oud",
+      "pos": "adjective",
+      "meaning": "old",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "mooi",
+      "lemma": "mooi",
+      "pos": "adjective",
+      "meaning": "beautiful / nice",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "herinnert",
+      "lemma": "herinneren",
+      "pos": "verb",
+      "meaning": "remembers",
+      "new": true
+    },
+    {
+      "form": "zich",
+      "lemma": "zich",
+      "pos": "pronoun",
+      "meaning": "himself / herself / themselves",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "raadpleegt",
+      "lemma": "raadplegen",
+      "pos": "verb",
+      "meaning": "consults",
+      "new": true
+    },
+    {
+      "form": "overdenkt",
+      "lemma": "overdenken",
+      "pos": "verb",
+      "meaning": "reflects on",
+      "new": true
+    },
+    {
+      "form": "vertelt",
+      "lemma": "vertellen",
+      "pos": "verb",
+      "meaning": "tells",
+      "new": true
+    },
+    {
+      "form": "vergelijkt",
+      "lemma": "vergelijken",
+      "pos": "verb",
+      "meaning": "compares",
+      "new": true
+    },
+    {
+      "form": "koestert",
+      "lemma": "koesteren",
+      "pos": "verb",
+      "meaning": "cherishes",
+      "new": true
+    },
+    {
+      "form": "was",
+      "lemma": "zijn",
+      "pos": "verb",
+      "meaning": "was",
+      "new": false
+    },
+    {
+      "form": "nieuw",
+      "lemma": "nieuw",
+      "pos": "adjective",
+      "meaning": "new",
+      "new": false
+    },
+    {
+      "form": "lachen",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "to laugh",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "geven",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give",
+      "new": false
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "willen",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want",
+      "new": false
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    }
+  ]
+}

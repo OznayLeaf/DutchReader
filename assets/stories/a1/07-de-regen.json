@@ -1,0 +1,481 @@
+{
+  "id": "a1-07",
+  "level": "A1",
+  "order": 7,
+  "title": "De regen",
+  "blurb_nl": "Het regent hard. Sam en Noor schuilen binnen en trekken een regenjas aan.",
+  "blurb_en": "It is raining hard. Sam and Noor shelter inside and put on a raincoat.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Het regent. De regen is hard. De lucht is grijs.",
+    "De wolk is groot. De wolk is grijs. De lucht is niet droog.",
+    "Sam is buiten. Noor is buiten. Bo is buiten.",
+    "Sam is nat. Noor is nat. Bo is nat.",
+    "Sam is boos. Noor is boos. Bo is boos.",
+    "Sam ziet een plas. De plas is groot. De plas is nat.",
+    "Noor ziet een druppel. De druppel is klein. De druppel valt.",
+    "De regen valt. De druppel valt. De plas is groot.",
+    "Sam heeft een paraplu. De paraplu is groot. De paraplu is niet nat.",
+    "Noor heeft een regenjas. De regenjas is rood. De regenjas is niet nat.",
+    "Sam heeft een laars. De laars is groot. De laars is niet nat.",
+    "Sam trekt de regenjas aan. Noor trekt de regenjas aan.",
+    "Sam trekt de laars aan. Noor trekt de laars aan.",
+    "Sam schuilt in het huis. Noor schuilt in het huis. Bo schuilt in het huis.",
+    "In het huis is het droog. In het huis is het niet nat.",
+    "De regen valt hard. Het waait hard.",
+    "De paraplu is nat. De regenjas is nat. De laars is nat.",
+    "Sam is niet boos. Noor is niet boos. Bo is niet boos.",
+    "De lucht is grijs. De wolk is grijs. De plas is nat.",
+    "We kijken naar de regen. We kijken naar de wolk. We zijn blij.",
+    "We zijn buiten. We zijn nat. We zijn niet droog.",
+    "Sam gaat naar het huis. Noor gaat naar het huis. Bo gaat naar het huis.",
+    "In het huis is het droog. De regen is buiten. De wolk is buiten.",
+    "Sam ziet de paraplu. Noor ziet de regenjas. Bo ziet de laars.",
+    "We zijn samen. We zijn blij. We zijn droog.",
+    "De druppel valt. De regen valt. De plas is groot.",
+    "Het regent buiten. Het regent niet in het huis.",
+    "Het waait hard. Het waait niet in het huis.",
+    "We zien de regen.",
+    "De regen is hier.",
+    "We zien de wolk.",
+    "Sam ziet de wolk.",
+    "Noor ziet de wolk.",
+    "Sam pakt de wolk.",
+    "We spelen met de wolk.",
+    "De wolk is hier.",
+    "We zijn in de lucht.",
+    "We gaan naar de lucht.",
+    "Sam loopt naar de lucht.",
+    "Noor gaat naar de lucht.",
+    "De lucht is hier.",
+    "We zien de plas.",
+    "Sam ziet de plas.",
+    "Noor ziet de plas.",
+    "Sam pakt de plas.",
+    "We spelen met de plas.",
+    "De plas is hier.",
+    "We zien de paraplu.",
+    "Sam ziet de paraplu.",
+    "Noor ziet de paraplu.",
+    "Sam pakt de paraplu.",
+    "We spelen met de paraplu.",
+    "De paraplu is hier.",
+    "We zien de regenjas.",
+    "Sam ziet de regenjas.",
+    "Noor ziet de regenjas.",
+    "Sam pakt de regenjas.",
+    "We spelen met de regenjas.",
+    "De regenjas is hier.",
+    "We zien de laars.",
+    "Sam ziet de laars.",
+    "Noor ziet de laars.",
+    "Sam pakt de laars.",
+    "We spelen met de laars.",
+    "De laars is hier.",
+    "We zien de druppel.",
+    "Sam ziet de druppel.",
+    "Noor ziet de druppel.",
+    "Sam pakt de druppel.",
+    "We spelen met de druppel.",
+    "De druppel is hier.",
+    "Hallo, regen! Hallo, wolk! Hallo, paraplu!",
+    "Sam geeft de regen aan Noor.",
+    "Noor geeft de regen aan Sam.",
+    "Bo ziet de regen. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zien de regen.",
+    "De regen is hier.",
+    "We zien de wolk.",
+    "Sam ziet de wolk.",
+    "Noor ziet de wolk.",
+    "Sam pakt de wolk.",
+    "We spelen met de wolk.",
+    "Het druppelt. De regen druppelt.",
+    "Hallo, regen! Hallo, wolk! Hallo, plas!",
+    "We zijn altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "regen",
+    "wolk",
+    "lucht",
+    "plas",
+    "paraplu",
+    "regenjas",
+    "laars",
+    "druppel",
+    "regenen",
+    "waaien",
+    "schuilen",
+    "druppelen",
+    "vallen",
+    "aantrekken",
+    "nat",
+    "droog",
+    "grijs",
+    "boos",
+    "buiten",
+    "hard"
+  ],
+  "glossary": [
+    {
+      "form": "regen",
+      "lemma": "regen",
+      "pos": "noun",
+      "meaning": "rain",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "wolk",
+      "lemma": "wolk",
+      "pos": "noun",
+      "meaning": "cloud",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "lucht",
+      "lemma": "lucht",
+      "pos": "noun",
+      "meaning": "sky",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "plas",
+      "lemma": "plas",
+      "pos": "noun",
+      "meaning": "puddle",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "paraplu",
+      "lemma": "paraplu",
+      "pos": "noun",
+      "meaning": "umbrella",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "regenjas",
+      "lemma": "regenjas",
+      "pos": "noun",
+      "meaning": "raincoat",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "laars",
+      "lemma": "laars",
+      "pos": "noun",
+      "meaning": "boot",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "druppel",
+      "lemma": "druppel",
+      "pos": "noun",
+      "meaning": "drop",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "regenen",
+      "lemma": "regenen",
+      "pos": "verb",
+      "meaning": "to rain",
+      "new": true
+    },
+    {
+      "form": "waaien",
+      "lemma": "waaien",
+      "pos": "verb",
+      "meaning": "to blow (wind)",
+      "new": true
+    },
+    {
+      "form": "schuilen",
+      "lemma": "schuilen",
+      "pos": "verb",
+      "meaning": "to shelter",
+      "new": true
+    },
+    {
+      "form": "druppelen",
+      "lemma": "druppelen",
+      "pos": "verb",
+      "meaning": "to drip",
+      "new": true
+    },
+    {
+      "form": "vallen",
+      "lemma": "vallen",
+      "pos": "verb",
+      "meaning": "to fall",
+      "new": true
+    },
+    {
+      "form": "aantrekken",
+      "lemma": "aantrekken",
+      "pos": "verb",
+      "meaning": "to put on",
+      "new": true
+    },
+    {
+      "form": "nat",
+      "lemma": "nat",
+      "pos": "adjective",
+      "meaning": "wet",
+      "new": true
+    },
+    {
+      "form": "droog",
+      "lemma": "droog",
+      "pos": "adjective",
+      "meaning": "dry",
+      "new": true
+    },
+    {
+      "form": "grijs",
+      "lemma": "grijs",
+      "pos": "adjective",
+      "meaning": "grey",
+      "new": true
+    },
+    {
+      "form": "boos",
+      "lemma": "boos",
+      "pos": "adjective",
+      "meaning": "angry",
+      "new": true
+    },
+    {
+      "form": "buiten",
+      "lemma": "buiten",
+      "pos": "adverb",
+      "meaning": "outside",
+      "new": true
+    },
+    {
+      "form": "hard",
+      "lemma": "hard",
+      "pos": "adverb",
+      "meaning": "hard / loudly",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "regent",
+      "lemma": "regenen",
+      "pos": "verb",
+      "meaning": "rains",
+      "new": true
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "valt",
+      "lemma": "vallen",
+      "pos": "verb",
+      "meaning": "falls",
+      "new": true
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "trekt",
+      "lemma": "aantrekken",
+      "pos": "verb",
+      "meaning": "puts on",
+      "new": true
+    },
+    {
+      "form": "schuilt",
+      "lemma": "schuilen",
+      "pos": "verb",
+      "meaning": "shelters",
+      "new": true
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "waait",
+      "lemma": "waaien",
+      "pos": "verb",
+      "meaning": "blows",
+      "new": true
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "druppelt",
+      "lemma": "druppelen",
+      "pos": "verb",
+      "meaning": "drips",
+      "new": true
+    }
+  ]
+}

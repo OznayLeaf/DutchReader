@@ -1,0 +1,463 @@
+{
+  "id": "a1-12",
+  "level": "A1",
+  "order": 12,
+  "title": "De bloemen",
+  "blurb_nl": "Sam plant bloemen in de tuin. De planten groeien en de tuin wordt groen.",
+  "blurb_en": "Sam plants flowers in the garden. The plants grow and the garden turns green.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam is in de tuin. De tuin is groot. De tuin is niet lelijk.",
+    "Sam heeft een plant. De plant is groen. De plant is niet hoog.",
+    "Noor heeft zaad. Het zaad is klein. Het zaad is niet groot.",
+    "Sam heeft aarde. De aarde is in de tuin.",
+    "Noor heeft een gieter. De gieter is groot.",
+    "Sam heeft een schop. De schop is groot. De schop is niet klein.",
+    "Sam ziet de haag. De haag is groen. De haag is hoog.",
+    "Noor ziet de boom. De boom is hoog. De boom is groen.",
+    "Sam ziet het blad. Het blad is groen. Het blad is niet lelijk.",
+    "Sam zaait het zaad. Noor zaait het zaad. De plant groeit.",
+    "Sam giet de plant. Noor giet de plant. De plant groeit.",
+    "De plant bloeit. De plant is groen. De plant is niet lelijk.",
+    "De plant bloeit in de tuin. De plant is groen.",
+    "Sam harkt de aarde. Noor harkt de aarde. De aarde is fris.",
+    "Sam maait de haag. Noor maait de haag. De haag is hoog.",
+    "De boom is hoog. De haag is hoog. De plant is niet hoog.",
+    "De tuin is groen. De plant is groen. Het blad is groen.",
+    "De aarde is fris. De tuin is fris. De plant is fris.",
+    "De plant is niet lelijk. De haag is niet lelijk. Het blad is niet lelijk.",
+    "Sam kijkt boven. Noor kijkt boven. De boom is hoog.",
+    "Sam kijkt beneden. Noor kijkt beneden. De plant is beneden.",
+    "We zijn in de tuin. We zijn samen. We zijn blij.",
+    "De gieter is groot. De schop is groot. De plant is klein.",
+    "We zaaien altijd samen. We zijn blij.",
+    "Hallo, plant! Hallo, boom! Hallo, tuin!",
+    "We zien de plant.",
+    "Sam ziet de plant.",
+    "Noor ziet de plant.",
+    "Sam pakt de plant.",
+    "We spelen met de plant.",
+    "De plant is hier.",
+    "We zien het zaad.",
+    "Sam ziet het zaad.",
+    "Noor ziet het zaad.",
+    "Sam pakt het zaad.",
+    "We spelen met het zaad.",
+    "Het zaad is hier.",
+    "We zien de aarde.",
+    "Sam ziet de aarde.",
+    "Noor ziet de aarde.",
+    "Sam pakt de aarde.",
+    "We spelen met de aarde.",
+    "De aarde is hier.",
+    "We zien de gieter.",
+    "Sam ziet de gieter.",
+    "Noor ziet de gieter.",
+    "Sam pakt de gieter.",
+    "We spelen met de gieter.",
+    "De gieter is hier.",
+    "We zien de schop.",
+    "Sam ziet de schop.",
+    "Noor ziet de schop.",
+    "Sam pakt de schop.",
+    "We spelen met de schop.",
+    "De schop is hier.",
+    "We zien de haag.",
+    "Sam ziet de haag.",
+    "Noor ziet de haag.",
+    "Sam pakt de haag.",
+    "We spelen met de haag.",
+    "De haag is hier.",
+    "We zien de boom.",
+    "Sam ziet de boom.",
+    "Noor ziet de boom.",
+    "Sam pakt de boom.",
+    "We spelen met de boom.",
+    "De boom is hier.",
+    "We zien het blad.",
+    "Sam ziet het blad.",
+    "Noor ziet het blad.",
+    "Sam pakt het blad.",
+    "We spelen met het blad.",
+    "Het blad is hier.",
+    "Hallo, plant! Hallo, zaad! Hallo, schop!",
+    "Sam geeft de plant aan Noor.",
+    "Noor geeft de plant aan Sam.",
+    "Bo ziet de plant. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zien de plant.",
+    "Sam ziet de plant.",
+    "Noor ziet de plant.",
+    "Sam pakt de plant.",
+    "We spelen met de plant.",
+    "De plant is hier.",
+    "We zien het zaad.",
+    "Sam ziet het zaad.",
+    "De plant groeit. De boom groeit. We zijn blij.",
+    "De haag is hoog. Het blad is groen. De aarde is fris.",
+    "We zijn altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "plant",
+    "zaad",
+    "aarde",
+    "gieter",
+    "schop",
+    "haag",
+    "boom",
+    "blad",
+    "zaaien",
+    "gieten",
+    "groeien",
+    "bloeien",
+    "harken",
+    "maaien",
+    "groen",
+    "lelijk",
+    "fris",
+    "hoog",
+    "boven",
+    "beneden"
+  ],
+  "glossary": [
+    {
+      "form": "plant",
+      "lemma": "plant",
+      "pos": "noun",
+      "meaning": "plant",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "zaad",
+      "lemma": "zaad",
+      "pos": "noun",
+      "meaning": "seed",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "aarde",
+      "lemma": "aarde",
+      "pos": "noun",
+      "meaning": "soil / earth",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "gieter",
+      "lemma": "gieter",
+      "pos": "noun",
+      "meaning": "watering can",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "schop",
+      "lemma": "schop",
+      "pos": "noun",
+      "meaning": "shovel",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "haag",
+      "lemma": "haag",
+      "pos": "noun",
+      "meaning": "hedge",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "boom",
+      "lemma": "boom",
+      "pos": "noun",
+      "meaning": "tree",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "blad",
+      "lemma": "blad",
+      "pos": "noun",
+      "meaning": "leaf",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "zaaien",
+      "lemma": "zaaien",
+      "pos": "verb",
+      "meaning": "to sow",
+      "new": true
+    },
+    {
+      "form": "gieten",
+      "lemma": "gieten",
+      "pos": "verb",
+      "meaning": "to pour / water",
+      "new": true
+    },
+    {
+      "form": "groeien",
+      "lemma": "groeien",
+      "pos": "verb",
+      "meaning": "to grow",
+      "new": true
+    },
+    {
+      "form": "bloeien",
+      "lemma": "bloeien",
+      "pos": "verb",
+      "meaning": "to bloom",
+      "new": true
+    },
+    {
+      "form": "harken",
+      "lemma": "harken",
+      "pos": "verb",
+      "meaning": "to rake",
+      "new": true
+    },
+    {
+      "form": "maaien",
+      "lemma": "maaien",
+      "pos": "verb",
+      "meaning": "to mow",
+      "new": true
+    },
+    {
+      "form": "groen",
+      "lemma": "groen",
+      "pos": "adjective",
+      "meaning": "green",
+      "new": true
+    },
+    {
+      "form": "lelijk",
+      "lemma": "lelijk",
+      "pos": "adjective",
+      "meaning": "ugly",
+      "new": true
+    },
+    {
+      "form": "fris",
+      "lemma": "fris",
+      "pos": "adjective",
+      "meaning": "fresh",
+      "new": true
+    },
+    {
+      "form": "hoog",
+      "lemma": "hoog",
+      "pos": "adjective",
+      "meaning": "high / tall",
+      "new": true
+    },
+    {
+      "form": "boven",
+      "lemma": "boven",
+      "pos": "adverb",
+      "meaning": "upstairs / above",
+      "new": true
+    },
+    {
+      "form": "beneden",
+      "lemma": "beneden",
+      "pos": "adverb",
+      "meaning": "downstairs / below",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "zaait",
+      "lemma": "zaaien",
+      "pos": "verb",
+      "meaning": "sows",
+      "new": true
+    },
+    {
+      "form": "groeit",
+      "lemma": "groeien",
+      "pos": "verb",
+      "meaning": "grows",
+      "new": true
+    },
+    {
+      "form": "giet",
+      "lemma": "gieten",
+      "pos": "verb",
+      "meaning": "pours / waters",
+      "new": true
+    },
+    {
+      "form": "bloeit",
+      "lemma": "bloeien",
+      "pos": "verb",
+      "meaning": "blooms",
+      "new": true
+    },
+    {
+      "form": "harkt",
+      "lemma": "harken",
+      "pos": "verb",
+      "meaning": "rakes",
+      "new": true
+    },
+    {
+      "form": "maait",
+      "lemma": "maaien",
+      "pos": "verb",
+      "meaning": "mows",
+      "new": true
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    }
+  ]
+}

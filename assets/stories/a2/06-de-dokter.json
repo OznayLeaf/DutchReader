@@ -1,0 +1,722 @@
+{
+  "id": "a2-06",
+  "level": "A2",
+  "order": 6,
+  "title": "De dokter",
+  "blurb_nl": "Sam voelt zich niet goed. De dokter stelt veel vragen en vindt iets raars.",
+  "blurb_en": "Sam does not feel well. The doctor asks many questions and finds something strange.",
+  "sections": [
+    "Sam voelt zich niet goed. Sam is ziek.",
+    "Sam is misselijk. Sam is benauwd.",
+    "Sam belt de dokter.",
+    "Sam maakt een afspraak.",
+    "De afspraak is morgen.",
+    "Sam gaat naar het ziekenhuis.",
+    "In het ziekenhuis is een wachtkamer.",
+    "De wachtkamer is vol.",
+    "Sam wacht in de wachtkamer.",
+    "De verpleegkundige komt. De verpleegkundige is vriendelijk.",
+    "De verpleegkundige vraagt: Voelt Sam zich goed?",
+    "Sam antwoordt: Nee, Sam voelt zich niet goed.",
+    "Sam klaagt. De klacht is ernstig.",
+    "De verpleegkundige kijkt naar de klacht.",
+    "De dokter komt. De dokter is ernstig.",
+    "De dokter begint een onderzoek.",
+    "Het onderzoek is belangrijk.",
+    "De dokter kijkt naar de tong.",
+    "De dokter kijkt naar de neus.",
+    "De dokter luistert.",
+    "De dokter prikt.",
+    "Sam bloedt.",
+    "De dokter prikt weer.",
+    "Sam is suf.",
+    "Sam is misselijk.",
+    "De dokter adviseert: Sam moet rusten.",
+    "De dokter adviseert: Sam moet soep eten.",
+    "De uitslag is goed.",
+    "De uitslag is niet ernstig.",
+    "Sam geneest.",
+    "Sam geneest snel.",
+    "De dokter is blij. Sam is blij.",
+    "De verpleegkundige is blij.",
+    "Sam gaat naar huis.",
+    "Sam voelt zich beter.",
+    "Sam is niet misselijk. Sam is niet benauwd.",
+    "Sam is niet suf.",
+    "De dokter belt Sam.",
+    "De dokter vraagt: Voelt Sam zich goed?",
+    "Sam antwoordt: Ja, Sam voelt zich goed.",
+    "Dadelijk gaat Sam naar de dokter.",
+    "Sam gaat vaak naar de dokter.",
+    "De dokter is vriendelijk. De dokter is behulpzaam.",
+    "Sam klaagt niet. Sam is blij.",
+    "De klacht is niet ernstig. De uitslag is goed.",
+    "Sam wast zich.",
+    "Sam is niet ziek. Sam is gezond.",
+    "Dadelijk gaat Sam naar huis.",
+    "Sam bloedt niet.",
+    "Sam ziet de dokter.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet de dokter.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "De dokter is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet de afspraak.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet de afspraak.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "De afspraak is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet het ziekenhuis.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet het ziekenhuis.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "Het ziekenhuis is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet de wachtkamer.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Noor ziet de wachtkamer.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "We spelen in de tuin. We zijn blij.",
+    "De wachtkamer is hier.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Bo pakt de bal. Bo is blij.",
+    "We pakken de bal. We zijn blij.",
+    "Sam ziet de verpleegkundige.",
+    "Sam geeft de bal aan Noor. Noor is blij.",
+    "Noor geeft de bal aan Sam. Sam is blij.",
+    "Sam geeft de bal aan Bo. Bo is blij.",
+    "Noor ziet de verpleegkundige.",
+    "Bo geeft de bal aan Sam. Sam is blij.",
+    "De dokter onderzoekt Sam vaak.",
+    "Sam is gezond en blij.",
+    "De afspraak is goed. Het onderzoek is goed. De uitslag is goed."
+  ],
+  "new_words": [
+    "dokter",
+    "afspraak",
+    "ziekenhuis",
+    "wachtkamer",
+    "verpleegkundige",
+    "klacht",
+    "onderzoek",
+    "uitslag",
+    "klagen",
+    "voelen",
+    "adviseren",
+    "genezen",
+    "bloeden",
+    "prikken",
+    "misselijk",
+    "benauwd",
+    "suf",
+    "ernstig",
+    "dadelijk",
+    "zich"
+  ],
+  "glossary": [
+    {
+      "form": "dokter",
+      "lemma": "dokter",
+      "pos": "noun",
+      "meaning": "doctor",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "afspraak",
+      "lemma": "afspraak",
+      "pos": "noun",
+      "meaning": "appointment",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "ziekenhuis",
+      "lemma": "ziekenhuis",
+      "pos": "noun",
+      "meaning": "hospital",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "wachtkamer",
+      "lemma": "wachtkamer",
+      "pos": "noun",
+      "meaning": "waiting room",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "verpleegkundige",
+      "lemma": "verpleegkundige",
+      "pos": "noun",
+      "meaning": "nurse",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "klacht",
+      "lemma": "klacht",
+      "pos": "noun",
+      "meaning": "complaint / symptom",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "onderzoek",
+      "lemma": "onderzoek",
+      "pos": "noun",
+      "meaning": "examination",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "uitslag",
+      "lemma": "uitslag",
+      "pos": "noun",
+      "meaning": "result",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "klagen",
+      "lemma": "klagen",
+      "pos": "verb",
+      "meaning": "to complain",
+      "new": true
+    },
+    {
+      "form": "voelen",
+      "lemma": "voelen",
+      "pos": "verb",
+      "meaning": "to feel",
+      "new": true
+    },
+    {
+      "form": "adviseren",
+      "lemma": "adviseren",
+      "pos": "verb",
+      "meaning": "to advise",
+      "new": true
+    },
+    {
+      "form": "genezen",
+      "lemma": "genezen",
+      "pos": "verb",
+      "meaning": "to heal",
+      "new": true
+    },
+    {
+      "form": "bloeden",
+      "lemma": "bloeden",
+      "pos": "verb",
+      "meaning": "to bleed",
+      "new": true
+    },
+    {
+      "form": "prikken",
+      "lemma": "prikken",
+      "pos": "verb",
+      "meaning": "to prick / inject",
+      "new": true
+    },
+    {
+      "form": "misselijk",
+      "lemma": "misselijk",
+      "pos": "adjective",
+      "meaning": "nauseous",
+      "new": true
+    },
+    {
+      "form": "benauwd",
+      "lemma": "benauwd",
+      "pos": "adjective",
+      "meaning": "short of breath",
+      "new": true
+    },
+    {
+      "form": "suf",
+      "lemma": "suf",
+      "pos": "adjective",
+      "meaning": "groggy",
+      "new": true
+    },
+    {
+      "form": "ernstig",
+      "lemma": "ernstig",
+      "pos": "adjective",
+      "meaning": "serious",
+      "new": true
+    },
+    {
+      "form": "dadelijk",
+      "lemma": "dadelijk",
+      "pos": "adverb",
+      "meaning": "right away",
+      "new": true
+    },
+    {
+      "form": "zich",
+      "lemma": "zich",
+      "pos": "pronoun",
+      "meaning": "himself / herself / themselves",
+      "new": true
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "voelt",
+      "lemma": "voelen",
+      "pos": "verb",
+      "meaning": "feels",
+      "new": true
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "ziek",
+      "lemma": "ziek",
+      "pos": "adjective",
+      "meaning": "ill / sick",
+      "new": false
+    },
+    {
+      "form": "belt",
+      "lemma": "bellen",
+      "pos": "verb",
+      "meaning": "calls",
+      "new": false
+    },
+    {
+      "form": "maakt",
+      "lemma": "maken",
+      "pos": "verb",
+      "meaning": "makes / fixes",
+      "new": false
+    },
+    {
+      "form": "morgen",
+      "lemma": "morgen",
+      "pos": "adverb",
+      "meaning": "tomorrow",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "vol",
+      "lemma": "vol",
+      "pos": "adjective",
+      "meaning": "full",
+      "new": false
+    },
+    {
+      "form": "wacht",
+      "lemma": "wachten",
+      "pos": "verb",
+      "meaning": "waits",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "vriendelijk",
+      "lemma": "vriendelijk",
+      "pos": "adjective",
+      "meaning": "friendly",
+      "new": false
+    },
+    {
+      "form": "vraagt",
+      "lemma": "vragen",
+      "pos": "verb",
+      "meaning": "asks",
+      "new": false
+    },
+    {
+      "form": "antwoordt",
+      "lemma": "antwoorden",
+      "pos": "verb",
+      "meaning": "answers",
+      "new": false
+    },
+    {
+      "form": "klaagt",
+      "lemma": "klagen",
+      "pos": "verb",
+      "meaning": "complains",
+      "new": true
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "begint",
+      "lemma": "beginnen",
+      "pos": "verb",
+      "meaning": "begins",
+      "new": false
+    },
+    {
+      "form": "belangrijk",
+      "lemma": "belangrijk",
+      "pos": "adjective",
+      "meaning": "important",
+      "new": false
+    },
+    {
+      "form": "tong",
+      "lemma": "tong",
+      "pos": "noun",
+      "meaning": "tongue",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "neus",
+      "lemma": "neus",
+      "pos": "noun",
+      "meaning": "nose",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "luistert",
+      "lemma": "luisteren",
+      "pos": "verb",
+      "meaning": "listens",
+      "new": false
+    },
+    {
+      "form": "prikt",
+      "lemma": "prikken",
+      "pos": "verb",
+      "meaning": "pricks",
+      "new": true
+    },
+    {
+      "form": "bloedt",
+      "lemma": "bloeden",
+      "pos": "verb",
+      "meaning": "bleeds",
+      "new": true
+    },
+    {
+      "form": "weer",
+      "lemma": "weer",
+      "pos": "adverb",
+      "meaning": "again",
+      "new": false
+    },
+    {
+      "form": "adviseert",
+      "lemma": "adviseren",
+      "pos": "verb",
+      "meaning": "advises",
+      "new": true
+    },
+    {
+      "form": "moet",
+      "lemma": "moeten",
+      "pos": "verb",
+      "meaning": "must",
+      "new": false
+    },
+    {
+      "form": "rusten",
+      "lemma": "rusten",
+      "pos": "verb",
+      "meaning": "to rest",
+      "new": false
+    },
+    {
+      "form": "soep",
+      "lemma": "soep",
+      "pos": "noun",
+      "meaning": "soup",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "eten",
+      "lemma": "eten",
+      "pos": "verb",
+      "meaning": "to eat",
+      "new": false
+    },
+    {
+      "form": "geneest",
+      "lemma": "genezen",
+      "pos": "verb",
+      "meaning": "heals",
+      "new": true
+    },
+    {
+      "form": "snel",
+      "lemma": "snel",
+      "pos": "adverb",
+      "meaning": "fast / quickly",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "beter",
+      "lemma": "beter",
+      "pos": "adjective",
+      "meaning": "better",
+      "new": false
+    },
+    {
+      "form": "vaak",
+      "lemma": "vaak",
+      "pos": "adverb",
+      "meaning": "often",
+      "new": false
+    },
+    {
+      "form": "behulpzaam",
+      "lemma": "behulpzaam",
+      "pos": "adjective",
+      "meaning": "helpful",
+      "new": false
+    },
+    {
+      "form": "wast",
+      "lemma": "wassen",
+      "pos": "verb",
+      "meaning": "washes",
+      "new": false
+    },
+    {
+      "form": "gezond",
+      "lemma": "gezond",
+      "pos": "adjective",
+      "meaning": "healthy",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "onderzoekt",
+      "lemma": "onderzoeken",
+      "pos": "verb",
+      "meaning": "examines",
+      "new": false
+    }
+  ]
+}

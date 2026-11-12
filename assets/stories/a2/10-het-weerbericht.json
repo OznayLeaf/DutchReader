@@ -1,0 +1,726 @@
+{
+  "id": "a2-10",
+  "level": "A2",
+  "order": 10,
+  "title": "Het weerbericht",
+  "blurb_nl": "Het weerbericht belooft zon. Sam en Noor plannen een picknick. Dan begint het te donderen.",
+  "blurb_en": "The weather forecast promises sun. Sam and Noor plan a picnic. Then it starts to thunder.",
+  "sections": [
+    "Sam kijkt naar het weerbericht.",
+    "Het weerbericht voorspelt een bui.",
+    "De voorspelling is goed.",
+    "De temperatuur is hoog.",
+    "De graad is hoog.",
+    "De wind is niet hard.",
+    "Het weer is aangenaam.",
+    "Sam en Noor gaan naar het park.",
+    "Zij hebben een taart en een bal.",
+    "Het is zonnig.",
+    "Zij zijn in het park.",
+    "Zij eten de taart.",
+    "Plotseling is de lucht grijs.",
+    "De bui komt.",
+    "De bui is donker.",
+    "Het weer is wisselvallig.",
+    "Het weerbericht voorspelt regen.",
+    "Waarschijnlijk komt de regen.",
+    "De regen valt.",
+    "Het dondert.",
+    "Het dondert hard.",
+    "Het bliksemt.",
+    "Het bliksemt weer.",
+    "Sam en Noor schuilen.",
+    "Zij hebben een paraplu.",
+    "De hagel valt.",
+    "De hagel is nat.",
+    "Het onweer is hier.",
+    "Het onweer is hard.",
+    "De wind is guur.",
+    "Het weer is guur.",
+    "Sam verbaast zich.",
+    "Noor verbaast zich.",
+    "Sam annuleert de afspraak.",
+    "Noor annuleert de afspraak.",
+    "Daarentegen is de temperatuur aangenaam.",
+    "Daarentegen is het weer somber.",
+    "De lucht is somber.",
+    "Het weer is somber.",
+    "De voorspelling is wisselvallig.",
+    "Het weer verbetert.",
+    "Het weer verbetert niet.",
+    "De regen stopt.",
+    "De lucht is blauw.",
+    "Het is zonnig.",
+    "Sam en Noor lachen.",
+    "Waarschijnlijk is het weer morgen goed.",
+    "De bui is niet hier.",
+    "De temperatuur is niet hoog.",
+    "De graad is niet hoog.",
+    "Het onweer is niet hier.",
+    "Het weer is aangenaam.",
+    "Sam ziet het weerbericht.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet het weerbericht.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "Het weerbericht is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet de bui.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet de bui.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "De bui is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet de temperatuur.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet de temperatuur.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "De temperatuur is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet de graad.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Noor ziet de graad.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "We spelen in de tuin. We zijn blij.",
+    "De graad is hier.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Bo pakt de bal. Bo is blij.",
+    "We pakken de bal. We zijn blij.",
+    "Sam ziet de wind.",
+    "Sam geeft de bal aan Noor. Noor is blij.",
+    "Noor geeft de bal aan Sam. Sam is blij.",
+    "Sam geeft de bal aan Bo. Bo is blij.",
+    "Noor ziet de wind.",
+    "Bo geeft de bal aan Sam. Sam is blij.",
+    "We geven de bal aan de hond. We zijn blij.",
+    "Sam heeft de bal. Noor heeft de bal.",
+    "De wind is hier.",
+    "Bo heeft de bal. Bo is blij.",
+    "We hebben de bal. We zijn blij.",
+    "Sam wil de hond zien. Noor wil de bal zien.",
+    "Sam ziet het onweer.",
+    "We willen de hond zien. We zijn blij.",
+    "Sam ziet de hond. Noor ziet de bal.",
+    "Bo ziet Sam. Bo is blij.",
+    "Noor ziet het onweer.",
+    "We zien de hond. We zien de bal.",
+    "Sam en Noor gaan naar huis.",
+    "Het weerbericht is goed. De voorspelling is goed.",
+    "Sam is blij. Noor is blij."
+  ],
+  "new_words": [
+    "weerbericht",
+    "bui",
+    "temperatuur",
+    "graad",
+    "wind",
+    "onweer",
+    "hagel",
+    "voorspelling",
+    "voorspellen",
+    "donderen",
+    "bliksemen",
+    "verbeteren",
+    "annuleren",
+    "verbazen",
+    "wisselvallig",
+    "somber",
+    "aangenaam",
+    "guur",
+    "waarschijnlijk",
+    "daarentegen"
+  ],
+  "glossary": [
+    {
+      "form": "weerbericht",
+      "lemma": "weerbericht",
+      "pos": "noun",
+      "meaning": "weather forecast",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "bui",
+      "lemma": "bui",
+      "pos": "noun",
+      "meaning": "shower",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "temperatuur",
+      "lemma": "temperatuur",
+      "pos": "noun",
+      "meaning": "temperature",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "graad",
+      "lemma": "graad",
+      "pos": "noun",
+      "meaning": "degree",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "wind",
+      "lemma": "wind",
+      "pos": "noun",
+      "meaning": "wind",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "onweer",
+      "lemma": "onweer",
+      "pos": "noun",
+      "meaning": "thunderstorm",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "hagel",
+      "lemma": "hagel",
+      "pos": "noun",
+      "meaning": "hail",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "voorspelling",
+      "lemma": "voorspelling",
+      "pos": "noun",
+      "meaning": "prediction",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "voorspellen",
+      "lemma": "voorspellen",
+      "pos": "verb",
+      "meaning": "to predict",
+      "new": true
+    },
+    {
+      "form": "donderen",
+      "lemma": "donderen",
+      "pos": "verb",
+      "meaning": "to thunder",
+      "new": true
+    },
+    {
+      "form": "bliksemen",
+      "lemma": "bliksemen",
+      "pos": "verb",
+      "meaning": "to flash lightning",
+      "new": true
+    },
+    {
+      "form": "verbeteren",
+      "lemma": "verbeteren",
+      "pos": "verb",
+      "meaning": "to improve",
+      "new": true
+    },
+    {
+      "form": "annuleren",
+      "lemma": "annuleren",
+      "pos": "verb",
+      "meaning": "to cancel",
+      "new": true
+    },
+    {
+      "form": "verbazen",
+      "lemma": "verbazen",
+      "pos": "verb",
+      "meaning": "to surprise",
+      "new": true
+    },
+    {
+      "form": "wisselvallig",
+      "lemma": "wisselvallig",
+      "pos": "adjective",
+      "meaning": "changeable",
+      "new": true
+    },
+    {
+      "form": "somber",
+      "lemma": "somber",
+      "pos": "adjective",
+      "meaning": "gloomy",
+      "new": true
+    },
+    {
+      "form": "aangenaam",
+      "lemma": "aangenaam",
+      "pos": "adjective",
+      "meaning": "pleasant",
+      "new": true
+    },
+    {
+      "form": "guur",
+      "lemma": "guur",
+      "pos": "adjective",
+      "meaning": "bleak",
+      "new": true
+    },
+    {
+      "form": "waarschijnlijk",
+      "lemma": "waarschijnlijk",
+      "pos": "adverb",
+      "meaning": "probably",
+      "new": true
+    },
+    {
+      "form": "daarentegen",
+      "lemma": "daarentegen",
+      "pos": "adverb",
+      "meaning": "on the other hand",
+      "new": true
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "voorspelt",
+      "lemma": "voorspellen",
+      "pos": "verb",
+      "meaning": "predicts",
+      "new": true
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "hoog",
+      "lemma": "hoog",
+      "pos": "adjective",
+      "meaning": "high / tall",
+      "new": false
+    },
+    {
+      "form": "hard",
+      "lemma": "hard",
+      "pos": "adverb",
+      "meaning": "hard / loudly",
+      "new": false
+    },
+    {
+      "form": "weer",
+      "lemma": "weer",
+      "pos": "adverb",
+      "meaning": "again",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "park",
+      "lemma": "park",
+      "pos": "noun",
+      "meaning": "park",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "taart",
+      "lemma": "taart",
+      "pos": "noun",
+      "meaning": "cake",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "zonnig",
+      "lemma": "zonnig",
+      "pos": "adjective",
+      "meaning": "sunny",
+      "new": false
+    },
+    {
+      "form": "eten",
+      "lemma": "eten",
+      "pos": "verb",
+      "meaning": "to eat",
+      "new": false
+    },
+    {
+      "form": "Plotseling",
+      "lemma": "plotseling",
+      "pos": "adverb",
+      "meaning": "suddenly",
+      "new": false
+    },
+    {
+      "form": "lucht",
+      "lemma": "lucht",
+      "pos": "noun",
+      "meaning": "sky",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "grijs",
+      "lemma": "grijs",
+      "pos": "adjective",
+      "meaning": "grey",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "donker",
+      "lemma": "donker",
+      "pos": "adjective",
+      "meaning": "dark",
+      "new": false
+    },
+    {
+      "form": "regen",
+      "lemma": "regen",
+      "pos": "noun",
+      "meaning": "rain",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "valt",
+      "lemma": "vallen",
+      "pos": "verb",
+      "meaning": "falls",
+      "new": false
+    },
+    {
+      "form": "dondert",
+      "lemma": "donderen",
+      "pos": "verb",
+      "meaning": "thunders",
+      "new": true
+    },
+    {
+      "form": "bliksemt",
+      "lemma": "bliksemen",
+      "pos": "verb",
+      "meaning": "flashes",
+      "new": true
+    },
+    {
+      "form": "schuilen",
+      "lemma": "schuilen",
+      "pos": "verb",
+      "meaning": "to shelter",
+      "new": false
+    },
+    {
+      "form": "paraplu",
+      "lemma": "paraplu",
+      "pos": "noun",
+      "meaning": "umbrella",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "nat",
+      "lemma": "nat",
+      "pos": "adjective",
+      "meaning": "wet",
+      "new": false
+    },
+    {
+      "form": "verbaast",
+      "lemma": "verbazen",
+      "pos": "verb",
+      "meaning": "surprises",
+      "new": true
+    },
+    {
+      "form": "zich",
+      "lemma": "zich",
+      "pos": "pronoun",
+      "meaning": "himself / herself / themselves",
+      "new": false
+    },
+    {
+      "form": "annuleert",
+      "lemma": "annuleren",
+      "pos": "verb",
+      "meaning": "cancels",
+      "new": true
+    },
+    {
+      "form": "afspraak",
+      "lemma": "afspraak",
+      "pos": "noun",
+      "meaning": "appointment",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "verbetert",
+      "lemma": "verbeteren",
+      "pos": "verb",
+      "meaning": "improves",
+      "new": true
+    },
+    {
+      "form": "stopt",
+      "lemma": "stoppen",
+      "pos": "verb",
+      "meaning": "stops",
+      "new": false
+    },
+    {
+      "form": "blauw",
+      "lemma": "blauw",
+      "pos": "adjective",
+      "meaning": "blue",
+      "new": false
+    },
+    {
+      "form": "lachen",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "to laugh",
+      "new": false
+    },
+    {
+      "form": "morgen",
+      "lemma": "morgen",
+      "pos": "adverb",
+      "meaning": "tomorrow",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "geven",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give",
+      "new": false
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "willen",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want",
+      "new": false
+    }
+  ]
+}

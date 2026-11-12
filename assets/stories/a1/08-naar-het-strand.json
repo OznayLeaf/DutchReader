@@ -1,0 +1,480 @@
+{
+  "id": "a1-08",
+  "level": "A1",
+  "order": 8,
+  "title": "Naar het strand",
+  "blurb_nl": "Sam, Noor en Bo gaan naar het strand. De zee is diep en de golven zijn hoog.",
+  "blurb_en": "Sam, Noor and Bo go to the beach. The sea is deep and the waves are high.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam, Noor en Bo gaan naar het strand. Het strand is groot.",
+    "De zee is blauw. De zee is diep. De zee is niet klein.",
+    "Het is zonnig. Het strand is zonnig.",
+    "Sam ziet een golf. De golf is groot. De golf is blauw.",
+    "Noor ziet zand. Noor is blij.",
+    "Sam ziet een schelp. De schelp is klein. De schelp is niet groot.",
+    "Noor heeft een handdoek. De handdoek is groot.",
+    "Sam heeft een emmer. De emmer is groot.",
+    "Noor heeft een ijsje. Het ijsje is niet groot.",
+    "Sam zwemt in de zee. Noor zwemt in de zee. Bo zwemt in de zee.",
+    "Sam duikt in de zee. Noor duikt in de zee. De zee is diep.",
+    "Noor zonnebadt op het strand. Sam zonnebadt op het strand.",
+    "Sam bouwt met zand. Noor bouwt met zand.",
+    "Sam gooit zand. Noor gooit zand. Bo gooit zand.",
+    "Sam ligt op de handdoek. Noor ligt op de handdoek. Bo ligt op de handdoek.",
+    "De zee is rustig. Het strand is rustig. We zijn rustig.",
+    "De zee is ver. Het strand is dichtbij. De schelp is dichtbij.",
+    "Sam ziet de zee. De zee is ver. De zee is blauw.",
+    "Noor ziet de golf. De golf is groot. De golf is blauw.",
+    "We kijken naar de zee. We kijken naar de golf. We zijn blij.",
+    "We zwemmen. We duiken. We zijn blij.",
+    "We bouwen met zand. We gooien zand. We zijn blij.",
+    "We liggen op de handdoek. We zijn rustig. We zijn blij.",
+    "De emmer is groot. De schelp is klein. Het ijsje is klein.",
+    "We zijn op het strand.",
+    "We gaan naar het strand.",
+    "Sam loopt naar het strand.",
+    "Noor gaat naar het strand.",
+    "Het strand is hier.",
+    "We zijn in de zee.",
+    "We gaan naar de zee.",
+    "Sam loopt naar de zee.",
+    "Noor gaat naar de zee.",
+    "De zee is hier.",
+    "We zien de golf.",
+    "Sam ziet de golf.",
+    "Noor ziet de golf.",
+    "Sam pakt de golf.",
+    "We spelen met de golf.",
+    "De golf is hier.",
+    "We zien het zand.",
+    "Sam ziet het zand.",
+    "Noor ziet het zand.",
+    "Sam pakt het zand.",
+    "We spelen met het zand.",
+    "Het zand is hier.",
+    "We zien de schelp.",
+    "Sam ziet de schelp.",
+    "Noor ziet de schelp.",
+    "Sam pakt de schelp.",
+    "We spelen met de schelp.",
+    "De schelp is hier.",
+    "We zien de handdoek.",
+    "Sam ziet de handdoek.",
+    "Noor ziet de handdoek.",
+    "Sam pakt de handdoek.",
+    "We spelen met de handdoek.",
+    "De handdoek is hier.",
+    "We zien de emmer.",
+    "Sam ziet de emmer.",
+    "Noor ziet de emmer.",
+    "Sam pakt de emmer.",
+    "We spelen met de emmer.",
+    "De emmer is hier.",
+    "We zien het ijsje.",
+    "Sam ziet het ijsje.",
+    "Noor ziet het ijsje.",
+    "Sam pakt het ijsje.",
+    "We spelen met het ijsje.",
+    "Het ijsje is hier.",
+    "Hallo, strand! Hallo, zee! Hallo, schelp!",
+    "Sam geeft het strand aan Noor.",
+    "Noor geeft het strand aan Sam.",
+    "Bo ziet het strand. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zijn op het strand.",
+    "We gaan naar het strand.",
+    "Sam loopt naar het strand.",
+    "Noor gaat naar het strand.",
+    "Het strand is hier.",
+    "We zijn in de zee.",
+    "We gaan naar de zee.",
+    "Sam loopt naar de zee.",
+    "Noor gaat naar de zee.",
+    "De zee is hier.",
+    "We zien de golf.",
+    "Sam ziet de golf.",
+    "Noor ziet de golf.",
+    "Sam pakt de golf.",
+    "We gaan naar huis. We zijn samen. We zijn blij.",
+    "Hallo, zee! Hallo, strand! Hallo, golf!",
+    "We zijn altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "strand",
+    "zee",
+    "golf",
+    "zand",
+    "schelp",
+    "handdoek",
+    "emmer",
+    "ijsje",
+    "zwemmen",
+    "zonnebaden",
+    "bouwen",
+    "gooien",
+    "liggen",
+    "duiken",
+    "zonnig",
+    "diep",
+    "blauw",
+    "rustig",
+    "ver",
+    "dichtbij"
+  ],
+  "glossary": [
+    {
+      "form": "strand",
+      "lemma": "strand",
+      "pos": "noun",
+      "meaning": "beach",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "zee",
+      "lemma": "zee",
+      "pos": "noun",
+      "meaning": "sea",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "golf",
+      "lemma": "golf",
+      "pos": "noun",
+      "meaning": "wave",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "zand",
+      "lemma": "zand",
+      "pos": "noun",
+      "meaning": "sand",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "schelp",
+      "lemma": "schelp",
+      "pos": "noun",
+      "meaning": "shell",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "handdoek",
+      "lemma": "handdoek",
+      "pos": "noun",
+      "meaning": "towel",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "emmer",
+      "lemma": "emmer",
+      "pos": "noun",
+      "meaning": "bucket",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "ijsje",
+      "lemma": "ijsje",
+      "pos": "noun",
+      "meaning": "ice cream",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "zwemmen",
+      "lemma": "zwemmen",
+      "pos": "verb",
+      "meaning": "to swim",
+      "new": true
+    },
+    {
+      "form": "zonnebaden",
+      "lemma": "zonnebaden",
+      "pos": "verb",
+      "meaning": "to sunbathe",
+      "new": true
+    },
+    {
+      "form": "bouwen",
+      "lemma": "bouwen",
+      "pos": "verb",
+      "meaning": "to build",
+      "new": true
+    },
+    {
+      "form": "gooien",
+      "lemma": "gooien",
+      "pos": "verb",
+      "meaning": "to throw",
+      "new": true
+    },
+    {
+      "form": "liggen",
+      "lemma": "liggen",
+      "pos": "verb",
+      "meaning": "to lie",
+      "new": true
+    },
+    {
+      "form": "duiken",
+      "lemma": "duiken",
+      "pos": "verb",
+      "meaning": "to dive",
+      "new": true
+    },
+    {
+      "form": "zonnig",
+      "lemma": "zonnig",
+      "pos": "adjective",
+      "meaning": "sunny",
+      "new": true
+    },
+    {
+      "form": "diep",
+      "lemma": "diep",
+      "pos": "adjective",
+      "meaning": "deep",
+      "new": true
+    },
+    {
+      "form": "blauw",
+      "lemma": "blauw",
+      "pos": "adjective",
+      "meaning": "blue",
+      "new": true
+    },
+    {
+      "form": "rustig",
+      "lemma": "rustig",
+      "pos": "adjective",
+      "meaning": "calm / quiet",
+      "new": true
+    },
+    {
+      "form": "ver",
+      "lemma": "ver",
+      "pos": "adverb",
+      "meaning": "far",
+      "new": true
+    },
+    {
+      "form": "dichtbij",
+      "lemma": "dichtbij",
+      "pos": "adverb",
+      "meaning": "near",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "zwemt",
+      "lemma": "zwemmen",
+      "pos": "verb",
+      "meaning": "swims",
+      "new": true
+    },
+    {
+      "form": "duikt",
+      "lemma": "duiken",
+      "pos": "verb",
+      "meaning": "dives",
+      "new": true
+    },
+    {
+      "form": "zonnebadt",
+      "lemma": "zonnebaden",
+      "pos": "verb",
+      "meaning": "sunbathes",
+      "new": true
+    },
+    {
+      "form": "bouwt",
+      "lemma": "bouwen",
+      "pos": "verb",
+      "meaning": "builds",
+      "new": true
+    },
+    {
+      "form": "gooit",
+      "lemma": "gooien",
+      "pos": "verb",
+      "meaning": "throws",
+      "new": true
+    },
+    {
+      "form": "ligt",
+      "lemma": "liggen",
+      "pos": "verb",
+      "meaning": "lies",
+      "new": true
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

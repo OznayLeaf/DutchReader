@@ -1,0 +1,668 @@
+{
+  "id": "a2-25",
+  "level": "A2",
+  "order": 25,
+  "title": "De stad van vroeger",
+  "blurb_nl": "Een stadsgids neemt Sam en Noor mee door de oude buurt. De stad is veranderd.",
+  "blurb_en": "A city guide takes Sam and Noor through the old neighbourhood. The city has changed.",
+  "sections": [
+    "Sam en Noor zijn in de stad.",
+    "De stadsgids is vriendelijk.",
+    "Sam ziet de stadsgids.",
+    "De stadsgids vertelt de geschiedenis.",
+    "De geschiedenis is oud.",
+    "De buurt is oud.",
+    "De buurt is historisch.",
+    "Sam en Noor zijn in de buurt.",
+    "Sam ziet de gracht.",
+    "De gracht is mooi.",
+    "Noor ziet het monument.",
+    "Het monument is oud.",
+    "Het monument is historisch.",
+    "Noor ziet de bewoner.",
+    "De bewoner is vriendelijk.",
+    "De bewoner bewoont de buurt.",
+    "De familie bewoont de buurt.",
+    "De stad is ontstaan.",
+    "De buurt is ontstaan.",
+    "De stad verandert.",
+    "De buurt verandert.",
+    "De verandering is groot.",
+    "Sam ziet de verandering.",
+    "De stad herbouwt de kerk.",
+    "De bewoner herbouwt de kerk.",
+    "De kerk is traditioneel.",
+    "Het gebouw is traditioneel.",
+    "De buurt verdwijnt.",
+    "De geschiedenis verdwijnt niet.",
+    "De stad ontwikkelt zich.",
+    "De buurt ontwikkelt zich.",
+    "Noor ziet de nieuwbouw.",
+    "De nieuwbouw is modern.",
+    "De nieuwbouw is vernieuwd.",
+    "Het gebouw is vernieuwd.",
+    "De stad is bruisend.",
+    "De buurt is bruisend.",
+    "Tegenwoordig is de stad modern.",
+    "Tegenwoordig is de buurt bruisend.",
+    "De stad is inmiddels modern.",
+    "De buurt is inmiddels vernieuwd.",
+    "Sam en Noor lachen.",
+    "Sam is blij. Noor is blij.",
+    "De stad is goed. De buurt is goed.",
+    "Sam en Noor gaan naar huis.",
+    "De gracht is historisch.",
+    "De nieuwbouw is niet oud.",
+    "De geschiedenis is niet vaag.",
+    "Sam ziet de stadsgids.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet de stadsgids.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "De stadsgids is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet de gracht.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet de gracht.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "De gracht is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet het monument.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet het monument.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "Het monument is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet de buurt.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Noor ziet de buurt.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "We spelen in de tuin. We zijn blij.",
+    "De buurt is hier.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Bo pakt de bal. Bo is blij.",
+    "We pakken de bal. We zijn blij.",
+    "Sam ziet de bewoner.",
+    "Sam geeft de bal aan Noor. Noor is blij.",
+    "Noor geeft de bal aan Sam. Sam is blij.",
+    "Sam geeft de bal aan Bo. Bo is blij.",
+    "Noor ziet de bewoner.",
+    "Bo geeft de bal aan Sam. Sam is blij.",
+    "We geven de bal aan de hond. We zijn blij.",
+    "Sam heeft de bal. Noor heeft de bal.",
+    "De bewoner is hier.",
+    "Bo heeft de bal. Bo is blij.",
+    "We hebben de bal. We zijn blij.",
+    "Sam wil de hond zien. Noor wil de bal zien.",
+    "Sam ziet de geschiedenis.",
+    "We willen de hond zien. We zijn blij.",
+    "Sam ziet de hond. Noor ziet de bal.",
+    "Bo ziet Sam. Bo is blij.",
+    "Noor ziet de geschiedenis.",
+    "We zien de hond. We zien de bal.",
+    "We zien Sam en Noor. We zijn blij.",
+    "Sam is hier. Noor is daar. Bo is hier.",
+    "De geschiedenis is hier.",
+    "We zijn niet in het huis. We zijn in de tuin.",
+    "De hond is niet in het huis. De hond is in de tuin.",
+    "Sam heeft geen bal. Noor heeft de bal.",
+    "Sam ziet de verandering.",
+    "We hebben geen hond. We hebben een bal.",
+    "Hallo, Sam! Hallo, Noor! Hallo, Bo!",
+    "Hallo, hond! Hallo, bal! Hallo, huis!",
+    "Sam is hier.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We zijn blij.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "We zijn blij.",
+    "Noor is hier.",
+    "De buurt is historisch en bruisend.",
+    "De stad is modern en bruisend.",
+    "Sam en Noor zijn blij."
+  ],
+  "new_words": [
+    "stadsgids",
+    "gracht",
+    "monument",
+    "buurt",
+    "bewoner",
+    "geschiedenis",
+    "verandering",
+    "nieuwbouw",
+    "ontstaan",
+    "veranderen",
+    "herbouwen",
+    "verdwijnen",
+    "ontwikkelen",
+    "bewonen",
+    "historisch",
+    "bruisend",
+    "traditioneel",
+    "vernieuwd",
+    "tegenwoordig",
+    "inmiddels"
+  ],
+  "glossary": [
+    {
+      "form": "stadsgids",
+      "lemma": "stadsgids",
+      "pos": "noun",
+      "meaning": "city guide",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "gracht",
+      "lemma": "gracht",
+      "pos": "noun",
+      "meaning": "canal",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "monument",
+      "lemma": "monument",
+      "pos": "noun",
+      "meaning": "monument",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "buurt",
+      "lemma": "buurt",
+      "pos": "noun",
+      "meaning": "neighbourhood",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "bewoner",
+      "lemma": "bewoner",
+      "pos": "noun",
+      "meaning": "resident",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "geschiedenis",
+      "lemma": "geschiedenis",
+      "pos": "noun",
+      "meaning": "history",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "verandering",
+      "lemma": "verandering",
+      "pos": "noun",
+      "meaning": "change",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "nieuwbouw",
+      "lemma": "nieuwbouw",
+      "pos": "noun",
+      "meaning": "new buildings",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "ontstaan",
+      "lemma": "ontstaan",
+      "pos": "verb",
+      "meaning": "to originate",
+      "new": true
+    },
+    {
+      "form": "veranderen",
+      "lemma": "veranderen",
+      "pos": "verb",
+      "meaning": "to change",
+      "new": true
+    },
+    {
+      "form": "herbouwen",
+      "lemma": "herbouwen",
+      "pos": "verb",
+      "meaning": "to rebuild",
+      "new": true
+    },
+    {
+      "form": "verdwijnen",
+      "lemma": "verdwijnen",
+      "pos": "verb",
+      "meaning": "to disappear",
+      "new": true
+    },
+    {
+      "form": "ontwikkelen",
+      "lemma": "ontwikkelen",
+      "pos": "verb",
+      "meaning": "to develop",
+      "new": true
+    },
+    {
+      "form": "bewonen",
+      "lemma": "bewonen",
+      "pos": "verb",
+      "meaning": "to inhabit",
+      "new": true
+    },
+    {
+      "form": "historisch",
+      "lemma": "historisch",
+      "pos": "adjective",
+      "meaning": "historical",
+      "new": true
+    },
+    {
+      "form": "bruisend",
+      "lemma": "bruisend",
+      "pos": "adjective",
+      "meaning": "vibrant",
+      "new": true
+    },
+    {
+      "form": "traditioneel",
+      "lemma": "traditioneel",
+      "pos": "adjective",
+      "meaning": "traditional",
+      "new": true
+    },
+    {
+      "form": "vernieuwd",
+      "lemma": "vernieuwd",
+      "pos": "adjective",
+      "meaning": "renewed",
+      "new": true
+    },
+    {
+      "form": "tegenwoordig",
+      "lemma": "tegenwoordig",
+      "pos": "adverb",
+      "meaning": "nowadays",
+      "new": true
+    },
+    {
+      "form": "inmiddels",
+      "lemma": "inmiddels",
+      "pos": "adverb",
+      "meaning": "meanwhile",
+      "new": true
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "stad",
+      "lemma": "stad",
+      "pos": "noun",
+      "meaning": "city",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "vriendelijk",
+      "lemma": "vriendelijk",
+      "pos": "adjective",
+      "meaning": "friendly",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "vertelt",
+      "lemma": "vertellen",
+      "pos": "verb",
+      "meaning": "tells",
+      "new": false
+    },
+    {
+      "form": "oud",
+      "lemma": "oud",
+      "pos": "adjective",
+      "meaning": "old",
+      "new": false
+    },
+    {
+      "form": "mooi",
+      "lemma": "mooi",
+      "pos": "adjective",
+      "meaning": "beautiful / nice",
+      "new": false
+    },
+    {
+      "form": "bewoont",
+      "lemma": "bewonen",
+      "pos": "verb",
+      "meaning": "inhabits",
+      "new": true
+    },
+    {
+      "form": "familie",
+      "lemma": "familie",
+      "pos": "noun",
+      "meaning": "family",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "verandert",
+      "lemma": "veranderen",
+      "pos": "verb",
+      "meaning": "changes",
+      "new": true
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "herbouwt",
+      "lemma": "herbouwen",
+      "pos": "verb",
+      "meaning": "rebuilds",
+      "new": true
+    },
+    {
+      "form": "kerk",
+      "lemma": "kerk",
+      "pos": "noun",
+      "meaning": "church",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "gebouw",
+      "lemma": "gebouw",
+      "pos": "noun",
+      "meaning": "building",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "verdwijnt",
+      "lemma": "verdwijnen",
+      "pos": "verb",
+      "meaning": "disappears",
+      "new": true
+    },
+    {
+      "form": "ontwikkelt",
+      "lemma": "ontwikkelen",
+      "pos": "verb",
+      "meaning": "develops",
+      "new": true
+    },
+    {
+      "form": "zich",
+      "lemma": "zich",
+      "pos": "pronoun",
+      "meaning": "himself / herself / themselves",
+      "new": false
+    },
+    {
+      "form": "modern",
+      "lemma": "modern",
+      "pos": "adjective",
+      "meaning": "modern",
+      "new": false
+    },
+    {
+      "form": "lachen",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "to laugh",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "vaag",
+      "lemma": "vaag",
+      "pos": "adjective",
+      "meaning": "vague",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "geven",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "to give",
+      "new": false
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "willen",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "to want",
+      "new": false
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    }
+  ]
+}

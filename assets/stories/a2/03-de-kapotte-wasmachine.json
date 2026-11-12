@@ -1,0 +1,660 @@
+{
+  "id": "a2-03",
+  "level": "A2",
+  "order": 3,
+  "title": "De kapotte wasmachine",
+  "blurb_nl": "De wasmachine is stuk. Er komt water op de vloer. De monteur heeft nieuws.",
+  "blurb_en": "The washing machine is broken. Water is leaking onto the floor. The repairman has news.",
+  "sections": [
+    "Sam heeft een wasmachine. De wasmachine is oud.",
+    "De wasmachine staat in de keuken.",
+    "Sam legt het wasgoed in de wasmachine.",
+    "Sam pakt de zeep. De zeep is in de wasmachine.",
+    "Sam kijkt naar de knop.",
+    "Sam draait aan de knop. De wasmachine draait.",
+    "Maar de wasmachine is stuk. Het is vervelend.",
+    "De wasmachine lekt. De vloer is nat.",
+    "De vloer is vochtig.",
+    "Sam kijkt naar de slang. De slang is oud.",
+    "De slang is stuk. De wasmachine lekt.",
+    "Sam belt de monteur.",
+    "De monteur komt. De monteur is vriendelijk.",
+    "De monteur kijkt naar de wasmachine. Hij begrijpt het niet.",
+    "De monteur denkt. Hij kijkt naar de stekker.",
+    "De stekker is goed. De slang is stuk.",
+    "De monteur pakt een nieuwe slang.",
+    "Hij maakt de slang aan de wasmachine.",
+    "Sam kijkt naar het programma. Het programma is raar.",
+    "De monteur draait aan de knop. Het programma draait.",
+    "De wasmachine spoelt. De wasmachine draait.",
+    "Maar de wasmachine lekt weer.",
+    "De monteur kijkt naar de vloer. De vloer is vochtig.",
+    "Sam denkt: De wasmachine is stuk.",
+    "De monteur begrijpt het nu.",
+    "De monteur denkt eerst aan de slang. Maar de slang is goed.",
+    "De stekker is stuk.",
+    "De monteur maakt de stekker.",
+    "De wasmachine draait. De wasmachine lekt niet.",
+    "Sam is blij. De monteur is blij.",
+    "De monteur vraagt: Is de wasmachine goed?",
+    "Sam antwoordt: Ja, de wasmachine is goed.",
+    "Sam betaalt de monteur.",
+    "Sam geeft de monteur een taart.",
+    "Eindelijk is de vloer droog.",
+    "Sam legt het wasgoed in de kast.",
+    "De keuken is schoon.",
+    "Sam denkt: De wasmachine is niet stuk.",
+    "Precies! De wasmachine is goed.",
+    "Onmiddellijk belt Sam Noor.",
+    "Noor begrijpt het. Noor is blij.",
+    "De wasmachine is niet stuk. De slang was stuk.",
+    "Sam en Noor lachen.",
+    "Het wasgoed is droog.",
+    "De wasmachine is goed. De vloer is droog. De keuken is schoon.",
+    "De monteur kijkt precies naar de stekker.",
+    "Noor komt onmiddellijk.",
+    "Sam spoelt de zeep.",
+    "Het is vervelend, maar de wasmachine is goed.",
+    "De knop is raar. De slang is vochtig. De stekker is stuk.",
+    "Sam ziet de wasmachine.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet de wasmachine.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "De wasmachine is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet de monteur.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet de monteur.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "De monteur is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet de slang.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet de slang.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "De slang is hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "Sam ziet de stekker.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "Sam is blij. Noor is blij. De monteur is blij.",
+    "De wasmachine spoelt en draait.",
+    "De wasmachine lekt niet. De wasmachine is niet stuk."
+  ],
+  "new_words": [
+    "wasmachine",
+    "monteur",
+    "slang",
+    "stekker",
+    "zeep",
+    "wasgoed",
+    "knop",
+    "programma",
+    "lekken",
+    "spoelen",
+    "draaien",
+    "bellen",
+    "denken",
+    "begrijpen",
+    "stuk",
+    "raar",
+    "vervelend",
+    "vochtig",
+    "precies",
+    "onmiddellijk"
+  ],
+  "glossary": [
+    {
+      "form": "wasmachine",
+      "lemma": "wasmachine",
+      "pos": "noun",
+      "meaning": "washing machine",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "monteur",
+      "lemma": "monteur",
+      "pos": "noun",
+      "meaning": "repairman",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "slang",
+      "lemma": "slang",
+      "pos": "noun",
+      "meaning": "hose",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "stekker",
+      "lemma": "stekker",
+      "pos": "noun",
+      "meaning": "plug",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "zeep",
+      "lemma": "zeep",
+      "pos": "noun",
+      "meaning": "soap",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "wasgoed",
+      "lemma": "wasgoed",
+      "pos": "noun",
+      "meaning": "laundry",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "knop",
+      "lemma": "knop",
+      "pos": "noun",
+      "meaning": "button",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "programma",
+      "lemma": "programma",
+      "pos": "noun",
+      "meaning": "programme",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "lekken",
+      "lemma": "lekken",
+      "pos": "verb",
+      "meaning": "to leak",
+      "new": true
+    },
+    {
+      "form": "spoelen",
+      "lemma": "spoelen",
+      "pos": "verb",
+      "meaning": "to rinse",
+      "new": true
+    },
+    {
+      "form": "draaien",
+      "lemma": "draaien",
+      "pos": "verb",
+      "meaning": "to turn / spin",
+      "new": true
+    },
+    {
+      "form": "bellen",
+      "lemma": "bellen",
+      "pos": "verb",
+      "meaning": "to call",
+      "new": true
+    },
+    {
+      "form": "denken",
+      "lemma": "denken",
+      "pos": "verb",
+      "meaning": "to think",
+      "new": true
+    },
+    {
+      "form": "begrijpen",
+      "lemma": "begrijpen",
+      "pos": "verb",
+      "meaning": "to understand",
+      "new": true
+    },
+    {
+      "form": "stuk",
+      "lemma": "stuk",
+      "pos": "adjective",
+      "meaning": "broken",
+      "new": true
+    },
+    {
+      "form": "raar",
+      "lemma": "raar",
+      "pos": "adjective",
+      "meaning": "strange",
+      "new": true
+    },
+    {
+      "form": "vervelend",
+      "lemma": "vervelend",
+      "pos": "adjective",
+      "meaning": "annoying",
+      "new": true
+    },
+    {
+      "form": "vochtig",
+      "lemma": "vochtig",
+      "pos": "adjective",
+      "meaning": "damp",
+      "new": true
+    },
+    {
+      "form": "precies",
+      "lemma": "precies",
+      "pos": "adverb",
+      "meaning": "exactly",
+      "new": true
+    },
+    {
+      "form": "onmiddellijk",
+      "lemma": "onmiddellijk",
+      "pos": "adverb",
+      "meaning": "immediately",
+      "new": true
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "oud",
+      "lemma": "oud",
+      "pos": "adjective",
+      "meaning": "old",
+      "new": false
+    },
+    {
+      "form": "staat",
+      "lemma": "staan",
+      "pos": "verb",
+      "meaning": "stands",
+      "new": false
+    },
+    {
+      "form": "keuken",
+      "lemma": "keuken",
+      "pos": "noun",
+      "meaning": "kitchen",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "legt",
+      "lemma": "leggen",
+      "pos": "verb",
+      "meaning": "puts / lays",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "draait",
+      "lemma": "draaien",
+      "pos": "verb",
+      "meaning": "turns",
+      "new": true
+    },
+    {
+      "form": "lekt",
+      "lemma": "lekken",
+      "pos": "verb",
+      "meaning": "leaks",
+      "new": true
+    },
+    {
+      "form": "vloer",
+      "lemma": "vloer",
+      "pos": "noun",
+      "meaning": "floor",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "nat",
+      "lemma": "nat",
+      "pos": "adjective",
+      "meaning": "wet",
+      "new": false
+    },
+    {
+      "form": "belt",
+      "lemma": "bellen",
+      "pos": "verb",
+      "meaning": "calls",
+      "new": true
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "vriendelijk",
+      "lemma": "vriendelijk",
+      "pos": "adjective",
+      "meaning": "friendly",
+      "new": false
+    },
+    {
+      "form": "begrijpt",
+      "lemma": "begrijpen",
+      "pos": "verb",
+      "meaning": "understands",
+      "new": true
+    },
+    {
+      "form": "denkt",
+      "lemma": "denken",
+      "pos": "verb",
+      "meaning": "thinks",
+      "new": true
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "nieuwe",
+      "lemma": "nieuw",
+      "pos": "adjective",
+      "meaning": "new (inflected)",
+      "new": false
+    },
+    {
+      "form": "maakt",
+      "lemma": "maken",
+      "pos": "verb",
+      "meaning": "makes / fixes",
+      "new": false
+    },
+    {
+      "form": "spoelt",
+      "lemma": "spoelen",
+      "pos": "verb",
+      "meaning": "rinses",
+      "new": true
+    },
+    {
+      "form": "weer",
+      "lemma": "weer",
+      "pos": "adverb",
+      "meaning": "again",
+      "new": false
+    },
+    {
+      "form": "nu",
+      "lemma": "nu",
+      "pos": "adverb",
+      "meaning": "now",
+      "new": false
+    },
+    {
+      "form": "eerst",
+      "lemma": "eerst",
+      "pos": "adverb",
+      "meaning": "first",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "vraagt",
+      "lemma": "vragen",
+      "pos": "verb",
+      "meaning": "asks",
+      "new": false
+    },
+    {
+      "form": "antwoordt",
+      "lemma": "antwoorden",
+      "pos": "verb",
+      "meaning": "answers",
+      "new": false
+    },
+    {
+      "form": "betaalt",
+      "lemma": "betalen",
+      "pos": "verb",
+      "meaning": "pays",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "taart",
+      "lemma": "taart",
+      "pos": "noun",
+      "meaning": "cake",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "Eindelijk",
+      "lemma": "eindelijk",
+      "pos": "adverb",
+      "meaning": "finally",
+      "new": false
+    },
+    {
+      "form": "droog",
+      "lemma": "droog",
+      "pos": "adjective",
+      "meaning": "dry",
+      "new": false
+    },
+    {
+      "form": "kast",
+      "lemma": "kast",
+      "pos": "noun",
+      "meaning": "cupboard",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "schoon",
+      "lemma": "schoon",
+      "pos": "adjective",
+      "meaning": "clean",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "was",
+      "lemma": "zijn",
+      "pos": "verb",
+      "meaning": "was",
+      "new": false
+    },
+    {
+      "form": "lachen",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "to laugh",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    }
+  ]
+}

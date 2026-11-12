@@ -1,0 +1,509 @@
+{
+  "id": "a1-16",
+  "level": "A1",
+  "order": 16,
+  "title": "De muziek",
+  "blurb_nl": "Noor speelt gitaar in een band. Sam luistert en danst op de muziek.",
+  "blurb_en": "Noor plays guitar in a band. Sam listens and dances to the music.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Noor heeft een gitaar. De gitaar is groot.",
+    "Sam heeft een piano. De piano is groot.",
+    "Noor heeft een drum. De drum is groot.",
+    "Sam heeft een fluit. De fluit is klein.",
+    "De band is in het huis. De band is muzikaal.",
+    "Het liedje is muzikaal. Het liedje is niet vals.",
+    "De muziek is luid.",
+    "De muziek is ritmisch. Het liedje is ritmisch.",
+    "Noor speelt gitaar. Sam speelt piano. De band speelt.",
+    "Noor speelt hardop. Sam speelt hardop. De band speelt hardop.",
+    "Sam danst. Noor danst. Bo danst.",
+    "Sam hoort de muziek. Noor hoort de muziek. Bo hoort de muziek.",
+    "De band oefent. Noor oefent. Sam oefent.",
+    "De band treedt op. Noor treedt op. Sam treedt op.",
+    "De band juicht. Noor juicht. Sam juicht.",
+    "We klappen. We juichen. We zijn blij.",
+    "Het concert is in het huis. Het concert is luid.",
+    "Het concert is muzikaal. Het concert is ritmisch.",
+    "Sam hoort een liedje. Het liedje is niet vals.",
+    "Noor hoort de drum. De drum is luid.",
+    "We dansen graag. We klappen graag. We zijn blij.",
+    "We spelen graag hardop. We zijn blij.",
+    "De gitaar is luid. De piano is luid. De drum is luid.",
+    "De fluit is niet luid. De fluit is klein.",
+    "We zijn samen. We zijn blij. De muziek is ritmisch.",
+    "We zien de muziek.",
+    "De muziek is hier.",
+    "We zien het liedje.",
+    "Sam ziet het liedje.",
+    "Noor ziet het liedje.",
+    "Sam pakt het liedje.",
+    "We spelen met het liedje.",
+    "Het liedje is hier.",
+    "We zien de gitaar.",
+    "Sam ziet de gitaar.",
+    "Noor ziet de gitaar.",
+    "Sam pakt de gitaar.",
+    "We spelen met de gitaar.",
+    "De gitaar is hier.",
+    "We zien de piano.",
+    "Sam ziet de piano.",
+    "Noor ziet de piano.",
+    "Sam pakt de piano.",
+    "We spelen met de piano.",
+    "De piano is hier.",
+    "We zien de drum.",
+    "Sam ziet de drum.",
+    "Noor ziet de drum.",
+    "Sam pakt de drum.",
+    "We spelen met de drum.",
+    "De drum is hier.",
+    "We zien de fluit.",
+    "Sam ziet de fluit.",
+    "Noor ziet de fluit.",
+    "Sam pakt de fluit.",
+    "We spelen met de fluit.",
+    "De fluit is hier.",
+    "De band komt.",
+    "We zien de band.",
+    "De band is hier.",
+    "De band is in het huis.",
+    "We zijn in het concert.",
+    "We gaan naar het concert.",
+    "Sam loopt naar het concert.",
+    "Noor gaat naar het concert.",
+    "Het concert is hier.",
+    "Hallo, muziek! Hallo, liedje! Hallo, drum!",
+    "Sam geeft de muziek aan Noor.",
+    "Noor geeft de muziek aan Sam.",
+    "Bo ziet de muziek. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zien de muziek.",
+    "De muziek is hier.",
+    "We zien het liedje.",
+    "Sam ziet het liedje.",
+    "Noor ziet het liedje.",
+    "Sam pakt het liedje.",
+    "We spelen met het liedje.",
+    "Het liedje is hier.",
+    "We zien de gitaar.",
+    "Sam ziet de gitaar.",
+    "Noor ziet de gitaar.",
+    "Sam pakt de gitaar.",
+    "We spelen met de gitaar.",
+    "De gitaar is hier.",
+    "We zien de piano.",
+    "Sam ziet de piano.",
+    "Noor ziet de piano.",
+    "Sam pakt de piano.",
+    "We spelen met de piano.",
+    "De piano is hier.",
+    "We zien de drum.",
+    "Sam ziet de drum.",
+    "Noor ziet de drum.",
+    "Sam pakt de drum.",
+    "We spelen met de drum.",
+    "De drum is hier.",
+    "We zien de fluit.",
+    "Sam ziet de fluit.",
+    "Noor ziet de fluit.",
+    "Sam pakt de fluit.",
+    "We spelen met de fluit.",
+    "De fluit is hier.",
+    "De band komt.",
+    "Sam klapt. Noor klapt. De band klapt.",
+    "Hallo, muziek! Hallo, band! Hallo, gitaar!",
+    "We zijn altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "muziek",
+    "liedje",
+    "gitaar",
+    "piano",
+    "drum",
+    "fluit",
+    "band",
+    "concert",
+    "dansen",
+    "horen",
+    "oefenen",
+    "optreden",
+    "juichen",
+    "klappen",
+    "muzikaal",
+    "luid",
+    "vals",
+    "ritmisch",
+    "hardop",
+    "graag"
+  ],
+  "glossary": [
+    {
+      "form": "muziek",
+      "lemma": "muziek",
+      "pos": "noun",
+      "meaning": "music",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "liedje",
+      "lemma": "liedje",
+      "pos": "noun",
+      "meaning": "song",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "gitaar",
+      "lemma": "gitaar",
+      "pos": "noun",
+      "meaning": "guitar",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "piano",
+      "lemma": "piano",
+      "pos": "noun",
+      "meaning": "piano",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "drum",
+      "lemma": "drum",
+      "pos": "noun",
+      "meaning": "drum",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "fluit",
+      "lemma": "fluit",
+      "pos": "noun",
+      "meaning": "flute",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "band",
+      "lemma": "band",
+      "pos": "noun",
+      "meaning": "band",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "concert",
+      "lemma": "concert",
+      "pos": "noun",
+      "meaning": "concert",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "dansen",
+      "lemma": "dansen",
+      "pos": "verb",
+      "meaning": "to dance",
+      "new": true
+    },
+    {
+      "form": "horen",
+      "lemma": "horen",
+      "pos": "verb",
+      "meaning": "to hear",
+      "new": true
+    },
+    {
+      "form": "oefenen",
+      "lemma": "oefenen",
+      "pos": "verb",
+      "meaning": "to practise",
+      "new": true
+    },
+    {
+      "form": "optreden",
+      "lemma": "optreden",
+      "pos": "verb",
+      "meaning": "to perform",
+      "new": true
+    },
+    {
+      "form": "juichen",
+      "lemma": "juichen",
+      "pos": "verb",
+      "meaning": "to cheer",
+      "new": true
+    },
+    {
+      "form": "klappen",
+      "lemma": "klappen",
+      "pos": "verb",
+      "meaning": "to clap",
+      "new": true
+    },
+    {
+      "form": "muzikaal",
+      "lemma": "muzikaal",
+      "pos": "adjective",
+      "meaning": "musical",
+      "new": true
+    },
+    {
+      "form": "luid",
+      "lemma": "luid",
+      "pos": "adjective",
+      "meaning": "loud",
+      "new": true
+    },
+    {
+      "form": "vals",
+      "lemma": "vals",
+      "pos": "adjective",
+      "meaning": "off-key",
+      "new": true
+    },
+    {
+      "form": "ritmisch",
+      "lemma": "ritmisch",
+      "pos": "adjective",
+      "meaning": "rhythmic",
+      "new": true
+    },
+    {
+      "form": "hardop",
+      "lemma": "hardop",
+      "pos": "adverb",
+      "meaning": "aloud",
+      "new": true
+    },
+    {
+      "form": "graag",
+      "lemma": "graag",
+      "pos": "adverb",
+      "meaning": "gladly",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "danst",
+      "lemma": "dansen",
+      "pos": "verb",
+      "meaning": "dances",
+      "new": true
+    },
+    {
+      "form": "hoort",
+      "lemma": "horen",
+      "pos": "verb",
+      "meaning": "hears",
+      "new": true
+    },
+    {
+      "form": "oefent",
+      "lemma": "oefenen",
+      "pos": "verb",
+      "meaning": "practises",
+      "new": true
+    },
+    {
+      "form": "treedt",
+      "lemma": "optreden",
+      "pos": "verb",
+      "meaning": "performs",
+      "new": true
+    },
+    {
+      "form": "juicht",
+      "lemma": "juichen",
+      "pos": "verb",
+      "meaning": "cheers",
+      "new": true
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "klapt",
+      "lemma": "klappen",
+      "pos": "verb",
+      "meaning": "claps",
+      "new": true
+    }
+  ]
+}

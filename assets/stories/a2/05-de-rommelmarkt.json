@@ -1,0 +1,656 @@
+{
+  "id": "a2-05",
+  "level": "A2",
+  "order": 5,
+  "title": "De rommelmarkt",
+  "blurb_nl": "Op de rommelmarkt vindt Noor een bijzonder sieraad. Maar is het echt?",
+  "blurb_en": "At the flea market Noor finds a special piece of jewellery. But is it real?",
+  "sections": [
+    "Vandaag is de rommelmarkt op het plein.",
+    "De rommelmarkt is groot. De rommelmarkt is bijzonder.",
+    "Noor en Sam gaan naar de rommelmarkt.",
+    "De rommelmarkt heeft een stalletje.",
+    "Noor ziet een stalletje. Het stalletje is klein.",
+    "Op het kleedje is speelgoed. Het speelgoed is oud.",
+    "Noor ziet een servies. Het servies is antiek.",
+    "Sam ziet speelgoed. Het speelgoed is versleten.",
+    "Noor ziet een sieraad. Het sieraad is bijzonder.",
+    "Het sieraad is zeldzaam. Het sieraad is antiek.",
+    "De koper is Noor.",
+    "Noor vraagt: Is het sieraad duur?",
+    "De verkoper antwoordt: Het sieraad is niet duur.",
+    "Noor onderhandelt met de verkoper.",
+    "De verkoper wil niet onderhandelen.",
+    "Noor pingelt. Pingelen is leuk.",
+    "De verkoper lacht en pingelt.",
+    "De verkoper weegt het sieraad. Het sieraad is niet zwaar.",
+    "Noor weegt het servies. Het servies is zwaar.",
+    "De koper betaalt.",
+    "Noor koopt het sieraad. Noor koopt het servies.",
+    "De verkoper verpakt het sieraad.",
+    "Noor verpakt het servies.",
+    "Sam vervoert de spullen.",
+    "De verkoper vervoert de spullen naar de winkel.",
+    "Noor herkent het sieraad.",
+    "Sam herkent het servies.",
+    "Noor heeft het sieraad.",
+    "Sam heeft het servies.",
+    "De spullen zijn antiek en bijzonder.",
+    "Het kleedje is versleten.",
+    "Natuurlijk is de rommelmarkt leuk.",
+    "Natuurlijk helpt Sam Noor.",
+    "Noor heeft ongeveer een tas spullen.",
+    "De prijs is ongeveer goed.",
+    "Sam en Noor gaan naar huis.",
+    "Noor kijkt naar het sieraad. Noor is blij.",
+    "Sam kijkt naar het servies. Sam is blij.",
+    "De rommelmarkt is bijzonder. De spullen zijn bijzonder.",
+    "Noor en Sam lachen samen.",
+    "De rommelmarkt is goed.",
+    "Het servies is zeldzaam.",
+    "Het sieraad is niet versleten.",
+    "De koper is blij. De verkoper is blij.",
+    "Noor onderhandelt goed. De verkoper pingelt goed.",
+    "De verkoper verpakt de spullen goed.",
+    "Sam vervoert de spullen naar huis.",
+    "Het speelgoed is bijzonder. Het kleedje is bijzonder.",
+    "Sam ziet de rommelmarkt.",
+    "Sam is hier. Noor is hier. Bo is hier.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "Sam is blij. Noor is blij. Bo is blij.",
+    "Noor ziet de rommelmarkt.",
+    "We zijn blij. We zijn samen. We zijn altijd samen.",
+    "Sam en Noor zijn samen. Bo is samen.",
+    "Sam en Bo zijn samen. Noor is hier.",
+    "De rommelmarkt is hier.",
+    "Noor en Bo zijn samen. Sam is hier.",
+    "Sam ziet Noor. Noor ziet Sam. Bo ziet Sam en Noor.",
+    "We kijken. We zien Sam en Noor.",
+    "Sam ziet het stalletje.",
+    "Sam kijkt naar de hond. Noor kijkt naar de bal.",
+    "We kijken naar het huis. We kijken naar de tuin.",
+    "We lopen samen. We zijn samen.",
+    "Noor ziet het stalletje.",
+    "Sam loopt naar het huis. Noor loopt naar het huis.",
+    "Bo loopt naar het huis. Bo is blij.",
+    "Sam loopt met de hond. Noor loopt met de bal.",
+    "Het stalletje is hier.",
+    "We lopen met de hond. We lopen met de bal.",
+    "We gaan naar huis. We gaan naar de tuin.",
+    "We gaan naar het huis. We gaan naar de tuin.",
+    "Sam ziet de spullen.",
+    "Sam komt naar het huis. Noor komt naar de tuin.",
+    "Bo komt naar Sam. Bo is blij.",
+    "Sam komt. Noor komt. Bo komt.",
+    "Noor ziet de spullen.",
+    "We komen naar het huis. We komen naar de tuin.",
+    "De hond is groot. De hond is niet klein.",
+    "Het huis is groot. De tuin is groot.",
+    "De spullen zijn hier.",
+    "De bal is rood. De bal is niet groot.",
+    "De hond is in de tuin. De bal is in het huis.",
+    "Sam is in het huis. Noor is in de tuin.",
+    "We zien de spullen.",
+    "Bo is in de tuin. De hond is in de tuin.",
+    "We spelen samen. We zijn blij.",
+    "We spelen met de bal. We zijn blij.",
+    "Sam ziet het kleedje.",
+    "Sam speelt met de hond. Noor speelt met de bal.",
+    "Bo speelt met de bal. Bo is blij.",
+    "We spelen in de tuin. We zijn blij.",
+    "Noor ziet het kleedje.",
+    "Sam pakt de bal. Noor pakt de bal.",
+    "Bo pakt de bal. Bo is blij.",
+    "We pakken de bal. We zijn blij.",
+    "Het kleedje is hier.",
+    "Sam geeft de bal aan Noor. Noor is blij.",
+    "De spullen zijn niet duur.",
+    "Noor en Sam zijn samen blij.",
+    "De rommelmarkt is goed."
+  ],
+  "new_words": [
+    "rommelmarkt",
+    "stalletje",
+    "spullen",
+    "kleedje",
+    "speelgoed",
+    "servies",
+    "sieraad",
+    "koper",
+    "onderhandelen",
+    "pingelen",
+    "wegen",
+    "verpakken",
+    "vervoeren",
+    "herkennen",
+    "antiek",
+    "bijzonder",
+    "zeldzaam",
+    "versleten",
+    "ongeveer",
+    "natuurlijk"
+  ],
+  "glossary": [
+    {
+      "form": "rommelmarkt",
+      "lemma": "rommelmarkt",
+      "pos": "noun",
+      "meaning": "flea market",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "stalletje",
+      "lemma": "stalletje",
+      "pos": "noun",
+      "meaning": "stall",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "spullen",
+      "lemma": "spullen",
+      "pos": "noun",
+      "meaning": "stuff",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "kleedje",
+      "lemma": "kleedje",
+      "pos": "noun",
+      "meaning": "small rug / cloth",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "speelgoed",
+      "lemma": "speelgoed",
+      "pos": "noun",
+      "meaning": "toys",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "servies",
+      "lemma": "servies",
+      "pos": "noun",
+      "meaning": "dinnerware",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "sieraad",
+      "lemma": "sieraad",
+      "pos": "noun",
+      "meaning": "piece of jewellery",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "koper",
+      "lemma": "koper",
+      "pos": "noun",
+      "meaning": "buyer",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "onderhandelen",
+      "lemma": "onderhandelen",
+      "pos": "verb",
+      "meaning": "to negotiate",
+      "new": true
+    },
+    {
+      "form": "pingelen",
+      "lemma": "pingelen",
+      "pos": "verb",
+      "meaning": "to haggle",
+      "new": true
+    },
+    {
+      "form": "wegen",
+      "lemma": "wegen",
+      "pos": "verb",
+      "meaning": "to weigh",
+      "new": true
+    },
+    {
+      "form": "verpakken",
+      "lemma": "verpakken",
+      "pos": "verb",
+      "meaning": "to wrap",
+      "new": true
+    },
+    {
+      "form": "vervoeren",
+      "lemma": "vervoeren",
+      "pos": "verb",
+      "meaning": "to transport",
+      "new": true
+    },
+    {
+      "form": "herkennen",
+      "lemma": "herkennen",
+      "pos": "verb",
+      "meaning": "to recognize",
+      "new": true
+    },
+    {
+      "form": "antiek",
+      "lemma": "antiek",
+      "pos": "adjective",
+      "meaning": "antique",
+      "new": true
+    },
+    {
+      "form": "bijzonder",
+      "lemma": "bijzonder",
+      "pos": "adjective",
+      "meaning": "special",
+      "new": true
+    },
+    {
+      "form": "zeldzaam",
+      "lemma": "zeldzaam",
+      "pos": "adjective",
+      "meaning": "rare",
+      "new": true
+    },
+    {
+      "form": "versleten",
+      "lemma": "versleten",
+      "pos": "adjective",
+      "meaning": "worn out",
+      "new": true
+    },
+    {
+      "form": "ongeveer",
+      "lemma": "ongeveer",
+      "pos": "adverb",
+      "meaning": "approximately",
+      "new": true
+    },
+    {
+      "form": "natuurlijk",
+      "lemma": "natuurlijk",
+      "pos": "adverb",
+      "meaning": "of course",
+      "new": true
+    },
+    {
+      "form": "vandaag",
+      "lemma": "vandaag",
+      "pos": "adverb",
+      "meaning": "today",
+      "new": false
+    },
+    {
+      "form": "plein",
+      "lemma": "plein",
+      "pos": "noun",
+      "meaning": "square",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "oud",
+      "lemma": "oud",
+      "pos": "adjective",
+      "meaning": "old",
+      "new": false
+    },
+    {
+      "form": "vraagt",
+      "lemma": "vragen",
+      "pos": "verb",
+      "meaning": "asks",
+      "new": false
+    },
+    {
+      "form": "duur",
+      "lemma": "duur",
+      "pos": "adjective",
+      "meaning": "expensive",
+      "new": false
+    },
+    {
+      "form": "verkoper",
+      "lemma": "verkoper",
+      "pos": "noun",
+      "meaning": "shop assistant",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "antwoordt",
+      "lemma": "antwoorden",
+      "pos": "verb",
+      "meaning": "answers",
+      "new": false
+    },
+    {
+      "form": "onderhandelt",
+      "lemma": "onderhandelen",
+      "pos": "verb",
+      "meaning": "negotiates",
+      "new": true
+    },
+    {
+      "form": "wil",
+      "lemma": "willen",
+      "pos": "verb",
+      "meaning": "wants",
+      "new": false
+    },
+    {
+      "form": "pingelt",
+      "lemma": "pingelen",
+      "pos": "verb",
+      "meaning": "haggles",
+      "new": true
+    },
+    {
+      "form": "leuk",
+      "lemma": "leuk",
+      "pos": "adjective",
+      "meaning": "fun / nice",
+      "new": false
+    },
+    {
+      "form": "lacht",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "laughs",
+      "new": false
+    },
+    {
+      "form": "weegt",
+      "lemma": "wegen",
+      "pos": "verb",
+      "meaning": "weighs",
+      "new": true
+    },
+    {
+      "form": "zwaar",
+      "lemma": "zwaar",
+      "pos": "adjective",
+      "meaning": "heavy",
+      "new": false
+    },
+    {
+      "form": "betaalt",
+      "lemma": "betalen",
+      "pos": "verb",
+      "meaning": "pays",
+      "new": false
+    },
+    {
+      "form": "koopt",
+      "lemma": "kopen",
+      "pos": "verb",
+      "meaning": "buys",
+      "new": false
+    },
+    {
+      "form": "verpakt",
+      "lemma": "verpakken",
+      "pos": "verb",
+      "meaning": "wrapped",
+      "new": true
+    },
+    {
+      "form": "vervoert",
+      "lemma": "vervoeren",
+      "pos": "verb",
+      "meaning": "transports",
+      "new": true
+    },
+    {
+      "form": "winkel",
+      "lemma": "winkel",
+      "pos": "noun",
+      "meaning": "shop",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "herkent",
+      "lemma": "herkennen",
+      "pos": "verb",
+      "meaning": "recognizes",
+      "new": true
+    },
+    {
+      "form": "helpt",
+      "lemma": "helpen",
+      "pos": "verb",
+      "meaning": "helps",
+      "new": false
+    },
+    {
+      "form": "tas",
+      "lemma": "tas",
+      "pos": "noun",
+      "meaning": "bag",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "prijs",
+      "lemma": "prijs",
+      "pos": "noun",
+      "meaning": "price",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "kijkt",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "looks",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "lachen",
+      "lemma": "lachen",
+      "pos": "verb",
+      "meaning": "to laugh",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "bal",
+      "lemma": "bal",
+      "pos": "noun",
+      "meaning": "ball",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "komen",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "to come",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "speelt",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "plays",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "pakken",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "to take / grab",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    }
+  ]
+}

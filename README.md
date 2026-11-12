@@ -5,12 +5,12 @@ local-first: stories, progress, settings, and writing live on the device.
 
 This repository contains the completed **Phase 5** build described in
 [`APP_BRIEF.md`](APP_BRIEF.md) and [`ARCHITECTURE.md`](ARCHITECTURE.md): the
-foundation, storage layer, story engine, validator, four real sample stories,
-the story-writing guide, the Home/Level library UI, the complete reading loop,
-and the complete writing loop. The reading loop includes the paginated reader,
+foundation, storage layer, story engine, validator, the complete A1, A2, B1,
+and B2 shelves (25 stories each), the story-writing guide, the Home/Level
+library UI, the complete reading loop, and the complete writing loop. The reading loop includes the paginated reader,
 word lookup, page turns, text-to-speech, the 30-second dictionary rule, the
-Personal Dictionary screen, and Settings. The writing loop adds the editor,
-draft autosave, native sharing, My Writing, and writing statistics.
+Personal Dictionary and Tapped words tabs, and Settings. The writing loop adds
+the editor, draft autosave, native sharing, My Writing, and writing statistics.
 
 Phase 5 added on-device verification, the local-time-zone fix, the bug log, and
 the test report. See [`docs/bug-log.md`](docs/bug-log.md) and
@@ -122,9 +122,15 @@ key; a real keystore is required before shipping.
   `0.88`, range `0.5`–`2.0`, saved speed wins), survives page turns, and stops
   when the reader is left or the app is backgrounded. If no Dutch voice is
   installed, the reader explains how to add one.
-- **Personal Dictionary:** lists learned words with meaning, part of speech,
-  story, level, and date; searchable and sortable A–Z or newest first, with
-  empty states.
+- **Dictionary:** two tabs share one search field and the A–Z / Newest sort.
+  **All words** lists learned words with meaning, part of speech, story, level,
+  and date. **Tapped words** records every successful lookup exactly as it was
+  tapped — surface form, meaning, optional `form of:` base line, story, level,
+  date, and source. Repeating a tap updates the entry and increments its count
+  instead of creating a duplicate; lookups with no meaning are not saved. Tapped
+  words live in their own `tapped_words.json` and survive restarts. Both tabs
+  have their own description and empty state, and the tab selection resets to
+  All words on launch.
 - **Settings:** theme (System/Light/Dark, applied live), TTS speed, and word
   meanings source. All settings persist in `settings.json` across restarts.
 
@@ -181,15 +187,19 @@ cargo run -p validate_stories -- --write-wordlist
 cargo run -p validate_stories -- --stories tests/fixtures/valid
 ```
 
-With fewer than 100 stories the validator defaults to `--allow-gaps`: words
-without an earlier introduction become warnings and are written to
-`assets/assumed_known.json`. `--strict` requires every used word to have been
-introduced by an earlier story.
+Because the three sample stories still carry background vocabulary, the
+validator defaults to `--allow-gaps`: words without an earlier introduction
+become warnings and are written to `assets/assumed_known.json`. `--strict`
+requires every used word to have been introduced by an earlier story; it
+currently reports the expected sample-story debt as errors.
 
-The four sample stories are `a1-01`, `a2-01`, `b1-01`, and `b2-01`. They pass in
-allow-gaps mode with only the expected `ASSUMED_KNOWN` warnings. Every story
-must render as at least 5 screens at the fixed reader font size on both
-reference phones; the validator checks this with the real layout engine
+The library contains all 100 stories: 25 A1, 25 A2, 25 B1, and 25 B2 stories,
+with 2,025 owned lemmas and 244 assumed-known words. Every shelf passes in
+allow-gaps mode with no coverage or repetition warnings; the remaining
+expected warnings are the `ASSUMED_KNOWN` gaps for the sample stories `a2-01`,
+`b1-01`, and `b2-01`.
+Every story must render as at least 5 screens at the fixed reader font size on
+both reference phones; the validator checks this with the real layout engine
 (`MIN_SCREENS`).
 
 Stories are JSON files under `assets/stories/<level>/<order>-<slug>.json`.
@@ -228,6 +238,8 @@ The suite includes:
 - page-timer boundary tests at 29/30 seconds, including page-change,
   background, and leave resets,
 - dictionary dedupe, search, sort, and date tests,
+- tapped-word tests for recording, repeat-tap counting, article/base lines,
+  skipping empty meanings, search, sort, and JSON round-trips,
 - lookup tests for offline, online, fallback, cache, MyMemory parsing, and
   occurrence-aware form lookup,
 - local-time tests for midnight, month boundaries, and DST, plus the Android
@@ -238,7 +250,9 @@ The suite includes:
   across month and year boundaries.
 
 The Phase 5 run passed **131 tests** (124 library, 2 atomic-kill, 5 validator)
-with `cargo fmt` and clippy clean. See [`docs/test-report.md`](docs/test-report.md).
+with `cargo fmt` and clippy clean. The Tapped words follow-up adds six library
+tests, for **137 tests** (130 library, 2 atomic-kill, 5 validator). See
+[`docs/test-report.md`](docs/test-report.md).
 
 ## Layout
 
@@ -248,7 +262,7 @@ android/res/       launcher icon and Android resources
 src/stories/       model, loader, tokenizer, wordlist, validator
 src/storage/       atomic writes, settings, progress
 src/reader/        pagination/layout and the 30-second page timer
-src/dictionary/    personal dictionary, dedupe, search, sort
+src/dictionary/    personal dictionary and tapped words, dedupe, search, sort
 src/lookup/        WordLookup trait, glossary, MyMemory, cache
 src/writing/       share text, draft, story store, statistics
 src/time.rs        local civil dates, month/streak maths, DST-aware
@@ -259,11 +273,11 @@ desktop/           desktop preview runner (workspace package)
 validator/         validator CLI and fixture tests (workspace package)
 tests/             process-kill and storage tests
 docs/screenshots/  emulator captures (Home, level, reader, editor, writing, dictionary, settings)
-docs/glossary-audit.md  every entry and occurrence checked in the four stories
+docs/glossary-audit.md  every entry and occurrence checked in the sample stories
 docs/bug-log.md    Phase 5 bug log (what, where, reproduction, fix, verification)
 docs/test-report.md Phase 5 test report and known deviations
 docs/final-summary.md   final summary, build/install, and deviations
-STORY_GUIDE.md     how to write and validate the remaining 96 stories
+STORY_GUIDE.md     how to write, validate, and extend the complete story library
 ```
 
 ## Phase 3 notes

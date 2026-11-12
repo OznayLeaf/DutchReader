@@ -1,0 +1,470 @@
+{
+  "id": "a1-05",
+  "level": "A1",
+  "order": 5,
+  "title": "De verjaardag",
+  "blurb_nl": "Noor is jarig. Sam maakt een taart en er is een groot cadeau.",
+  "blurb_en": "It is Noor's birthday. Sam makes a cake and there is a big present.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Vandaag is de verjaardag. Noor is blij.",
+    "Sam is blij. Noor is blij. De verjaardag is vrolijk.",
+    "Sam heeft een taart. De taart is groot.",
+    "Op de taart is een kaars. De kaars is rood.",
+    "Sam heeft een cadeau. Het cadeau is groot.",
+    "Sam geeft het cadeau aan Noor. Noor ziet het cadeau. Noor is blij.",
+    "De vriend komt. De vriend is blij. De vriend is vrolijk.",
+    "Sam versiert het huis. Sam versiert de tuin.",
+    "Sam ziet een slinger. De slinger is rood.",
+    "Noor ziet de slinger. Noor is blij.",
+    "Sam heeft een bord. Het bord is groot.",
+    "Noor heeft een beker. De beker is rood.",
+    "We vieren de verjaardag. We zingen. We zijn vrolijk.",
+    "Noor blaast. Sam blaast. We zingen.",
+    "Noor krijgt een cadeau. Noor krijgt een taart. Noor is blij.",
+    "Sam snijdt de taart. Noor snijdt de taart. De taart is groot.",
+    "We kijken naar de taart. We zijn blij.",
+    "De vriend zingt. Noor zingt. Sam zingt.",
+    "De verjaardag is gezellig. De vriend is gezellig.",
+    "Het is druk. De verjaardag is druk. De vriend is druk.",
+    "Sam is trots. Noor is trots. De vriend is trots.",
+    "Vandaag is de verjaardag. Morgen is de verjaardag niet.",
+    "We zijn vandaag samen. We zijn morgen samen.",
+    "De taart is groot. Het cadeau is groot. De beker is rood.",
+    "De slinger is rood. Het bord is groot. De kaars is rood.",
+    "We zien de verjaardag.",
+    "De verjaardag is hier.",
+    "We zien de taart.",
+    "Sam ziet de taart.",
+    "Noor ziet de taart.",
+    "Sam pakt de taart.",
+    "We spelen met de taart.",
+    "De taart is hier.",
+    "We zien de kaars.",
+    "Sam ziet de kaars.",
+    "Noor ziet de kaars.",
+    "Sam pakt de kaars.",
+    "We spelen met de kaars.",
+    "De kaars is hier.",
+    "We zien het cadeau.",
+    "Sam ziet het cadeau.",
+    "Noor ziet het cadeau.",
+    "Sam pakt het cadeau.",
+    "We spelen met het cadeau.",
+    "Het cadeau is hier.",
+    "De vriend komt.",
+    "We zien de vriend.",
+    "De vriend is hier.",
+    "De vriend is in het huis.",
+    "We zien de slinger.",
+    "Sam ziet de slinger.",
+    "Noor ziet de slinger.",
+    "Sam pakt de slinger.",
+    "We spelen met de slinger.",
+    "De slinger is hier.",
+    "We zien het bord.",
+    "Sam ziet het bord.",
+    "Noor ziet het bord.",
+    "Sam pakt het bord.",
+    "We spelen met het bord.",
+    "Het bord is hier.",
+    "We zien de beker.",
+    "Sam ziet de beker.",
+    "Noor ziet de beker.",
+    "Sam pakt de beker.",
+    "We spelen met de beker.",
+    "De beker is hier.",
+    "Hallo, verjaardag! Hallo, taart! Hallo, vriend!",
+    "Sam geeft de verjaardag aan Noor.",
+    "Noor geeft de verjaardag aan Sam.",
+    "Bo ziet de verjaardag. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zien de verjaardag.",
+    "De verjaardag is hier.",
+    "We zien de taart.",
+    "Sam ziet de taart.",
+    "Noor ziet de taart.",
+    "Sam pakt de taart.",
+    "We spelen met de taart.",
+    "De taart is hier.",
+    "We zien de kaars.",
+    "Sam ziet de kaars.",
+    "Noor ziet de kaars.",
+    "Sam pakt de kaars.",
+    "We spelen met de kaars.",
+    "De kaars is hier.",
+    "We zien het cadeau.",
+    "Sam ziet het cadeau.",
+    "Noor ziet het cadeau.",
+    "Sam pakt het cadeau.",
+    "We spelen met het cadeau.",
+    "Het cadeau is hier.",
+    "De vriend komt.",
+    "We zien de vriend.",
+    "De vriend is hier.",
+    "De vriend is in het huis.",
+    "We zien de slinger.",
+    "Sam ziet de slinger.",
+    "Noor ziet de slinger.",
+    "Sam pakt de slinger.",
+    "We zijn blij. We zijn vrolijk. We zijn samen.",
+    "Hallo, vriend! Hallo, Noor! Hallo, Sam!",
+    "We vieren de verjaardag. We zijn altijd samen."
+  ],
+  "new_words": [
+    "verjaardag",
+    "taart",
+    "kaars",
+    "cadeau",
+    "vriend",
+    "slinger",
+    "bord",
+    "beker",
+    "vieren",
+    "zingen",
+    "blazen",
+    "krijgen",
+    "versieren",
+    "snijden",
+    "vrolijk",
+    "gezellig",
+    "druk",
+    "trots",
+    "vandaag",
+    "morgen"
+  ],
+  "glossary": [
+    {
+      "form": "verjaardag",
+      "lemma": "verjaardag",
+      "pos": "noun",
+      "meaning": "birthday",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "taart",
+      "lemma": "taart",
+      "pos": "noun",
+      "meaning": "cake",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "kaars",
+      "lemma": "kaars",
+      "pos": "noun",
+      "meaning": "candle",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "cadeau",
+      "lemma": "cadeau",
+      "pos": "noun",
+      "meaning": "present",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "vriend",
+      "lemma": "vriend",
+      "pos": "noun",
+      "meaning": "friend",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "slinger",
+      "lemma": "slinger",
+      "pos": "noun",
+      "meaning": "garland",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "bord",
+      "lemma": "bord",
+      "pos": "noun",
+      "meaning": "plate",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "beker",
+      "lemma": "beker",
+      "pos": "noun",
+      "meaning": "cup",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "vieren",
+      "lemma": "vieren",
+      "pos": "verb",
+      "meaning": "to celebrate",
+      "new": true
+    },
+    {
+      "form": "zingen",
+      "lemma": "zingen",
+      "pos": "verb",
+      "meaning": "to sing",
+      "new": true
+    },
+    {
+      "form": "blazen",
+      "lemma": "blazen",
+      "pos": "verb",
+      "meaning": "to blow",
+      "new": true
+    },
+    {
+      "form": "krijgen",
+      "lemma": "krijgen",
+      "pos": "verb",
+      "meaning": "to get / receive",
+      "new": true
+    },
+    {
+      "form": "versieren",
+      "lemma": "versieren",
+      "pos": "verb",
+      "meaning": "to decorate",
+      "new": true
+    },
+    {
+      "form": "snijden",
+      "lemma": "snijden",
+      "pos": "verb",
+      "meaning": "to cut",
+      "new": true
+    },
+    {
+      "form": "vrolijk",
+      "lemma": "vrolijk",
+      "pos": "adjective",
+      "meaning": "cheerful",
+      "new": true
+    },
+    {
+      "form": "gezellig",
+      "lemma": "gezellig",
+      "pos": "adjective",
+      "meaning": "cosy / pleasant",
+      "new": true
+    },
+    {
+      "form": "druk",
+      "lemma": "druk",
+      "pos": "adjective",
+      "meaning": "busy",
+      "new": true
+    },
+    {
+      "form": "trots",
+      "lemma": "trots",
+      "pos": "adjective",
+      "meaning": "proud",
+      "new": true
+    },
+    {
+      "form": "vandaag",
+      "lemma": "vandaag",
+      "pos": "adverb",
+      "meaning": "today",
+      "new": true
+    },
+    {
+      "form": "morgen",
+      "lemma": "morgen",
+      "pos": "adverb",
+      "meaning": "tomorrow",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "rood",
+      "lemma": "rood",
+      "pos": "adjective",
+      "meaning": "red",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "komt",
+      "lemma": "komen",
+      "pos": "verb",
+      "meaning": "comes",
+      "new": false
+    },
+    {
+      "form": "versiert",
+      "lemma": "versieren",
+      "pos": "verb",
+      "meaning": "decorates",
+      "new": true
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "blaast",
+      "lemma": "blazen",
+      "pos": "verb",
+      "meaning": "blows",
+      "new": true
+    },
+    {
+      "form": "krijgt",
+      "lemma": "krijgen",
+      "pos": "verb",
+      "meaning": "gets / receives",
+      "new": true
+    },
+    {
+      "form": "snijdt",
+      "lemma": "snijden",
+      "pos": "verb",
+      "meaning": "cuts",
+      "new": true
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "zingt",
+      "lemma": "zingen",
+      "pos": "verb",
+      "meaning": "sings",
+      "new": true
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

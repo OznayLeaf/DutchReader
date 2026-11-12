@@ -161,7 +161,7 @@ DutchReader/
     fonts/                    # bundled serif + UI font (OFL licensed)
     starter_words.json        # fixed beginner words, merged into every glossary
     wordlist.json             # cumulative lemma -> story id or "starter"
-    assumed_known.json        # debt list while fewer than 100 stories exist
+    assumed_known.json        # debt list from the three sample stories
     stories/
       a1/01-<slug>.json
       a2/01-<slug>.json
@@ -259,7 +259,7 @@ These are places where the requirements pull against each other. The decisions b
 
 1. **A1-01 has no earlier story.** With nothing known yet, every word in A1-01 would be new, which collides with "exactly 20 new words". Decision: the app has a fixed list of **25 starter lemmas** in `assets/starter_words.json` (basic function words plus the basic forms of `zijn` and `hebben`). They are known from the start, merged into every story glossary, never count as new, never enter the debt list, and are never underlined. A1-01 introduces exactly 20 new lemmas and may use only starter words and proper names besides them. The 85-90% known-word rule is waived for A1-01.
 2. **The 85-90% known-token rule is token-based and depends on story length.** A short early story with 20 new words repeated 2-3 times each cannot be 85% known. Decision: the validator uses **level- and order-aware thresholds** (config in `validate.rs`): starts low in early A1 and ramps up to 85-90% as stories grow longer. Below-threshold is a warning, not an error.
-3. **Sample stories have gaps.** A2-01, B1-01, and B2-01 are written without the stories before them. Decision: the validator has an **`--allow-gaps` mode** (default while fewer than 100 stories exist). Words that are not new and not in the cumulative list are reported as **"assumed known"** and written to a **debt list** (`assumed_known.json`). When the missing earlier stories are written later, the AI prompt template includes the debt list so those stories introduce those words. Strict mode (no gaps) is used once all 100 exist.
+3. **Sample stories have gaps.** A2-01, B1-01, and B2-01 were written without the stories before them. Decision: the validator has an **`--allow-gaps` mode**, and it remains the default for the 100-story library because those three samples still use background vocabulary that no earlier story introduces. Words that are not new and not in the cumulative list are reported as **"assumed known"** and written to a **debt list** (`assumed_known.json`). The generated A2/B1/B2 stories never use that debt. Strict mode becomes the default once the three samples are cleaned up.
 4. **Vocabulary targets vs. the 20-word rule.** The stories add 500 lemmas per level (500 / 1,000 / 1,500 / 2,000 cumulative). The per-level totals in the brief (A1 about 600-800, A2 about 1,500, B1 about 2,500-3,000, B2 4,000+) describe the learner's overall level, not only what the stories teach. Decision: the 20-new-words rule is never relaxed; `STORY_GUIDE.md` explains this and how to stay on the curve.
 5. **"Drop a file, no code changes" still needs a rebuild** because Android assets are embedded in the APK (see 2.3).
 

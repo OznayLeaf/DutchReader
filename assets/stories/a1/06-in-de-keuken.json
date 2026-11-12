@@ -1,0 +1,460 @@
+{
+  "id": "a1-06",
+  "level": "A1",
+  "order": 6,
+  "title": "In de keuken",
+  "blurb_nl": "Sam en Noor koken soep. De pan is heet en de soep is bijna klaar.",
+  "blurb_en": "Sam and Noor cook soup. The pan is hot and the soup is almost ready.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam en Noor zijn in het huis. Sam en Noor zijn in het huis.",
+    "Sam heeft een pan. De pan is groot. De pan is heet.",
+    "Noor heeft een pot. De pot is groot. De pot is niet leeg.",
+    "Sam heeft een mes. Het mes is groot.",
+    "Noor heeft een lepel. De lepel is klein.",
+    "Sam heeft een vork. De vork is niet groot.",
+    "Sam heeft zout. Het zout is in de pot.",
+    "Noor heeft een wortel. De wortel is niet groot.",
+    "Sam kookt de soep. De soep is heet. De soep is niet gaar.",
+    "Noor kookt de soep. Sam roert de soep. Noor roert de soep.",
+    "Sam wast de wortel. Noor wast de wortel. De wortel is goed.",
+    "Sam bakt de wortel. De wortel is gaar.",
+    "Noor bakt de wortel. De wortel is gaar.",
+    "De pan is heet. De pot is heet. De soep is heet.",
+    "Sam serveert de soep. Noor serveert de soep. De soep is gaar.",
+    "Sam drinkt. Noor drinkt. De pot is vol.",
+    "De pan is leeg. De pot is leeg. De soep is niet vol.",
+    "Sam roert voorzichtig. Noor roert voorzichtig. De soep is heet.",
+    "Sam kookt goed. Noor kookt goed. De soep is gaar.",
+    "We wassen de pan. We wassen de pot. We wassen de lepel.",
+    "We wassen de vork. We wassen het mes. We wassen de wortel.",
+    "De pan is vol. De pot is vol. De soep is gaar.",
+    "Sam ziet de soep. Sam is blij.",
+    "Noor ziet de soep. Noor is blij. Bo is blij.",
+    "We zijn samen. We zijn blij. De soep is goed.",
+    "De pan is heet. De pot is heet. We zijn voorzichtig.",
+    "We zien de pan.",
+    "Sam ziet de pan.",
+    "Noor ziet de pan.",
+    "Sam pakt de pan.",
+    "We spelen met de pan.",
+    "De pan is hier.",
+    "We zien de pot.",
+    "Sam ziet de pot.",
+    "Noor ziet de pot.",
+    "Sam pakt de pot.",
+    "We spelen met de pot.",
+    "De pot is hier.",
+    "We zien het mes.",
+    "Sam ziet het mes.",
+    "Noor ziet het mes.",
+    "Sam pakt het mes.",
+    "We spelen met het mes.",
+    "Het mes is hier.",
+    "We zien de lepel.",
+    "Sam ziet de lepel.",
+    "Noor ziet de lepel.",
+    "Sam pakt de lepel.",
+    "We spelen met de lepel.",
+    "De lepel is hier.",
+    "We zien de vork.",
+    "Sam ziet de vork.",
+    "Noor ziet de vork.",
+    "Sam pakt de vork.",
+    "We spelen met de vork.",
+    "De vork is hier.",
+    "We zien het zout.",
+    "Sam ziet het zout.",
+    "Noor ziet het zout.",
+    "Sam pakt het zout.",
+    "We spelen met het zout.",
+    "Het zout is hier.",
+    "We zien de soep.",
+    "Sam ziet de soep.",
+    "Noor ziet de soep.",
+    "Sam pakt de soep.",
+    "We spelen met de soep.",
+    "De soep is hier.",
+    "We zien de wortel.",
+    "Sam ziet de wortel.",
+    "Noor ziet de wortel.",
+    "Sam pakt de wortel.",
+    "We spelen met de wortel.",
+    "De wortel is hier.",
+    "Hallo, pan! Hallo, pot! Hallo, vork!",
+    "Sam geeft de pan aan Noor.",
+    "Noor geeft de pan aan Sam.",
+    "Bo ziet de pan. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zien de pan.",
+    "Sam ziet de pan.",
+    "Noor ziet de pan.",
+    "Sam pakt de pan.",
+    "We spelen met de pan.",
+    "De pan is hier.",
+    "We zien de pot.",
+    "Sam ziet de pot.",
+    "Noor ziet de pot.",
+    "Sam pakt de pot.",
+    "We spelen met de pot.",
+    "We drinken. We zijn blij. We zijn samen.",
+    "Hallo, soep! Hallo, pan! Hallo, pot!",
+    "We koken altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "pan",
+    "pot",
+    "mes",
+    "lepel",
+    "vork",
+    "zout",
+    "soep",
+    "wortel",
+    "koken",
+    "bakken",
+    "roeren",
+    "wassen",
+    "serveren",
+    "drinken",
+    "heet",
+    "gaar",
+    "vol",
+    "leeg",
+    "voorzichtig",
+    "goed"
+  ],
+  "glossary": [
+    {
+      "form": "pan",
+      "lemma": "pan",
+      "pos": "noun",
+      "meaning": "pan",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "pot",
+      "lemma": "pot",
+      "pos": "noun",
+      "meaning": "pot",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "mes",
+      "lemma": "mes",
+      "pos": "noun",
+      "meaning": "knife",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "lepel",
+      "lemma": "lepel",
+      "pos": "noun",
+      "meaning": "spoon",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "vork",
+      "lemma": "vork",
+      "pos": "noun",
+      "meaning": "fork",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "zout",
+      "lemma": "zout",
+      "pos": "noun",
+      "meaning": "salt",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "soep",
+      "lemma": "soep",
+      "pos": "noun",
+      "meaning": "soup",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "wortel",
+      "lemma": "wortel",
+      "pos": "noun",
+      "meaning": "carrot",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "koken",
+      "lemma": "koken",
+      "pos": "verb",
+      "meaning": "to cook",
+      "new": true
+    },
+    {
+      "form": "bakken",
+      "lemma": "bakken",
+      "pos": "verb",
+      "meaning": "to bake / fry",
+      "new": true
+    },
+    {
+      "form": "roeren",
+      "lemma": "roeren",
+      "pos": "verb",
+      "meaning": "to stir",
+      "new": true
+    },
+    {
+      "form": "wassen",
+      "lemma": "wassen",
+      "pos": "verb",
+      "meaning": "to wash",
+      "new": true
+    },
+    {
+      "form": "serveren",
+      "lemma": "serveren",
+      "pos": "verb",
+      "meaning": "to serve",
+      "new": true
+    },
+    {
+      "form": "drinken",
+      "lemma": "drinken",
+      "pos": "verb",
+      "meaning": "to drink",
+      "new": true
+    },
+    {
+      "form": "heet",
+      "lemma": "heet",
+      "pos": "adjective",
+      "meaning": "hot",
+      "new": true
+    },
+    {
+      "form": "gaar",
+      "lemma": "gaar",
+      "pos": "adjective",
+      "meaning": "done / cooked",
+      "new": true
+    },
+    {
+      "form": "vol",
+      "lemma": "vol",
+      "pos": "adjective",
+      "meaning": "full",
+      "new": true
+    },
+    {
+      "form": "leeg",
+      "lemma": "leeg",
+      "pos": "adjective",
+      "meaning": "empty",
+      "new": true
+    },
+    {
+      "form": "voorzichtig",
+      "lemma": "voorzichtig",
+      "pos": "adverb",
+      "meaning": "carefully",
+      "new": true
+    },
+    {
+      "form": "goed",
+      "lemma": "goed",
+      "pos": "adverb",
+      "meaning": "well / good",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "kookt",
+      "lemma": "koken",
+      "pos": "verb",
+      "meaning": "cooks",
+      "new": true
+    },
+    {
+      "form": "roert",
+      "lemma": "roeren",
+      "pos": "verb",
+      "meaning": "stirs",
+      "new": true
+    },
+    {
+      "form": "wast",
+      "lemma": "wassen",
+      "pos": "verb",
+      "meaning": "washes",
+      "new": true
+    },
+    {
+      "form": "bakt",
+      "lemma": "bakken",
+      "pos": "verb",
+      "meaning": "bakes / fries",
+      "new": true
+    },
+    {
+      "form": "serveert",
+      "lemma": "serveren",
+      "pos": "verb",
+      "meaning": "serves",
+      "new": true
+    },
+    {
+      "form": "drinkt",
+      "lemma": "drinken",
+      "pos": "verb",
+      "meaning": "drinks",
+      "new": true
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}

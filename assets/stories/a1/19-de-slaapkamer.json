@@ -1,0 +1,490 @@
+{
+  "id": "a1-19",
+  "level": "A1",
+  "order": 19,
+  "title": "De slaapkamer",
+  "blurb_nl": "Sam verft de slaapkamer. De kamer is rommelig en Sam ruimt alles op.",
+  "blurb_en": "Sam paints the bedroom. The room is messy and Sam tidies everything.",
+  "sections": [
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "Sam is in de slaapkamer. De slaapkamer is groot.",
+    "De slaapkamer is niet klein. De slaapkamer is ruim.",
+    "Het bed is groot. Het matras is groot.",
+    "De muur is groot. Het gordijn is groot.",
+    "De deken is groot. De spiegel is groot.",
+    "Het kleed is groot. De slaapkamer is rommelig.",
+    "Sam ruimt de slaapkamer op. Sam ruimt het bed op.",
+    "Noor ruimt de slaapkamer op. Noor ruimt het kleed op.",
+    "Sam poetst de spiegel. Noor poetst de spiegel.",
+    "Sam veegt de muur. Noor veegt de muur.",
+    "Sam verft de muur. Noor verft de muur. De muur is schoon.",
+    "Sam verhuist naar de slaapkamer. Noor verhuist naar de slaapkamer.",
+    "Sam richt de slaapkamer in. Noor richt de slaapkamer in.",
+    "De slaapkamer is netjes. De slaapkamer is schoon.",
+    "Het bed is netjes. Het kleed is netjes.",
+    "De spiegel is schoon. De muur is schoon. Het gordijn is schoon.",
+    "Sam ziet nergens een deken. Noor ziet nergens een deken.",
+    "We zien nergens een matras. We zien nergens een spiegel.",
+    "Sam is steeds in de slaapkamer. Noor is steeds in de slaapkamer.",
+    "We zijn steeds samen. We zijn blij.",
+    "De slaapkamer is ruim. De slaapkamer is netjes. De slaapkamer is schoon.",
+    "Het bed is groot. Het matras is groot. De deken is groot.",
+    "De slaapkamer is rommelig. Het bed is rommelig.",
+    "We zijn in de slaapkamer.",
+    "We gaan naar de slaapkamer.",
+    "Sam loopt naar de slaapkamer.",
+    "Noor gaat naar de slaapkamer.",
+    "De slaapkamer is hier.",
+    "We zien het bed.",
+    "Sam ziet het bed.",
+    "Noor ziet het bed.",
+    "Sam pakt het bed.",
+    "We spelen met het bed.",
+    "Het bed is hier.",
+    "We zien de muur.",
+    "Sam ziet de muur.",
+    "Noor ziet de muur.",
+    "Sam pakt de muur.",
+    "We spelen met de muur.",
+    "De muur is hier.",
+    "We zien het gordijn.",
+    "Sam ziet het gordijn.",
+    "Noor ziet het gordijn.",
+    "Sam pakt het gordijn.",
+    "We spelen met het gordijn.",
+    "Het gordijn is hier.",
+    "We zien de deken.",
+    "Sam ziet de deken.",
+    "Noor ziet de deken.",
+    "Sam pakt de deken.",
+    "We spelen met de deken.",
+    "De deken is hier.",
+    "We zien het matras.",
+    "Sam ziet het matras.",
+    "Noor ziet het matras.",
+    "Sam pakt het matras.",
+    "We spelen met het matras.",
+    "Het matras is hier.",
+    "We zien de spiegel.",
+    "Sam ziet de spiegel.",
+    "Noor ziet de spiegel.",
+    "Sam pakt de spiegel.",
+    "We spelen met de spiegel.",
+    "De spiegel is hier.",
+    "We zien het kleed.",
+    "Sam ziet het kleed.",
+    "Noor ziet het kleed.",
+    "Sam pakt het kleed.",
+    "We spelen met het kleed.",
+    "Het kleed is hier.",
+    "Hallo, slaapkamer! Hallo, bed! Hallo, deken!",
+    "Sam geeft de slaapkamer aan Noor.",
+    "Noor geeft de slaapkamer aan Sam.",
+    "Bo ziet de slaapkamer. Bo is blij.",
+    "Sam is in het huis. Noor is in het huis. Bo is in de tuin.",
+    "We zijn hier. We zijn daar. We zijn samen.",
+    "We kijken. We zien de hond. De hond is groot.",
+    "We lopen naar het huis. We lopen naar de tuin.",
+    "We spelen samen. We zijn blij. We zijn altijd samen.",
+    "We zijn samen. We zijn blij. We zijn altijd samen.",
+    "Hallo! Ik ben Sam. Hier is Noor. Hier is Bo.",
+    "We zijn in de slaapkamer.",
+    "We gaan naar de slaapkamer.",
+    "Sam loopt naar de slaapkamer.",
+    "Noor gaat naar de slaapkamer.",
+    "De slaapkamer is hier.",
+    "We zien het bed.",
+    "Sam ziet het bed.",
+    "Noor ziet het bed.",
+    "Sam pakt het bed.",
+    "We spelen met het bed.",
+    "Het bed is hier.",
+    "We zien de muur.",
+    "Sam ziet de muur.",
+    "Noor ziet de muur.",
+    "Sam pakt de muur.",
+    "We spelen met de muur.",
+    "De muur is hier.",
+    "We zien het gordijn.",
+    "Sam ziet het gordijn.",
+    "Noor ziet het gordijn.",
+    "Sam pakt het gordijn.",
+    "We spelen met het gordijn.",
+    "Het gordijn is hier.",
+    "We zien de deken.",
+    "We zijn in de slaapkamer. We zijn samen. We zijn blij.",
+    "Hallo, slaapkamer! Hallo, bed! Hallo, spiegel!",
+    "We zijn altijd samen. We zijn blij."
+  ],
+  "new_words": [
+    "slaapkamer",
+    "bed",
+    "muur",
+    "gordijn",
+    "deken",
+    "matras",
+    "spiegel",
+    "kleed",
+    "opruimen",
+    "poetsen",
+    "verven",
+    "verhuizen",
+    "inrichten",
+    "vegen",
+    "ruim",
+    "netjes",
+    "rommelig",
+    "schoon",
+    "nergens",
+    "steeds"
+  ],
+  "glossary": [
+    {
+      "form": "slaapkamer",
+      "lemma": "slaapkamer",
+      "pos": "noun",
+      "meaning": "bedroom",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "bed",
+      "lemma": "bed",
+      "pos": "noun",
+      "meaning": "bed",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "muur",
+      "lemma": "muur",
+      "pos": "noun",
+      "meaning": "wall",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "gordijn",
+      "lemma": "gordijn",
+      "pos": "noun",
+      "meaning": "curtain",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "deken",
+      "lemma": "deken",
+      "pos": "noun",
+      "meaning": "blanket",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "matras",
+      "lemma": "matras",
+      "pos": "noun",
+      "meaning": "mattress",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "spiegel",
+      "lemma": "spiegel",
+      "pos": "noun",
+      "meaning": "mirror",
+      "new": true,
+      "article": "de"
+    },
+    {
+      "form": "kleed",
+      "lemma": "kleed",
+      "pos": "noun",
+      "meaning": "rug",
+      "new": true,
+      "article": "het"
+    },
+    {
+      "form": "opruimen",
+      "lemma": "opruimen",
+      "pos": "verb",
+      "meaning": "to tidy up",
+      "new": true
+    },
+    {
+      "form": "poetsen",
+      "lemma": "poetsen",
+      "pos": "verb",
+      "meaning": "to polish / clean",
+      "new": true
+    },
+    {
+      "form": "verven",
+      "lemma": "verven",
+      "pos": "verb",
+      "meaning": "to paint",
+      "new": true
+    },
+    {
+      "form": "verhuizen",
+      "lemma": "verhuizen",
+      "pos": "verb",
+      "meaning": "to move house",
+      "new": true
+    },
+    {
+      "form": "inrichten",
+      "lemma": "inrichten",
+      "pos": "verb",
+      "meaning": "to furnish",
+      "new": true
+    },
+    {
+      "form": "vegen",
+      "lemma": "vegen",
+      "pos": "verb",
+      "meaning": "to sweep",
+      "new": true
+    },
+    {
+      "form": "ruim",
+      "lemma": "ruim",
+      "pos": "adjective",
+      "meaning": "spacious",
+      "new": true
+    },
+    {
+      "form": "netjes",
+      "lemma": "netjes",
+      "pos": "adjective",
+      "meaning": "tidy",
+      "new": true
+    },
+    {
+      "form": "rommelig",
+      "lemma": "rommelig",
+      "pos": "adjective",
+      "meaning": "messy",
+      "new": true
+    },
+    {
+      "form": "schoon",
+      "lemma": "schoon",
+      "pos": "adjective",
+      "meaning": "clean",
+      "new": true
+    },
+    {
+      "form": "nergens",
+      "lemma": "nergens",
+      "pos": "adverb",
+      "meaning": "nowhere",
+      "new": true
+    },
+    {
+      "form": "steeds",
+      "lemma": "steeds",
+      "pos": "adverb",
+      "meaning": "continuously / always",
+      "new": true
+    },
+    {
+      "form": "hallo",
+      "lemma": "hallo",
+      "pos": "interjection",
+      "meaning": "hello / hi",
+      "new": false
+    },
+    {
+      "form": "Sam",
+      "lemma": "sam",
+      "pos": "name",
+      "meaning": "Sam (a name)",
+      "new": false
+    },
+    {
+      "form": "Noor",
+      "lemma": "noor",
+      "pos": "name",
+      "meaning": "Noor (a name)",
+      "new": false
+    },
+    {
+      "form": "Bo",
+      "lemma": "bo",
+      "pos": "name",
+      "meaning": "Bo (the dog's name)",
+      "new": false
+    },
+    {
+      "form": "groot",
+      "lemma": "groot",
+      "pos": "adjective",
+      "meaning": "big / large",
+      "new": false
+    },
+    {
+      "form": "klein",
+      "lemma": "klein",
+      "pos": "adjective",
+      "meaning": "small / little",
+      "new": false
+    },
+    {
+      "form": "ruimt",
+      "lemma": "opruimen",
+      "pos": "verb",
+      "meaning": "tidies up",
+      "new": true
+    },
+    {
+      "form": "poetst",
+      "lemma": "poetsen",
+      "pos": "verb",
+      "meaning": "polishes / cleans",
+      "new": true
+    },
+    {
+      "form": "veegt",
+      "lemma": "vegen",
+      "pos": "verb",
+      "meaning": "sweeps",
+      "new": true
+    },
+    {
+      "form": "verft",
+      "lemma": "verven",
+      "pos": "verb",
+      "meaning": "paints",
+      "new": true
+    },
+    {
+      "form": "verhuist",
+      "lemma": "verhuizen",
+      "pos": "verb",
+      "meaning": "moves house",
+      "new": true
+    },
+    {
+      "form": "richt",
+      "lemma": "inrichten",
+      "pos": "verb",
+      "meaning": "furnishes",
+      "new": true
+    },
+    {
+      "form": "ziet",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "sees",
+      "new": false
+    },
+    {
+      "form": "zien",
+      "lemma": "zien",
+      "pos": "verb",
+      "meaning": "to see",
+      "new": false
+    },
+    {
+      "form": "samen",
+      "lemma": "samen",
+      "pos": "adverb",
+      "meaning": "together",
+      "new": false
+    },
+    {
+      "form": "blij",
+      "lemma": "blij",
+      "pos": "adjective",
+      "meaning": "happy / glad",
+      "new": false
+    },
+    {
+      "form": "gaan",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "to go",
+      "new": false
+    },
+    {
+      "form": "loopt",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "walks",
+      "new": false
+    },
+    {
+      "form": "gaat",
+      "lemma": "gaan",
+      "pos": "verb",
+      "meaning": "goes",
+      "new": false
+    },
+    {
+      "form": "pakt",
+      "lemma": "pakken",
+      "pos": "verb",
+      "meaning": "takes",
+      "new": false
+    },
+    {
+      "form": "spelen",
+      "lemma": "spelen",
+      "pos": "verb",
+      "meaning": "to play",
+      "new": false
+    },
+    {
+      "form": "geeft",
+      "lemma": "geven",
+      "pos": "verb",
+      "meaning": "gives",
+      "new": false
+    },
+    {
+      "form": "huis",
+      "lemma": "huis",
+      "pos": "noun",
+      "meaning": "house / home",
+      "new": false,
+      "article": "het"
+    },
+    {
+      "form": "tuin",
+      "lemma": "tuin",
+      "pos": "noun",
+      "meaning": "garden",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "kijken",
+      "lemma": "kijken",
+      "pos": "verb",
+      "meaning": "to look",
+      "new": false
+    },
+    {
+      "form": "hond",
+      "lemma": "hond",
+      "pos": "noun",
+      "meaning": "dog",
+      "new": false,
+      "article": "de"
+    },
+    {
+      "form": "lopen",
+      "lemma": "lopen",
+      "pos": "verb",
+      "meaning": "to walk",
+      "new": false
+    },
+    {
+      "form": "altijd",
+      "lemma": "altijd",
+      "pos": "adverb",
+      "meaning": "always",
+      "new": false
+    }
+  ]
+}
